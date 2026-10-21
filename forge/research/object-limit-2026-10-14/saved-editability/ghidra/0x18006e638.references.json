@@ -1,0 +1,26 @@
+[
+  {
+    "from": "0x18006e647",
+    "to": "0x18006e6c1",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e6a9",
+    "to": "0x18006e6b3",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e6b5",
+    "to": "0x18006f4f0",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e6bc",
+    "to": "0x18006e1b4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

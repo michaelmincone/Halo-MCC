@@ -1,0 +1,104 @@
+[
+  {
+    "from": "0x18053267a",
+    "to": "0x180c17b18",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x1805326c4",
+    "to": "0x180c1a600",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x1805326eb",
+    "to": "0x1804a5484",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1805326fd",
+    "to": "0x180532715",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180532701",
+    "to": "0x180716c5c",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180532713",
+    "to": "0x18053271e",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180532725",
+    "to": "0x180471d38",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1805327af",
+    "to": "0x180a8b81c",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x1805327d0",
+    "to": "0x1805327da",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1805327dd",
+    "to": "0x180473dc0",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180532848",
+    "to": "0x1804f1e44",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18053284f",
+    "to": "0x1805328b0",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18053285a",
+    "to": "0x180a8abec",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x1805328a7",
+    "to": "0x1804f1ee8",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1805328ae",
+    "to": "0x1805328dc",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1805328b7",
+    "to": "0x1805328c8",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1805328d1",
+    "to": "0x1805328dc",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll\",\"format\":\"pe\",\"kind\":\"executable\",\"sha256\":\"738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894\",\"architecture\":\"x86_64\"}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll",
+      "format": "pe",
+      "kind": "executable",
+      "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894",
+      "architecture": "x86_64"
+    }
+  }
+}

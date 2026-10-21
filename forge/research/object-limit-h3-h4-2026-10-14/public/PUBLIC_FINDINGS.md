@@ -1,0 +1,48 @@
+# Public findings: Halo 3 / Halo 4 Forge object capacity
+
+Research date: 2026-10-14. Scope: independently placed, editable objects that survive a map-variant save/load, rather than money budget, palette quotas, runtime-spawned objects, or custom-map geometry. No game launch or engine test was performed. Sources are pinned where possible in SOURCE_MANIFEST.json, with SHA-256 hashes for saved evidence.
+
+## Stock-format conclusions
+
+| Target | Direct source evidence | What the evidence permits saying |
+|---|---|---|
+| Halo 3 retail / original 360 lineage | Fixed 640 placement records, 256 quotas; separate scenario and variant counts. | 640 is total record capacity, not 640 newly added pieces. Default scenario slots reduce available slots for new additions. |
+| Halo 3 MCC body versions 13/14 | Current blf converter explicitly reads these through that same fixed 640-record representation, then converts to retail 12. |Strong practical format evidence for 640, with no discovered larger stockMCC representation. A current MCC engine test remains missing; the converter alone does not prove every possible modern file works. |
+| Halo 4 MCC body 50/51 | HMS decoder and encoder iterate 651 records; insertion rejects exhaustion; both support50/51. |The demonstrated file layout has 651 record slots, IDs 0–650. No evidence of a stock format allowing 652 or materially more than 650. A stock UI/runtime test of a fully populated 651-record file remains missing. |
+| Reach comparison | blf and TagTool Reach structures also have 651 records. |The 651 number is not a special increase afforded by Halo 4: Reach has the same serialized array size. Distinguish normalForge's commonly described 650 limit from the 651-record file structure. |
+
+Do not present 651 serialized records as proof that all 651 are independently placeable in stock Forge. The inspected sources do not explain a reserved/sentinel slot or prove a 651-object MCC load. Halo 4 does not expose a Halo 3 style scenario-object-count prefix in these map-variant structures; default Forge objects that are encoded in the variant occupy records, and unsaved scenario/world content is a separate question.
+
+## Halo 3 evidence and converter caveat
+
+[blf Halo3 structure, pinned revision](https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/halo3/v12070_08_09_05_2031_halo3_ship/saved_games/scenario_map_variant.rs#L26) defines `m_variant_objects: StaticArray<...,640>` and the separate counts. Its packed decoder reads a 10-bit variant-object count, then iterates that full count and indexes the fixed array. The 10-bit count can express numbers greater than 640; that does not allocate more records or establish engine support.
+
+[The MCC-to360 converter](https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_cli/src/commands/convert_halo3mcc_map_variants.rs#L34) identifies versions 13/14 after decoding; it remaps palette object identifiers/checksums, drops unsupported objects and sets version 12. There is no truncation/clamping of an advertised expanded record count during packed decoding. On a count greater than 640 the default array would be indexed beyond its length; [StaticArray](https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/types/array.rs#L95) uses ordinary Vec indexing. Thus the converter supports the 640-record interpretation but cannot exclude an unsupported newer format through its own existence.
+
+[TagTool MapVariant](https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/MapVariant.cs#L28) independently defines 640 entries. Its [generator](https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/MapVariantGenerator.cs#L202) reserves scenario entries before player additions and starts both scenario/variant counts there. TagTool's original/derived-engine version definitions are corroboration, not direct inspection of the current MCC binary.
+
+Bungie's own [February 6, 2009 update, preserved in the HBO archive](https://halo.bungie.org/bwu/index.html?item=214) explains that monetary budget and total-object limit are separate, that Sandbox's defaults remain factored into the latter after deletion, and that reusing those defaults preserves usable capacity. This primary authored text describes original 360 Halo3, not a promise about current MCC. With the same reservation model, new-object capacity is at most 640 minus the base map's reserved scenario count; useful reused defaults remain editable, and objectives/spawns consume capacity too.
+
+## Halo 4 format and other limits
+
+[HMS Halo 4 codec](https://github.com/Sopitive/HaloMapStudio/blob/d6ced849f73663d4aa1500afeb585c102e914eda/crates/hms-app/src/h4/mvar.rs#L29) defines `H4_SLOTS = 651`. Its [encoder](https://github.com/Sopitive/HaloMapStudio/blob/d6ced849f73663d4aa1500afeb585c102e914eda/crates/hms-app/src/h4/mvar.rs#L1429) allows body 50/51, fills unused slots, then refuses a new object if all 651 are occupied. The payload has fixed 0x7000 bitstream bytes and up to 256 serialized quota rows. The public implementation claims all 388 shipped variant round-trips identically; these are author-reported tests, not tests rerun in this investigation.
+
+[HMS published Halo4 documentation](https://sopitive.github.io/HaloMapStudio/halo4.html) reports successful MCC loading of an HMS-saved variant and checks objects beyond 651 slots. It distinguishes monetary/per-palette limits from slots and says MCC restores scenario budget and recomputes spending. Its page retains a stale v51-refusal line despite current source supporting 51. This is why current pinned source is preferred for version/capacity claims.
+
+[blf Halo4](https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/halo4/v20810_12_09_22_1647_main/saved_games/scenario_map_variant.rs#L22) independently fixes 651 records/256 quotas. [Reach's equivalent](https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs#L22) also fixes 651. blf is MIT; HMS source has a noncommercial license, so direct reuse is a separate design constraint.
+
+## Official update evidence
+
+- [July 14, 2020 official notes](https://support.halowaypoint.com/hc/en-us/articles/360045689232-Halo-The-Master-Chief-Collection-Patch-Notes-7-14-20) announce new Forge objects and budget increases for Halo 3/Reach; they do not announce larger serialized arrays. The official developer Steam announcement saved here additionally calls Reach's changes budget and object-quota increases.
+- [September 22, 2020 notes](https://support.halowaypoint.com/hc/en-us/articles/360049316032-Halo-The-Master-Chief-Collection-Patch-Notes-09-22-2020) fix Halo 3 saving near the total-object limit and despawning on dense maps. That is a save/runtime bug fix, not a stated capacity increase.
+- [August 2022 notes](https://support.halowaypoint.com/hc/en-us/articles/8955559396372-Halo-The-Master-Chief-Collection-MCC-Update-August-2022), [April 2022 notes](https://support.halowaypoint.com/hc/en-us/articles/5178835359380-Halo-The-Master-Chief-Collection-MCC-Update-April-2022), [July 2023 notes](https://support.halowaypoint.com/hc/en-us/articles/17144473706900-Halo-The-Master-Chief-Collection-MCC-Update-July-2023), and [2024 notes updated through 2025 maintenance](https://support.halowaypoint.com/hc/en-us/articles/23707515298324-Halo-The-Master-Chief-Collection-MCC-Update-February-2024) were inspected. No explicit Halo 3/Halo 4 total serialized placement-capacity increase was found in these reviewed notes. This is a bounded search result, not proof that every historical update was exhaustively checked.
+
+## Mod-dependent exception: Project Reclaimer
+
+[First-party Forge docs](https://projectreclaimer.dev/forge#frozen-objects) claim a separate saved list of up to 5,000 frozen scenery objects beside 640 ordinary placements. Frozen objects can be edited, copied, deleted or moved; grabbing/unfreezing needs a free ordinary placement. It excludes gameplay markers and movable/non-scenery objects. [v0.8.10 release](https://github.com/ProjectReclaimer/project-reclaimer-releases/releases/tag/v0.8.10) introduced the frozen list and expanded runtime allocation. [v0.8.15](https://github.com/ProjectReclaimer/project-reclaimer-releases/releases/tag/v0.8.15) allows same-kind reuse of freed default slots. This is not an expanded stock placement array or proof of stockMCC/Xbox compatibility.
+
+[Download requirements](https://projectreclaimer.dev/download) describe an independent Windows launcher, compatible MCC engine version, private source and matching client versions. The precise extra saved-data schema and interoperability could not be independently verified. assets_ui performed the detailed audit; this folder preserves current-doc extraction and versioned release bodies. Treat 5,000 as a concrete maintainer claim, not a reproduced test result.
+
+## Remaining verification needed
+
+A current Halo 3/Halo 4 MCC engine plus stock saved fixtures is needed to test full-array variants, confirm 650 versus 651 runtime behavior, and measure map-specific reserved/default occupancy. There is no local Halo 3/Halo 4 engine binary in this workspace's installation. Runtime objects made by scripts, custom-map scenario geometry, or several Blender meshes compiled as one placeable object can produce more visible pieces; they do not increase independently saved/editable stockForge placements.

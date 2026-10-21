@@ -1,0 +1,39 @@
+{
+  "observed_utc": "2026-10-14T15:36:27.695486+00:00",
+  "source_path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/MCC/Binaries/Win64/MCC-Win64-Shipping.exe",
+  "after_targeted_ghidra_sha256": "be70d6dcd1a884f10ceb342a7a2dcb35ee0fa43181b66a1d19c3d830e9834691",
+  "matches_import_and_pre_probe_sha256": true,
+  "targets": [
+    {
+      "requested_va": "0x14043ce28",
+      "entry_rva": "0x43ce28",
+      "end_va_exclusive": "0x14043da36",
+      "unwind_info_va": "0x14356a2b0",
+      "exception_record_va": "0x144048184",
+      "exception_record_bytes": 3086,
+      "disassembly_succeeded": true,
+      "function_existed_before_creation": true,
+      "function_name": "FUN_14043ce28",
+      "instruction_count": 761,
+      "decompile_completed": true,
+      "decompile_message": "",
+      "status": "decompiled"
+    },
+    {
+      "requested_va": "0x14043eaac",
+      "entry_rva": "0x43eaac",
+      "end_va_exclusive": "0x14043ecaf",
+      "unwind_info_va": "0x14356a3c8",
+      "exception_record_va": "0x144048244",
+      "exception_record_bytes": 515,
+      "disassembly_succeeded": true,
+      "function_existed_before_creation": true,
+      "function_name": "FUN_14043eaac",
+      "instruction_count": 140,
+      "decompile_completed": true,
+      "decompile_message": "",
+      "status": "decompiled"
+    }
+  ],
+  "mode": "targeted PE exception ranges; analyzeHeadless -noanalysis"
+}

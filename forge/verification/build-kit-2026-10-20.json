@@ -1,0 +1,84 @@
+{
+  "recorded_on": "2026-10-20",
+  "source_checkout": "An unrelated temporary directory, with repository-relative paths.",
+  "blender_version": "5.2.1 LTS",
+  "blender_browser_types": 348,
+  "blender_modeled_created_exported_decoded": 348,
+  "blender_profile": "Disposable factory-startup profile; real profile unchanged.",
+  "stock_templates": [
+    {
+      "template": "hr_forgeWorld_asylum.mvar",
+      "source_sha256": "c8c1b332d4adaca4022dfee39ddf0d0f1e71c89be92cdfd20c19d3083139355c",
+      "objects": 348,
+      "exported_sha256": "6a4ed133f57620f1f5cf1332d3b10a7e7a4d7840bf760b31b4f47ea1904c8c89",
+      "budget": 21220,
+      "max_budget": 30000,
+      "typed_properties_checked": true,
+      "pose_checked": true,
+      "exact_noop_roundtrip": true
+    },
+    {
+      "template": "hr_forgeWorld_hemorrhage.mvar",
+      "source_sha256": "343b5b52b78bc307f9b198e65c2aec08deecfeb26eb5f5ecdc48548d4d202758",
+      "objects": 348,
+      "exported_sha256": "15652465b07b87acc0ff8e0fd0f12e1c59d581b546e5dfbcd98899fe2291bf42",
+      "budget": 21220,
+      "max_budget": 30000,
+      "typed_properties_checked": true,
+      "pose_checked": true,
+      "exact_noop_roundtrip": true
+    },
+    {
+      "template": "hr_forgeWorld_paradiso.mvar",
+      "source_sha256": "e6b8ed55836052463f6ba464b2b690234447f7863e7fb18f3d778bdbc3fc54ce",
+      "objects": 348,
+      "exported_sha256": "103661ef69fdc7908c1832a0b8e2fa1153bfb232c1621fbae6ad4a391c26ce8c",
+      "budget": 21220,
+      "max_budget": 30000,
+      "typed_properties_checked": true,
+      "pose_checked": true,
+      "exact_noop_roundtrip": true
+    },
+    {
+      "template": "hr_forgeWorld_pinnacle.mvar",
+      "source_sha256": "03f08979300100f135c49da56f4b40917a2a223b4e82a35737521d69173f867a",
+      "objects": 348,
+      "exported_sha256": "38df69db6bdaa65f25c2c8f76017423dee85f1364d63879997050180d27f8195",
+      "budget": 21220,
+      "max_budget": 30000,
+      "typed_properties_checked": true,
+      "pose_checked": true,
+      "exact_noop_roundtrip": true
+    },
+    {
+      "template": "hr_forgeWorld_theCage.mvar",
+      "source_sha256": "afe01ccce468e45a7f7784f21aa52199db0f737832afa7183e33d17396f685b0",
+      "objects": 348,
+      "exported_sha256": "220a7f3c675099d4609e9c305fb831bad1b0f3618f1211c4c908987f91cfeda2",
+      "budget": 21220,
+      "max_budget": 30000,
+      "typed_properties_checked": true,
+      "pose_checked": true,
+      "exact_noop_roundtrip": true
+    }
+  ],
+  "tests": {
+    "map_duplicate_controls": 5,
+    "surface_joint_controls": 8,
+    "parkour_model_controls": 8,
+    "addon_catalog_and_orientation": 16,
+    "failures": 0
+  },
+  "boundary_snapshot": "Parsed values exactly match the original supported cache; safe and unsafe sample evaluations match.",
+  "native_record_snapshot": {
+    "source_variants": 177,
+    "object_types": 302
+  },
+  "catalog": {
+    "previews": 348,
+    "sheets": 21
+  },
+  "original_files": "Library and stock-template SHA-256 checks pass; no existing .blend or .mvar was overwritten.",
+  "historical_gaps": "See ../historical-gaps.json. Historical missing checks are not reported as passing.",
+  "in_game_verified": false
+}

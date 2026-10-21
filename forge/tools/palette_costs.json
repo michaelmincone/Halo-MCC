@@ -1,0 +1,2906 @@
+{
+ "source": "forge_world_objects.md",
+ "note": "prices and shared maxima from the installed forge_halo.map (build Jun 21 2023), via forge_world_objects.md",
+ "rows": [
+  {
+   "quota_index": 0,
+   "category": "assault_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 0,
+     "name": "Assault Rifle",
+     "internal": "assault_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 1,
+   "category": "dmr",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 256,
+     "name": "DMR",
+     "internal": "dmr"
+    }
+   ]
+  },
+  {
+   "quota_index": 2,
+   "category": "grenade_launcher",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 512,
+     "name": "Grenade Launcher",
+     "internal": "grenade_launcher"
+    }
+   ]
+  },
+  {
+   "quota_index": 3,
+   "category": "magnum",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 768,
+     "name": "Magnum",
+     "internal": "magnum"
+    }
+   ]
+  },
+  {
+   "quota_index": 4,
+   "category": "rocket_launcher",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 1024,
+     "name": "Rocket Launcher",
+     "internal": "rocket_launcher"
+    }
+   ]
+  },
+  {
+   "quota_index": 5,
+   "category": "shotgun",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 1280,
+     "name": "Shotgun",
+     "internal": "shotgun"
+    }
+   ]
+  },
+  {
+   "quota_index": 6,
+   "category": "sniper_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 1536,
+     "name": "Sniper Rifle",
+     "internal": "sniper_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 7,
+   "category": "spartan_laser",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 1792,
+     "name": "Spartan Laser",
+     "internal": "spartan_laser"
+    }
+   ]
+  },
+  {
+   "quota_index": 8,
+   "category": "wep_nade_frag",
+   "maximum_allowed": 32,
+   "price_per_instance": 5,
+   "objects": [
+    {
+     "type_id": 2048,
+     "name": "Frag Grenade",
+     "internal": "wep_nade_frag"
+    }
+   ]
+  },
+  {
+   "quota_index": 9,
+   "category": "wep_machinegun",
+   "maximum_allowed": 8,
+   "price_per_instance": 75,
+   "objects": [
+    {
+     "type_id": 2304,
+     "name": "Mounted Machinegun",
+     "internal": "wep_machinegun"
+    }
+   ]
+  },
+  {
+   "quota_index": 10,
+   "category": "concussion_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 2560,
+     "name": "Concussion Rifle",
+     "internal": "concussion_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 11,
+   "category": "energy_sword",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 2816,
+     "name": "Energy Sword",
+     "internal": "energy_sword"
+    }
+   ]
+  },
+  {
+   "quota_index": 12,
+   "category": "wep_flakcannon",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 3072,
+     "name": "Fuel Rod Gun",
+     "internal": "wep_flakcannon"
+    }
+   ]
+  },
+  {
+   "quota_index": 13,
+   "category": "gravity_hammer",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 3328,
+     "name": "Gravity Hammer",
+     "internal": "gravity_hammer"
+    }
+   ]
+  },
+  {
+   "quota_index": 14,
+   "category": "focus_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 3584,
+     "name": "Focus Rifle",
+     "internal": "focus_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 15,
+   "category": "needle_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 3840,
+     "name": "Needle Rifle",
+     "internal": "needle_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 16,
+   "category": "needler",
+   "maximum_allowed": 16,
+   "price_per_instance": 20,
+   "objects": [
+    {
+     "type_id": 4096,
+     "name": "Needler",
+     "internal": "needler"
+    }
+   ]
+  },
+  {
+   "quota_index": 17,
+   "category": "wep_plasmalauncher",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 4352,
+     "name": "Plasma Launcher",
+     "internal": "wep_plasmalauncher"
+    }
+   ]
+  },
+  {
+   "quota_index": 18,
+   "category": "plasma_pistol",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 4608,
+     "name": "Plasma Pistol",
+     "internal": "plasma_pistol"
+    }
+   ]
+  },
+  {
+   "quota_index": 19,
+   "category": "plasma_repeater",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 4864,
+     "name": "Plasma Repeater",
+     "internal": "plasma_repeater"
+    }
+   ]
+  },
+  {
+   "quota_index": 20,
+   "category": "plasma_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 5120,
+     "name": "Plasma Rifle",
+     "internal": "plasma_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 21,
+   "category": "spike_rifle",
+   "maximum_allowed": 16,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 5376,
+     "name": "Spiker",
+     "internal": "spike_rifle"
+    }
+   ]
+  },
+  {
+   "quota_index": 22,
+   "category": "wep_nade_plasma",
+   "maximum_allowed": 32,
+   "price_per_instance": 5,
+   "objects": [
+    {
+     "type_id": 5632,
+     "name": "Plasma Grenade",
+     "internal": "wep_nade_plasma"
+    }
+   ]
+  },
+  {
+   "quota_index": 23,
+   "category": "wep_plasmaturret",
+   "maximum_allowed": 8,
+   "price_per_instance": 75,
+   "objects": [
+    {
+     "type_id": 5888,
+     "name": "Plasma Turret",
+     "internal": "wep_plasmaturret"
+    }
+   ]
+  },
+  {
+   "quota_index": 24,
+   "category": "arm_camo",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 6144,
+     "name": "Active Camouflage",
+     "internal": "active_camoflage"
+    }
+   ]
+  },
+  {
+   "quota_index": 25,
+   "category": "arm_lock",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 6400,
+     "name": "Armor Lock",
+     "internal": "armor_lockup"
+    }
+   ]
+  },
+  {
+   "quota_index": 26,
+   "category": "arm_dropshield",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 6656,
+     "name": "Drop Shield",
+     "internal": "drop_shield"
+    }
+   ]
+  },
+  {
+   "quota_index": 27,
+   "category": "arm_evade",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 6912,
+     "name": "Evade",
+     "internal": "evade_elite"
+    }
+   ]
+  },
+  {
+   "quota_index": 28,
+   "category": "arm_hologram",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 7168,
+     "name": "Hologram",
+     "internal": "hologram"
+    }
+   ]
+  },
+  {
+   "quota_index": 29,
+   "category": "arm_jetpack",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 7424,
+     "name": "Jet Pack",
+     "internal": "jet_pack"
+    }
+   ]
+  },
+  {
+   "quota_index": 30,
+   "category": "arm_sprint",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 7680,
+     "name": "Sprint",
+     "internal": "sprint_spartan"
+    }
+   ]
+  },
+  {
+   "quota_index": 31,
+   "category": "banshee",
+   "maximum_allowed": 16,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 7936,
+     "name": "Banshee",
+     "internal": "banshee"
+    }
+   ]
+  },
+  {
+   "quota_index": 32,
+   "category": "falcon",
+   "maximum_allowed": 16,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 8192,
+     "name": "Falcon",
+     "internal": "falcon"
+    }
+   ]
+  },
+  {
+   "quota_index": 33,
+   "category": "ghost",
+   "maximum_allowed": 16,
+   "price_per_instance": 75,
+   "objects": [
+    {
+     "type_id": 8448,
+     "name": "Ghost",
+     "internal": "ghost"
+    }
+   ]
+  },
+  {
+   "quota_index": 34,
+   "category": "mongoose",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 8704,
+     "name": "Mongoose",
+     "internal": "mongoose"
+    }
+   ]
+  },
+  {
+   "quota_index": 35,
+   "category": "revenant",
+   "maximum_allowed": 16,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 8960,
+     "name": "Revenant",
+     "internal": "revenant"
+    }
+   ]
+  },
+  {
+   "quota_index": 36,
+   "category": "scorpion",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 9216,
+     "name": "Scorpion",
+     "internal": "scorpion"
+    }
+   ]
+  },
+  {
+   "quota_index": 37,
+   "category": "shade",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 9472,
+     "name": "Shade Turret",
+     "internal": "shade"
+    }
+   ]
+  },
+  {
+   "quota_index": 38,
+   "category": "warthogs",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 9728,
+     "name": "Warthog, Default",
+     "internal": "warthog_default"
+    },
+    {
+     "type_id": 9729,
+     "name": "Warthog, Gauss",
+     "internal": "warthog_gauss"
+    },
+    {
+     "type_id": 9730,
+     "name": "Warthog, Rocket",
+     "internal": "warthog_rocket"
+    }
+   ]
+  },
+  {
+   "quota_index": 39,
+   "category": "wraith",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 9984,
+     "name": "Wraith",
+     "internal": "wraith"
+    }
+   ]
+  },
+  {
+   "quota_index": 40,
+   "category": "gadget_explosive",
+   "maximum_allowed": 32,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 10240,
+     "name": "Fusion Coil",
+     "internal": "exp_fusioncoil"
+    },
+    {
+     "type_id": 10241,
+     "name": "Landmine",
+     "internal": "exp_landmine"
+    },
+    {
+     "type_id": 10242,
+     "name": "Plasma Battery",
+     "internal": "exp_battery"
+    },
+    {
+     "type_id": 10243,
+     "name": "Propane Tank",
+     "internal": "exp_propanetank"
+    }
+   ]
+  },
+  {
+   "quota_index": 41,
+   "category": "gadget_healthstation",
+   "maximum_allowed": 16,
+   "price_per_instance": 25,
+   "objects": [
+    {
+     "type_id": 10496,
+     "name": "Health Station",
+     "internal": "health_station"
+    }
+   ]
+  },
+  {
+   "quota_index": 42,
+   "category": "gadget_powerups",
+   "maximum_allowed": 16,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 10752,
+     "name": "Camo Powerup",
+     "internal": "powerup_blue"
+    },
+    {
+     "type_id": 10753,
+     "name": "Overshield",
+     "internal": "powerup_red"
+    },
+    {
+     "type_id": 10754,
+     "name": "Custom Powerup",
+     "internal": "powerup_yellow"
+    }
+   ]
+  },
+  {
+   "quota_index": 43,
+   "category": "gadget_mancannons",
+   "maximum_allowed": 32,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 11008,
+     "name": "Cannon, Man",
+     "internal": "mancannon_normal"
+    },
+    {
+     "type_id": 11009,
+     "name": "Cannon, Man, Heavy",
+     "internal": "mancannon_heavy"
+    },
+    {
+     "type_id": 11010,
+     "name": "Cannon, Man, Light",
+     "internal": "mancannon_light"
+    },
+    {
+     "type_id": 11011,
+     "name": "Cannon, Vehicle",
+     "internal": "mancannon_vehicle"
+    },
+    {
+     "type_id": 11012,
+     "name": "Gravity Lift",
+     "internal": "mancannon_gravlift"
+    }
+   ]
+  },
+  {
+   "quota_index": 44,
+   "category": "door_oneway_small",
+   "maximum_allowed": 12,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 11264,
+     "name": "One Way Shield 2",
+     "internal": "door_oneway_small"
+    }
+   ]
+  },
+  {
+   "quota_index": 45,
+   "category": "door_oneway_medium",
+   "maximum_allowed": 12,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 11520,
+     "name": "One Way Shield 3",
+     "internal": "door_oneway_medium"
+    }
+   ]
+  },
+  {
+   "quota_index": 46,
+   "category": "door_oneway_large",
+   "maximum_allowed": 12,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 11776,
+     "name": "One Way Shield 4",
+     "internal": "door_oneway_large"
+    }
+   ]
+  },
+  {
+   "quota_index": 47,
+   "category": "gadget_sfx",
+   "maximum_allowed": 4,
+   "price_per_instance": 250,
+   "objects": [
+    {
+     "type_id": 12032,
+     "name": "FX:Colorblind",
+     "internal": "sfx_1"
+    },
+    {
+     "type_id": 12033,
+     "name": "FX:Next Gen",
+     "internal": "sfx_2"
+    },
+    {
+     "type_id": 12034,
+     "name": "FX:Juicy",
+     "internal": "sfx_3"
+    },
+    {
+     "type_id": 12035,
+     "name": "FX:Nova",
+     "internal": "sfx_4"
+    },
+    {
+     "type_id": 12036,
+     "name": "FX:Olde Timey",
+     "internal": "sfx_5"
+    },
+    {
+     "type_id": 12037,
+     "name": "FX:Pen And Ink",
+     "internal": "sfx_6"
+    },
+    {
+     "type_id": 12038,
+     "name": "FX:Purple",
+     "internal": "purple"
+    },
+    {
+     "type_id": 12039,
+     "name": "FX:Green",
+     "internal": "green"
+    },
+    {
+     "type_id": 12040,
+     "name": "FX:Orange",
+     "internal": "orange"
+    }
+   ]
+  },
+  {
+   "quota_index": 48,
+   "category": "door_shield_small",
+   "maximum_allowed": 12,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 12288,
+     "name": "Shield Door, Small",
+     "internal": "door_shield_small"
+    }
+   ]
+  },
+  {
+   "quota_index": 49,
+   "category": "door_shield_medium",
+   "maximum_allowed": 12,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 12544,
+     "name": "Shield Door, Medium",
+     "internal": "door_shield_medium"
+    }
+   ]
+  },
+  {
+   "quota_index": 50,
+   "category": "door_shield_large",
+   "maximum_allowed": 12,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 12800,
+     "name": "Shield Door, Large",
+     "internal": "door_shield_large"
+    }
+   ]
+  },
+  {
+   "quota_index": 51,
+   "category": "gadget_teleporters",
+   "maximum_allowed": 24,
+   "price_per_instance": 25,
+   "objects": [
+    {
+     "type_id": 13056,
+     "name": "Receiver Node",
+     "internal": "teleporter_reciever"
+    },
+    {
+     "type_id": 13057,
+     "name": "Sender Node",
+     "internal": "teleporter_sender"
+    },
+    {
+     "type_id": 13058,
+     "name": "Two-Way Node",
+     "internal": "teleporter_2way"
+    }
+   ]
+  },
+  {
+   "quota_index": 52,
+   "category": "gadget_toys",
+   "maximum_allowed": 30,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 13312,
+     "name": "Die",
+     "internal": "toys_die"
+    },
+    {
+     "type_id": 13313,
+     "name": "Golf Ball",
+     "internal": "toys_golfball"
+    },
+    {
+     "type_id": 13314,
+     "name": "Golf Club",
+     "internal": "toys_golfclub"
+    },
+    {
+     "type_id": 13315,
+     "name": "Kill Ball",
+     "internal": "toys_killball"
+    },
+    {
+     "type_id": 13316,
+     "name": "Soccer Ball",
+     "internal": "toys_soccerball"
+    },
+    {
+     "type_id": 13317,
+     "name": "Tin Cup",
+     "internal": "toys_tincup"
+    }
+   ]
+  },
+  {
+   "quota_index": 53,
+   "category": "gadget_lights",
+   "maximum_allowed": 8,
+   "price_per_instance": 250,
+   "objects": [
+    {
+     "type_id": 13568,
+     "name": "Light, Red",
+     "internal": "ff_light_red"
+    },
+    {
+     "type_id": 13569,
+     "name": "Light, Blue",
+     "internal": "ff_light_blue"
+    },
+    {
+     "type_id": 13570,
+     "name": "Light, Green",
+     "internal": "ff_light_green"
+    },
+    {
+     "type_id": 13571,
+     "name": "Light, Orange",
+     "internal": "ff_light_orange"
+    },
+    {
+     "type_id": 13572,
+     "name": "Light, Purple",
+     "internal": "ff_light_purple"
+    },
+    {
+     "type_id": 13573,
+     "name": "Light, Yellow",
+     "internal": "ff_light_yellow"
+    },
+    {
+     "type_id": 13574,
+     "name": "Light, White",
+     "internal": "ff_light_white"
+    },
+    {
+     "type_id": 13575,
+     "name": "Light, Red, Flashing",
+     "internal": "ff_light_red_flash"
+    },
+    {
+     "type_id": 13576,
+     "name": "Light, Yellow, Flashing",
+     "internal": "ff_light_yellow_flash"
+    }
+   ]
+  },
+  {
+   "quota_index": 54,
+   "category": "spawning_initial",
+   "maximum_allowed": 250,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 13824,
+     "name": "Initial Spawn",
+     "internal": "spawning_initial"
+    }
+   ]
+  },
+  {
+   "quota_index": 55,
+   "category": "spawning_respawn",
+   "maximum_allowed": 250,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 14080,
+     "name": "Respawn Point",
+     "internal": "spawning_respawn"
+    }
+   ]
+  },
+  {
+   "quota_index": 56,
+   "category": "spawning_camera",
+   "maximum_allowed": 32,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 14336,
+     "name": "Initial Loadout Camera",
+     "internal": "spawning_camera"
+    }
+   ]
+  },
+  {
+   "quota_index": 57,
+   "category": "respawn_zone",
+   "maximum_allowed": 20,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 14592,
+     "name": "Respawn Zone",
+     "internal": "respawn_zone"
+    }
+   ]
+  },
+  {
+   "quota_index": 58,
+   "category": "respawn_zone_weak",
+   "maximum_allowed": 20,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 14848,
+     "name": "Respawn Zone, Weak",
+     "internal": "respawn_zone_weak"
+    }
+   ]
+  },
+  {
+   "quota_index": 59,
+   "category": "respawn_zone_anti",
+   "maximum_allowed": 20,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 15104,
+     "name": "Respawn Zone, Anti",
+     "internal": "respawn_zone_anti"
+    }
+   ]
+  },
+  {
+   "quota_index": 60,
+   "category": "spawning_boundaries_safe",
+   "maximum_allowed": 5,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 15360,
+     "name": "Safe Boundary",
+     "internal": "spawning_safe"
+    },
+    {
+     "type_id": 15361,
+     "name": "Soft Safe Boundary",
+     "internal": "spawning_safe_soft"
+    }
+   ]
+  },
+  {
+   "quota_index": 61,
+   "category": "spawning_boundaries_kill",
+   "maximum_allowed": 64,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 15616,
+     "name": "Kill Boundary",
+     "internal": "spawning_kill"
+    },
+    {
+     "type_id": 15617,
+     "name": "Soft Kill Boundary",
+     "internal": "spawning_kill_soft"
+    }
+   ]
+  },
+  {
+   "quota_index": 62,
+   "category": "obj_flag_base",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 15872,
+     "name": "Flag Stand",
+     "internal": "obj_flag_base"
+    }
+   ]
+  },
+  {
+   "quota_index": 63,
+   "category": "obj_plate",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 16128,
+     "name": "Capture Plate",
+     "internal": "obj_plate"
+    }
+   ]
+  },
+  {
+   "quota_index": 64,
+   "category": "obj_hill_marker",
+   "maximum_allowed": 75,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 16384,
+     "name": "Hill Marker",
+     "internal": "obj_hill_marker"
+    }
+   ]
+  },
+  {
+   "quota_index": 65,
+   "category": "ff_scn_barricades",
+   "maximum_allowed": 36,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 16640,
+     "name": "Barricade, Small",
+     "internal": "ff_scn_barricade_small"
+    },
+    {
+     "type_id": 16641,
+     "name": "Barricade, Large",
+     "internal": "ff_scn_barricade_large"
+    },
+    {
+     "type_id": 16642,
+     "name": "Covenant Barrier",
+     "internal": "ff_scn_covenantbarrier"
+    },
+    {
+     "type_id": 16643,
+     "name": "Portable Shield",
+     "internal": "ff_scn_cov_shield"
+    }
+   ]
+  },
+  {
+   "quota_index": 66,
+   "category": "ff_scn_camping_stool",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 16896,
+     "name": "Camping Stool",
+     "internal": "ff_scn_camping_stool"
+    }
+   ]
+  },
+  {
+   "quota_index": 67,
+   "category": "ff_scn_crates",
+   "maximum_allowed": 50,
+   "price_per_instance": 25,
+   "objects": [
+    {
+     "type_id": 17152,
+     "name": "Crate, Heavy Duty",
+     "internal": "ff_scn_space_crate"
+    },
+    {
+     "type_id": 17153,
+     "name": "Crate, Heavy, Small",
+     "internal": "ff_scn_space_crate_small"
+    },
+    {
+     "type_id": 17154,
+     "name": "Covenant Crate",
+     "internal": "ff_scn_cov_crate"
+    },
+    {
+     "type_id": 17155,
+     "name": "Crate, Half Open",
+     "internal": "ff_scn_cov_crate_a"
+    }
+   ]
+  },
+  {
+   "quota_index": 68,
+   "category": "ff_scn_sandbags",
+   "maximum_allowed": 36,
+   "price_per_instance": 25,
+   "objects": [
+    {
+     "type_id": 17408,
+     "name": "Sandbag Wall",
+     "internal": "ff_scn_sandbag_wall"
+    },
+    {
+     "type_id": 17409,
+     "name": "Sandbag, Turret Wall",
+     "internal": "ff_scn_sandbag_turret"
+    },
+    {
+     "type_id": 17410,
+     "name": "Sandbag Corner, 45",
+     "internal": "ff_scn_sandbag_45"
+    },
+    {
+     "type_id": 17411,
+     "name": "Sandbag Corner, 90",
+     "internal": "ff_scn_sandbag_90"
+    },
+    {
+     "type_id": 17412,
+     "name": "Sandbag Endcap",
+     "internal": "ff_scn_sandbag_end"
+    }
+   ]
+  },
+  {
+   "quota_index": 69,
+   "category": "ff_scn_street_cone",
+   "maximum_allowed": 60,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 17664,
+     "name": "Street Cone",
+     "internal": "ff_scn_street_cone"
+    }
+   ]
+  },
+  {
+   "quota_index": 70,
+   "category": "structure_blocks",
+   "maximum_allowed": 300,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 17920,
+     "name": "Block, 1x1",
+     "internal": "block_1x1"
+    },
+    {
+     "type_id": 17921,
+     "name": "Block, 1x1, Flat",
+     "internal": "block_1x1_flat"
+    },
+    {
+     "type_id": 17922,
+     "name": "Block, 1x1, Short",
+     "internal": "block_1x1_short"
+    },
+    {
+     "type_id": 17923,
+     "name": "Block, 1x1, Tall",
+     "internal": "block_1x1_tall"
+    },
+    {
+     "type_id": 17924,
+     "name": "Block, 1x1, Tall And Thin",
+     "internal": "block_1x1_tall_thin"
+    },
+    {
+     "type_id": 17925,
+     "name": "Block, 1x2",
+     "internal": "block_1x2"
+    },
+    {
+     "type_id": 17926,
+     "name": "Block, 1x4",
+     "internal": "block_1x4"
+    },
+    {
+     "type_id": 17927,
+     "name": "Block, 2x1, Flat",
+     "internal": "block_2x1_flat"
+    },
+    {
+     "type_id": 17928,
+     "name": "Block, 2x2",
+     "internal": "block_2x2"
+    },
+    {
+     "type_id": 17929,
+     "name": "Block, 2x2, Flat",
+     "internal": "block_2x2_flat"
+    },
+    {
+     "type_id": 17930,
+     "name": "Block, 2x2, Short",
+     "internal": "block_2x2_short"
+    },
+    {
+     "type_id": 17931,
+     "name": "Block, 2x2, Tall",
+     "internal": "block_2x2_tall"
+    },
+    {
+     "type_id": 17932,
+     "name": "Block, 2x3",
+     "internal": "block_2x3"
+    },
+    {
+     "type_id": 17933,
+     "name": "Block, 2x4",
+     "internal": "block_2x4"
+    },
+    {
+     "type_id": 17934,
+     "name": "Block, 3x1, Flat",
+     "internal": "block_3x1_flat"
+    },
+    {
+     "type_id": 17935,
+     "name": "Block, 3x3",
+     "internal": "block_3x3"
+    },
+    {
+     "type_id": 17936,
+     "name": "Block, 3x3, Flat",
+     "internal": "block_3x3_flat"
+    },
+    {
+     "type_id": 17937,
+     "name": "Block, 3x3, Short",
+     "internal": "block_3x3_short"
+    },
+    {
+     "type_id": 17938,
+     "name": "Block, 3x3, Tall",
+     "internal": "block_3x3_tall"
+    },
+    {
+     "type_id": 17939,
+     "name": "Block, 3x4",
+     "internal": "block_3x4"
+    },
+    {
+     "type_id": 17940,
+     "name": "Block, 4x4",
+     "internal": "block_4x4"
+    },
+    {
+     "type_id": 17941,
+     "name": "Block, 4x4, Flat",
+     "internal": "block_4x4_flat"
+    },
+    {
+     "type_id": 17942,
+     "name": "Block, 4x4, Short",
+     "internal": "block_4x4_short"
+    },
+    {
+     "type_id": 17943,
+     "name": "Block, 4x4, Tall",
+     "internal": "block_4x4_tall"
+    },
+    {
+     "type_id": 17944,
+     "name": "Block, 5x1, Short",
+     "internal": "block_5x1_flat"
+    },
+    {
+     "type_id": 17945,
+     "name": "Block, 5x5, Flat",
+     "internal": "block_5x5_flat"
+    }
+   ]
+  },
+  {
+   "quota_index": 71,
+   "category": "structure_bridges",
+   "maximum_allowed": 150,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 18176,
+     "name": "Bridge, Small",
+     "internal": "bridge_2x1"
+    },
+    {
+     "type_id": 18177,
+     "name": "Bridge, Medium",
+     "internal": "bridge_2x2"
+    },
+    {
+     "type_id": 18178,
+     "name": "Bridge, Large",
+     "internal": "bridge_2x3"
+    },
+    {
+     "type_id": 18179,
+     "name": "Bridge, XLarge",
+     "internal": "bridge_2x5"
+    },
+    {
+     "type_id": 18180,
+     "name": "Bridge, Diagonal",
+     "internal": "bridge_diag"
+    },
+    {
+     "type_id": 18181,
+     "name": "Bridge, Diag, Small",
+     "internal": "bridge_diag_short"
+    },
+    {
+     "type_id": 18182,
+     "name": "Dish",
+     "internal": "dish"
+    },
+    {
+     "type_id": 18183,
+     "name": "Dish, Open",
+     "internal": "dish_door"
+    },
+    {
+     "type_id": 18184,
+     "name": "Corner, 45 Degrees",
+     "internal": "corner_45"
+    },
+    {
+     "type_id": 18185,
+     "name": "Corner, 2x2",
+     "internal": "plat_2x2_corner"
+    },
+    {
+     "type_id": 18186,
+     "name": "Corner, 4x4",
+     "internal": "plat_4x4_corner"
+    },
+    {
+     "type_id": 18187,
+     "name": "Landing Pad",
+     "internal": "plat_landing_pad"
+    },
+    {
+     "type_id": 18188,
+     "name": "Platform, Ramped",
+     "internal": "plat_ramped"
+    },
+    {
+     "type_id": 18189,
+     "name": "Platform, Large",
+     "internal": "plat_4x4_tower"
+    },
+    {
+     "type_id": 18190,
+     "name": "Platform, XL",
+     "internal": "cylinder_small"
+    },
+    {
+     "type_id": 18191,
+     "name": "Platform, XXL",
+     "internal": "cylinder_large"
+    },
+    {
+     "type_id": 18192,
+     "name": "Platform, Y",
+     "internal": "plat_y"
+    },
+    {
+     "type_id": 18193,
+     "name": "Platform, Y, Large",
+     "internal": "plat_y_large"
+    },
+    {
+     "type_id": 18194,
+     "name": "Sniper Nest",
+     "internal": "sniper_nest"
+    },
+    {
+     "type_id": 18195,
+     "name": "Staircase",
+     "internal": "stair_case"
+    },
+    {
+     "type_id": 18196,
+     "name": "Walkway, Large",
+     "internal": "walkway"
+    }
+   ]
+  },
+  {
+   "quota_index": 72,
+   "category": "structure_buildings",
+   "maximum_allowed": 36,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 18432,
+     "name": "Bunker, Small",
+     "internal": "bunker_low"
+    },
+    {
+     "type_id": 18433,
+     "name": "Bunker, Small, Covered",
+     "internal": "bunker_covered"
+    },
+    {
+     "type_id": 18434,
+     "name": "Bunker, Box",
+     "internal": "bunker_full"
+    },
+    {
+     "type_id": 18435,
+     "name": "Bunker, Round",
+     "internal": "bunker_gulch"
+    },
+    {
+     "type_id": 18436,
+     "name": "Bunker, Ramp",
+     "internal": "bunker_stairs"
+    },
+    {
+     "type_id": 18437,
+     "name": "Pyramid",
+     "internal": "pyramid"
+    },
+    {
+     "type_id": 18438,
+     "name": "Tower, 2 Story",
+     "internal": "tower"
+    },
+    {
+     "type_id": 18439,
+     "name": "Tower, 3 Story",
+     "internal": "tower_3_story"
+    },
+    {
+     "type_id": 18440,
+     "name": "Tower, Tall",
+     "internal": "tower_tall"
+    },
+    {
+     "type_id": 18441,
+     "name": "Room, Double",
+     "internal": "room_double"
+    },
+    {
+     "type_id": 18442,
+     "name": "Room, Triple",
+     "internal": "room_triple"
+    }
+   ]
+  },
+  {
+   "quota_index": 73,
+   "category": "structure_decorative",
+   "maximum_allowed": 300,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 18688,
+     "name": "Antenna, Small",
+     "internal": "antenna"
+    },
+    {
+     "type_id": 18689,
+     "name": "Antenna, Satellite",
+     "internal": "antenna_dish"
+    },
+    {
+     "type_id": 18690,
+     "name": "Brace",
+     "internal": "brace"
+    },
+    {
+     "type_id": 18691,
+     "name": "Brace, Large",
+     "internal": "brace_large"
+    },
+    {
+     "type_id": 18692,
+     "name": "Brace, Tunnel",
+     "internal": "brace_tunnel"
+    },
+    {
+     "type_id": 18693,
+     "name": "Column",
+     "internal": "ff_column"
+    },
+    {
+     "type_id": 18694,
+     "name": "Cover",
+     "internal": "crenelation"
+    },
+    {
+     "type_id": 18695,
+     "name": "Cover, Crenellation",
+     "internal": "crenelation_notched"
+    },
+    {
+     "type_id": 18696,
+     "name": "Cover, Glass",
+     "internal": "cover_glass"
+    },
+    {
+     "type_id": 18697,
+     "name": "Glass Sail",
+     "internal": "wtf_is_this_thing"
+    },
+    {
+     "type_id": 18698,
+     "name": "Railing, Small",
+     "internal": "railing_short"
+    },
+    {
+     "type_id": 18699,
+     "name": "Railing, Medium",
+     "internal": "railing_medium"
+    },
+    {
+     "type_id": 18700,
+     "name": "Railing, Long",
+     "internal": "railing_long"
+    },
+    {
+     "type_id": 18701,
+     "name": "Teleporter Frame",
+     "internal": "teleporter_frame"
+    },
+    {
+     "type_id": 18702,
+     "name": "Strut",
+     "internal": "ff_strut"
+    },
+    {
+     "type_id": 18703,
+     "name": "Large Walkway Cover",
+     "internal": "walkway_cover"
+    }
+   ]
+  },
+  {
+   "quota_index": 74,
+   "category": "structure_doors",
+   "maximum_allowed": 150,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 18944,
+     "name": "Door",
+     "internal": "door"
+    },
+    {
+     "type_id": 18945,
+     "name": "Door, Double",
+     "internal": "door_double"
+    },
+    {
+     "type_id": 18946,
+     "name": "Window",
+     "internal": "window"
+    },
+    {
+     "type_id": 18947,
+     "name": "Window, Double",
+     "internal": "window_double"
+    },
+    {
+     "type_id": 18948,
+     "name": "Wall",
+     "internal": "wall"
+    },
+    {
+     "type_id": 18949,
+     "name": "Wall, Double",
+     "internal": "wall_double"
+    },
+    {
+     "type_id": 18950,
+     "name": "Wall, Corner",
+     "internal": "wall_corner"
+    },
+    {
+     "type_id": 18951,
+     "name": "Wall, Curved",
+     "internal": "wall_curved"
+    },
+    {
+     "type_id": 18952,
+     "name": "Wall, Coliseum",
+     "internal": "wall_coliseum"
+    },
+    {
+     "type_id": 18953,
+     "name": "Window, Colesium",
+     "internal": "window_coliseum"
+    },
+    {
+     "type_id": 18954,
+     "name": "Tunnel, Short",
+     "internal": "tunnel_short"
+    },
+    {
+     "type_id": 18955,
+     "name": "Tunnel, Long",
+     "internal": "tunnel_long"
+    }
+   ]
+  },
+  {
+   "quota_index": 75,
+   "category": "structure_inclines",
+   "maximum_allowed": 300,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 19200,
+     "name": "Bank, 1x1",
+     "internal": "bank_1x1"
+    },
+    {
+     "type_id": 19201,
+     "name": "Bank, 1x2",
+     "internal": "bank_1x2"
+    },
+    {
+     "type_id": 19202,
+     "name": "Bank, 2x1",
+     "internal": "bank_2x1"
+    },
+    {
+     "type_id": 19203,
+     "name": "Bank, 2x2",
+     "internal": "bank_2x2"
+    },
+    {
+     "type_id": 19204,
+     "name": "Ramp, 1x2",
+     "internal": "ramp_1x2"
+    },
+    {
+     "type_id": 19205,
+     "name": "Ramp, 1x2, Shallow",
+     "internal": "ramp_1x2_shallow"
+    },
+    {
+     "type_id": 19206,
+     "name": "Ramp, 2x2",
+     "internal": "ramp_2x2"
+    },
+    {
+     "type_id": 19207,
+     "name": "Ramp, 2x2, Steep",
+     "internal": "ramp_2x2_steep"
+    },
+    {
+     "type_id": 19208,
+     "name": "Ramp, Circular, Small",
+     "internal": "ramp_circular_small"
+    },
+    {
+     "type_id": 19209,
+     "name": "Ramp, Circular, Large",
+     "internal": "ramp_circular_large"
+    },
+    {
+     "type_id": 19210,
+     "name": "Ramp, Bridge, Small",
+     "internal": "ramp_bridge_small"
+    },
+    {
+     "type_id": 19211,
+     "name": "Ramp, Bridge, Medium",
+     "internal": "ramp_bridge_medium"
+    },
+    {
+     "type_id": 19212,
+     "name": "Ramp, Bridge, Large",
+     "internal": "ramp_bridge_large"
+    },
+    {
+     "type_id": 19213,
+     "name": "Ramp, XL",
+     "internal": "ramp_4x2"
+    },
+    {
+     "type_id": 19214,
+     "name": "Ramp, Stunt",
+     "internal": "ramp_stunt"
+    }
+   ]
+  },
+  {
+   "quota_index": 76,
+   "category": "structure_natural",
+   "maximum_allowed": 150,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 19456,
+     "name": "Rock, Small",
+     "internal": "rock_small"
+    },
+    {
+     "type_id": 19457,
+     "name": "Rock, Flat",
+     "internal": "rock_flat"
+    },
+    {
+     "type_id": 19458,
+     "name": "Rock, Medium 1",
+     "internal": "rock_med1"
+    },
+    {
+     "type_id": 19459,
+     "name": "Rock, Medium 2",
+     "internal": "rock_med2"
+    },
+    {
+     "type_id": 19460,
+     "name": "Rock, Spire 1",
+     "internal": "rock_spire1"
+    },
+    {
+     "type_id": 19461,
+     "name": "Rock, Spire 2",
+     "internal": "rock_spire2"
+    },
+    {
+     "type_id": 19462,
+     "name": "Rock, Seastack",
+     "internal": "rock_seastack"
+    },
+    {
+     "type_id": 19463,
+     "name": "Rock, Arch",
+     "internal": "rock_arch"
+    }
+   ]
+  },
+  {
+   "quota_index": 77,
+   "category": "ff_grid",
+   "maximum_allowed": 4,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 19712,
+     "name": "Grid",
+     "internal": "ff_grid"
+    }
+   ]
+  },
+  {
+   "quota_index": 78,
+   "category": "block_2x2",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 19968,
+     "name": "Block, 2x2, Invisible",
+     "internal": "block_2x2_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 79,
+   "category": "block_1x1",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 20224,
+     "name": "Block, 1x1, Invisible",
+     "internal": "block_1x1_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 80,
+   "category": "block_3x3",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 20480,
+     "name": "Block, 2x2x2, Invisible",
+     "internal": "block_3x3_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 81,
+   "category": "block_4x4",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 20736,
+     "name": "Block, 4x4x2, Invisible",
+     "internal": "block_4x4_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 82,
+   "category": "block_5x5_flat",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 20992,
+     "name": "Block, 4x4x4, Invisible",
+     "internal": "block_5x5_flat_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 83,
+   "category": "block_3x3_flat",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 21248,
+     "name": "Block, 2x1, Flat, Invisible",
+     "internal": "block_3x3_flat_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 84,
+   "category": "block_2x2_flat",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 21504,
+     "name": "Block, 1x1, Flat, Invisible",
+     "internal": "block_2x2_flat_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 85,
+   "category": "block_1x1_flat",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 21760,
+     "name": "Block, 1x1, Small, Invisible",
+     "internal": "block_1x1_flat_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 86,
+   "category": "block_4x4_flat",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 22016,
+     "name": "Block, 2x2, Flat, Invisible",
+     "internal": "block_4x4_flat_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 87,
+   "category": "block_4x4_tall",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 22272,
+     "name": "Block, 4x2, Flat, Invisible",
+     "internal": "block_4x4_tall_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 88,
+   "category": "block_5x1_flat",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 22528,
+     "name": "Block, 4x4, Flat, Invisible",
+     "internal": "block_5x1_flat_invis"
+    }
+   ]
+  },
+  {
+   "quota_index": 89,
+   "category": "ff_thorage_falcons",
+   "maximum_allowed": 16,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 22784,
+     "name": "Falcon, Nose Gun",
+     "internal": "ff_thorage_falcon_default"
+    },
+    {
+     "type_id": 22785,
+     "name": "Falcon, Grenadier",
+     "internal": "ff_thorage_falcon_grenade"
+    },
+    {
+     "type_id": 22786,
+     "name": "Falcon, Transport",
+     "internal": "ff_thorage_falcon_no_guns"
+    }
+   ]
+  },
+  {
+   "quota_index": 90,
+   "category": "ff_thorage_warthog_troop",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 23040,
+     "name": "Warthog, Transport",
+     "internal": "ff_thorage_warthog_troop"
+    }
+   ]
+  },
+  {
+   "quota_index": 91,
+   "category": "ff_thorage_sabre",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 23296,
+     "name": "Sabre",
+     "internal": "ff_thorage_sabre"
+    }
+   ]
+  },
+  {
+   "quota_index": 92,
+   "category": "ff_thorage_seraph",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 23552,
+     "name": "Seraph",
+     "internal": "ff_thorage_seraph"
+    }
+   ]
+  },
+  {
+   "quota_index": 93,
+   "category": "ff_thorage_electric_cart",
+   "maximum_allowed": 16,
+   "price_per_instance": 75,
+   "objects": [
+    {
+     "type_id": 23808,
+     "name": "Cart, Electric",
+     "internal": "ff_thorage_electric_cart"
+    }
+   ]
+  },
+  {
+   "quota_index": 94,
+   "category": "ff_thorage_forklift",
+   "maximum_allowed": 16,
+   "price_per_instance": 75,
+   "objects": [
+    {
+     "type_id": 24064,
+     "name": "Forklift",
+     "internal": "ff_thorage_forklift"
+    }
+   ]
+  },
+  {
+   "quota_index": 95,
+   "category": "ff_thorage_pickup",
+   "maximum_allowed": 16,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 24320,
+     "name": "Pickup",
+     "internal": "ff_thorage_pickup"
+    }
+   ]
+  },
+  {
+   "quota_index": 96,
+   "category": "ff_thorage_truck_cab",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 24576,
+     "name": "Truck Cab",
+     "internal": "ff_thorage_truck_cab"
+    }
+   ]
+  },
+  {
+   "quota_index": 97,
+   "category": "ff_thorage_oni_van",
+   "maximum_allowed": 16,
+   "price_per_instance": 75,
+   "objects": [
+    {
+     "type_id": 24832,
+     "name": "Van, Oni",
+     "internal": "ff_thorage_oni_van"
+    }
+   ]
+  },
+  {
+   "quota_index": 98,
+   "category": "ff_thorage_shade_flak_cannon",
+   "maximum_allowed": 8,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 25088,
+     "name": "Shade, Fuel Rod",
+     "internal": "ff_thorage_shade_flak_cannon"
+    }
+   ]
+  },
+  {
+   "quota_index": 99,
+   "category": "gadget_mancannons",
+   "maximum_allowed": 24,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 25344,
+     "name": "Cannon, Man, Forerunner",
+     "internal": "mancannon_normal_forerunner"
+    },
+    {
+     "type_id": 25345,
+     "name": "Cannon, Man, Heavy, Forerunner",
+     "internal": "mancannon_heavy_forerunner"
+    },
+    {
+     "type_id": 25346,
+     "name": "Cannon, Man, Light, Forerunner",
+     "internal": "mancannon_light_forerunner"
+    },
+    {
+     "type_id": 25347,
+     "name": "Gravity Lift, Forerunner",
+     "internal": "ff_cex_gravlift_forerunner"
+    },
+    {
+     "type_id": 25348,
+     "name": "Gravity Lift, Tall, Forerunner",
+     "internal": "ff_cex_gravlift_tall_forerunner"
+    },
+    {
+     "type_id": 25349,
+     "name": "Cannon, Man, Human",
+     "internal": "ff_cex_mancannon_human"
+    }
+   ]
+  },
+  {
+   "quota_index": 100,
+   "category": "door_oneway_xsmall",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 25600,
+     "name": "One Way Shield 1",
+     "internal": "door_oneway_xsmall"
+    }
+   ]
+  },
+  {
+   "quota_index": 101,
+   "category": "door_oneway_xlarge",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 25856,
+     "name": "One Way Shield 5",
+     "internal": "door_oneway_xlarge"
+    }
+   ]
+  },
+  {
+   "quota_index": 102,
+   "category": "ff_scn_laserwall_small",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 26112,
+     "name": "Shield Wall, Small",
+     "internal": "ff_scn_laserwall_small"
+    }
+   ]
+  },
+  {
+   "quota_index": 103,
+   "category": "ff_scn_laserwall_medium",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 26368,
+     "name": "Shield Wall, Medium",
+     "internal": "ff_scn_laserwall_medium"
+    }
+   ]
+  },
+  {
+   "quota_index": 104,
+   "category": "ff_scn_laserwall_large",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 26624,
+     "name": "Shield Wall, Large",
+     "internal": "ff_scn_laserwall_large"
+    }
+   ]
+  },
+  {
+   "quota_index": 105,
+   "category": "ff_scn_laserwall_xlarge",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 26880,
+     "name": "Shield Wall, X-Large",
+     "internal": "ff_scn_laserwall_xlarge"
+    }
+   ]
+  },
+  {
+   "quota_index": 106,
+   "category": "door_oneway_small",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 27136,
+     "name": "One Way Shield 2 (MCC)",
+     "internal": "door_oneway_small_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 107,
+   "category": "door_oneway_medium",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 27392,
+     "name": "One Way Shield 3 (MCC)",
+     "internal": "door_oneway_medium_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 108,
+   "category": "door_oneway_large",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 27648,
+     "name": "One Way Shield 4 (MCC)",
+     "internal": "door_oneway_large_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 109,
+   "category": "door_shield_small",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 27904,
+     "name": "Shield Door, Small (MCC)",
+     "internal": "door_shield_small_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 110,
+   "category": "door_shield_small1",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 28160,
+     "name": "Shield Door, Small 1 (MCC)",
+     "internal": "door_shield_small1_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 111,
+   "category": "door_shield_large",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 28416,
+     "name": "Shield Door, Large (MCC)",
+     "internal": "door_shield_large_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 112,
+   "category": "door_shield_large1",
+   "maximum_allowed": 36,
+   "price_per_instance": 200,
+   "objects": [
+    {
+     "type_id": 28672,
+     "name": "Shield Door, Large 1 (MCC)",
+     "internal": "door_shield_large1_mcc"
+    }
+   ]
+  },
+  {
+   "quota_index": 113,
+   "category": "ff_thorage_ammo_box",
+   "maximum_allowed": 12,
+   "price_per_instance": 250,
+   "objects": [
+    {
+     "type_id": 28928,
+     "name": "Ammo Cabinet",
+     "internal": "ff_thorage_ammo_box"
+    }
+   ]
+  },
+  {
+   "quota_index": 114,
+   "category": "ff_thorage_rocket_ammo",
+   "maximum_allowed": 12,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 29184,
+     "name": "Spnkr Ammo",
+     "internal": "ff_thorage_rocket_ammo"
+    }
+   ]
+  },
+  {
+   "quota_index": 115,
+   "category": "ff_thorage_sniper_ammo",
+   "maximum_allowed": 12,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 29440,
+     "name": "Sniper Ammo",
+     "internal": "ff_thorage_sniper_ammo"
+    }
+   ]
+  },
+  {
+   "quota_index": 116,
+   "category": "ff_scn_barricades",
+   "maximum_allowed": 36,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 29696,
+     "name": "Jersey Barrier",
+     "internal": "ff_scn_jerseybarrier"
+    },
+    {
+     "type_id": 29697,
+     "name": "Jersey Barrier, Short",
+     "internal": "ff_scn_jerseybarrier_short"
+    },
+    {
+     "type_id": 29698,
+     "name": "Heavy Barrier",
+     "internal": "dlc_invasion_heavy_shield"
+    }
+   ]
+  },
+  {
+   "quota_index": 117,
+   "category": "ff_scn_crates",
+   "maximum_allowed": 50,
+   "price_per_instance": 25,
+   "objects": [
+    {
+     "type_id": 29952,
+     "name": "Crate, Small, Closed",
+     "internal": "ff_scn_crate_small_closed"
+    },
+    {
+     "type_id": 29953,
+     "name": "Crate, Metal, Multi",
+     "internal": "ff_scn_crate_metal"
+    },
+    {
+     "type_id": 29954,
+     "name": "Crate, Metal, Single",
+     "internal": "ff_scn_crate_metal_single"
+    },
+    {
+     "type_id": 29955,
+     "name": "Crate, Fully Open",
+     "internal": "ff_scn_cov_crate_b"
+    },
+    {
+     "type_id": 29956,
+     "name": "Crate, Forerunner, Small",
+     "internal": "ff_cex_crate_forerunner_sm"
+    },
+    {
+     "type_id": 29957,
+     "name": "Crate, Forerunner, Large",
+     "internal": "ff_cex_crate_forerunner_lg"
+    }
+   ]
+  },
+  {
+   "quota_index": 118,
+   "category": "ff_scn_pallets",
+   "maximum_allowed": 36,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 30208,
+     "name": "Pallet",
+     "internal": "ff_scn_pallet"
+    },
+    {
+     "type_id": 30209,
+     "name": "Pallet, Large",
+     "internal": "ff_scn_pallet_large"
+    },
+    {
+     "type_id": 30210,
+     "name": "Pallet, Metal",
+     "internal": "ff_scn_pallet_metal"
+    }
+   ]
+  },
+  {
+   "quota_index": 119,
+   "category": "structure_decorative",
+   "maximum_allowed": 36,
+   "price_per_instance": 25,
+   "objects": [
+    {
+     "type_id": 30464,
+     "name": "Driftwood 1",
+     "internal": "dlc_medium_driftwood_a"
+    },
+    {
+     "type_id": 30465,
+     "name": "Driftwood 2",
+     "internal": "dlc_medium_driftwood_b"
+    },
+    {
+     "type_id": 30466,
+     "name": "Driftwood 3",
+     "internal": "dlc_medium_driftwood_c"
+    }
+   ]
+  },
+  {
+   "quota_index": 120,
+   "category": "ff_vehicles",
+   "maximum_allowed": 24,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 30720,
+     "name": "Phantom",
+     "internal": "ff_thorage_phantom"
+    },
+    {
+     "type_id": 30721,
+     "name": "Spirit",
+     "internal": "ff_thorage_spirit"
+    },
+    {
+     "type_id": 30722,
+     "name": "Pelican",
+     "internal": "ff_thorage_pelican"
+    },
+    {
+     "type_id": 30723,
+     "name": "Drop Pod, Elite",
+     "internal": "ff_thorage_drop_pod_elite"
+    },
+    {
+     "type_id": 30724,
+     "name": "Anti Air Gun",
+     "internal": "ff_thorage_anti_air_cannon"
+    }
+   ]
+  },
+  {
+   "quota_index": 121,
+   "category": "ff_thorage_destroyed",
+   "maximum_allowed": 12,
+   "price_per_instance": 100,
+   "objects": [
+    {
+     "type_id": 30976,
+     "name": "Cargo Truck, Destroyed",
+     "internal": "ff_thorage_cargo_truck_destroyed"
+    },
+    {
+     "type_id": 30977,
+     "name": "Falcon, Destroyed",
+     "internal": "ff_thorage_falcon_destroyed"
+    },
+    {
+     "type_id": 30978,
+     "name": "Warthog, Destroyed",
+     "internal": "ff_thorage_warthog_destroyed"
+    }
+   ]
+  },
+  {
+   "quota_index": 122,
+   "category": "ff_scn_chair_folding",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 31232,
+     "name": "Folding Chair",
+     "internal": "ff_scn_chair_folding"
+    }
+   ]
+  },
+  {
+   "quota_index": 123,
+   "category": "ff_scn_dumpster",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 31488,
+     "name": "Dumpster",
+     "internal": "ff_scn_dumpster"
+    }
+   ]
+  },
+  {
+   "quota_index": 124,
+   "category": "ff_scn_dumpster_tall",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 31744,
+     "name": "Dumpster, Tall",
+     "internal": "ff_scn_dumpster_tall"
+    }
+   ]
+  },
+  {
+   "quota_index": 125,
+   "category": "ff_thorage_equipment_case",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 32000,
+     "name": "Equipment Case",
+     "internal": "ff_thorage_equipment_case"
+    }
+   ]
+  },
+  {
+   "quota_index": 126,
+   "category": "ff_thorage_monitor_flush",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 32256,
+     "name": "Monitor",
+     "internal": "ff_thorage_monitor_flush"
+    }
+   ]
+  },
+  {
+   "quota_index": 127,
+   "category": "ff_scn_cov_storage",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 32512,
+     "name": "Plasma Storage",
+     "internal": "ff_scn_cov_storage"
+    }
+   ]
+  },
+  {
+   "quota_index": 128,
+   "category": "ff_scn_cov_stool",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 32768,
+     "name": "Camping Stool, Covenant",
+     "internal": "ff_scn_cov_stool"
+    }
+   ]
+  },
+  {
+   "quota_index": 129,
+   "category": "ff_scn_cov_antenna",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 33024,
+     "name": "Covenant Antenna",
+     "internal": "ff_scn_cov_antenna"
+    }
+   ]
+  },
+  {
+   "quota_index": 130,
+   "category": "ff_thorage_fuel_storage",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 33280,
+     "name": "Fuel Storage",
+     "internal": "ff_thorage_fuel_storage"
+    }
+   ]
+  },
+  {
+   "quota_index": 131,
+   "category": "dlc_slayer_cart_a",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 33536,
+     "name": "Engine Cart",
+     "internal": "dlc_slayer_cart_a"
+    }
+   ]
+  },
+  {
+   "quota_index": 132,
+   "category": "dlc_slayer_cart_b",
+   "maximum_allowed": 30,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 33792,
+     "name": "Missile Cart",
+     "internal": "dlc_slayer_cart_b"
+    }
+   ]
+  },
+  {
+   "quota_index": 133,
+   "category": "structure_bridges",
+   "maximum_allowed": 150,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 34048,
+     "name": "Bridge",
+     "internal": "dlc_bridge_down"
+    },
+    {
+     "type_id": 34049,
+     "name": "Platform, Covenant",
+     "internal": "ff_cex_platform_cov"
+    },
+    {
+     "type_id": 34050,
+     "name": "Catwalk, Straight",
+     "internal": "ff_cex_catwalk_straight"
+    },
+    {
+     "type_id": 34051,
+     "name": "Catwalk, Short",
+     "internal": "ff_cex_catwalk_short"
+    },
+    {
+     "type_id": 34052,
+     "name": "Catwalk, Bend, Left",
+     "internal": "ff_cex_catwalk_bend_left"
+    },
+    {
+     "type_id": 34053,
+     "name": "Catwalk, Bend, Right",
+     "internal": "ff_cex_catwalk_bend_right"
+    },
+    {
+     "type_id": 34054,
+     "name": "Catwalk, Angled",
+     "internal": "ff_cex_catwalk_angled"
+    },
+    {
+     "type_id": 34055,
+     "name": "Catwalk, Large",
+     "internal": "ff_cex_catwalk_lg"
+    }
+   ]
+  },
+  {
+   "quota_index": 134,
+   "category": "structure_buildings",
+   "maximum_allowed": 36,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 34304,
+     "name": "Bunker, Overlook",
+     "internal": "ff_cex_bunker"
+    },
+    {
+     "type_id": 34305,
+     "name": "Gunners Nest",
+     "internal": "ff_cex_gunner_nest"
+    }
+   ]
+  },
+  {
+   "quota_index": 135,
+   "category": "structure_decorative",
+   "maximum_allowed": 300,
+   "price_per_instance": 50,
+   "objects": [
+    {
+     "type_id": 34560,
+     "name": "Cover, Small",
+     "internal": "ff_cex_cover_sm"
+    },
+    {
+     "type_id": 34561,
+     "name": "Block, Large",
+     "internal": "ff_cex_large_block"
+    },
+    {
+     "type_id": 34562,
+     "name": "Blocker, Hallway",
+     "internal": "ff_cex_hallway_blocker"
+    },
+    {
+     "type_id": 34563,
+     "name": "Column, Stone",
+     "internal": "ff_cex_stone_column"
+    },
+    {
+     "type_id": 34564,
+     "name": "Tombstone",
+     "internal": "ff_cex_tombstone"
+    },
+    {
+     "type_id": 34565,
+     "name": "Cover, Large, Stone",
+     "internal": "ff_cex_stone_block"
+    },
+    {
+     "type_id": 34566,
+     "name": "Cover, Large",
+     "internal": "ff_cex_cover_lg"
+    },
+    {
+     "type_id": 34567,
+     "name": "Walkway Cover",
+     "internal": "ff_thorage_cover_sm"
+    },
+    {
+     "type_id": 34568,
+     "name": "Walkway Cover, Short",
+     "internal": "ff_cex_walkway_cover_short"
+    },
+    {
+     "type_id": 34569,
+     "name": "Cover, Large, Human",
+     "internal": "ff_thorage_cover_lg"
+    },
+    {
+     "type_id": 34570,
+     "name": "I-Beam",
+     "internal": "ff_cex_i_beam"
+    }
+   ]
+  },
+  {
+   "quota_index": 136,
+   "category": "structure_doors",
+   "maximum_allowed": 150,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 34816,
+     "name": "Wall (MCC)",
+     "internal": "wall_mcc"
+    },
+    {
+     "type_id": 34817,
+     "name": "Door (MCC)",
+     "internal": "door_mcc"
+    },
+    {
+     "type_id": 34818,
+     "name": "Door, Human",
+     "internal": "ff_cex_door_human"
+    },
+    {
+     "type_id": 34819,
+     "name": "Door A, Forerunner",
+     "internal": "ff_cex_door_forerunner_a"
+    },
+    {
+     "type_id": 34820,
+     "name": "Door B, Forerunner",
+     "internal": "ff_cex_door_forerunner_b"
+    },
+    {
+     "type_id": 34821,
+     "name": "Door C, Forerunner",
+     "internal": "ff_thorage_door_c"
+    },
+    {
+     "type_id": 34822,
+     "name": "Door D, Forerunner",
+     "internal": "ff_thorage_door_d"
+    },
+    {
+     "type_id": 34823,
+     "name": "Door E, Forerunner",
+     "internal": "ff_thorage_door_e"
+    },
+    {
+     "type_id": 34824,
+     "name": "Door F, Forerunner",
+     "internal": "ff_thorage_door_f"
+    },
+    {
+     "type_id": 34825,
+     "name": "Door G, Forerunner",
+     "internal": "ff_thorage_door_g"
+    },
+    {
+     "type_id": 34826,
+     "name": "Door H, Forerunner",
+     "internal": "ff_thorage_door_h"
+    },
+    {
+     "type_id": 34827,
+     "name": "Wall, Small, Forerunner",
+     "internal": "ff_cex_wall_sm_forerunner"
+    },
+    {
+     "type_id": 34828,
+     "name": "Wall, Large, Forerunner",
+     "internal": "ff_cex_wall_lg_forerunner"
+    }
+   ]
+  },
+  {
+   "quota_index": 137,
+   "category": "structure_natural",
+   "maximum_allowed": 150,
+   "price_per_instance": 10,
+   "objects": [
+    {
+     "type_id": 35072,
+     "name": "Rock, Spire 3",
+     "internal": "dlc_medium_stone_b"
+    },
+    {
+     "type_id": 35073,
+     "name": "Tree, Dead",
+     "internal": "ff_cex_tree_life"
+    }
+   ]
+  },
+  {
+   "quota_index": 138,
+   "category": "ff_thorage_generator",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 35328,
+     "name": "Generator",
+     "internal": "ff_thorage_generator"
+    }
+   ]
+  },
+  {
+   "quota_index": 139,
+   "category": "ff_thorage_vending_machine",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 35584,
+     "name": "Vending Machine",
+     "internal": "ff_thorage_vending_machine"
+    }
+   ]
+  },
+  {
+   "quota_index": 140,
+   "category": "ff_thorage_dinghy",
+   "maximum_allowed": 50,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 35840,
+     "name": "Dinghy",
+     "internal": "ff_thorage_dinghy"
+    }
+   ]
+  },
+  {
+   "quota_index": 141,
+   "category": "ff_thorage_airstrike",
+   "maximum_allowed": 1,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 36096,
+     "name": "Target Designator",
+     "internal": "ff_thorage_airstrike"
+    }
+   ]
+  },
+  {
+   "quota_index": 142,
+   "category": "ff_thorage_pelican_flyable",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 36352,
+     "name": "Pelican, Hovering",
+     "internal": "ff_thorage_pelican_flyable"
+    }
+   ]
+  },
+  {
+   "quota_index": 143,
+   "category": "ff_thorage_phantom_flyable",
+   "maximum_allowed": 16,
+   "price_per_instance": 150,
+   "objects": [
+    {
+     "type_id": 36608,
+     "name": "Phantom, Hovering",
+     "internal": "ff_thorage_phantom_flyable"
+    }
+   ]
+  },
+  {
+   "quota_index": 144,
+   "category": "obj_location_name",
+   "maximum_allowed": 64,
+   "price_per_instance": 0,
+   "objects": [
+    {
+     "type_id": 36864,
+     "name": "Location Name",
+     "internal": "obj_location_name"
+    }
+   ]
+  }
+ ]
+}

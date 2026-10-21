@@ -1,0 +1,15 @@
+{
+  "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894",
+  "constant_va": "0x180a8b29c",
+  "value": 4.17125940322876,
+  "references": [
+    {
+      "ref_va": "0x18019c63c",
+      "entry": "0x18019c604",
+      "target": "0x180a8b29c"
+    }
+  ],
+  "limitations": [
+    "Candidate byte matches require instruction verification; constant uses alone do not establish player effective gravity."
+  ]
+}

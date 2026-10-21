@@ -1,0 +1,194 @@
+[
+  {
+    "id": 34561,
+    "name": "Block, Large",
+    "internal": "ff_cex_large_block",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34561.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.0407,
+      1.3272,
+      1.1005
+    ]
+  },
+  {
+    "id": 34562,
+    "name": "Blocker, Hallway",
+    "internal": "ff_cex_hallway_blocker",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34562.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      4.2303,
+      1.0407,
+      1.566
+    ]
+  },
+  {
+    "id": 34563,
+    "name": "Column, Stone",
+    "internal": "ff_cex_stone_column",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34563.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.4716,
+      0.5278,
+      1.2502
+    ]
+  },
+  {
+    "id": 34564,
+    "name": "Tombstone",
+    "internal": "ff_cex_tombstone",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34564.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.7308,
+      0.7308,
+      0.926
+    ]
+  },
+  {
+    "id": 34565,
+    "name": "Cover, Large, Stone",
+    "internal": "ff_cex_stone_block",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34565.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.957,
+      1.0007,
+      0.8051
+    ]
+  },
+  {
+    "id": 34566,
+    "name": "Cover, Large",
+    "internal": "ff_cex_cover_lg",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34566.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.3912,
+      0.1172,
+      2.1054
+    ]
+  },
+  {
+    "id": 34567,
+    "name": "Walkway Cover",
+    "internal": "ff_thorage_cover_sm",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34567.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.3566,
+      0.0775,
+      0.4814
+    ]
+  },
+  {
+    "id": 34568,
+    "name": "Walkway Cover, Short",
+    "internal": "ff_cex_walkway_cover_short",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34568.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.1446,
+      1.219,
+      0.5542
+    ]
+  },
+  {
+    "id": 34569,
+    "name": "Cover, Large, Human",
+    "internal": "ff_thorage_cover_lg",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34569.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.2981,
+      1.4296,
+      1.128
+    ]
+  },
+  {
+    "id": 34570,
+    "name": "I-Beam",
+    "internal": "ff_cex_i_beam",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34570.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.0649,
+      0.4472,
+      0.2948
+    ]
+  },
+  {
+    "id": 34818,
+    "name": "Door, Human",
+    "internal": "ff_cex_door_human",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34818.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.6,
+      0.2,
+      1.8
+    ]
+  },
+  {
+    "id": 34819,
+    "name": "Door A, Forerunner",
+    "internal": "ff_cex_door_forerunner_a",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34819.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.272,
+      0.0805,
+      1.2495
+    ]
+  }
+]

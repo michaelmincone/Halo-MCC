@@ -1,0 +1,25 @@
+[
+  {
+    "capability": "Historical race drivability sweep",
+    "missing_paths": [
+      "forge/maps/wrong-way/research/v04_smoothness/sweep.py",
+      "forge/maps/wrong-way/research/v04_smoothness/verify.py",
+      "forge/maps/wrong-way/research/v05/check_v05.sh",
+      "forge/maps/wrong-way/research/v05/limits.py"
+    ],
+    "status": "Already absent from the source workspace; not recovered. Race validation cannot be called complete without a verified replacement."
+  },
+  {
+    "capability": "Historical repeated-object worked example",
+    "missing_paths": ["forge/maps/grid-cube/scripts/build.py"],
+    "status": "Already absent from the source workspace. The method and dated user observation remain in forge/object_limit.md."
+  },
+  {
+    "capability": "Optional native asset re-extraction",
+    "missing_paths": [
+      "forge/maps/cannon-odyssey/scripts/inspect_cannons.py",
+      "forge/maps/cannon-odyssey/research/physics/sources/bloc.xml"
+    ],
+    "status": "Already absent from the source workspace. Compiled libraries and extracted geometry, materials and textures are included for building."
+  }
+]

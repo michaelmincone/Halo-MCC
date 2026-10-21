@@ -1,0 +1,42 @@
+{
+  "source_sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894",
+  "method": "Read-only PE bytes, follows function17cddc vtable slot0x318",
+  "rows": [
+    {
+      "engine_index": 1,
+      "table_entry_va": "0x180b95f80",
+      "engine_object_va": "0x180b934c0",
+      "vtable_va": "0x1809951b0",
+      "callback_va": "0x180036940",
+      "first_four_callback_bytes": "b001c3cc"
+    },
+    {
+      "engine_index": 2,
+      "table_entry_va": "0x180b95f88",
+      "engine_object_va": "0x180b96038",
+      "vtable_va": "0x180995508",
+      "callback_va": "0x180036940",
+      "first_four_callback_bytes": "b001c3cc"
+    },
+    {
+      "engine_index": 3,
+      "table_entry_va": "0x180b95f90",
+      "engine_object_va": "0x180b9c9a8",
+      "vtable_va": "0x180a2eb28",
+      "callback_va": "0x180036930",
+      "first_four_callback_bytes": "32c0c3cc"
+    },
+    {
+      "engine_index": 4,
+      "table_entry_va": "0x180b95f98",
+      "engine_object_va": "0x180b95fb0",
+      "vtable_va": "0x1809d92e8",
+      "callback_va": "0x180036930",
+      "first_four_callback_bytes": "32c0c3cc"
+    }
+  ],
+  "limitations": [
+    "Engine names and TLS+0x11 enum labels not established from this byte probe.",
+    "This does not establish Xbox runtime behavior."
+  ]
+}

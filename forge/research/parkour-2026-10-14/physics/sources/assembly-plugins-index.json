@@ -1,0 +1,514 @@
+[
+  {
+    "name": "Chimp",
+    "path": "src/Assembly/Plugins/Chimp",
+    "sha": "9cd6e17c3007355bd1f553f6f580929a6dbcacbe",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Chimp?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Chimp",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/9cd6e17c3007355bd1f553f6f580929a6dbcacbe",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Chimp?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/9cd6e17c3007355bd1f553f6f580929a6dbcacbe",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Chimp"
+    }
+  },
+  {
+    "name": "Examples",
+    "path": "src/Assembly/Plugins/Examples",
+    "sha": "c3c9e1a3212d0f5cf1c0e259dccfaa04a813ee9f",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Examples?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Examples",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/c3c9e1a3212d0f5cf1c0e259dccfaa04a813ee9f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Examples?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/c3c9e1a3212d0f5cf1c0e259dccfaa04a813ee9f",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Examples"
+    }
+  },
+  {
+    "name": "Halo1",
+    "path": "src/Assembly/Plugins/Halo1",
+    "sha": "75a69b61247c982908c660f0475c26c0f03d86df",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/75a69b61247c982908c660f0475c26c0f03d86df",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/75a69b61247c982908c660f0475c26c0f03d86df",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1"
+    }
+  },
+  {
+    "name": "Halo1MCC",
+    "path": "src/Assembly/Plugins/Halo1MCC",
+    "sha": "d60d009e1812b4b3aea1bb7fb85e95159d3efaec",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1MCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1MCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d60d009e1812b4b3aea1bb7fb85e95159d3efaec",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1MCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d60d009e1812b4b3aea1bb7fb85e95159d3efaec",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1MCC"
+    }
+  },
+  {
+    "name": "Halo1OS",
+    "path": "src/Assembly/Plugins/Halo1OS",
+    "sha": "d20e87af03de9ab78fa1d9a3487202756d211861",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1OS?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1OS",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d20e87af03de9ab78fa1d9a3487202756d211861",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1OS?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d20e87af03de9ab78fa1d9a3487202756d211861",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1OS"
+    }
+  },
+  {
+    "name": "Halo1PC",
+    "path": "src/Assembly/Plugins/Halo1PC",
+    "sha": "7a899e2e9fc3139fe0557e411810ac25b143a843",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1PC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1PC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/7a899e2e9fc3139fe0557e411810ac25b143a843",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo1PC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/7a899e2e9fc3139fe0557e411810ac25b143a843",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo1PC"
+    }
+  },
+  {
+    "name": "Halo2",
+    "path": "src/Assembly/Plugins/Halo2",
+    "sha": "2de18f6819194d22feb343b74e9f75533ebb8c6c",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/2de18f6819194d22feb343b74e9f75533ebb8c6c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/2de18f6819194d22feb343b74e9f75533ebb8c6c",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2"
+    }
+  },
+  {
+    "name": "Halo2A",
+    "path": "src/Assembly/Plugins/Halo2A",
+    "sha": "c8d5d8e9755838b39900491ae4112de6a73cf2aa",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2A?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2A",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/c8d5d8e9755838b39900491ae4112de6a73cf2aa",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2A?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/c8d5d8e9755838b39900491ae4112de6a73cf2aa",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2A"
+    }
+  },
+  {
+    "name": "Halo2AMCC",
+    "path": "src/Assembly/Plugins/Halo2AMCC",
+    "sha": "ef6326e5dbe35153cef01e818bbd8bf2aa32dfe4",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2AMCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2AMCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/ef6326e5dbe35153cef01e818bbd8bf2aa32dfe4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2AMCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/ef6326e5dbe35153cef01e818bbd8bf2aa32dfe4",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2AMCC"
+    }
+  },
+  {
+    "name": "Halo2Alpha",
+    "path": "src/Assembly/Plugins/Halo2Alpha",
+    "sha": "a8ce76f7d3203d342cfc60b3c4ccca0f90a40343",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2Alpha?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2Alpha",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/a8ce76f7d3203d342cfc60b3c4ccca0f90a40343",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2Alpha?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/a8ce76f7d3203d342cfc60b3c4ccca0f90a40343",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2Alpha"
+    }
+  },
+  {
+    "name": "Halo2Beta",
+    "path": "src/Assembly/Plugins/Halo2Beta",
+    "sha": "1b4e642b2664de2a7345a3cfbbed151deb540628",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2Beta?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2Beta",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/1b4e642b2664de2a7345a3cfbbed151deb540628",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2Beta?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/1b4e642b2664de2a7345a3cfbbed151deb540628",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2Beta"
+    }
+  },
+  {
+    "name": "Halo2E3_04",
+    "path": "src/Assembly/Plugins/Halo2E3_04",
+    "sha": "d902977e7ddc26d1400598a345a9fd989c4c9490",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2E3_04?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2E3_04",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d902977e7ddc26d1400598a345a9fd989c4c9490",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2E3_04?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d902977e7ddc26d1400598a345a9fd989c4c9490",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2E3_04"
+    }
+  },
+  {
+    "name": "Halo2MCC",
+    "path": "src/Assembly/Plugins/Halo2MCC",
+    "sha": "87d1663d07810dff44f9c77c761c683b708084bb",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2MCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2MCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/87d1663d07810dff44f9c77c761c683b708084bb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2MCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/87d1663d07810dff44f9c77c761c683b708084bb",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2MCC"
+    }
+  },
+  {
+    "name": "Halo2Xbox",
+    "path": "src/Assembly/Plugins/Halo2Xbox",
+    "sha": "00b11014441ff0f51a19e775ac0a017116d0f9eb",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2Xbox?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2Xbox",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/00b11014441ff0f51a19e775ac0a017116d0f9eb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo2Xbox?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/00b11014441ff0f51a19e775ac0a017116d0f9eb",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo2Xbox"
+    }
+  },
+  {
+    "name": "Halo3",
+    "path": "src/Assembly/Plugins/Halo3",
+    "sha": "f18a46d2e97abb6b283d9baed85df45d0caa3818",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/f18a46d2e97abb6b283d9baed85df45d0caa3818",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/f18a46d2e97abb6b283d9baed85df45d0caa3818",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3"
+    }
+  },
+  {
+    "name": "Halo3Alpha",
+    "path": "src/Assembly/Plugins/Halo3Alpha",
+    "sha": "bd96df284bb78bdd6f43e9b4f723bcd3129179d6",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3Alpha?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3Alpha",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/bd96df284bb78bdd6f43e9b4f723bcd3129179d6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3Alpha?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/bd96df284bb78bdd6f43e9b4f723bcd3129179d6",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3Alpha"
+    }
+  },
+  {
+    "name": "Halo3Beta",
+    "path": "src/Assembly/Plugins/Halo3Beta",
+    "sha": "19ba33c5752e268e779e110ca86f01b8aa0b1d38",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3Beta?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3Beta",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/19ba33c5752e268e779e110ca86f01b8aa0b1d38",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3Beta?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/19ba33c5752e268e779e110ca86f01b8aa0b1d38",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3Beta"
+    }
+  },
+  {
+    "name": "Halo3MCC",
+    "path": "src/Assembly/Plugins/Halo3MCC",
+    "sha": "7ff9f29f659f9c6a410fa1f1bc83e17dd6a9c489",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3MCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3MCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/7ff9f29f659f9c6a410fa1f1bc83e17dd6a9c489",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3MCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/7ff9f29f659f9c6a410fa1f1bc83e17dd6a9c489",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3MCC"
+    }
+  },
+  {
+    "name": "Halo3PreAlpha",
+    "path": "src/Assembly/Plugins/Halo3PreAlpha",
+    "sha": "6119ed4cff924c2d9183c0ca980d6015970d8819",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3PreAlpha?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3PreAlpha",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/6119ed4cff924c2d9183c0ca980d6015970d8819",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo3PreAlpha?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/6119ed4cff924c2d9183c0ca980d6015970d8819",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo3PreAlpha"
+    }
+  },
+  {
+    "name": "Halo4",
+    "path": "src/Assembly/Plugins/Halo4",
+    "sha": "a7bf10057038270984152fdeb90d90b79cde747d",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo4?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo4",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/a7bf10057038270984152fdeb90d90b79cde747d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo4?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/a7bf10057038270984152fdeb90d90b79cde747d",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo4"
+    }
+  },
+  {
+    "name": "Halo4MCC",
+    "path": "src/Assembly/Plugins/Halo4MCC",
+    "sha": "d38ad01e31b90ce5e0b72c123ef573eeced4135e",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo4MCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo4MCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d38ad01e31b90ce5e0b72c123ef573eeced4135e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo4MCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d38ad01e31b90ce5e0b72c123ef573eeced4135e",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo4MCC"
+    }
+  },
+  {
+    "name": "Halo4NetTest",
+    "path": "src/Assembly/Plugins/Halo4NetTest",
+    "sha": "3bb056c9b1df5336b3e53a77a88aac3061b948b9",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo4NetTest?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo4NetTest",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/3bb056c9b1df5336b3e53a77a88aac3061b948b9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Halo4NetTest?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/3bb056c9b1df5336b3e53a77a88aac3061b948b9",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Halo4NetTest"
+    }
+  },
+  {
+    "name": "HaloOnline",
+    "path": "src/Assembly/Plugins/HaloOnline",
+    "sha": "89bc06b8e5fd8cdc2b87fdf7d56bfc7867e156d3",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/HaloOnline?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/HaloOnline",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/89bc06b8e5fd8cdc2b87fdf7d56bfc7867e156d3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/HaloOnline?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/89bc06b8e5fd8cdc2b87fdf7d56bfc7867e156d3",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/HaloOnline"
+    }
+  },
+  {
+    "name": "ODST",
+    "path": "src/Assembly/Plugins/ODST",
+    "sha": "3d5be744c14d42c74235721f8b2e64cacb3345cb",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ODST?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ODST",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/3d5be744c14d42c74235721f8b2e64cacb3345cb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ODST?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/3d5be744c14d42c74235721f8b2e64cacb3345cb",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ODST"
+    }
+  },
+  {
+    "name": "ODSTMCC",
+    "path": "src/Assembly/Plugins/ODSTMCC",
+    "sha": "ec027946460c99df4e4f32e20016529c053d0934",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ODSTMCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ODSTMCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/ec027946460c99df4e4f32e20016529c053d0934",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ODSTMCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/ec027946460c99df4e4f32e20016529c053d0934",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ODSTMCC"
+    }
+  },
+  {
+    "name": "Reach",
+    "path": "src/Assembly/Plugins/Reach",
+    "sha": "7bddccc44fb2dd81307b182077288d246ff32f93",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Reach?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Reach",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/7bddccc44fb2dd81307b182077288d246ff32f93",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Reach?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/7bddccc44fb2dd81307b182077288d246ff32f93",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Reach"
+    }
+  },
+  {
+    "name": "ReachAlpha",
+    "path": "src/Assembly/Plugins/ReachAlpha",
+    "sha": "f54b1c55a554ede8af399e2745f755e53ec0e598",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ReachAlpha?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ReachAlpha",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/f54b1c55a554ede8af399e2745f755e53ec0e598",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ReachAlpha?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/f54b1c55a554ede8af399e2745f755e53ec0e598",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ReachAlpha"
+    }
+  },
+  {
+    "name": "ReachBeta",
+    "path": "src/Assembly/Plugins/ReachBeta",
+    "sha": "d59429580b05251de187f7850cc2b1ececc330be",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ReachBeta?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ReachBeta",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d59429580b05251de187f7850cc2b1ececc330be",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ReachBeta?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/d59429580b05251de187f7850cc2b1ececc330be",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ReachBeta"
+    }
+  },
+  {
+    "name": "ReachMCC",
+    "path": "src/Assembly/Plugins/ReachMCC",
+    "sha": "a3e7f4873d1b7efb678d056aa83d0ff7f5288668",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ReachMCC?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ReachMCC",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/a3e7f4873d1b7efb678d056aa83d0ff7f5288668",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/ReachMCC?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/a3e7f4873d1b7efb678d056aa83d0ff7f5288668",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/ReachMCC"
+    }
+  },
+  {
+    "name": "Shadow",
+    "path": "src/Assembly/Plugins/Shadow",
+    "sha": "9c509f5fb4a6b2245152e36756ff132bd6e74f81",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Shadow?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Shadow",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/9c509f5fb4a6b2245152e36756ff132bd6e74f81",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Shadow?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/9c509f5fb4a6b2245152e36756ff132bd6e74f81",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Shadow"
+    }
+  },
+  {
+    "name": "Stubbs",
+    "path": "src/Assembly/Plugins/Stubbs",
+    "sha": "8c187c6d0f0ba769e743ddab93412d9081fc1147",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Stubbs?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Stubbs",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/8c187c6d0f0ba769e743ddab93412d9081fc1147",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/Stubbs?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/8c187c6d0f0ba769e743ddab93412d9081fc1147",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/Stubbs"
+    }
+  },
+  {
+    "name": "StubbsR",
+    "path": "src/Assembly/Plugins/StubbsR",
+    "sha": "8a67417460a7c63f12e0faeaa99b8b0a12129abb",
+    "size": 0,
+    "url": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/StubbsR?ref=dev",
+    "html_url": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/StubbsR",
+    "git_url": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/8a67417460a7c63f12e0faeaa99b8b0a12129abb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/XboxChaos/Assembly/contents/src/Assembly/Plugins/StubbsR?ref=dev",
+      "git": "https://api.github.com/repos/XboxChaos/Assembly/git/trees/8a67417460a7c63f12e0faeaa99b8b0a12129abb",
+      "html": "https://github.com/XboxChaos/Assembly/tree/dev/src/Assembly/Plugins/StubbsR"
+    }
+  }
+]

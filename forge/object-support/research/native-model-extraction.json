@@ -1,0 +1,2592 @@
+{
+  "cache_sha256": "12270ddad452bce9afaef6000d5a18f2ba7c363ffbe7fcb59375619dbeebfcf4",
+  "decoder_sha256": "c7b6c83442d28e688380eba8026717187d9d29d5e8e71bd1c47bc308885ec5e2",
+  "completed": [
+    {
+      "name": "Block, 1x1",
+      "tag_index": 7960,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7960.json.gz",
+      "sha256": "161a2d226270a1ffabab9dbc9a1ab4614271a026b5ab2290d6ce8f04fdeab740",
+      "sections": 1,
+      "vertices": 532,
+      "triangles": 258,
+      "minimum": [
+        -0.5091015696525574,
+        -0.509102463722229,
+        -0.5
+      ],
+      "maximum": [
+        0.50909423828125,
+        0.5091080665588379,
+        0.5000002980232239
+      ]
+    },
+    {
+      "name": "Block, 1x4",
+      "tag_index": 8012,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/8012.json.gz",
+      "sha256": "1583aefa8ca2a5461a0de51ee9d3814c0eaf0200d3141d1ba544c92b23913b2f",
+      "sections": 1,
+      "vertices": 1124,
+      "triangles": 612,
+      "minimum": [
+        -2.0077638626098633,
+        -0.50904780626297,
+        -0.5090991258621216
+      ],
+      "maximum": [
+        2.007763624191284,
+        0.5091482996940613,
+        0.5090991258621216
+      ]
+    },
+    {
+      "name": "Bank, 1x2",
+      "tag_index": 8551,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/8551.json.gz",
+      "sha256": "83bed0773287f56aa5196a6252c2f2097e40a918f2f5b1aa59fcd17665221e85",
+      "sections": 1,
+      "vertices": 22,
+      "triangles": 10,
+      "minimum": [
+        -1.0,
+        3.814697180359872e-08,
+        -0.5
+      ],
+      "maximum": [
+        1.1444091541079615e-07,
+        2.0,
+        0.5
+      ]
+    },
+    {
+      "name": "Railing, Long",
+      "tag_index": 8438,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/8438.json.gz",
+      "sha256": "91922afc5e5aa51dfe1aa6236bf491ca5552cc5717f2c63586ac658c0c5029db",
+      "sections": 1,
+      "vertices": 776,
+      "triangles": 434,
+      "minimum": [
+        -0.10000137239694595,
+        -1.499894380569458,
+        0.0
+      ],
+      "maximum": [
+        0.10000117868185043,
+        1.499894380569458,
+        0.3988417387008667
+      ]
+    },
+    {
+      "name": "Rock, Arch",
+      "tag_index": 8704,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/8704.json.gz",
+      "sha256": "b5e3d44725650c13401b3293469e40e8be5c4faa3178b6abb776eb06be53a87a",
+      "sections": 1,
+      "vertices": 603,
+      "triangles": 920,
+      "minimum": [
+        -2.648372173309326,
+        -3.0631768703460693,
+        -1.220703097715159e-06
+      ],
+      "maximum": [
+        2.411090135574341,
+        2.945249557495117,
+        5.78150749206543
+      ]
+    },
+    {
+      "name": "Assault Rifle",
+      "tag_index": 5798,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5798.json.gz",
+      "sha256": "eba7ec6d832f0c61bccd964b9a27fa053076ad0661eee61c31eefc3071edb8a5",
+      "sections": 1,
+      "vertices": 16616,
+      "triangles": 13129,
+      "minimum": [
+        -0.0974775180220604,
+        -0.014488417655229568,
+        -0.015039999037981033
+      ],
+      "maximum": [
+        0.21877913177013397,
+        0.01448839996010065,
+        0.08572011440992355
+      ]
+    },
+    {
+      "name": "DMR",
+      "tag_index": 4472,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4472.json.gz",
+      "sha256": "dd342534970596c1f9fb0046c2868cf9d2ed280f2d16b834c6755dfde3c4912a",
+      "sections": 1,
+      "vertices": 15780,
+      "triangles": 16286,
+      "minimum": [
+        -0.12622977793216705,
+        -0.009811855852603912,
+        -0.012604515999555588
+      ],
+      "maximum": [
+        0.23138286173343658,
+        0.016076551750302315,
+        0.09097941964864731
+      ]
+    },
+    {
+      "name": "Grenade Launcher",
+      "tag_index": 5933,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5933.json.gz",
+      "sha256": "2f3961533f6a91a1e6b882e6873003432c1452dcf3cd6cd167d91cd95cf8fe5b",
+      "sections": 1,
+      "vertices": 10729,
+      "triangles": 13869,
+      "minimum": [
+        -0.02479935809969902,
+        -0.03092951513826847,
+        -0.011381729505956173
+      ],
+      "maximum": [
+        0.22966641187667847,
+        0.026057852432131767,
+        0.09715498983860016
+      ]
+    },
+    {
+      "name": "Magnum",
+      "tag_index": 5708,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5708.json.gz",
+      "sha256": "df14feee319fed5bfb374c0ef649551c72dcbabc4631bdcad7735841eafb22a4",
+      "sections": 1,
+      "vertices": 4759,
+      "triangles": 5928,
+      "minimum": [
+        -0.04045849293470383,
+        -0.009434165433049202,
+        -0.028128961101174355
+      ],
+      "maximum": [
+        0.07589922845363617,
+        0.009434088133275509,
+        0.05412664636969566
+      ]
+    },
+    {
+      "name": "Rocket Launcher",
+      "tag_index": 4969,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4969.json.gz",
+      "sha256": "2e2e691662b8a9bfc07686881f849fff3d779a3b39fa67efff37148f02db8a4a",
+      "sections": 1,
+      "vertices": 9409,
+      "triangles": 11715,
+      "minimum": [
+        -0.2820393741130829,
+        -0.04061080887913704,
+        -0.03968210145831108
+      ],
+      "maximum": [
+        0.19145047664642334,
+        0.04194643348455429,
+        0.11350288987159729
+      ]
+    },
+    {
+      "name": "Shotgun",
+      "tag_index": 4672,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4672.json.gz",
+      "sha256": "b58b7b086881a83bcf13a156eb1332186ad805fc38be4a88a0509dd36311b6fa",
+      "sections": 2,
+      "vertices": 9430,
+      "triangles": 11348,
+      "minimum": [
+        -0.10228829085826874,
+        -0.014530369080603123,
+        -0.012815361842513084
+      ],
+      "maximum": [
+        0.2845095992088318,
+        0.02515370212495327,
+        0.07496963441371918
+      ]
+    },
+    {
+      "name": "Sniper Rifle",
+      "tag_index": 6089,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6089.json.gz",
+      "sha256": "ee3c1acdf15ec00d9dd0646c66f9b6ce308783562f9408634be3c04e501b03a4",
+      "sections": 1,
+      "vertices": 13220,
+      "triangles": 16393,
+      "minimum": [
+        -0.09888298064470291,
+        -0.03545519709587097,
+        -0.01649271883070469
+      ],
+      "maximum": [
+        0.44591987133026123,
+        0.02080586925148964,
+        0.09515754878520966
+      ]
+    },
+    {
+      "name": "Spartan Laser",
+      "tag_index": 6297,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6297.json.gz",
+      "sha256": "7bb5806a6d1d88d20469deb9ace1a39ff287d705ae997549dc22293992711e73",
+      "sections": 1,
+      "vertices": 9688,
+      "triangles": 11830,
+      "minimum": [
+        -0.26147371530532837,
+        -0.021977897733449936,
+        -0.018050316721200943
+      ],
+      "maximum": [
+        0.13579678535461426,
+        0.0356302410364151,
+        0.1137113869190216
+      ]
+    },
+    {
+      "name": "Frag Grenade",
+      "tag_index": 4375,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4375.json.gz",
+      "sha256": "ab98fafa4c339a429d0bc7c5f1ee0be9047190990253a3c1bfa59c887a027257",
+      "sections": 1,
+      "vertices": 839,
+      "triangles": 932,
+      "minimum": [
+        -0.03379641845822334,
+        -0.0347125343978405,
+        -0.04565263167023659
+      ],
+      "maximum": [
+        0.03400725871324539,
+        0.03441190719604492,
+        0.043942488729953766
+      ]
+    },
+    {
+      "name": "Mounted Machinegun",
+      "tag_index": 4071,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4071.json.gz",
+      "sha256": "fa1277f49ec610f611aa4d8a27c02e1d742740f644c1a58eff0f8761c7c15d9f",
+      "sections": 1,
+      "vertices": 9709,
+      "triangles": 11267,
+      "minimum": [
+        -0.19452135264873505,
+        -0.25743576884269714,
+        -0.003387503093108535
+      ],
+      "maximum": [
+        0.3430273234844208,
+        0.2568816542625427,
+        0.5250222682952881
+      ]
+    },
+    {
+      "name": "Concussion Rifle",
+      "tag_index": 6003,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6003.json.gz",
+      "sha256": "f5571800a263c029526f8120df16d0e8769474d2d9ec392ea5fde7346d33bd76",
+      "sections": 1,
+      "vertices": 13389,
+      "triangles": 16271,
+      "minimum": [
+        -0.10813448578119278,
+        -0.0286602471023798,
+        -0.04853551462292671
+      ],
+      "maximum": [
+        0.22972215712070465,
+        0.03077632561326027,
+        0.07476991415023804
+      ]
+    },
+    {
+      "name": "Energy Sword",
+      "tag_index": 5085,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5085.json.gz",
+      "sha256": "6c28288d0362182e747b000454fd70ec91fc84dcb48aeb6884c71142e3e20e54",
+      "sections": 2,
+      "vertices": 3415,
+      "triangles": 3736,
+      "minimum": [
+        -0.05360843241214752,
+        -0.01624172180891037,
+        -0.0841924175620079
+      ],
+      "maximum": [
+        0.3623368740081787,
+        0.01624133437871933,
+        0.0841924175620079
+      ]
+    },
+    {
+      "name": "Fuel Rod Gun",
+      "tag_index": 6428,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6428.json.gz",
+      "sha256": "dbbd1291ac1b67edf966486a58a3ec1308d7f194ea0bbae54d42b8574b0c7ae8",
+      "sections": 1,
+      "vertices": 12389,
+      "triangles": 15656,
+      "minimum": [
+        -0.22825288772583008,
+        -0.029492905363440514,
+        -0.04664483666419983
+      ],
+      "maximum": [
+        0.2007780373096466,
+        0.031159915030002594,
+        0.13322865962982178
+      ]
+    },
+    {
+      "name": "Gravity Hammer",
+      "tag_index": 5882,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5882.json.gz",
+      "sha256": "8d0022f7a9cbaa487ee383b6c4963b1ac20115c240d96254b64eb85e86a98487",
+      "sections": 1,
+      "vertices": 5400,
+      "triangles": 6355,
+      "minimum": [
+        -0.09381730854511261,
+        -0.05415167286992073,
+        -0.287850022315979
+      ],
+      "maximum": [
+        0.10866129398345947,
+        0.054109930992126465,
+        0.380568265914917
+      ]
+    },
+    {
+      "name": "Focus Rifle",
+      "tag_index": 5183,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5183.json.gz",
+      "sha256": "482fe7b925b8e180623e5deb04792ea8ef9c564d5c8c5dc3ca4f195377aec7b6",
+      "sections": 1,
+      "vertices": 19233,
+      "triangles": 21928,
+      "minimum": [
+        -0.10250429064035416,
+        -0.029185041785240173,
+        -0.04690464586019516
+      ],
+      "maximum": [
+        0.37377500534057617,
+        0.03636345639824867,
+        0.1048828661441803
+      ]
+    },
+    {
+      "name": "Needle Rifle",
+      "tag_index": 5450,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5450.json.gz",
+      "sha256": "d794b7fc49e5ac29346e105d92fcd6659a174dea9428405267fd4f12747b920b",
+      "sections": 1,
+      "vertices": 6357,
+      "triangles": 6939,
+      "minimum": [
+        -0.04980602115392685,
+        -0.03960614651441574,
+        -0.02070879191160202
+      ],
+      "maximum": [
+        0.36562833189964294,
+        0.03931836783885956,
+        0.10202722251415253
+      ]
+    },
+    {
+      "name": "Needler",
+      "tag_index": 6223,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6223.json.gz",
+      "sha256": "885ebc544c8c038284c708103cd0267e730d4545026a02ae7767377452837e0a",
+      "sections": 1,
+      "vertices": 5649,
+      "triangles": 6714,
+      "minimum": [
+        -0.12791863083839417,
+        -0.03777775540947914,
+        -0.05762580782175064
+      ],
+      "maximum": [
+        0.11597241461277008,
+        0.03575609251856804,
+        0.11633001267910004
+      ]
+    },
+    {
+      "name": "Plasma Launcher",
+      "tag_index": 5598,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5598.json.gz",
+      "sha256": "52cc1dd784a03c9c7108c288b0d0083238a35ba410353dbf6c5a80c74bfa44e4",
+      "sections": 1,
+      "vertices": 9000,
+      "triangles": 9509,
+      "minimum": [
+        -0.18814454972743988,
+        -0.0286847110837698,
+        -0.034120459109544754
+      ],
+      "maximum": [
+        0.16883134841918945,
+        0.03347941115498543,
+        0.12162655591964722
+      ]
+    },
+    {
+      "name": "Plasma Pistol",
+      "tag_index": 4799,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4799.json.gz",
+      "sha256": "96e4841d1d199b794a18e4c9df2114b94b6024bac6fbef447011181b08644a30",
+      "sections": 1,
+      "vertices": 3691,
+      "triangles": 3991,
+      "minimum": [
+        -0.019244438037276268,
+        -0.008820727467536926,
+        -0.041248176246881485
+      ],
+      "maximum": [
+        0.10192914307117462,
+        0.013238775543868542,
+        0.05680268630385399
+      ]
+    },
+    {
+      "name": "Plasma Repeater",
+      "tag_index": 5342,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5342.json.gz",
+      "sha256": "7bd2d86d9389fdebe14787b00d7beeb5f7ea277a7231af0d12dffcc239533efd",
+      "sections": 1,
+      "vertices": 7612,
+      "triangles": 7674,
+      "minimum": [
+        -0.09344775974750519,
+        -0.015777066349983215,
+        -0.03728729113936424
+      ],
+      "maximum": [
+        0.2260534018278122,
+        0.01584373600780964,
+        0.07740600407123566
+      ]
+    },
+    {
+      "name": "Plasma Rifle",
+      "tag_index": 6684,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6684.json.gz",
+      "sha256": "e699989c730432167ce5f61c63b438e920928854338d3ba0a15d1c5595a43b83",
+      "sections": 1,
+      "vertices": 6044,
+      "triangles": 7340,
+      "minimum": [
+        -0.10971830785274506,
+        -0.02519601210951805,
+        -0.05109835043549538
+      ],
+      "maximum": [
+        0.0941084548830986,
+        0.025196049362421036,
+        0.07133837789297104
+      ]
+    },
+    {
+      "name": "Spiker",
+      "tag_index": 6765,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6765.json.gz",
+      "sha256": "b51fd68acf0782d528e46f268419240ec2adde05c53494cf6909939a62b498c4",
+      "sections": 1,
+      "vertices": 5342,
+      "triangles": 5989,
+      "minimum": [
+        -0.03840293735265732,
+        -0.03721844032406807,
+        -0.02139407955110073
+      ],
+      "maximum": [
+        0.22968155145645142,
+        0.03721851110458374,
+        0.07441718876361847
+      ]
+    },
+    {
+      "name": "Plasma Grenade",
+      "tag_index": 4407,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4407.json.gz",
+      "sha256": "f735e20a862983696a51eb6159d843b83089f9ae9fa992cfb69b822ac6677001",
+      "sections": 1,
+      "vertices": 590,
+      "triangles": 798,
+      "minimum": [
+        -0.03057471290230751,
+        -0.031207498162984848,
+        -0.031207498162984848
+      ],
+      "maximum": [
+        0.03057471290230751,
+        0.031207498162984848,
+        0.031207498162984848
+      ]
+    },
+    {
+      "name": "Plasma Turret",
+      "tag_index": 4097,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4097.json.gz",
+      "sha256": "e24ef68559cef959326fc7bcc0f39eec4f38a956892ce0d4c91d1958c693800e",
+      "sections": 3,
+      "vertices": 4107,
+      "triangles": 4127,
+      "minimum": [
+        -0.2201281040906906,
+        -0.16500413417816162,
+        -0.0027975712437182665
+      ],
+      "maximum": [
+        0.2991912066936493,
+        0.16447654366493225,
+        0.5070576667785645
+      ]
+    },
+    {
+      "name": "Active Camouflage",
+      "tag_index": 6848,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6848.json.gz",
+      "sha256": "9ca346e76d15c66c25ab3a163f6cf8db6bdfbf83307a25a5ed1bd5c827834aff",
+      "sections": 4,
+      "vertices": 7932,
+      "triangles": 9498,
+      "minimum": [
+        -0.1884728968143463,
+        -0.18337774276733398,
+        -0.003312682965770364
+      ],
+      "maximum": [
+        0.1857692152261734,
+        0.19086261093616486,
+        0.501341700553894
+      ]
+    },
+    {
+      "name": "Jet Pack",
+      "tag_index": 7055,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7055.json.gz",
+      "sha256": "4ec77302a86900ea53f60687b48ca1d7d9fd522980bdb5d07988c0613f32c0f3",
+      "sections": 4,
+      "vertices": 10556,
+      "triangles": 12259,
+      "minimum": [
+        -0.5221736431121826,
+        -0.18969672918319702,
+        -0.17346085608005524
+      ],
+      "maximum": [
+        0.06998497247695923,
+        0.18992076814174652,
+        0.2608489990234375
+      ]
+    },
+    {
+      "name": "Banshee",
+      "tag_index": 2497,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/2497.json.gz",
+      "sha256": "902afe0ced352afcee65ce99201b57a7fc2867b44c7cef288c8ea59a9e30c7d3",
+      "sections": 17,
+      "vertices": 21257,
+      "triangles": 20561,
+      "minimum": [
+        -1.4751935005187988,
+        -1.23862886428833,
+        -0.002756118541583419
+      ],
+      "maximum": [
+        0.8094373941421509,
+        1.2351335287094116,
+        1.1537314653396606
+      ]
+    },
+    {
+      "name": "Falcon",
+      "tag_index": 3555,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/3555.json.gz",
+      "sha256": "09f862d202f47105b844f0eea6261337d2ba2113e96143eb94c281dbc8bee0ba",
+      "sections": 15,
+      "vertices": 49317,
+      "triangles": 44019,
+      "minimum": [
+        -2.1165754795074463,
+        -2.0693585872650146,
+        -0.00052900321315974
+      ],
+      "maximum": [
+        1.6319893598556519,
+        2.069364070892334,
+        1.354541301727295
+      ]
+    },
+    {
+      "name": "Ghost",
+      "tag_index": 450,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/450.json.gz",
+      "sha256": "93e00ff2d888aa46448358a9c68c395d95a119dc09e192f3c9e65adbedb9d640",
+      "sections": 23,
+      "vertices": 34832,
+      "triangles": 30974,
+      "minimum": [
+        -0.7184711694717407,
+        -0.6324118971824646,
+        -0.1513233184814453
+      ],
+      "maximum": [
+        0.6657910943031311,
+        0.6325193047523499,
+        0.451027512550354
+      ]
+    },
+    {
+      "name": "Mongoose",
+      "tag_index": 2766,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/2766.json.gz",
+      "sha256": "3bea1610583f1a04c0ed921cf65e4fc2e1fdbafa253d6caf83a527404285b953",
+      "sections": 19,
+      "vertices": 37819,
+      "triangles": 36830,
+      "minimum": [
+        -0.5359821915626526,
+        -0.30654215812683105,
+        -0.009373951703310013
+      ],
+      "maximum": [
+        0.536475658416748,
+        0.3073296546936035,
+        0.49270278215408325
+      ]
+    },
+    {
+      "name": "Revenant",
+      "tag_index": 2945,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/2945.json.gz",
+      "sha256": "b88d9da36ac022a379c0a94b0898df0a47e83e11d95d3f3d8a71126604c4ad55",
+      "sections": 17,
+      "vertices": 53414,
+      "triangles": 54704,
+      "minimum": [
+        -1.1843982934951782,
+        -0.6605187654495239,
+        0.024775322526693344
+      ],
+      "maximum": [
+        0.9625360369682312,
+        0.6620374917984009,
+        0.653837263584137
+      ]
+    },
+    {
+      "name": "Scorpion",
+      "tag_index": 3135,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/3135.json.gz",
+      "sha256": "6c8129cd3312ab3de088fb0dd20b9191c623627ed0c6d138c3f164ec61c4abcb",
+      "sections": 41,
+      "vertices": 67965,
+      "triangles": 54863,
+      "minimum": [
+        -1.6445270776748657,
+        -1.2772656679153442,
+        -0.10990626364946365
+      ],
+      "maximum": [
+        1.762127161026001,
+        1.3594248294830322,
+        0.84415203332901
+      ]
+    },
+    {
+      "name": "Shade Turret",
+      "tag_index": 4184,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/4184.json.gz",
+      "sha256": "20596309c52c477b9d9b737daf935ff3943ed4fd8119a0709d7eb6be516aef20",
+      "sections": 3,
+      "vertices": 1837,
+      "triangles": 1617,
+      "minimum": [
+        -0.5420019030570984,
+        -0.5402837991714478,
+        -0.026301883161067963
+      ],
+      "maximum": [
+        0.6093611717224121,
+        0.5402837991714478,
+        0.46702247858047485
+      ]
+    },
+    {
+      "name": "Warthog, Default",
+      "tag_index": 1695,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/1695.json.gz",
+      "sha256": "ccdf85c1a8b92a3aef4204fed6b45b7c1d68034f73da9f60b40a70b8d4115bdc",
+      "sections": 39,
+      "vertices": 31253,
+      "triangles": 27237,
+      "minimum": [
+        -1.043468952178955,
+        -0.5092974305152893,
+        -0.007932023145258427
+      ],
+      "maximum": [
+        0.9495158195495605,
+        0.5061203837394714,
+        0.7670797109603882
+      ]
+    },
+    {
+      "name": "Wraith",
+      "tag_index": 1171,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/1171.json.gz",
+      "sha256": "0871b1c0e4b4288de6be91b722d12dc04328097673da7fe5248f9b7ccee74a5d",
+      "sections": 33,
+      "vertices": 32799,
+      "triangles": 32041,
+      "minimum": [
+        -1.9888780117034912,
+        -1.5235954523086548,
+        0.030327683314681053
+      ],
+      "maximum": [
+        0.9744454026222229,
+        1.5079180002212524,
+        0.9753006100654602
+      ]
+    },
+    {
+      "name": "One Way Shield 2",
+      "tag_index": 7342,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7342.json.gz",
+      "sha256": "f9ab42eb1df349164a7dc4a4a0897824354b018a8a3008614d4e79647c205e40",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -0.04874756187200546,
+        -0.6999996304512024,
+        0.0
+      ],
+      "maximum": [
+        0.049983348697423935,
+        0.6999997496604919,
+        1.5000001192092896
+      ]
+    },
+    {
+      "name": "One Way Shield 3",
+      "tag_index": 7365,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7365.json.gz",
+      "sha256": "1de09b7ce42e36c51bae96d69b25c6f577c5e857cea8a5139e6d5e5d2bc7fed2",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -0.04874751344323158,
+        -1.7999998331069946,
+        0.0
+      ],
+      "maximum": [
+        0.049983300268650055,
+        1.8000000715255737,
+        1.8999990224838257
+      ]
+    },
+    {
+      "name": "One Way Shield 4",
+      "tag_index": 7371,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7371.json.gz",
+      "sha256": "8d3dd4fbaa1197114fe5c865959021be5edd3c94105d1b52d8a0891dcde681dc",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -0.04874756559729576,
+        -2.999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.049983348697423935,
+        3.0,
+        4.0
+      ]
+    },
+    {
+      "name": "FX:Colorblind",
+      "tag_index": 7377,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7377.json.gz",
+      "sha256": "8748450ec6f77b8727b6813e6f762983b326d7cd8608e4a5ae961b3ae39ed556",
+      "sections": 1,
+      "vertices": 7768,
+      "triangles": 11138,
+      "minimum": [
+        -0.24154001474380493,
+        -0.24291165173053741,
+        0.00019959150813519955
+      ],
+      "maximum": [
+        0.2401619553565979,
+        0.23803725838661194,
+        0.4803076386451721
+      ]
+    },
+    {
+      "name": "Shield Door, Small",
+      "tag_index": 7434,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7434.json.gz",
+      "sha256": "22c99cf0b759b2eef7b4550790b739513e4737ee573d6abc1437243b86988db1",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -1.0728835775353218e-07,
+        -0.6999999284744263,
+        0.0
+      ],
+      "maximum": [
+        1.1205673420271883e-07,
+        0.6999999284744263,
+        1.5
+      ]
+    },
+    {
+      "name": "Shield Door, Medium",
+      "tag_index": 7440,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7440.json.gz",
+      "sha256": "26973c3260074a9f7c99d8cb2fa9211d0d4b117b387b0bb70eb4424935e8762b",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -5.0067900048134106e-08,
+        -1.7999998331069946,
+        0.0
+      ],
+      "maximum": [
+        6.437301280469031e-08,
+        1.8000000715255737,
+        1.8999990224838257
+      ]
+    },
+    {
+      "name": "Shield Door, Large",
+      "tag_index": 7446,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7446.json.gz",
+      "sha256": "3cd95ce680acb14cab4ecaaeb09eb3a7cfe947fff964182f6e35ab15f84ec1a8",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -1.0013580009626821e-07,
+        -2.999999523162842,
+        0.0
+      ],
+      "maximum": [
+        1.120567392653306e-07,
+        3.0,
+        3.999999523162842
+      ]
+    },
+    {
+      "name": "Golf Club",
+      "tag_index": 7504,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7504.json.gz",
+      "sha256": "5eab952b6f2a0deba65999f0207ae4d5f7a3c0dd3ef09618d6018bbeca6e0f41",
+      "sections": 1,
+      "vertices": 363,
+      "triangles": 450,
+      "minimum": [
+        -0.08965661376714706,
+        -0.06137111410498619,
+        -0.13252973556518555
+      ],
+      "maximum": [
+        0.014831705950200558,
+        0.01777370646595955,
+        0.43583163619041443
+      ]
+    },
+    {
+      "name": "Light, Red, Flashing",
+      "tag_index": 7631,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7631.json.gz",
+      "sha256": "09d51e6b453b8df762769e25276605dc8802d984037fedeaea6d35c8b20260ee",
+      "sections": 1,
+      "vertices": 282,
+      "triangles": 500,
+      "minimum": [
+        -0.10760188847780228,
+        -0.10308528691530228,
+        -0.10453272610902786
+      ],
+      "maximum": [
+        0.10388597846031189,
+        0.10869953036308289,
+        0.10825798660516739
+      ]
+    },
+    {
+      "name": "Light, Yellow, Flashing",
+      "tag_index": 7639,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7639.json.gz",
+      "sha256": "f6a406b0fe61c701a344ca1d93036e7d05c3dbf7e559052d3aa4799d61ee43ad",
+      "sections": 1,
+      "vertices": 282,
+      "triangles": 500,
+      "minimum": [
+        -0.10574392974376678,
+        -0.10589240491390228,
+        -0.10639535635709763
+      ],
+      "maximum": [
+        0.10574393719434738,
+        0.10589240491390228,
+        0.10639535635709763
+      ]
+    },
+    {
+      "name": "Initial Loadout Camera",
+      "tag_index": 379,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/379.json.gz",
+      "sha256": "486c64639111490a794e9e2075e2e904d25b2377c70e9f6ac29216bceca6fa4f",
+      "sections": 1,
+      "vertices": 1187,
+      "triangles": 930,
+      "minimum": [
+        -0.059999823570251465,
+        -0.16392935812473297,
+        -0.08999998867511749
+      ],
+      "maximum": [
+        0.20303113758563995,
+        0.14999999105930328,
+        0.11152294278144836
+      ]
+    },
+    {
+      "name": "Respawn Zone",
+      "tag_index": 257,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/257.json.gz",
+      "sha256": "251d94da349e39ba77f5afcf98b952f03575a67c07152c8ca87a614b64d2e694",
+      "sections": 1,
+      "vertices": 972,
+      "triangles": 1260,
+      "minimum": [
+        -0.05992015078663826,
+        -0.05992015078663826,
+        -0.11249999701976776
+      ],
+      "maximum": [
+        0.05992015078663826,
+        0.05992015078663826,
+        0.11249999701976776
+      ]
+    },
+    {
+      "name": "Safe Boundary",
+      "tag_index": 352,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/352.json.gz",
+      "sha256": "6712c8b542dec9cae9358375e8afc7a50658a65035ea02d0f178a3f06e1cca9d",
+      "sections": 1,
+      "vertices": 591,
+      "triangles": 490,
+      "minimum": [
+        -0.008647973649203777,
+        -0.2131054699420929,
+        -0.26309067010879517
+      ],
+      "maximum": [
+        0.03881404921412468,
+        0.2131054699420929,
+        0.28210848569869995
+      ]
+    },
+    {
+      "name": "Kill Boundary",
+      "tag_index": 364,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/364.json.gz",
+      "sha256": "20214cd7062c716ed6df439d9d7ad5e49a909bebc369e66a5e778261691b4969",
+      "sections": 1,
+      "vertices": 5006,
+      "triangles": 5272,
+      "minimum": [
+        -0.12483356148004532,
+        -0.1572677046060562,
+        -0.14360740780830383
+      ],
+      "maximum": [
+        0.12363454699516296,
+        0.16846230626106262,
+        0.145213782787323
+      ]
+    },
+    {
+      "name": "Hill Marker",
+      "tag_index": 7723,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7723.json.gz",
+      "sha256": "93d2ffd8c67b3bda21ac84be02666912b788b9b1a807fd5070ecf6aaf919bb96",
+      "sections": 1,
+      "vertices": 1173,
+      "triangles": 884,
+      "minimum": [
+        -0.12369255721569061,
+        -0.18779894709587097,
+        -0.0010022926144301891
+      ],
+      "maximum": [
+        0.16581182181835175,
+        0.18779897689819336,
+        0.6380890607833862
+      ]
+    },
+    {
+      "name": "Covenant Barrier",
+      "tag_index": 7755,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7755.json.gz",
+      "sha256": "3c52cc79045980d31328010c6828741d17510cd3293ae62f26f14dd5f06faff8",
+      "sections": 9,
+      "vertices": 10170,
+      "triangles": 10876,
+      "minimum": [
+        -0.7228342294692993,
+        -0.1693277508020401,
+        -4.998207077733241e-05
+      ],
+      "maximum": [
+        0.7225942611694336,
+        0.2654697895050049,
+        0.7994627952575684
+      ]
+    },
+    {
+      "name": "Portable Shield",
+      "tag_index": 7794,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7794.json.gz",
+      "sha256": "357a727ee33233b85f1443b63778b044c8e993567dbf42590c0a834c2ddfe9e2",
+      "sections": 2,
+      "vertices": 2415,
+      "triangles": 2592,
+      "minimum": [
+        -0.4415854811668396,
+        -0.14921176433563232,
+        -4.976218406227417e-05
+      ],
+      "maximum": [
+        0.4415888488292694,
+        0.25517719984054565,
+        0.9377698302268982
+      ]
+    },
+    {
+      "name": "Camping Stool",
+      "tag_index": 7851,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7851.json.gz",
+      "sha256": "ebdac51cd6e8286852f26ea039a6238a6d62ab691ad7af7abc826ae103e462be",
+      "sections": 3,
+      "vertices": 1496,
+      "triangles": 1324,
+      "minimum": [
+        -0.08910714834928513,
+        -0.12166204303503036,
+        -3.499414447105664e-08
+      ],
+      "maximum": [
+        0.08910714834928513,
+        0.12165027111768723,
+        0.23184834420681
+      ]
+    },
+    {
+      "name": "Crate, Heavy Duty",
+      "tag_index": 7869,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7869.json.gz",
+      "sha256": "aa6e54dd2cdad1eb38938374b0277ac93ed76737d8c5c03ab1bdd298d255742a",
+      "sections": 1,
+      "vertices": 4393,
+      "triangles": 4858,
+      "minimum": [
+        -0.5097504258155823,
+        -0.4713852107524872,
+        -0.020091883838176727
+      ],
+      "maximum": [
+        0.5097503662109375,
+        0.4713776409626007,
+        0.7348619103431702
+      ]
+    },
+    {
+      "name": "Crate, Heavy, Small",
+      "tag_index": 7878,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7878.json.gz",
+      "sha256": "ec4bd5ed35447a7ef086bc657a2b7897ddebfdb878c0a1baab70f4441338a315",
+      "sections": 1,
+      "vertices": 2918,
+      "triangles": 3134,
+      "minimum": [
+        -0.5097503662109375,
+        -0.2733936011791229,
+        5.070447878097184e-05
+      ],
+      "maximum": [
+        0.5097501873970032,
+        0.25142717361450195,
+        0.7550045847892761
+      ]
+    },
+    {
+      "name": "Covenant Crate",
+      "tag_index": 7884,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7884.json.gz",
+      "sha256": "677c86887c37a92d47d0bc6bfd0a760a32eb49a3afbaec71e23e4f999d7176ce",
+      "sections": 1,
+      "vertices": 3962,
+      "triangles": 3956,
+      "minimum": [
+        -0.4370970129966736,
+        -0.30942457914352417,
+        -4.577636616431846e-07
+      ],
+      "maximum": [
+        0.4370970129966736,
+        0.30942443013191223,
+        0.9358109831809998
+      ]
+    },
+    {
+      "name": "Crate, Half Open",
+      "tag_index": 7894,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/7894.json.gz",
+      "sha256": "3dd1bb8c910146f3a0505cfa8c3baf08041c8893002f71673b802a182e0b7968",
+      "sections": 2,
+      "vertices": 3724,
+      "triangles": 3698,
+      "minimum": [
+        -0.4370970129966736,
+        -0.30942443013191223,
+        -4.577636616431846e-07
+      ],
+      "maximum": [
+        0.4370970129966736,
+        0.2660869061946869,
+        0.9358109831809998
+      ]
+    },
+    {
+      "name": "Sabre",
+      "tag_index": 8776,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/8776.json.gz",
+      "sha256": "e533dace096379f7b6fb4a76758ffdd6f2e4f809df5fab6e3d13904c4d0823cf",
+      "sections": 12,
+      "vertices": 55064,
+      "triangles": 60677,
+      "minimum": [
+        -4.633296012878418,
+        -3.111983060836792,
+        0.001295274356380105
+      ],
+      "maximum": [
+        3.432814121246338,
+        3.106794595718384,
+        2.1697211265563965
+      ]
+    },
+    {
+      "name": "Seraph",
+      "tag_index": 9049,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9049.json.gz",
+      "sha256": "eec7fafadb389e528508c0f9c533c779957793a15583c71f8509699402db6f2c",
+      "sections": 5,
+      "vertices": 18345,
+      "triangles": 20067,
+      "minimum": [
+        -10.686625480651855,
+        -3.598074436187744,
+        -0.9904825091362
+      ],
+      "maximum": [
+        5.259080410003662,
+        3.5980701446533203,
+        3.030864953994751
+      ]
+    },
+    {
+      "name": "Cart, Electric",
+      "tag_index": 9135,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9135.json.gz",
+      "sha256": "8b6849b8ee341d46ab832679a8e3b73c2c9d88ea84d3339ef2caefe1ad7d8540",
+      "sections": 2,
+      "vertices": 13472,
+      "triangles": 14608,
+      "minimum": [
+        -0.6649621725082397,
+        -0.5387056469917297,
+        -0.0017579650739207864
+      ],
+      "maximum": [
+        0.6992862224578857,
+        0.5071946978569031,
+        0.8992535471916199
+      ]
+    },
+    {
+      "name": "Forklift",
+      "tag_index": 9232,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9232.json.gz",
+      "sha256": "ccd7123e9d81eb8e2308121b4e6ba5cec7d0f6ef4d61f50ef6dbbe6c0c751e59",
+      "sections": 2,
+      "vertices": 8113,
+      "triangles": 8382,
+      "minimum": [
+        -0.7642135620117188,
+        -0.4289983808994293,
+        -0.0010430138790979981
+      ],
+      "maximum": [
+        1.233927607536316,
+        0.39080139994621277,
+        0.95316481590271
+      ]
+    },
+    {
+      "name": "Pickup",
+      "tag_index": 9299,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9299.json.gz",
+      "sha256": "ee08eb4e0a72529eaca732e4b5fd1cb30367956f0c072ce2997369ed7ebeebbc",
+      "sections": 10,
+      "vertices": 27465,
+      "triangles": 25669,
+      "minimum": [
+        -1.1471917629241943,
+        -0.5107299089431763,
+        -0.005413455422967672
+      ],
+      "maximum": [
+        0.9841156005859375,
+        0.5107298493385315,
+        0.7999473214149475
+      ]
+    },
+    {
+      "name": "Truck Cab",
+      "tag_index": 9404,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9404.json.gz",
+      "sha256": "7f01c74c28d2379064f462fa5ae3e184b978dad7eabc4b2cabe80b7c30e0654f",
+      "sections": 6,
+      "vertices": 21133,
+      "triangles": 21644,
+      "minimum": [
+        -1.3941377401351929,
+        -0.6413335204124451,
+        -0.04501190036535263
+      ],
+      "maximum": [
+        1.2943310737609863,
+        0.644498884677887,
+        1.859028697013855
+      ]
+    },
+    {
+      "name": "Van, Oni",
+      "tag_index": 9583,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9583.json.gz",
+      "sha256": "14ad748225718718fa1b8e9819f4ff64d6839cbc68bba4f8bdd4189258920627",
+      "sections": 4,
+      "vertices": 14842,
+      "triangles": 16846,
+      "minimum": [
+        -1.4209367036819458,
+        -0.6549612283706665,
+        -0.00959794782102108
+      ],
+      "maximum": [
+        1.2458913326263428,
+        0.6649330854415894,
+        1.4609949588775635
+      ]
+    },
+    {
+      "name": "Gravity Lift, Forerunner",
+      "tag_index": 9691,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9691.json.gz",
+      "sha256": "eaf8be5480a0680b89305f1ca79fbafd3abb7be3058e323fcd2748f79ee52d46",
+      "sections": 1,
+      "vertices": 540,
+      "triangles": 308,
+      "minimum": [
+        -0.5321670174598694,
+        -0.29999998211860657,
+        -0.04999999701976776
+      ],
+      "maximum": [
+        0.5321670174598694,
+        0.3999999761581421,
+        0.05767999589443207
+      ]
+    },
+    {
+      "name": "Gravity Lift, Tall, Forerunner",
+      "tag_index": 9746,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9746.json.gz",
+      "sha256": "4350fa880a2d568de75e2a2ab1105b730f5fcb13ade3fdde0ddaae8fc57e374e",
+      "sections": 1,
+      "vertices": 634,
+      "triangles": 364,
+      "minimum": [
+        -0.5321670174598694,
+        -0.29999998211860657,
+        -0.04999999701976776
+      ],
+      "maximum": [
+        0.5321670174598694,
+        0.3999999761581421,
+        0.05767999589443207
+      ]
+    },
+    {
+      "name": "Cannon, Man, Human",
+      "tag_index": 9758,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9758.json.gz",
+      "sha256": "d1e92a2b9c11955a6baa8a181738ffcdcbbe973a2f194384efe4cda1bb6355ee",
+      "sections": 1,
+      "vertices": 416,
+      "triangles": 524,
+      "minimum": [
+        -0.5706485509872437,
+        -0.23876841366291046,
+        -0.2231464684009552
+      ],
+      "maximum": [
+        0.41712746024131775,
+        0.26916906237602234,
+        0.623328447341919
+      ]
+    },
+    {
+      "name": "One Way Shield 1",
+      "tag_index": 9775,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9775.json.gz",
+      "sha256": "156c86aa38eaae25c6079ddf00fcfa35484b67047bcad1092fd348e2e229884e",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -0.04874756559729576,
+        -0.5511458516120911,
+        0.0
+      ],
+      "maximum": [
+        0.049983348697423935,
+        0.5408249497413635,
+        1.119168996810913
+      ]
+    },
+    {
+      "name": "One Way Shield 5",
+      "tag_index": 9781,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9781.json.gz",
+      "sha256": "ada6fc3bfb61e30bf1f2dc72a0c41ef3213c4e86c59974fe157cef648fc78aab",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -0.04874754324555397,
+        -1.9533573389053345,
+        0.0
+      ],
+      "maximum": [
+        0.049983568489551544,
+        1.95078444480896,
+        1.2659399509429932
+      ]
+    },
+    {
+      "name": "Shield Wall, Small",
+      "tag_index": 9787,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9787.json.gz",
+      "sha256": "2e6919fe35494f3d72a6619b88a1278e223baa8d5f9d4a51adebc9edf7f8f236",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -9.477593465589962e-08,
+        -0.7499987483024597,
+        1.7881390590446244e-07
+      ],
+      "maximum": [
+        1.5317930387849213e-07,
+        0.7500012516975403,
+        1.5999997854232788
+      ]
+    },
+    {
+      "name": "Shield Wall, Medium",
+      "tag_index": 9795,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9795.json.gz",
+      "sha256": "f43b264453c0bc3cd7d42f67b1039eddc73cb5a1edff7749a56f12ea3f702ad5",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -2.781606553980964e-07,
+        -1.3999996185302734,
+        1.7881390590446244e-07
+      ],
+      "maximum": [
+        2.9723422956173855e-07,
+        1.399999737739563,
+        1.7999998331069946
+      ]
+    },
+    {
+      "name": "Shield Wall, Large",
+      "tag_index": 9801,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9801.json.gz",
+      "sha256": "793e6db7b664cdf1823723decbe72d605dd97a3b70e4fb62081308a04146238a",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -6.588327892131929e-07,
+        -3.399998903274536,
+        1.7881390590446244e-07
+      ],
+      "maximum": [
+        1.0260085017946315e-06,
+        3.3999991416931152,
+        5.799999237060547
+      ]
+    },
+    {
+      "name": "Shield Wall, X-Large",
+      "tag_index": 9807,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9807.json.gz",
+      "sha256": "20aafb330516312785ba12816c9e5c2001dcea9b04cdd9414b3ed94e1624e498",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -1.3554148381444975e-06,
+        -5.899997234344482,
+        1.7881390590446244e-07
+      ],
+      "maximum": [
+        1.7400755903624029e-06,
+        5.899999141693115,
+        5.999999046325684
+      ]
+    },
+    {
+      "name": "One Way Shield 2 (MCC)",
+      "tag_index": 9814,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9814.json.gz",
+      "sha256": "d5bfa0a3717f8c87bafc799e0cf85829f4352029cedd2ef20bd7a28931eae166",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -4.882812390860636e-06,
+        -0.8000006079673767,
+        0.0
+      ],
+      "maximum": [
+        1.0375976159882061e-05,
+        0.7999993562698364,
+        1.5
+      ]
+    },
+    {
+      "name": "One Way Shield 3 (MCC)",
+      "tag_index": 9828,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9828.json.gz",
+      "sha256": "172d409b2c87ea350e4f958ebc049af70762c4da2cbcad1e218a6b233cd432d7",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -4.882812390860636e-06,
+        -1.692155361175537,
+        -1.220703097715159e-06
+      ],
+      "maximum": [
+        1.0986327701911769e-05,
+        1.6921569108963013,
+        3.1499998569488525
+      ]
+    },
+    {
+      "name": "One Way Shield 4 (MCC)",
+      "tag_index": 9835,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9835.json.gz",
+      "sha256": "05214c5ac914d9ff29584831a85708b6234e05911bdddac8f3b620bcf83103ed",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -3.0517576306010596e-06,
+        -5.000003337860107,
+        0.0
+      ],
+      "maximum": [
+        1.5869140031210538e-05,
+        5.000003337860107,
+        8.0
+      ]
+    },
+    {
+      "name": "Shield Door, Small (MCC)",
+      "tag_index": 9843,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9843.json.gz",
+      "sha256": "4ee354f64d7764cd4271fef376abab993fb2e631cfee98cc6d2f41a382021084",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -1.1999999284744263,
+        -1.1025792360305786,
+        -0.17013733088970184
+      ],
+      "maximum": [
+        1.2000004053115845,
+        -0.08058959990739822,
+        1.6000009775161743
+      ]
+    },
+    {
+      "name": "Shield Door, Small 1 (MCC)",
+      "tag_index": 9850,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9850.json.gz",
+      "sha256": "1b7d81e8bd163a61677d588ad1db476338c99bf751422daa4382e6c17a74fe4d",
+      "sections": 1,
+      "vertices": 8,
+      "triangles": 4,
+      "minimum": [
+        -1.1999999284744263,
+        -0.9223973751068115,
+        -0.17013733088970184
+      ],
+      "maximum": [
+        1.2000004053115845,
+        0.09959228336811066,
+        1.6000009775161743
+      ]
+    },
+    {
+      "name": "Shield Door, Large (MCC)",
+      "tag_index": 9857,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9857.json.gz",
+      "sha256": "632af03d709fd8646c7d4e0f109684097cc4356365032d6efa87cb3df861184b",
+      "sections": 1,
+      "vertices": 10,
+      "triangles": 6,
+      "minimum": [
+        -4.146607398986816,
+        -4.494053363800049,
+        -0.17013733088970184
+      ],
+      "maximum": [
+        4.146606922149658,
+        -0.4967452883720398,
+        6.7534027099609375
+      ]
+    },
+    {
+      "name": "Shield Door, Large 1 (MCC)",
+      "tag_index": 9864,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/9864.json.gz",
+      "sha256": "aaba8e965d3cd13ca6a4742c508f4f34b7168927a2ef3b7ae5c8b7a41413ead0",
+      "sections": 1,
+      "vertices": 10,
+      "triangles": 6,
+      "minimum": [
+        -4.146607398986816,
+        -1.9986541271209717,
+        -0.17013733088970184
+      ],
+      "maximum": [
+        4.146606922149658,
+        1.998653769493103,
+        6.7534027099609375
+      ]
+    },
+    {
+      "name": "Spnkr Ammo",
+      "tag_index": 5004,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/5004.json.gz",
+      "sha256": "b67d6cda2a5fc1fff40589d14c3b628ba82b15e2f62329b4b320c4f3456a5d0e",
+      "sections": 1,
+      "vertices": 545,
+      "triangles": 488,
+      "minimum": [
+        -0.09700312465429306,
+        -0.2385348230600357,
+        -0.0061662630178034306
+      ],
+      "maximum": [
+        0.0842442587018013,
+        0.2547922134399414,
+        0.09356829524040222
+      ]
+    },
+    {
+      "name": "Sniper Ammo",
+      "tag_index": 6143,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/6143.json.gz",
+      "sha256": "75876df9a20324af6baa6886c91c451b60d49f84fbca221df1de0304964a1e14",
+      "sections": 1,
+      "vertices": 1072,
+      "triangles": 1472,
+      "minimum": [
+        -0.012788982130587101,
+        -0.03928130120038986,
+        -0.03390006721019745
+      ],
+      "maximum": [
+        0.01278897374868393,
+        0.03928129002451897,
+        0.03718364238739014
+      ]
+    },
+    {
+      "name": "Phantom",
+      "tag_index": 10236,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10236.json.gz",
+      "sha256": "e0e9d010e4754cc77da6c4fe3c8292a8ad867913e38446d95d34e2dc64e7c131",
+      "sections": 7,
+      "vertices": 12904,
+      "triangles": 13827,
+      "minimum": [
+        -6.072347164154053,
+        -3.342242479324341,
+        -0.7182157039642334
+      ],
+      "maximum": [
+        4.889211654663086,
+        3.342242479324341,
+        3.9218990802764893
+      ]
+    },
+    {
+      "name": "Spirit",
+      "tag_index": 10435,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10435.json.gz",
+      "sha256": "306c0c5199ad39740906a4c85f73f4823dcd126f8431292ede21c7440b3f13c2",
+      "sections": 8,
+      "vertices": 11501,
+      "triangles": 11314,
+      "minimum": [
+        -6.414003849029541,
+        -2.974405527114868,
+        0.4824259579181671
+      ],
+      "maximum": [
+        4.78065299987793,
+        2.974405527114868,
+        3.814586639404297
+      ]
+    },
+    {
+      "name": "Pelican",
+      "tag_index": 10476,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10476.json.gz",
+      "sha256": "769f546845b63e5eb2b1592f661317f01a37b2815ed3605e9659b2cf73e26365",
+      "sections": 10,
+      "vertices": 17620,
+      "triangles": 21858,
+      "minimum": [
+        -5.034205436706543,
+        -4.185141086578369,
+        0.10173925012350082
+      ],
+      "maximum": [
+        5.222233772277832,
+        4.200449466705322,
+        3.601034641265869
+      ]
+    },
+    {
+      "name": "Drop Pod, Elite",
+      "tag_index": 10570,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10570.json.gz",
+      "sha256": "07d74ff4213fda3083c207567276fbe45c419db0b554c83eec51192fada5794b",
+      "sections": 2,
+      "vertices": 7296,
+      "triangles": 9746,
+      "minimum": [
+        -0.6626190543174744,
+        -0.5766972303390503,
+        -0.501640796661377
+      ],
+      "maximum": [
+        0.4787082374095917,
+        0.576698362827301,
+        1.4285578727722168
+      ]
+    },
+    {
+      "name": "Anti Air Gun",
+      "tag_index": 10615,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10615.json.gz",
+      "sha256": "163146613172507163c55fe452a387689b870a1e5ea169015e18107abe85af78",
+      "sections": 1,
+      "vertices": 5740,
+      "triangles": 5361,
+      "minimum": [
+        -1.082340955734253,
+        -0.6309446096420288,
+        -0.022854195907711983
+      ],
+      "maximum": [
+        1.704177975654602,
+        0.6309449076652527,
+        1.5249831676483154
+      ]
+    },
+    {
+      "name": "Cargo Truck, Destroyed",
+      "tag_index": 10640,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10640.json.gz",
+      "sha256": "33be6fedd2c1c3f0cfc0059c96217fd8426e468f4177c7cd867d2c7e9fb2d1f7",
+      "sections": 1,
+      "vertices": 5735,
+      "triangles": 5674,
+      "minimum": [
+        -0.5511155724525452,
+        -1.1079779863357544,
+        0.04889427125453949
+      ],
+      "maximum": [
+        0.532010555267334,
+        1.0786068439483643,
+        1.181093454360962
+      ]
+    },
+    {
+      "name": "Falcon, Destroyed",
+      "tag_index": 10653,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10653.json.gz",
+      "sha256": "3bfc1e7390689591d7777ac8c67a93aba87d27021f86c08479e0f7b200624029",
+      "sections": 1,
+      "vertices": 25984,
+      "triangles": 23385,
+      "minimum": [
+        -1.0682551860809326,
+        -1.6320332288742065,
+        -1.5258788721439487e-07
+      ],
+      "maximum": [
+        1.6379189491271973,
+        2.1166648864746094,
+        1.3545397520065308
+      ]
+    },
+    {
+      "name": "Warthog, Destroyed",
+      "tag_index": 10661,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10661.json.gz",
+      "sha256": "0d959d09e4fab4f13ea2d76071d1d99c38c57f0c9142e01e82a5be4f4a501495",
+      "sections": 1,
+      "vertices": 8018,
+      "triangles": 6682,
+      "minimum": [
+        -0.461286336183548,
+        -0.9477779865264893,
+        -0.0011938094394281507
+      ],
+      "maximum": [
+        0.48517486453056335,
+        1.0434688329696655,
+        0.7560482621192932
+      ]
+    },
+    {
+      "name": "Folding Chair",
+      "tag_index": 10667,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10667.json.gz",
+      "sha256": "09edbd250dad46af8ccfb0101eb8c3ad6f8bff79fe3b1623a60a4ae7db04a059",
+      "sections": 1,
+      "vertices": 846,
+      "triangles": 908,
+      "minimum": [
+        -0.09317566454410553,
+        -0.136245995759964,
+        -0.013179779052734375
+      ],
+      "maximum": [
+        0.11854533851146698,
+        0.14512480795383453,
+        0.3879478871822357
+      ]
+    },
+    {
+      "name": "Equipment Case",
+      "tag_index": 10712,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10712.json.gz",
+      "sha256": "c5db0567d911fd63838862446e4fb4aea5363acf55772e7ebaf359b7eb303e08",
+      "sections": 1,
+      "vertices": 3952,
+      "triangles": 3838,
+      "minimum": [
+        -0.22658531367778778,
+        -0.3350106477737427,
+        0.00017007827409543097
+      ],
+      "maximum": [
+        0.18188375234603882,
+        0.33266112208366394,
+        0.5001835823059082
+      ]
+    },
+    {
+      "name": "Monitor",
+      "tag_index": 10730,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10730.json.gz",
+      "sha256": "8af1a992fbdfa7703ca12ae6df49874b8508156243d0eefe190299166aca7345",
+      "sections": 13,
+      "vertices": 13574,
+      "triangles": 7784,
+      "minimum": [
+        -0.35758790373802185,
+        -0.15313662588596344,
+        -0.17679940164089203
+      ],
+      "maximum": [
+        0.3575643301010132,
+        0.2299633026123047,
+        0.298136442899704
+      ]
+    },
+    {
+      "name": "Plasma Storage",
+      "tag_index": 10756,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10756.json.gz",
+      "sha256": "bbdc578e617414b2448936fe54a22ead349fe1e7533173dbb41000b6f5a3b9ac",
+      "sections": 3,
+      "vertices": 6641,
+      "triangles": 6667,
+      "minimum": [
+        -0.27297788858413696,
+        -0.41886112093925476,
+        -0.02504235878586769
+      ],
+      "maximum": [
+        0.23578809201717377,
+        0.5768699645996094,
+        0.7983145117759705
+      ]
+    },
+    {
+      "name": "Camping Stool, Covenant",
+      "tag_index": 10778,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10778.json.gz",
+      "sha256": "8f4d8400c9ee462a72e680a31f7dbe393fdfd9c13783358a7310d3f6c49ef331",
+      "sections": 2,
+      "vertices": 2164,
+      "triangles": 2236,
+      "minimum": [
+        -0.11566367745399475,
+        -0.14665454626083374,
+        -0.0027084420435130596
+      ],
+      "maximum": [
+        0.16312864422798157,
+        0.14665137231349945,
+        0.275055468082428
+      ]
+    },
+    {
+      "name": "Covenant Antenna",
+      "tag_index": 10806,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10806.json.gz",
+      "sha256": "53432731e1f114445930b0dd0f9da152c448db4627a2c0c857d1b8c244469f08",
+      "sections": 6,
+      "vertices": 5491,
+      "triangles": 5577,
+      "minimum": [
+        -0.4600476026535034,
+        -0.2709372937679291,
+        -0.0010223388671875
+      ],
+      "maximum": [
+        0.4607264995574951,
+        0.537040650844574,
+        3.1458566188812256
+      ]
+    },
+    {
+      "name": "Fuel Storage",
+      "tag_index": 10853,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10853.json.gz",
+      "sha256": "99d485558e63912b0b1fc7800f725c667f4a0a2c526ae6a6eb4bccc8718943cb",
+      "sections": 1,
+      "vertices": 2484,
+      "triangles": 2680,
+      "minimum": [
+        -0.2593477964401245,
+        -0.5681416988372803,
+        0.00014541625569108874
+      ],
+      "maximum": [
+        0.2593477964401245,
+        0.5681419968605042,
+        0.8633468151092529
+      ]
+    },
+    {
+      "name": "Engine Cart",
+      "tag_index": 10870,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10870.json.gz",
+      "sha256": "975b2032db2b59654a790b05affec5f436006f5ff367c668d8951aaeb35656da",
+      "sections": 1,
+      "vertices": 15659,
+      "triangles": 18648,
+      "minimum": [
+        -0.367155522108078,
+        -0.9668079018592834,
+        -4.900932253804058e-05
+      ],
+      "maximum": [
+        0.35693323612213135,
+        0.9208272099494934,
+        0.8376388549804688
+      ]
+    },
+    {
+      "name": "Missile Cart",
+      "tag_index": 10902,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10902.json.gz",
+      "sha256": "caa4bdb9d289ec39b19036f444230f55793f1704df4720cb4e9b56346e03c0b9",
+      "sections": 1,
+      "vertices": 9166,
+      "triangles": 11548,
+      "minimum": [
+        -0.45233267545700073,
+        -0.9338629841804504,
+        -0.008961000479757786
+      ],
+      "maximum": [
+        0.4523252844810486,
+        0.9338629841804504,
+        0.9023509621620178
+      ]
+    },
+    {
+      "name": "Platform, Covenant",
+      "tag_index": 10942,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10942.json.gz",
+      "sha256": "7724f0439b46dc6eede7970b2adc192c7ca029dc680c72fbbd29f7fd6c85a8cf",
+      "sections": 1,
+      "vertices": 317,
+      "triangles": 210,
+      "minimum": [
+        -0.728464663028717,
+        -0.7195143699645996,
+        -0.2711934745311737
+      ],
+      "maximum": [
+        0.7059405446052551,
+        0.6702876687049866,
+        0.10091990977525711
+      ]
+    },
+    {
+      "name": "Catwalk, Straight",
+      "tag_index": 10956,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10956.json.gz",
+      "sha256": "5a7d104fab5636fc4532a94339f9da8f62a561663ce70d95dc249fdf2b9774aa",
+      "sections": 1,
+      "vertices": 220,
+      "triangles": 134,
+      "minimum": [
+        -2.250753879547119,
+        -0.61153244972229,
+        -0.2919081449508667
+      ],
+      "maximum": [
+        2.2507529258728027,
+        0.6115338206291199,
+        0.05809297412633896
+      ]
+    },
+    {
+      "name": "Catwalk, Short",
+      "tag_index": 10971,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10971.json.gz",
+      "sha256": "3d9a7677df765ed2cfd126417bab00d15f97c0b44f7ef7cec6f7b6978d621196",
+      "sections": 1,
+      "vertices": 344,
+      "triangles": 200,
+      "minimum": [
+        -1.208042025566101,
+        -0.8913220167160034,
+        -0.3019064664840698
+      ],
+      "maximum": [
+        1.2080419063568115,
+        0.8921887278556824,
+        0.05809413641691208
+      ]
+    },
+    {
+      "name": "Catwalk, Bend, Left",
+      "tag_index": 10977,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10977.json.gz",
+      "sha256": "c6410a5ea771d22d76a295ac9cc64de49a9563ca3724f902f139efc5642f5e7a",
+      "sections": 1,
+      "vertices": 382,
+      "triangles": 246,
+      "minimum": [
+        -2.2971811294555664,
+        -1.3993499279022217,
+        -0.2919084131717682
+      ],
+      "maximum": [
+        2.2971811294555664,
+        1.4096261262893677,
+        0.05809255316853523
+      ]
+    },
+    {
+      "name": "Catwalk, Bend, Right",
+      "tag_index": 10983,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10983.json.gz",
+      "sha256": "d6eda94a717684e8763b71d3087ab983f7ef9e8e26f1c9d0e26066a512149ac6",
+      "sections": 1,
+      "vertices": 385,
+      "triangles": 248,
+      "minimum": [
+        -2.1994688510894775,
+        -1.6974430084228516,
+        -0.3500000536441803
+      ],
+      "maximum": [
+        2.3948936462402344,
+        1.111533284187317,
+        9.393691584591579e-07
+      ]
+    },
+    {
+      "name": "Catwalk, Angled",
+      "tag_index": 10989,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10989.json.gz",
+      "sha256": "c576c783ecd3d00d9a58ae86bf1373712826b71611246af7b4c1c78bce99f3e9",
+      "sections": 1,
+      "vertices": 1321,
+      "triangles": 888,
+      "minimum": [
+        -0.5253946781158447,
+        -1.4986605644226074,
+        -0.4229293763637543
+      ],
+      "maximum": [
+        0.5348243117332458,
+        1.4980425834655762,
+        0.42025434970855713
+      ]
+    },
+    {
+      "name": "Catwalk, Large",
+      "tag_index": 10997,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/10997.json.gz",
+      "sha256": "a7056b8511d57ce1acb49e2321e069a41444c6ad823cbf9d9a64a1729dc279b7",
+      "sections": 1,
+      "vertices": 2074,
+      "triangles": 1399,
+      "minimum": [
+        -3.5048718452453613,
+        -0.5443180203437805,
+        -0.14215591549873352
+      ],
+      "maximum": [
+        3.504340171813965,
+        0.5159026384353638,
+        0.03843322768807411
+      ]
+    },
+    {
+      "name": "Gunners Nest",
+      "tag_index": 11056,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11056.json.gz",
+      "sha256": "53b2f7e1f8ac918c2396d57dbf2b11eb9a39c058cedae97a4bd4b2a66883787f",
+      "sections": 1,
+      "vertices": 2038,
+      "triangles": 1174,
+      "minimum": [
+        -1.0214769840240479,
+        -2.85674786567688,
+        -0.5015496015548706
+      ],
+      "maximum": [
+        1.0214769840240479,
+        2.85674786567688,
+        1.8879936933517456
+      ]
+    },
+    {
+      "name": "Cover, Small",
+      "tag_index": 11072,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11072.json.gz",
+      "sha256": "f350e0cc90d452a4e7a642af42b937f10f028c101e44812c1f66c7b0e201242e",
+      "sections": 1,
+      "vertices": 1097,
+      "triangles": 668,
+      "minimum": [
+        -0.33461180329322815,
+        -0.09364501386880875,
+        -0.004764404147863388
+      ],
+      "maximum": [
+        0.33461180329322815,
+        0.09364257752895355,
+        0.8088488578796387
+      ]
+    },
+    {
+      "name": "Block, Large",
+      "tag_index": 11078,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11078.json.gz",
+      "sha256": "cc270d7bc8b566e8e816f20c913ed3ed6e1c865f0149168f558d95b54d8d9b70",
+      "sections": 1,
+      "vertices": 1348,
+      "triangles": 736,
+      "minimum": [
+        -0.6635754108428955,
+        -0.5203692317008972,
+        -0.0005926513695158064
+      ],
+      "maximum": [
+        0.6635754108428955,
+        0.5203692317008972,
+        1.0999417304992676
+      ]
+    },
+    {
+      "name": "Blocker, Hallway",
+      "tag_index": 11084,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11084.json.gz",
+      "sha256": "d175230c3ea6252d2c7ad055adb38308f033dcd7b53888e162b010136b449f9b",
+      "sections": 1,
+      "vertices": 2745,
+      "triangles": 1532,
+      "minimum": [
+        -0.5203698873519897,
+        -1.957122802734375,
+        0.002806701697409153
+      ],
+      "maximum": [
+        0.5203747153282166,
+        2.273163318634033,
+        1.5687590837478638
+      ]
+    },
+    {
+      "name": "Column, Stone",
+      "tag_index": 11093,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11093.json.gz",
+      "sha256": "4be968b9c3cff3c8fbcd483421f1c0e8e5ad5a5d65eeaa9bdf1bcb4fc3aa2408",
+      "sections": 1,
+      "vertices": 58,
+      "triangles": 50,
+      "minimum": [
+        -0.29580381512641907,
+        -0.1693395972251892,
+        -0.0006561279296875
+      ],
+      "maximum": [
+        0.2319909632205963,
+        0.30221983790397644,
+        1.2495489120483398
+      ]
+    },
+    {
+      "name": "Tombstone",
+      "tag_index": 11110,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11110.json.gz",
+      "sha256": "7a2c940595a84a64bf92c6df9acfd6e8cec8a343d183edc6b5180dfb607c3756",
+      "sections": 1,
+      "vertices": 636,
+      "triangles": 400,
+      "minimum": [
+        -0.3659997582435608,
+        -0.3639890253543854,
+        0.004102668724954128
+      ],
+      "maximum": [
+        0.3648025393486023,
+        0.36681070923805237,
+        0.9300889372825623
+      ]
+    },
+    {
+      "name": "Cover, Large, Stone",
+      "tag_index": 11128,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11128.json.gz",
+      "sha256": "d9cded66b676d0bda7d4281d4caa3d2785307acba502c6e829f5d0cb58297f46",
+      "sections": 1,
+      "vertices": 756,
+      "triangles": 460,
+      "minimum": [
+        -0.5003710985183716,
+        -0.4792236089706421,
+        -0.0014636230189353228
+      ],
+      "maximum": [
+        0.5003686547279358,
+        0.4777477979660034,
+        0.8036336898803711
+      ]
+    },
+    {
+      "name": "Cover, Large",
+      "tag_index": 11140,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11140.json.gz",
+      "sha256": "ff085aff9ca93a0225ea53b115bd987ad21560ada6b80c49bde031dee2eed51b",
+      "sections": 1,
+      "vertices": 125,
+      "triangles": 88,
+      "minimum": [
+        -0.05858080834150314,
+        -0.6955838799476624,
+        0.0053958892822265625
+      ],
+      "maximum": [
+        0.05858205631375313,
+        0.6955842971801758,
+        2.110800266265869
+      ]
+    },
+    {
+      "name": "Walkway Cover",
+      "tag_index": 11150,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11150.json.gz",
+      "sha256": "0bff56a673c5e03e152f8508b3f56493e5e7719db50f496a9e13ccab9e30e2d8",
+      "sections": 1,
+      "vertices": 810,
+      "triangles": 560,
+      "minimum": [
+        -0.03940124437212944,
+        -0.6773305535316467,
+        0.0
+      ],
+      "maximum": [
+        0.038117364048957825,
+        0.6793137192726135,
+        0.48136329650878906
+      ]
+    },
+    {
+      "name": "Walkway Cover, Short",
+      "tag_index": 11159,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11159.json.gz",
+      "sha256": "41068b6c534a3125655470687f7ed2c83f8346ebc84fa0f5a027efba952f3111",
+      "sections": 1,
+      "vertices": 2738,
+      "triangles": 1672,
+      "minimum": [
+        -0.6087437272071838,
+        -0.1249682679772377,
+        -0.08230558037757874
+      ],
+      "maximum": [
+        0.610251784324646,
+        0.019583482295274734,
+        0.4718457758426666
+      ]
+    },
+    {
+      "name": "Cover, Large, Human",
+      "tag_index": 11165,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11165.json.gz",
+      "sha256": "d3b6aab023adbf678a83495ed73c8995a7bf5cff1ef4132a71fc182473daec5c",
+      "sections": 1,
+      "vertices": 2874,
+      "triangles": 1720,
+      "minimum": [
+        -0.7141599655151367,
+        -0.17215225100517273,
+        -0.20000015199184418
+      ],
+      "maximum": [
+        0.7154719233512878,
+        0.12595240771770477,
+        0.9279758930206299
+      ]
+    },
+    {
+      "name": "I-Beam",
+      "tag_index": 11178,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11178.json.gz",
+      "sha256": "c5d1f545416c2f006fe0e0af361a85fd97da0b4108689cd5dcf666ae81f571be",
+      "sections": 1,
+      "vertices": 433,
+      "triangles": 284,
+      "minimum": [
+        -0.22358711063861847,
+        -0.4492592513561249,
+        -0.20983870327472687
+      ],
+      "maximum": [
+        0.22358691692352295,
+        0.6156702041625977,
+        0.08500030636787415
+      ]
+    },
+    {
+      "name": "Door, Human",
+      "tag_index": 11232,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11232.json.gz",
+      "sha256": "4ca442bbe23c34787285ec9dbf6870bb88dff810715cddc3b677d70db6d10b82",
+      "sections": 1,
+      "vertices": 32,
+      "triangles": 20,
+      "minimum": [
+        -0.09999999403953552,
+        -0.7999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.09999999403953552,
+        0.7999999523162842,
+        1.7999999523162842
+      ]
+    },
+    {
+      "name": "Door A, Forerunner",
+      "tag_index": 11241,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11241.json.gz",
+      "sha256": "0078c89b5471a2c49adc9a7270e23a180de0d8e46feb32a3a8f1a9d4e12b6349",
+      "sections": 1,
+      "vertices": 791,
+      "triangles": 604,
+      "minimum": [
+        -0.040240250527858734,
+        -0.6359866857528687,
+        -0.0014329147525131702
+      ],
+      "maximum": [
+        0.040239524096250534,
+        0.6359866857528687,
+        1.2480298280715942
+      ]
+    },
+    {
+      "name": "Door B, Forerunner",
+      "tag_index": 11252,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11252.json.gz",
+      "sha256": "5218051fcca02982f803b877311619d772320d58d557159d3ce4e79f30559ce5",
+      "sections": 1,
+      "vertices": 788,
+      "triangles": 604,
+      "minimum": [
+        -0.040239885449409485,
+        -0.5101097226142883,
+        0.0014234542613849044
+      ],
+      "maximum": [
+        0.040239885449409485,
+        0.5101099014282227,
+        1.1368101835250854
+      ]
+    },
+    {
+      "name": "Door C, Forerunner",
+      "tag_index": 11258,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11258.json.gz",
+      "sha256": "d5074264f52392276a5a847d6ec2ddfc65fb7c571546249dbc757238363eee5c",
+      "sections": 1,
+      "vertices": 2342,
+      "triangles": 1280,
+      "minimum": [
+        -1.120023250579834,
+        -0.0630091205239296,
+        -0.011750487610697746
+      ],
+      "maximum": [
+        1.120023250579834,
+        0.10118400305509567,
+        1.2584013938903809
+      ]
+    },
+    {
+      "name": "Door D, Forerunner",
+      "tag_index": 11264,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11264.json.gz",
+      "sha256": "51e4536adfc65521635cc4addeabb189674642ba9f1ddcbc670c2872f9be1214",
+      "sections": 1,
+      "vertices": 3966,
+      "triangles": 2136,
+      "minimum": [
+        -2.0163180828094482,
+        -0.05813690647482872,
+        -0.06866325438022614
+      ],
+      "maximum": [
+        2.0163180828094482,
+        0.10118427127599716,
+        1.2236706018447876
+      ]
+    },
+    {
+      "name": "Door E, Forerunner",
+      "tag_index": 11270,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11270.json.gz",
+      "sha256": "fbb77daf866783b3efd81a0917f281be71c3d43a9a696a0d3b0eb5f7116a9f6a",
+      "sections": 1,
+      "vertices": 1431,
+      "triangles": 892,
+      "minimum": [
+        -1.7643828392028809,
+        -0.04088480770587921,
+        0.010964508168399334
+      ],
+      "maximum": [
+        1.6947365999221802,
+        0.04197526350617409,
+        1.6890422105789185
+      ]
+    },
+    {
+      "name": "Door F, Forerunner",
+      "tag_index": 11279,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11279.json.gz",
+      "sha256": "3c56af7e2756d54a47edf1f45efc1c519a90e123dbe57ecdb2f2d0f95dfd3df2",
+      "sections": 1,
+      "vertices": 435,
+      "triangles": 304,
+      "minimum": [
+        -0.19218657910823822,
+        -0.6264834403991699,
+        0.0010240935953333974
+      ],
+      "maximum": [
+        0.19218750298023224,
+        0.6264828443527222,
+        1.8413126468658447
+      ]
+    },
+    {
+      "name": "Door G, Forerunner",
+      "tag_index": 11288,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11288.json.gz",
+      "sha256": "8f39dc7adbb94866c339008834982c6b19ca1cfc73c727bdf35e0090a7b91ef4",
+      "sections": 1,
+      "vertices": 404,
+      "triangles": 232,
+      "minimum": [
+        -0.03876172751188278,
+        -0.8794620037078857,
+        0.0033352661412209272
+      ],
+      "maximum": [
+        0.03853209316730499,
+        0.8794635534286499,
+        1.5384513139724731
+      ]
+    },
+    {
+      "name": "Door H, Forerunner",
+      "tag_index": 11297,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11297.json.gz",
+      "sha256": "d409ad41165cc05f11a5b7272f003199540e29bc4288e583db99a305b507a455",
+      "sections": 1,
+      "vertices": 400,
+      "triangles": 232,
+      "minimum": [
+        -0.032958984375,
+        -0.6934346556663513,
+        0.0021278380881994963
+      ],
+      "maximum": [
+        0.0329582504928112,
+        0.6934348344802856,
+        1.2818629741668701
+      ]
+    },
+    {
+      "name": "Wall, Small, Forerunner",
+      "tag_index": 11303,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11303.json.gz",
+      "sha256": "8d7461370b719a103308f3b456c3e2a4976362a972b8320a6fc41263f44f2a55",
+      "sections": 1,
+      "vertices": 677,
+      "triangles": 406,
+      "minimum": [
+        -0.05615783482789993,
+        -0.6721906661987305,
+        -0.10407210886478424
+      ],
+      "maximum": [
+        0.058070678263902664,
+        0.6748802065849304,
+        1.6608097553253174
+      ]
+    },
+    {
+      "name": "Wall, Large, Forerunner",
+      "tag_index": 11315,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11315.json.gz",
+      "sha256": "67909176c2ad911f03c329f6c6b95bbbd4111438063360fe6e217364d85f83c5",
+      "sections": 1,
+      "vertices": 1687,
+      "triangles": 1352,
+      "minimum": [
+        -0.6263801455497742,
+        -0.05637567490339279,
+        -1.1128578186035156
+      ],
+      "maximum": [
+        0.6247192025184631,
+        0.0709000676870346,
+        1.0274598598480225
+      ]
+    },
+    {
+      "name": "Dinghy",
+      "tag_index": 11544,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11544.json.gz",
+      "sha256": "2d6970482715f9a2d59289c747b101c222e637c3bc75b373a2b4423d337e3dea",
+      "sections": 1,
+      "vertices": 2642,
+      "triangles": 2697,
+      "minimum": [
+        -0.49153628945350647,
+        -1.039370059967041,
+        -0.220472514629364
+      ],
+      "maximum": [
+        0.49153587222099304,
+        0.7787200808525085,
+        0.49975553154945374
+      ]
+    },
+    {
+      "name": "Target Designator",
+      "tag_index": 11570,
+      "output": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/models/11570.json.gz",
+      "sha256": "0388f8086b64b73ada9befc154baa0b58889c82907e1e03f2338bfe6944ab316",
+      "sections": 1,
+      "vertices": 6843,
+      "triangles": 8336,
+      "minimum": [
+        -0.03549697995185852,
+        -0.03968502953648567,
+        -0.017402682453393936
+      ],
+      "maximum": [
+        0.06963644176721573,
+        0.023350311443209648,
+        0.06967346370220184
+      ]
+    }
+  ],
+  "errors": [],
+  "requested_models": 136
+}

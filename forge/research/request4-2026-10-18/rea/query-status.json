@@ -1,0 +1,13 @@
+{
+  "open_binary": "completed",
+  "subject": "haloreach.dll",
+  "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894",
+  "provider": "ghidra",
+  "batch_decompile": "interrupted_before_result",
+  "reason": "Stopped broad provider initialization following observed temporary storage pressure; targeted Ghidra decompilations had already completed.",
+  "requested_addresses": ["0x18006c948", "0x18006de38", "0x18006e7bc", "0x18006ed04"],
+  "fresh_rea_pseudocode_returned": false,
+  "owned_processes_closed": true,
+  "owned_temporary_directory_removed": true,
+  "completed_targeted_results": ["../ghidra/manifest.json", "../ghidra-loadcopy/manifest.json"]
+}

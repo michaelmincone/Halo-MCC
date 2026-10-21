@@ -1,0 +1,194 @@
+[
+  {
+    "id": 9216,
+    "name": "Scorpion",
+    "internal": "scorpion",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09216.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      2.5542,
+      3.3552,
+      1.4517
+    ]
+  },
+  {
+    "id": 9472,
+    "name": "Shade Turret",
+    "internal": "shade",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09472.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.0806,
+      1.3363,
+      1.0837
+    ]
+  },
+  {
+    "id": 9728,
+    "name": "Warthog, Default",
+    "internal": "warthog_default",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09728.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9911,
+      1.9656,
+      1.0421
+    ]
+  },
+  {
+    "id": 9729,
+    "name": "Warthog, Gauss",
+    "internal": "warthog_gauss",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09729.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9911,
+      1.9656,
+      1.1447
+    ]
+  },
+  {
+    "id": 9730,
+    "name": "Warthog, Rocket",
+    "internal": "warthog_rocket",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09730.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9911,
+      1.9656,
+      1.1399
+    ]
+  },
+  {
+    "id": 9984,
+    "name": "Wraith",
+    "internal": "wraith",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09984.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.0121,
+      2.9002,
+      1.2309
+    ]
+  },
+  {
+    "id": 11264,
+    "name": "One Way Shield 2",
+    "internal": "door_oneway_small",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/11264.jpg",
+    "price": "200",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.4,
+      0.0987,
+      1.5
+    ]
+  },
+  {
+    "id": 11520,
+    "name": "One Way Shield 3",
+    "internal": "door_oneway_medium",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/11520.jpg",
+    "price": "200",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.6,
+      0.0987,
+      1.9
+    ]
+  },
+  {
+    "id": 11776,
+    "name": "One Way Shield 4",
+    "internal": "door_oneway_large",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/11776.jpg",
+    "price": "200",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      6.0,
+      0.0987,
+      4.0
+    ]
+  },
+  {
+    "id": 12032,
+    "name": "FX:Colorblind",
+    "internal": "sfx_1",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12032.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12033,
+    "name": "FX:Next Gen",
+    "internal": "sfx_2",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12033.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12034,
+    "name": "FX:Juicy",
+    "internal": "sfx_3",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12034.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  }
+]

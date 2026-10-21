@@ -1,0 +1,242 @@
+{
+  "observed_utc": "2026-10-14T15:42:54.447453+00:00",
+  "source_record_count": 36,
+  "source_snapshot_count": 26,
+  "recorded_retrieval_failure_count": 10,
+  "source_records": [
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/Cargo.toml",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/blf_lib/src/blam/halo3/v12070_08_09_05_2031_halo3_ship/saved_games/scenario_map_variant.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/blf_cli/src/commands/convert_halo3mcc_map_variants.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/blf_lib/src/blam/halo4/v20810_12_09_22_1647_main/saved_games/scenario_map_variant.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/blf_lib/src/types/array.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/blf/blf_lib/src/blf/chunks/halo3/v12070_08_09_05_2031_halo3_ship/s_blf_chunk_packed_map_variant.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/hms/crates/hms-app/src/h4/mvar.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/hms/crates/hms-app/src/mvar.rs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/hms/docs/halo4.html",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/hms/Cargo.toml",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/TagTool/TagTool/BlamFile/MapVariant.cs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/TagTool/TagTool/BlamFile/MapVariantGenerator.cs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/TagTool/TagTool/Commands/Forge/MaximizeBudgetCommand.cs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/TagTool/TagTool/BlamFile/Reach/ReachMapVariant.cs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/TagTool/TagTool/BlamFile/Reach/ReachMapVariantReader.cs",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2020-07-14.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2020-09-22.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2021-04.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2022-04.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2022-08.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2023-07.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/mcc-patch-2024-02-updated2025-09.html",
+      "status": "retrieval_failed_recorded",
+      "error": "HTTP Error 403: Forbidden",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/bungie-weekly-update-2009-02-06-hbo-mirror.html",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/hms/published-halo4.html",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/hms/published-faq.html",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/forge.html",
+      "status": "retrieval_failed_recorded",
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/download.html",
+      "status": "retrieval_failed_recorded",
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/play.html",
+      "status": "retrieval_failed_recorded",
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+      "artifact_required": false
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/release-v0.8.10.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/release-v0.8.15.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/steam-mcc-news-through2020-07-15.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/web-snapshot-patches-2022-2025.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/official/web-snapshot-patches-2020.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/web-snapshot-current-docs.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "path": "forge/research/object-limit-h3-h4-2026-10-14/public/reclaimer/download-focused-findings.json",
+      "status": "snapshot",
+      "exists": true,
+      "hash_matches": true
+    }
+  ],
+  "all_saved_snapshot_hashes_match": true,
+  "required_artifacts": {
+    "INVESTIGATION.md": true,
+    "public/PUBLIC_FINDINGS.md": true,
+    "halo3/FINDINGS.md": true,
+    "halo3/ghidra-core/manifest.json": true,
+    "halo3/ghidra-core/0x14043ce28.c": true,
+    "halo3/ghidra-core/0x14043eaac.c": true,
+    "rea/missing-halo3.json": true,
+    "rea/missing-halo4.json": true,
+    "rea/core-target.json": true,
+    "rea/core-session.json": true,
+    "rea/close-result.json": true
+  },
+  "targeted_decompiles_complete": true,
+  "original_core_hash_unchanged": true,
+  "rea_session_close_success": true,
+  "independent_audit": "No central conclusion blockers; quota-row wording corrected; focused Reclaimer requirements extraction retained; extra-record schema claim narrowed to no public schema located."
+}

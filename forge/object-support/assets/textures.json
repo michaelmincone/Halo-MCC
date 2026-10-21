@@ -1,0 +1,5304 @@
+[
+  {
+    "tag": {
+      "index": 5800,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\assault_rifle\\bitmaps\\assault_rifle_diffuse",
+      "offset": 270742328
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5800_0.png",
+    "resource_id": 3952740919
+  },
+  {
+    "tag": {
+      "index": 214,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\decals\\bitmaps\\unsc_decals_diffuse",
+      "offset": 236803676
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/214_0.png",
+    "resource_id": 3787456605
+  },
+  {
+    "tag": {
+      "index": 2802,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\assault_rifle\\bitmaps\\compass",
+      "offset": 255427548
+    },
+    "image_index": 0,
+    "requested_image_index": 9,
+    "frame_selection": "first native frame for static preview; sampler index exceeds frame table",
+    "format": 14,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2802_0.png",
+    "resource_id": 3861120193
+  },
+  {
+    "tag": {
+      "index": 5807,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\detail_maps\\glass_shattered",
+      "offset": 270745616
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5807_0.png",
+    "resource_id": 3953134141
+  },
+  {
+    "tag": {
+      "index": 5810,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\assault_rifle\\bitmaps\\bullet_plate",
+      "offset": 270746484
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      128,
+      256
+    ],
+    "preview_size": [
+      128,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5810_0.png",
+    "resource_id": 3953265215
+  },
+  {
+    "tag": {
+      "index": 4483,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\assault_rifle\\bitmaps\\numbers_plate",
+      "offset": 265805392
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4483_0.png",
+    "resource_id": 3905619816
+  },
+  {
+    "tag": {
+      "index": 4474,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\dmr\\bitmaps\\dmr_diffuse",
+      "offset": 265799448
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4474_0.png",
+    "resource_id": 3905029983
+  },
+  {
+    "tag": {
+      "index": 81,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\alpha_grey50",
+      "offset": 232312136
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1,
+      1
+    ],
+    "preview_size": [
+      1,
+      1
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/81_0.png",
+    "resource_id": 3784441903
+  },
+  {
+    "tag": {
+      "index": 5935,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\grenade_launcher\\bitmaps\\grenade_launcher_diffuse",
+      "offset": 270955456
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5935_0.png",
+    "resource_id": 3957721731
+  },
+  {
+    "tag": {
+      "index": 28,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\gray_50_percent",
+      "offset": 232280292
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1,
+      1
+    ],
+    "preview_size": [
+      1,
+      1
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/28_0.png",
+    "resource_id": 3783393311
+  },
+  {
+    "tag": {
+      "index": 3857,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\grenade_launcher\\bitmaps\\display_bg",
+      "offset": 263248108
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3857_0.png",
+    "resource_id": 3888580196
+  },
+  {
+    "tag": {
+      "index": 3859,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\grenade_launcher\\bitmaps\\gl_display_status",
+      "offset": 263249160
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      32
+    ],
+    "preview_size": [
+      128,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3859_0.png",
+    "resource_id": 3888645733
+  },
+  {
+    "tag": {
+      "index": 3861,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\grenade_launcher\\bitmaps\\numbers",
+      "offset": 263250748
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3861_0.png",
+    "resource_id": 3889038955
+  },
+  {
+    "tag": {
+      "index": 3863,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\grenade_launcher\\bitmaps\\gl_display_details_diffuse",
+      "offset": 263251408
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3863_0.png",
+    "resource_id": 3889694325
+  },
+  {
+    "tag": {
+      "index": 3866,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\grenade_launcher\\bitmaps\\jolly_roger_diffuse",
+      "offset": 263253004
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3866_0.png",
+    "resource_id": 3889759862
+  },
+  {
+    "tag": {
+      "index": 5710,
+      "group": "bitm",
+      "name": "objects\\weapons\\pistol\\magnum\\bitmaps\\magnum_diffuse",
+      "offset": 270414664
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5710_0.png",
+    "resource_id": 3949005310
+  },
+  {
+    "tag": {
+      "index": 5719,
+      "group": "bitm",
+      "name": "objects\\weapons\\pistol\\magnum\\bitmaps\\magnum_illum",
+      "offset": 270667996
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5719_0.png",
+    "resource_id": 3949398532
+  },
+  {
+    "tag": {
+      "index": 4971,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\rocket_launcher\\bitmaps\\rocket_launcher_diffuse",
+      "offset": 267691192
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4971_0.png",
+    "resource_id": 3922200677
+  },
+  {
+    "tag": {
+      "index": 4974,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\rocket_launcher\\bitmaps\\rl_hazard_strip",
+      "offset": 267692604
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      32
+    ],
+    "preview_size": [
+      128,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4974_0.png",
+    "resource_id": 3922397288
+  },
+  {
+    "tag": {
+      "index": 4979,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\rocket_launcher\\bitmaps\\rocket_launcher_illum",
+      "offset": 267695316
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4979_0.png",
+    "resource_id": 3922724973
+  },
+  {
+    "tag": {
+      "index": 4674,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\shotgun\\bitmaps\\shotgun_diffuse",
+      "offset": 266788168
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4674_0.png",
+    "resource_id": 3912173516
+  },
+  {
+    "tag": {
+      "index": 4683,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\shotgun\\bitmaps\\shotgun_flat_illum",
+      "offset": 267048532
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4683_0.png",
+    "resource_id": 3912566738
+  },
+  {
+    "tag": {
+      "index": 6091,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\sniper_rifle\\bitmaps\\sniper_rifle_diffuse",
+      "offset": 271560520
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6091_0.png",
+    "resource_id": 3963357913
+  },
+  {
+    "tag": {
+      "index": 5188,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\color_black",
+      "offset": 268737724
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 0,
+    "original_size": [
+      1,
+      1
+    ],
+    "preview_size": [
+      1,
+      1
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5188_0.png",
+    "resource_id": 3930327265
+  },
+  {
+    "tag": {
+      "index": 6108,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\sniper_rifle\\bitmaps\\sniper_rifle_scope_alpha",
+      "offset": 272343624
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6108_0.png",
+    "resource_id": 3963751135
+  },
+  {
+    "tag": {
+      "index": 166,
+      "group": "bitm",
+      "name": "objects\\cinematics\\human\\laptop\\bitmaps\\laptopillumdetail",
+      "offset": 236331660
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/166_0.png",
+    "resource_id": 3786801235
+  },
+  {
+    "tag": {
+      "index": 6300,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\spartan_laser\\bitmaps\\spartan_laser_diffuse",
+      "offset": 272610292
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6300_0.png",
+    "resource_id": 3970501446
+  },
+  {
+    "tag": {
+      "index": 6310,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\spartan_laser\\bitmaps\\illum_gradient",
+      "offset": 272906480
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6310_0.png",
+    "resource_id": 3970894668
+  },
+  {
+    "tag": {
+      "index": 6312,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\spartan_laser\\bitmaps\\spartan_laser_illum",
+      "offset": 272907416
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6312_0.png",
+    "resource_id": 3970960205
+  },
+  {
+    "tag": {
+      "index": 6314,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\spartan_laser\\bitmaps\\spartan_laser_screen",
+      "offset": 272908176
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6314_0.png",
+    "resource_id": 3971025742
+  },
+  {
+    "tag": {
+      "index": 4380,
+      "group": "bitm",
+      "name": "objects\\weapons\\grenade\\frag_grenade\\bitmaps\\frag_grenade_diffuse",
+      "offset": 265707808
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4380_0.png",
+    "resource_id": 3902670651
+  },
+  {
+    "tag": {
+      "index": 3755,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\turrets\\machinegun\\bitmaps\\mg_turret_diffuse",
+      "offset": 262555112
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3755_0.png",
+    "resource_id": 3886286401
+  },
+  {
+    "tag": {
+      "index": 1525,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\alpha_black",
+      "offset": 247234276
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      4,
+      4
+    ],
+    "preview_size": [
+      4,
+      4
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1525_0.png",
+    "resource_id": 3823305344
+  },
+  {
+    "tag": {
+      "index": 6008,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\concussion_rifle\\bitmaps\\concussion_rifle_diffuse",
+      "offset": 271461760
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6008_0.png",
+    "resource_id": 3960277674
+  },
+  {
+    "tag": {
+      "index": 5198,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\phantom\\bitmaps\\phantom_illum",
+      "offset": 268806660
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      16,
+      32
+    ],
+    "preview_size": [
+      16,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5198_0.png",
+    "resource_id": 3930720487
+  },
+  {
+    "tag": {
+      "index": 2969,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\plasma_launcher\\bitmaps\\plasma_launcher_holo",
+      "offset": 257183152
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2969_0.png",
+    "resource_id": 3866035468
+  },
+  {
+    "tag": {
+      "index": 5087,
+      "group": "bitm",
+      "name": "objects\\weapons\\melee\\energy_sword\\bitmaps\\energyhandle_diffuse",
+      "offset": 268197632
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5087_0.png",
+    "resource_id": 3926460582
+  },
+  {
+    "tag": {
+      "index": 5094,
+      "group": "bitm",
+      "name": "objects\\weapons\\melee\\energy_sword\\bitmaps\\sword_blade_overlay",
+      "offset": 268255636
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5094_0.png",
+    "resource_id": 3926722730
+  },
+  {
+    "tag": {
+      "index": 5099,
+      "group": "bitm",
+      "name": "objects\\weapons\\melee\\energy_sword\\bitmaps\\sword_blade_activation",
+      "offset": 268305596
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      128,
+      32
+    ],
+    "preview_size": [
+      128,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5099_0.png",
+    "resource_id": 3926788267
+  },
+  {
+    "tag": {
+      "index": 6431,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\flak_cannon\\bitmaps\\fuel_rod_diffuse",
+      "offset": 273029716
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6431_0.png",
+    "resource_id": 3975613332
+  },
+  {
+    "tag": {
+      "index": 5884,
+      "group": "bitm",
+      "name": "objects\\weapons\\melee\\gravity_hammer\\bitmaps\\gravity_hammer",
+      "offset": 270837032
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      768,
+      768
+    ],
+    "preview_size": [
+      768,
+      768
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5884_0.png",
+    "resource_id": 3955690084
+  },
+  {
+    "tag": {
+      "index": 5889,
+      "group": "bitm",
+      "name": "objects\\weapons\\melee\\gravity_hammer\\bitmaps\\gravity_hammer_illum",
+      "offset": 270840092
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      128
+    ],
+    "preview_size": [
+      64,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5889_0.png",
+    "resource_id": 3956017769
+  },
+  {
+    "tag": {
+      "index": 5190,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\focus_rifle\\bitmaps\\focus_rifle_diffuse",
+      "offset": 268738840
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5190_0.png",
+    "resource_id": 3930392802
+  },
+  {
+    "tag": {
+      "index": 194,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\clouds_256",
+      "offset": 236735508
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/194_0.png",
+    "resource_id": 3787259994
+  },
+  {
+    "tag": {
+      "index": 5461,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\needle_rifle\\bitmaps\\needle_rifle_diffuse",
+      "offset": 269936428
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5461_0.png",
+    "resource_id": 3939699056
+  },
+  {
+    "tag": {
+      "index": 5472,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\phantom\\bitmaps\\phantom_anitgrav",
+      "offset": 270006504
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5472_0.png",
+    "resource_id": 3940026741
+  },
+  {
+    "tag": {
+      "index": 6225,
+      "group": "bitm",
+      "name": "objects\\weapons\\pistol\\needler\\bitmaps\\needler_diffuse",
+      "offset": 272489456
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6225_0.png",
+    "resource_id": 3967355670
+  },
+  {
+    "tag": {
+      "index": 5602,
+      "group": "bitm",
+      "name": "objects\\weapons\\support_high\\plasma_launcher\\bitmaps\\plasma_launcher_diffuse",
+      "offset": 270120832
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5602_0.png",
+    "resource_id": 3945138627
+  },
+  {
+    "tag": {
+      "index": 4804,
+      "group": "bitm",
+      "name": "objects\\weapons\\pistol\\plasma_pistol\\bitmaps\\plasma_pistol_diffuse",
+      "offset": 267533492
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4804_0.png",
+    "resource_id": 3916433421
+  },
+  {
+    "tag": {
+      "index": 5344,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\plasma_repeater\\bitmaps\\plasma_repeater_diffuse",
+      "offset": 269109392
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5344_0.png",
+    "resource_id": 3935832373
+  },
+  {
+    "tag": {
+      "index": 6686,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\plasma_rifle\\bitmaps\\plasma_rifle_diffuse",
+      "offset": 273443248
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6686_0.png",
+    "resource_id": 3984133142
+  },
+  {
+    "tag": {
+      "index": 6767,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\spike_rifle\\bitmaps\\spike_rifle_diffuse",
+      "offset": 273626104
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6767_0.png",
+    "resource_id": 3987868751
+  },
+  {
+    "tag": {
+      "index": 4409,
+      "group": "bitm",
+      "name": "objects\\weapons\\grenade\\plasma_grenade\\bitmaps\\plasma_nade_halo_diffuse",
+      "offset": 265732432
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4409_0.png",
+    "resource_id": 3903194947
+  },
+  {
+    "tag": {
+      "index": 4414,
+      "group": "bitm",
+      "name": "objects\\weapons\\grenade\\plasma_grenade\\bitmaps\\plasma_nade_diffuse",
+      "offset": 265735500
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      128
+    ],
+    "preview_size": [
+      256,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4414_0.png",
+    "resource_id": 3903326021
+  },
+  {
+    "tag": {
+      "index": 4099,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\turrets\\plasma_turret\\weapon\\plasma_turret\\bitmaps\\plasma_turret_diffuse",
+      "offset": 263663192
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4099_0.png",
+    "resource_id": 3896051414
+  },
+  {
+    "tag": {
+      "index": 4113,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\turrets\\plasma_turret\\weapon\\plasma_turret\\bitmaps\\plasma_turret_antigrav_base",
+      "offset": 263884988
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      96,
+      192
+    ],
+    "preview_size": [
+      96,
+      192
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4113_0.png",
+    "resource_id": 3896379099
+  },
+  {
+    "tag": {
+      "index": 73,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\alpha_white",
+      "offset": 232308088
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1,
+      1
+    ],
+    "preview_size": [
+      1,
+      1
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/73_0.png",
+    "resource_id": 3784310829
+  },
+  {
+    "tag": {
+      "index": 6855,
+      "group": "bitm",
+      "name": "objects\\equipment\\equipment_pack\\bitmaps\\unsc_equipment_diffuse",
+      "offset": 274144808
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6855_0.png",
+    "resource_id": 3991538823
+  },
+  {
+    "tag": {
+      "index": 6865,
+      "group": "bitm",
+      "name": "objects\\equipment\\equipment_pack\\bitmaps\\unsc_equipment_illum",
+      "offset": 274225892
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      128
+    ],
+    "preview_size": [
+      64,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6865_0.png",
+    "resource_id": 3991932045
+  },
+  {
+    "tag": {
+      "index": 6870,
+      "group": "bitm",
+      "name": "objects\\equipment\\equipment_pack\\bitmaps\\unsc_equipment_drop_holo",
+      "offset": 274325900
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6870_0.png",
+    "resource_id": 3991997582
+  },
+  {
+    "tag": {
+      "index": 6851,
+      "group": "bitm",
+      "name": "objects\\equipment\\equipment_pack\\bitmaps\\elite_equipment_diff",
+      "offset": 274143140
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6851_0.png",
+    "resource_id": 3991211138
+  },
+  {
+    "tag": {
+      "index": 6862,
+      "group": "bitm",
+      "name": "objects\\equipment\\equipment_pack\\bitmaps\\elite_equipment_illum",
+      "offset": 274224944
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      128
+    ],
+    "preview_size": [
+      64,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/6862_0.png",
+    "resource_id": 3991800971
+  },
+  {
+    "tag": {
+      "index": 7065,
+      "group": "bitm",
+      "name": "objects\\equipment\\jet_pack\\bitmaps\\jetpack_unsc_diff",
+      "offset": 274875296
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7065_0.png",
+    "resource_id": 3996126413
+  },
+  {
+    "tag": {
+      "index": 7081,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\effects\\shield_display_illum",
+      "offset": 275125880
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7081_0.png",
+    "resource_id": 3996454098
+  },
+  {
+    "tag": {
+      "index": 7084,
+      "group": "bitm",
+      "name": "objects\\equipment\\jet_pack\\bitmaps\\jetpack_unsc_heat_illum",
+      "offset": 275127668
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7084_0.png",
+    "resource_id": 3996519635
+  },
+  {
+    "tag": {
+      "index": 2499,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\banshee\\bitmaps\\d_banshee_diffuse",
+      "offset": 252221896
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2499_0.png",
+    "resource_id": 3852207161
+  },
+  {
+    "tag": {
+      "index": 3557,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\falcon\\bitmaps\\falcon1_diffuse",
+      "offset": 260841076
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3557_0.png",
+    "resource_id": 3881174515
+  },
+  {
+    "tag": {
+      "index": 3560,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\falcon\\bitmaps\\falcon_screen",
+      "offset": 260842620
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3560_0.png",
+    "resource_id": 3881371126
+  },
+  {
+    "tag": {
+      "index": 3567,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\falcon\\bitmaps\\falcon2_diffuse",
+      "offset": 260846332
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3567_0.png",
+    "resource_id": 3881764348
+  },
+  {
+    "tag": {
+      "index": 2309,
+      "group": "bitm",
+      "name": "objects\\props\\human\\unsc\\bitmaps\\cargo_netting_tiled_diff",
+      "offset": 251877008
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2309_0.png",
+    "resource_id": 3846767590
+  },
+  {
+    "tag": {
+      "index": 3589,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\falcon\\bitmaps\\falcon_decals",
+      "offset": 262075856
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3589_0.png",
+    "resource_id": 3882157570
+  },
+  {
+    "tag": {
+      "index": 3593,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\cargo_truck\\bitmaps\\cargo_truck_glass",
+      "offset": 262077924
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3593_0.png",
+    "resource_id": 3882354181
+  },
+  {
+    "tag": {
+      "index": 463,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\ghost\\bitmaps\\dghost_diffuse",
+      "offset": 242792728
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/463_0.png",
+    "resource_id": 3792765102
+  },
+  {
+    "tag": {
+      "index": 514,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\ghost\\bitmaps\\ghost_dash_border",
+      "offset": 244526836
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/514_0.png",
+    "resource_id": 3794600138
+  },
+  {
+    "tag": {
+      "index": 2771,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\mongoose\\bitmaps\\dgoose_diffuse",
+      "offset": 254159696
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2771_0.png",
+    "resource_id": 3860071601
+  },
+  {
+    "tag": {
+      "index": 2792,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\mongoose\\bitmaps\\dgoose_wheel_plate_diffuse",
+      "offset": 255226840
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2792_0.png",
+    "resource_id": 3860726971
+  },
+  {
+    "tag": {
+      "index": 1708,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\bitmaps\\displays",
+      "offset": 248232988
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1708_0.png",
+    "resource_id": 3828286156
+  },
+  {
+    "tag": {
+      "index": 2947,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\revenant\\bitmaps\\revenant_diffuse",
+      "offset": 256436464
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2947_0.png",
+    "resource_id": 3865380098
+  },
+  {
+    "tag": {
+      "index": 2958,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\decals\\bitmaps\\covenant_decals01",
+      "offset": 256643980
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2958_0.png",
+    "resource_id": 3865707783
+  },
+  {
+    "tag": {
+      "index": 3137,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\scorpion\\bitmaps\\dscorpion_diffuse",
+      "offset": 257498992
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3137_0.png",
+    "resource_id": 3870360910
+  },
+  {
+    "tag": {
+      "index": 3140,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\scorpion\\bitmaps\\dscorpion_turrets_diffuse",
+      "offset": 257499980
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3140_0.png",
+    "resource_id": 3870557521
+  },
+  {
+    "tag": {
+      "index": 3144,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\scorpion\\bitmaps\\working\\scorpion_wheels_diffuse",
+      "offset": 257502292
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3144_0.png",
+    "resource_id": 3870819669
+  },
+  {
+    "tag": {
+      "index": 3155,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\scorpion\\bitmaps\\dscorpion_treads_diffuse",
+      "offset": 258273992
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3155_0.png",
+    "resource_id": 3871016280
+  },
+  {
+    "tag": {
+      "index": 3160,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\scorpion\\bitmaps\\icon_decal",
+      "offset": 258275860
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3160_0.png",
+    "resource_id": 3871212891
+  },
+  {
+    "tag": {
+      "index": 3366,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\scorpion\\bitmaps\\scorpion_decal",
+      "offset": 260240160
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 0,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3366_0.png",
+    "resource_id": 3876128166
+  },
+  {
+    "tag": {
+      "index": 4187,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\turrets\\shade\\bitmaps\\shade_turret_diffuse",
+      "offset": 264186596
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4187_0.png",
+    "resource_id": 3897951987
+  },
+  {
+    "tag": {
+      "index": 4208,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\space_phantom\\space_phantom_front_shield\\bitmaps\\space_phantoml_shield_mask",
+      "offset": 264560556
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4208_0.png",
+    "resource_id": 3898738431
+  },
+  {
+    "tag": {
+      "index": 4190,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\turrets\\shade\\bitmaps\\shade_turret_illum",
+      "offset": 264187364
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/4190_0.png",
+    "resource_id": 3898214135
+  },
+  {
+    "tag": {
+      "index": 1697,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\bitmaps\\warthog_diffuse",
+      "offset": 247453060
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1697_0.png",
+    "resource_id": 3828024008
+  },
+  {
+    "tag": {
+      "index": 1726,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\bitmaps\\tires_diffuse",
+      "offset": 248641012
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1726_0.png",
+    "resource_id": 3829072600
+  },
+  {
+    "tag": {
+      "index": 1733,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\bitmaps\\warthog_decals",
+      "offset": 248643976
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1733_0.png",
+    "resource_id": 3829465822
+  },
+  {
+    "tag": {
+      "index": 1895,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_chaingun\\bitmaps\\warthog_chaingun_diffuse",
+      "offset": 249420576
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1895_0.png",
+    "resource_id": 3833987875
+  },
+  {
+    "tag": {
+      "index": 1901,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_chaingun\\bitmaps\\bullets_diffuse",
+      "offset": 249802532
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1901_0.png",
+    "resource_id": 3834184486
+  },
+  {
+    "tag": {
+      "index": 2114,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_gauss\\bitmaps\\warthog_gauss_glass_diffuse",
+      "offset": 250473496
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      4,
+      4
+    ],
+    "preview_size": [
+      4,
+      4
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2114_0.png",
+    "resource_id": 3840607112
+  },
+  {
+    "tag": {
+      "index": 2116,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_gauss\\bitmaps\\warthog_gauss_diffuse",
+      "offset": 250474228
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2116_0.png",
+    "resource_id": 3840738186
+  },
+  {
+    "tag": {
+      "index": 2120,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_gauss\\bitmaps\\warthog_gauss_screen_diffuse",
+      "offset": 250476160
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2120_0.png",
+    "resource_id": 3841000334
+  },
+  {
+    "tag": {
+      "index": 2336,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_rocket\\bitmaps\\warthog_rocket_turret_diffuse",
+      "offset": 251976992
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2336_0.png",
+    "resource_id": 3847488497
+  },
+  {
+    "tag": {
+      "index": 1184,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\wraith\\bitmaps\\wraith_illum",
+      "offset": 246385568
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1184_0.png",
+    "resource_id": 3814195701
+  },
+  {
+    "tag": {
+      "index": 1173,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\wraith\\bitmaps\\wraith",
+      "offset": 246177280
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1173_0.png",
+    "resource_id": 3813671405
+  },
+  {
+    "tag": {
+      "index": 1337,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\wraith\\turrets\\wraith_mortar\\bitmaps\\wraith_mortar",
+      "offset": 246707152
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1337_0.png",
+    "resource_id": 3817472551
+  },
+  {
+    "tag": {
+      "index": 1518,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\wraith\\turrets\\wraith_anti_infantry\\bitmaps\\wraith_anti_infantry",
+      "offset": 247016224
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1518_0.png",
+    "resource_id": 3823043196
+  },
+  {
+    "tag": {
+      "index": 7037,
+      "group": "bitm",
+      "name": "levels\\solo\\m20\\bitmaps\\oni_techglow_bits_illum",
+      "offset": 274522684
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      128
+    ],
+    "preview_size": [
+      256,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7037_0.png",
+    "resource_id": 3995339969
+  },
+  {
+    "tag": {
+      "index": 7382,
+      "group": "bitm",
+      "name": "levels\\shared\\bitmaps\\nature\\fog\\patchy_fog_wispy",
+      "offset": 277457504
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      192,
+      192
+    ],
+    "preview_size": [
+      192,
+      192
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7382_0.png",
+    "resource_id": 4005629278
+  },
+  {
+    "tag": {
+      "index": 491,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\clouds_a",
+      "offset": 244049460
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/491_0.png",
+    "resource_id": 3793551546
+  },
+  {
+    "tag": {
+      "index": 492,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\clouds_b",
+      "offset": 244049716
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/492_0.png",
+    "resource_id": 3793617083
+  },
+  {
+    "tag": {
+      "index": 7506,
+      "group": "bitm",
+      "name": "objects\\levels\\shared\\golf_club\\bitmaps\\golf_club_diff",
+      "offset": 278182332
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7506_0.png",
+    "resource_id": 4008250758
+  },
+  {
+    "tag": {
+      "index": 7510,
+      "group": "bitm",
+      "name": "objects\\levels\\shared\\bitmaps\\gpga_logo",
+      "offset": 278184044
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      388,
+      388
+    ],
+    "preview_size": [
+      388,
+      388
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7510_0.png",
+    "resource_id": 4008512906
+  },
+  {
+    "tag": {
+      "index": 56,
+      "group": "bitm",
+      "name": "shaders\\default_bitmaps\\bitmaps\\color_white",
+      "offset": 232296156
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1,
+      1
+    ],
+    "preview_size": [
+      1,
+      1
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/56_0.png",
+    "resource_id": 3784048681
+  },
+  {
+    "tag": {
+      "index": 163,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\effects\\plasma_wipe",
+      "offset": 236330140
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/163_0.png",
+    "resource_id": 3786670161
+  },
+  {
+    "tag": {
+      "index": 7757,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\cov_barrier\\bitmaps\\cov_barrier_diffuse",
+      "offset": 280422236
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7757_0.png",
+    "resource_id": 4016311809
+  },
+  {
+    "tag": {
+      "index": 7250,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\cov_barrier\\bitmaps\\cov_barrier_illum_illum",
+      "offset": 275371900
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7250_0.png",
+    "resource_id": 4001828132
+  },
+  {
+    "tag": {
+      "index": 7796,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\cov_portable_shield\\bitmaps\\cov_portable_shield_diff",
+      "offset": 280546764
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7796_0.png",
+    "resource_id": 4017229327
+  },
+  {
+    "tag": {
+      "index": 7804,
+      "group": "bitm",
+      "name": "objects\\characters\\jackal\\bitmaps\\jackal_shield_mask",
+      "offset": 280627708
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7804_0.png",
+    "resource_id": 4017491475
+  },
+  {
+    "tag": {
+      "index": 7814,
+      "group": "bitm",
+      "name": "objects\\weapons\\melee\\skirmisher_bracers\\bitmaps\\skirmisher_bracers_edge",
+      "offset": 280711180
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      32,
+      32
+    ],
+    "preview_size": [
+      32,
+      32
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7814_0.png",
+    "resource_id": 4017819160
+  },
+  {
+    "tag": {
+      "index": 7853,
+      "group": "bitm",
+      "name": "objects\\gear\\human\\military\\bitmaps\\camping_stool_diffuse",
+      "offset": 280757568
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7853_0.png",
+    "resource_id": 4018998826
+  },
+  {
+    "tag": {
+      "index": 7871,
+      "group": "bitm",
+      "name": "objects\\props\\human\\urban\\space_crate\\bitmaps\\space_crate_diffuse",
+      "offset": 280776308
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7871_0.png",
+    "resource_id": 4019785270
+  },
+  {
+    "tag": {
+      "index": 7887,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\crate_space\\bitmaps\\crate_space_diffuse",
+      "offset": 280794724
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7887_0.png",
+    "resource_id": 4020244029
+  },
+  {
+    "tag": {
+      "index": 7899,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\crate_space\\bitmaps\\cov_storage_illum",
+      "offset": 280885392
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      64,
+      128
+    ],
+    "preview_size": [
+      64,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/7899_0.png",
+    "resource_id": 4020637251
+  },
+  {
+    "tag": {
+      "index": 3845,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\falcon\\bitmaps\\falcon_gl_diff",
+      "offset": 262676016
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3845_0.png",
+    "resource_id": 3888383585
+  },
+  {
+    "tag": {
+      "index": 2291,
+      "group": "bitm",
+      "name": "levels\\solo\\m50\\bitmaps\\metal\\metal_grating_a_dif",
+      "offset": 251184656
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2291_0.png",
+    "resource_id": 3846046683
+  },
+  {
+    "tag": {
+      "index": 2296,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\weapons\\warthog_troop\\bitmaps\\warthog_troop_diffuse",
+      "offset": 251186156
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2296_0.png",
+    "resource_id": 3846374368
+  },
+  {
+    "tag": {
+      "index": 8778,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\sabre\\bitmaps\\sabre_body_diffuse",
+      "offset": 285352384
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/8778_0.png",
+    "resource_id": 4041740165
+  },
+  {
+    "tag": {
+      "index": 8786,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\sabre\\bitmaps\\sabre_frame_diffuse",
+      "offset": 285357492
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/8786_0.png",
+    "resource_id": 4042264461
+  },
+  {
+    "tag": {
+      "index": 9051,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\seraph\\bitmaps\\seraph_diffuse",
+      "offset": 286233716
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9051_0.png",
+    "resource_id": 4049866753
+  },
+  {
+    "tag": {
+      "index": 9137,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\cart_electric\\bitmaps\\cart_and_trailer_diffuse",
+      "offset": 286513392
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      512
+    ],
+    "preview_size": [
+      1024,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9137_0.png",
+    "resource_id": 4052422696
+  },
+  {
+    "tag": {
+      "index": 9142,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\truck_cab_large\\bitmaps\\diamondplate_diffuse",
+      "offset": 286807052
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9142_0.png",
+    "resource_id": 4052488233
+  },
+  {
+    "tag": {
+      "index": 9143,
+      "group": "bitm",
+      "name": "objects\\props\\human\\pioneer\\pottery\\potters_wheel1\\bitmaps\\pottery_grime_detail_diffuse",
+      "offset": 286807308
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9143_0.png",
+    "resource_id": 4052553770
+  },
+  {
+    "tag": {
+      "index": 9234,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\forklift\\bitmaps\\forklift_diffuse",
+      "offset": 287891048
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9234_0.png",
+    "resource_id": 4055830620
+  },
+  {
+    "tag": {
+      "index": 9247,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\decals\\bitmaps\\panel_logo_decal",
+      "offset": 287897304
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      64
+    ],
+    "preview_size": [
+      256,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9247_0.png",
+    "resource_id": 4056485990
+  },
+  {
+    "tag": {
+      "index": 9254,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_interior_plating_plate_b_diffuse",
+      "offset": 288355108
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9254_0.png",
+    "resource_id": 4056748138
+  },
+  {
+    "tag": {
+      "index": 9301,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\pickup\\bitmaps\\pioneer_truck_body_diffuse",
+      "offset": 288495464
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9301_0.png",
+    "resource_id": 4058124415
+  },
+  {
+    "tag": {
+      "index": 9323,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\pickup\\bitmaps\\pioneer_truck_tire_diffuse",
+      "offset": 289352160
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9323_0.png",
+    "resource_id": 4058779785
+  },
+  {
+    "tag": {
+      "index": 9333,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\pickup\\bitmaps\\pioneer_truck_grill_diffuse",
+      "offset": 289922500
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9333_0.png",
+    "resource_id": 4059041933
+  },
+  {
+    "tag": {
+      "index": 9338,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\pickup\\bitmaps\\pioneer_truck_decals_diffuse",
+      "offset": 290242504
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9338_0.png",
+    "resource_id": 4059173007
+  },
+  {
+    "tag": {
+      "index": 9344,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\pickup\\bitmaps\\pioneer_truck_decals_small_diffuse",
+      "offset": 290582608
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9344_0.png",
+    "resource_id": 4059369618
+  },
+  {
+    "tag": {
+      "index": 9407,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\cargo_truck\\bitmaps\\cargo_truck_wheels_diffuse",
+      "offset": 291101532
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9407_0.png",
+    "resource_id": 4061270191
+  },
+  {
+    "tag": {
+      "index": 9415,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\truck_cab_large\\bitmaps\\truck_cab_large_diffuse",
+      "offset": 291489864
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9415_0.png",
+    "resource_id": 4061663413
+  },
+  {
+    "tag": {
+      "index": 9425,
+      "group": "bitm",
+      "name": "objects\\props\\human\\pioneer\\furniture\\bitmaps\\hardware_metal_furniture_diffuse",
+      "offset": 291797816
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9425_0.png",
+    "resource_id": 4061991098
+  },
+  {
+    "tag": {
+      "index": 9430,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\cargo_truck\\bitmaps\\cargo_truck_decals_diffuse",
+      "offset": 292195584
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9430_0.png",
+    "resource_id": 4062122172
+  },
+  {
+    "tag": {
+      "index": 9443,
+      "group": "bitm",
+      "name": "objects\\props\\human\\oni\\small_desk_objects\\pen_holder\\bitmaps\\pen_holder_diffuse",
+      "offset": 293087596
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9443_0.png",
+    "resource_id": 4062580931
+  },
+  {
+    "tag": {
+      "index": 9519,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\truck_cab_large\\bitmaps\\truck_bed_diffuse",
+      "offset": 294095332
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9519_0.png",
+    "resource_id": 4065333485
+  },
+  {
+    "tag": {
+      "index": 9586,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\oni_van\\bitmaps\\oni_van_diffuse",
+      "offset": 294572288
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9586_0.png",
+    "resource_id": 4068217113
+  },
+  {
+    "tag": {
+      "index": 9590,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\oni_van\\bitmaps\\oni_van_container_diffuse",
+      "offset": 294574472
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9590_0.png",
+    "resource_id": 4068413724
+  },
+  {
+    "tag": {
+      "index": 9502,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\decals\\bitmaps\\military_truck_decals_diffuse",
+      "offset": 293537544
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9502_0.png",
+    "resource_id": 4064612578
+  },
+  {
+    "tag": {
+      "index": 9696,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_panel_simple_dif",
+      "offset": 295921408
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9696_0.png",
+    "resource_id": 4071625037
+  },
+  {
+    "tag": {
+      "index": 9704,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_fore_trim_b_diff",
+      "offset": 296192316
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9704_0.png",
+    "resource_id": 4071952722
+  },
+  {
+    "tag": {
+      "index": 9707,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_halldoor_diff",
+      "offset": 296193680
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9707_0.png",
+    "resource_id": 4072149333
+  },
+  {
+    "tag": {
+      "index": 9711,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_beaver_creek\\bitmaps\\ca_bcreek_fore_light_trim2",
+      "offset": 296195064
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      512,
+      128
+    ],
+    "preview_size": [
+      512,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9711_0.png",
+    "resource_id": 4072411481
+  },
+  {
+    "tag": {
+      "index": 9717,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_panel_pipe",
+      "offset": 296490592
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9717_0.png",
+    "resource_id": 4072542555
+  },
+  {
+    "tag": {
+      "index": 9724,
+      "group": "bitm",
+      "name": "objects\\cinematics\\forerunner\\ring_parts\\bitmap\\metal_diff",
+      "offset": 296817796
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9724_0.png",
+    "resource_id": 4072739166
+  },
+  {
+    "tag": {
+      "index": 9733,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_glass_control",
+      "offset": 297197432
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9733_0.png",
+    "resource_id": 4073132388
+  },
+  {
+    "tag": {
+      "index": 9751,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_metal_scratched_light",
+      "offset": 297463540
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9751_0.png",
+    "resource_id": 4073591147
+  },
+  {
+    "tag": {
+      "index": 9760,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_headlong\\bitmaps\\falcon_engine_diffuse_diffuse",
+      "offset": 297472840
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9760_0.png",
+    "resource_id": 4073853295
+  },
+  {
+    "tag": {
+      "index": 9821,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\shield_door_small\\bitmaps\\cov_forcefield_survival_mask",
+      "offset": 297585764
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/9821_0.png",
+    "resource_id": 4075491720
+  },
+  {
+    "tag": {
+      "index": 5006,
+      "group": "bitm",
+      "name": "objects\\gear\\human\\military\\rocket_launcher_ammo\\bitmaps\\rocket_launcher_ammo2_dif",
+      "offset": 267731792
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      384,
+      384
+    ],
+    "preview_size": [
+      384,
+      384
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/5006_0.png",
+    "resource_id": 3923511417
+  },
+  {
+    "tag": {
+      "index": 10238,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\phantom\\bitmaps\\phantom_exterior_diffuse",
+      "offset": 299341904
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10238_0.png",
+    "resource_id": 4087747139
+  },
+  {
+    "tag": {
+      "index": 10242,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\phantom\\bitmaps\\phantom_interior_diffuse",
+      "offset": 299344412
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10242_0.png",
+    "resource_id": 4088009287
+  },
+  {
+    "tag": {
+      "index": 478,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\damage\\cov_damage_ripped_hex_cage_01",
+      "offset": 243553724
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/478_0.png",
+    "resource_id": 3793223861
+  },
+  {
+    "tag": {
+      "index": 455,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\damage\\cov_damage_ripped_open_tech_01",
+      "offset": 242362720
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/455_0.png",
+    "resource_id": 3792502954
+  },
+  {
+    "tag": {
+      "index": 10437,
+      "group": "bitm",
+      "name": "objects\\vehicles\\covenant\\tuning_fork\\bitmaps\\tuningfork_diffuse",
+      "offset": 300054240
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10437_0.png",
+    "resource_id": 4092203655
+  },
+  {
+    "tag": {
+      "index": 489,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\damage\\cov_damage_charred_hole_01",
+      "offset": 244048948
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/489_0.png",
+    "resource_id": 3793420472
+  },
+  {
+    "tag": {
+      "index": 496,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\damage\\cov_damage_charred_hole_02",
+      "offset": 244051708
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/496_0.png",
+    "resource_id": 3793813694
+  },
+  {
+    "tag": {
+      "index": 509,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\damage\\cov_damage_ripped_open_tech_03",
+      "offset": 244525264
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/509_0.png",
+    "resource_id": 3794337990
+  },
+  {
+    "tag": {
+      "index": 10479,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_hull_reach_diffuse",
+      "offset": 300177684
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10479_0.png",
+    "resource_id": 4093645469
+  },
+  {
+    "tag": {
+      "index": 10483,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_general_plating_diffuse",
+      "offset": 300180020
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10483_0.png",
+    "resource_id": 4093907617
+  },
+  {
+    "tag": {
+      "index": 10577,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\drop_pod_elite\\bitmaps\\cov_drop_pod_elite_diffuse",
+      "offset": 301026428
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10577_0.png",
+    "resource_id": 4097970911
+  },
+  {
+    "tag": {
+      "index": 10617,
+      "group": "bitm",
+      "name": "levels\\solo\\m70\\bitmaps\\metal\\m70_metal_braided_steel_diff",
+      "offset": 301336496
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10617_0.png",
+    "resource_id": 4099216114
+  },
+  {
+    "tag": {
+      "index": 10621,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\turrets\\anti_air_cannon\\bitmaps\\anti_air_cannon_diff",
+      "offset": 301338868
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10621_0.png",
+    "resource_id": 4099412725
+  },
+  {
+    "tag": {
+      "index": 10624,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\turrets\\anti_air_cannon\\bitmaps\\anti_air_cannon_ammo_i_diff",
+      "offset": 301340280
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      128
+    ],
+    "preview_size": [
+      256,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10624_0.png",
+    "resource_id": 4099609336
+  },
+  {
+    "tag": {
+      "index": 10627,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\turrets\\anti_air_cannon\\bitmaps\\anti_air_cannon_ammo_o_",
+      "offset": 301341692
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      128
+    ],
+    "preview_size": [
+      256,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10627_0.png",
+    "resource_id": 4099740410
+  },
+  {
+    "tag": {
+      "index": 10645,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\civilian\\cargo_truck\\bitmaps\\cargo_truck_diffuse",
+      "offset": 301686172
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10645_0.png",
+    "resource_id": 4100461317
+  },
+  {
+    "tag": {
+      "index": 3562,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\falcon\\bitmaps\\falcon_engine_diff",
+      "offset": 260843816
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/3562_0.png",
+    "resource_id": 3881436663
+  },
+  {
+    "tag": {
+      "index": 2797,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\destruction\\bitmaps\\hum_damage_streaks_diff",
+      "offset": 255229972
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 0,
+    "original_size": [
+      256,
+      128
+    ],
+    "preview_size": [
+      256,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2797_0.png",
+    "resource_id": 3860989119
+  },
+  {
+    "tag": {
+      "index": 2812,
+      "group": "bitm",
+      "name": "objects\\bitmaps\\damage\\hum_damaged_ripped_open_tech_03",
+      "offset": 256160624
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/2812_0.png",
+    "resource_id": 3861775563
+  },
+  {
+    "tag": {
+      "index": 1738,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\bitmaps\\glass_damage_diffuse",
+      "offset": 249058600
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1738_0.png",
+    "resource_id": 3829596896
+  },
+  {
+    "tag": {
+      "index": 1712,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\warthog\\bitmaps\\warthog_damage_diffuse",
+      "offset": 248234664
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/1712_0.png",
+    "resource_id": 3828417230
+  },
+  {
+    "tag": {
+      "index": 10670,
+      "group": "bitm",
+      "name": "objects\\props\\human\\urban\\chair_folding\\bitmaps\\h_chair_folding_diff",
+      "offset": 301879660
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10670_0.png",
+    "resource_id": 4101116687
+  },
+  {
+    "tag": {
+      "index": 10714,
+      "group": "bitm",
+      "name": "objects\\gear\\human\\military\\bitmaps\\foam_diffuse",
+      "offset": 301945612
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10714_0.png",
+    "resource_id": 4103017260
+  },
+  {
+    "tag": {
+      "index": 10719,
+      "group": "bitm",
+      "name": "objects\\gear\\human\\residential\\h_bunk_collapsable_w_stand\\bitmaps\\h_bunk_collapsable_diffuse",
+      "offset": 301947864
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10719_0.png",
+    "resource_id": 4103213871
+  },
+  {
+    "tag": {
+      "index": 10723,
+      "group": "bitm",
+      "name": "objects\\gear\\human\\military\\weapon_rack\\bitmaps\\weapon_rack_diff",
+      "offset": 301950684
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      512
+    ],
+    "preview_size": [
+      256,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10723_0.png",
+    "resource_id": 4103476019
+  },
+  {
+    "tag": {
+      "index": 10740,
+      "group": "bitm",
+      "name": "objects\\props\\human\\oni\\monitor_wall\\bitmaps\\plastic_seam_diffuse",
+      "offset": 301965076
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10740_0.png",
+    "resource_id": 4104131389
+  },
+  {
+    "tag": {
+      "index": 10744,
+      "group": "bitm",
+      "name": "levels\\shared\\bitmaps\\test_maps\\gray_70",
+      "offset": 301966496
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      8,
+      8
+    ],
+    "preview_size": [
+      8,
+      8
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10744_0.png",
+    "resource_id": 4104393537
+  },
+  {
+    "tag": {
+      "index": 10759,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\bulk_plasma_storage\\bitmaps\\plasma_storage_diffuse",
+      "offset": 301987068
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10759_0.png",
+    "resource_id": 4104852296
+  },
+  {
+    "tag": {
+      "index": 10780,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\cov_camp_stool\\bitmaps\\cov_camp_stool_diffuse",
+      "offset": 302026040
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10780_0.png",
+    "resource_id": 4105507666
+  },
+  {
+    "tag": {
+      "index": 10811,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\antennae_comm\\bitmaps\\antennae_comm_diffuse",
+      "offset": 302066112
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10811_0.png",
+    "resource_id": 4106490721
+  },
+  {
+    "tag": {
+      "index": 10856,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\vehicle_fuel_storage\\bitmaps\\vehicle_fuel_storage_diffuse",
+      "offset": 302155452
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10856_0.png",
+    "resource_id": 4107866998
+  },
+  {
+    "tag": {
+      "index": 10860,
+      "group": "bitm",
+      "name": "objects\\props\\covenant\\vehicle_fuel_storage\\bitmaps\\fuel_storage_metal_diffuse",
+      "offset": 302157112
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10860_0.png",
+    "resource_id": 4108063609
+  },
+  {
+    "tag": {
+      "index": 10877,
+      "group": "bitm",
+      "name": "levels\\shared\\bitmaps\\oni\\metal\\data_tech_bank_diffuse",
+      "offset": 302563084
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10877_0.png",
+    "resource_id": 4108522368
+  },
+  {
+    "tag": {
+      "index": 10881,
+      "group": "bitm",
+      "name": "levels\\multi\\dlc\\objects\\dlc_slayer_cart_b\\bitmaps\\dlc_slayer_crates_diffuse",
+      "offset": 302564108
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      1024
+    ],
+    "preview_size": [
+      512,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10881_0.png",
+    "resource_id": 4108850053
+  },
+  {
+    "tag": {
+      "index": 10893,
+      "group": "bitm",
+      "name": "objects\\props\\human\\pioneer\\bitmaps\\furniture_bolts_diff",
+      "offset": 302830364
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10893_0.png",
+    "resource_id": 4109439886
+  },
+  {
+    "tag": {
+      "index": 10904,
+      "group": "bitm",
+      "name": "levels\\multi\\dlc\\objects\\dlc_slayer_cart_b\\bitmaps\\dlc_missile_diffuse",
+      "offset": 302914284
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      256
+    ],
+    "preview_size": [
+      512,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10904_0.png",
+    "resource_id": 4109833108
+  },
+  {
+    "tag": {
+      "index": 10945,
+      "group": "bitm",
+      "name": "levels\\solo\\m45\\bitmaps\\cov\\cov_metal_tile",
+      "offset": 303328344
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10945_0.png",
+    "resource_id": 4111733681
+  },
+  {
+    "tag": {
+      "index": 10949,
+      "group": "bitm",
+      "name": "levels\\solo\\m45\\bitmaps\\cov\\cov_metal_strip_a",
+      "offset": 303333468
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      2048
+    ],
+    "preview_size": [
+      256,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10949_0.png",
+    "resource_id": 4111995829
+  },
+  {
+    "tag": {
+      "index": 10958,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_beaver_creek\\bitmaps\\ca_metalbeams",
+      "offset": 303338552
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10958_0.png",
+    "resource_id": 4112323514
+  },
+  {
+    "tag": {
+      "index": 10961,
+      "group": "bitm",
+      "name": "levels\\test\\100_citadel\\bitmaps\\panel_wall_activation",
+      "offset": 303339836
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10961_0.png",
+    "resource_id": 4112520125
+  },
+  {
+    "tag": {
+      "index": 10964,
+      "group": "bitm",
+      "name": "levels\\multi\\classic\\ascension\\bitmaps\\panel_thin_strips",
+      "offset": 303341200
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10964_0.png",
+    "resource_id": 4112716736
+  },
+  {
+    "tag": {
+      "index": 10999,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_catwalk_floor1",
+      "offset": 303422636
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10999_0.png",
+    "resource_id": 4113634254
+  },
+  {
+    "tag": {
+      "index": 11002,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_metalbeams",
+      "offset": 303423920
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11002_0.png",
+    "resource_id": 4113830865
+  },
+  {
+    "tag": {
+      "index": 11005,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_beaver_creek\\bitmaps\\ca_bcreek_fore_light_trim1",
+      "offset": 303425372
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      512,
+      128
+    ],
+    "preview_size": [
+      512,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11005_0.png",
+    "resource_id": 4114027476
+  },
+  {
+    "tag": {
+      "index": 11058,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_beaver_creek\\bitmaps\\ca_bcreek_512_panel_vert_symetric",
+      "offset": 304908196
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11058_0.png",
+    "resource_id": 4116386808
+  },
+  {
+    "tag": {
+      "index": 11061,
+      "group": "bitm",
+      "name": "levels\\multi\\classic\\ascension\\bitmaps\\panel_f",
+      "offset": 304909112
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11061_0.png",
+    "resource_id": 4116583419
+  },
+  {
+    "tag": {
+      "index": 11025,
+      "group": "bitm",
+      "name": "levels\\multi\\classic\\ascension\\bitmaps\\tread",
+      "offset": 303664092
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11025_0.png",
+    "resource_id": 4114879457
+  },
+  {
+    "tag": {
+      "index": 11031,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_timberland\\bitmaps\\ca_timber_metal_scratched_dark",
+      "offset": 303668456
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11031_0.png",
+    "resource_id": 4115272679
+  },
+  {
+    "tag": {
+      "index": 11040,
+      "group": "bitm",
+      "name": "levels\\multi\\classic\\guardian\\bitmaps\\panel_simple_dif",
+      "offset": 303997512
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11040_0.png",
+    "resource_id": 4115665901
+  },
+  {
+    "tag": {
+      "index": 11086,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_hallwaypanel_a",
+      "offset": 305262140
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      512
+    ],
+    "preview_size": [
+      1024,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11086_0.png",
+    "resource_id": 4117238789
+  },
+  {
+    "tag": {
+      "index": 11112,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_wall_panel_a",
+      "offset": 305555084
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11112_0.png",
+    "resource_id": 4118156307
+  },
+  {
+    "tag": {
+      "index": 11115,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_tombstone_metal",
+      "offset": 305556440
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      1024
+    ],
+    "preview_size": [
+      512,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11115_0.png",
+    "resource_id": 4118352918
+  },
+  {
+    "tag": {
+      "index": 11119,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_halogram_circle",
+      "offset": 305558060
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11119_0.png",
+    "resource_id": 4118615066
+  },
+  {
+    "tag": {
+      "index": 11133,
+      "group": "bitm",
+      "name": "levels\\test\\ai_improvements\\bitmaps\\panel_floor_waste",
+      "offset": 305565008
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11133_0.png",
+    "resource_id": 4119139362
+  },
+  {
+    "tag": {
+      "index": 11143,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_forcefield_wall",
+      "offset": 305571588
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      2048,
+      2048
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11143_0.png",
+    "resource_id": 4119532584
+  },
+  {
+    "tag": {
+      "index": 11152,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_prisoner\\bitmaps\\ca_prisoner_wall_lobby_01_diff",
+      "offset": 305580484
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11152_0.png",
+    "resource_id": 4119794732
+  },
+  {
+    "tag": {
+      "index": 11168,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_headlong\\bitmaps\\ca_headlong_stripes_diffuse",
+      "offset": 305617900
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11168_0.png",
+    "resource_id": 4120253491
+  },
+  {
+    "tag": {
+      "index": 11172,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_headlong\\bitmaps\\headlong_clean_metal1_d",
+      "offset": 305619288
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11172_0.png",
+    "resource_id": 4120515639
+  },
+  {
+    "tag": {
+      "index": 11181,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_headlong\\bitmaps\\metal_dark_01_diffuse",
+      "offset": 305627308
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11181_0.png",
+    "resource_id": 4120843324
+  },
+  {
+    "tag": {
+      "index": 11235,
+      "group": "bitm",
+      "name": "levels\\solo\\m70\\bitmaps\\m70_garage_door_diff",
+      "offset": 306653164
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11235_0.png",
+    "resource_id": 4122547286
+  },
+  {
+    "tag": {
+      "index": 11243,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_beaver_creek\\bitmaps\\ca_panel_wall_c_diffuse",
+      "offset": 306657516
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11243_0.png",
+    "resource_id": 4122874971
+  },
+  {
+    "tag": {
+      "index": 411,
+      "group": "bitm",
+      "name": "objects\\levels\\forge\\bitmaps\\for_forge_gen_panel_02_diffuse",
+      "offset": 240818044
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/411_0.png",
+    "resource_id": 3791192214
+  },
+  {
+    "tag": {
+      "index": 11272,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_trim_b_diff",
+      "offset": 306689996
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11272_0.png",
+    "resource_id": 4123726952
+  },
+  {
+    "tag": {
+      "index": 11281,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_for_forge",
+      "offset": 306696464
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      1024
+    ],
+    "preview_size": [
+      1024,
+      1024
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11281_0.png",
+    "resource_id": 4124054637
+  },
+  {
+    "tag": {
+      "index": 11291,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_metal_scratched_dark",
+      "offset": 306715892
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11291_0.png",
+    "resource_id": 4124447859
+  },
+  {
+    "tag": {
+      "index": 11317,
+      "group": "bitm",
+      "name": "levels\\dlc\\cex_hangemhigh\\bitmaps\\ca_heh_hallwaypanel_b",
+      "offset": 307100532
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      1024,
+      512
+    ],
+    "preview_size": [
+      1024,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11317_0.png",
+    "resource_id": 4125103229
+  },
+  {
+    "tag": {
+      "index": 11549,
+      "group": "bitm",
+      "name": "objects\\cinematics\\human\\bitmaps\\dingy_caution_decal",
+      "offset": 310234064
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11549_0.png",
+    "resource_id": 4132902132
+  },
+  {
+    "tag": {
+      "index": 11552,
+      "group": "bitm",
+      "name": "objects\\cinematics\\human\\bitmaps\\inflatedecal",
+      "offset": 310234740
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      128,
+      64
+    ],
+    "preview_size": [
+      128,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11552_0.png",
+    "resource_id": 4133033206
+  },
+  {
+    "tag": {
+      "index": 11554,
+      "group": "bitm",
+      "name": "objects\\cinematics\\human\\bitmaps\\lifeboat_parts_dif",
+      "offset": 310235896
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11554_0.png",
+    "resource_id": 4133164280
+  },
+  {
+    "tag": {
+      "index": 11559,
+      "group": "bitm",
+      "name": "objects\\cinematics\\human\\bitmaps\\lifeboat_tube_dif",
+      "offset": 310237740
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      1024,
+      512
+    ],
+    "preview_size": [
+      1024,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11559_0.png",
+    "resource_id": 4133491965
+  },
+  {
+    "tag": {
+      "index": 11564,
+      "group": "bitm",
+      "name": "objects\\cinematics\\human\\bitmaps\\06_decal",
+      "offset": 310239072
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11564_0.png",
+    "resource_id": 4133819650
+  },
+  {
+    "tag": {
+      "index": 11572,
+      "group": "bitm",
+      "name": "objects\\weapons\\pistol\\target_laser\\bitmaps\\target_laser_diff",
+      "offset": 310301612
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      384,
+      384
+    ],
+    "preview_size": [
+      384,
+      384
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11572_0.png",
+    "resource_id": 4134081798
+  },
+  {
+    "tag": {
+      "index": 11580,
+      "group": "bitm",
+      "name": "objects\\weapons\\rifle\\dmr\\bitmaps\\numbers_plate_dmr",
+      "offset": 310306904
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      64,
+      64
+    ],
+    "preview_size": [
+      64,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11580_0.png",
+    "resource_id": 4134540557
+  },
+  {
+    "tag": {
+      "index": 11583,
+      "group": "bitm",
+      "name": "objects\\weapons\\pistol\\target_laser\\bitmaps\\target_laser_reticles",
+      "offset": 310309016
+    },
+    "image_index": 4,
+    "requested_image_index": 4,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      64
+    ],
+    "preview_size": [
+      128,
+      64
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/11583_4.png",
+    "resource_id": 4135523612
+  },
+  {
+    "tag": {
+      "index": 10501,
+      "group": "bitm",
+      "name": "objects\\props\\human\\oni\\monitor_wall\\bitmaps\\space_monitor_screen_02_diffuse",
+      "offset": 300436756
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10501_0.png",
+    "resource_id": 4094825135
+  },
+  {
+    "tag": {
+      "index": 10505,
+      "group": "bitm",
+      "name": "objects\\props\\human\\oni\\monitor_wall\\bitmaps\\space_monitor_screen_03_diffuse",
+      "offset": 300437952
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10505_0.png",
+    "resource_id": 4095021746
+  },
+  {
+    "tag": {
+      "index": 10507,
+      "group": "bitm",
+      "name": "objects\\props\\human\\oni\\monitor_wall\\bitmaps\\space_monitor_screen_04_diffuse",
+      "offset": 300438636
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10507_0.png",
+    "resource_id": 4095087283
+  },
+  {
+    "tag": {
+      "index": 10509,
+      "group": "bitm",
+      "name": "objects\\props\\human\\oni\\monitor_wall\\bitmaps\\space_monitor_screen_05_diffuse",
+      "offset": 300439320
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 14,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10509_0.png",
+    "resource_id": 4095152820
+  },
+  {
+    "tag": {
+      "index": 10511,
+      "group": "bitm",
+      "name": "objects\\props\\human\\urban\\bitmaps\\monitor_bank_screen2",
+      "offset": 300440668
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10511_0.png",
+    "resource_id": 4095218357
+  },
+  {
+    "tag": {
+      "index": 10514,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_tech_panels_diffuse",
+      "offset": 300442120
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      256,
+      256
+    ],
+    "preview_size": [
+      256,
+      256
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10514_0.png",
+    "resource_id": 4095349431
+  },
+  {
+    "tag": {
+      "index": 10517,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_instances_reach_diffuse",
+      "offset": 300443108
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      512,
+      512
+    ],
+    "preview_size": [
+      512,
+      512
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10517_0.png",
+    "resource_id": 4095546042
+  },
+  {
+    "tag": {
+      "index": 10522,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_interior_plating_plate_a_diffuse",
+      "offset": 300446160
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10522_0.png",
+    "resource_id": 4095873727
+  },
+  {
+    "tag": {
+      "index": 10525,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_interior_plating_plate_c_diffuse",
+      "offset": 300447532
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10525_0.png",
+    "resource_id": 4096070338
+  },
+  {
+    "tag": {
+      "index": 10528,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_interior_plating_plate_d_diffuse",
+      "offset": 300448856
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10528_0.png",
+    "resource_id": 4096266949
+  },
+  {
+    "tag": {
+      "index": 10531,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_interior_plating_plate_e_diffuse",
+      "offset": 300450284
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 16,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10531_0.png",
+    "resource_id": 4096463560
+  },
+  {
+    "tag": {
+      "index": 10538,
+      "group": "bitm",
+      "name": "objects\\vehicles\\human\\pelican\\bitmaps\\pelican_interior_plating_plate_f_diffuse",
+      "offset": 300835044
+    },
+    "image_index": 0,
+    "requested_image_index": 0,
+    "frame_selection": "explicit native frame",
+    "format": 11,
+    "original_size": [
+      128,
+      128
+    ],
+    "preview_size": [
+      128,
+      128
+    ],
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/textures/10538_0.png",
+    "resource_id": 4096725708
+  }
+]

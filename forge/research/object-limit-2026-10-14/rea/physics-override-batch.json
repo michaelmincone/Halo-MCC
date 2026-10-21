@@ -1,0 +1,131 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_0b466879f8171a12d02081074261691c3dcaf721c25c5611b17c508e9f943e21\",\"subject\":{\"name\":\"haloreach.dll\",\"digest\":{\"sha256\":\"738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894\"},\"format\":\"pe\",\"architecture\":\"x86_64\",\"local_path\":\"/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll\"},\"provider\":{\"id\":\"rea-workflow\",\"name\":\"REA composed investigation workflow\",\"version\":\"1\"},\"analysis_profile\":{\"provider\":{\"id\":\"rea-workflow\",\"name\":\"REA composed investigation workflow\",\"version\":\"1\"},\"parameters\":{\"upstream_analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"executable_role\":\"shared-library\",\"managed\":false,\"native_aot_metadata\":{\"contract_revision\":\"rtr-9.1-x64-pe-read-only-v3\",\"source_bytes\":134217728,\"work_units\":67108864,\"working_memory_bytes\":67108864,\"report_bytes\":4194304},\"architecture\":\"x86_64\",\"available_architectures\":[\"x86_64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"2f8e96b5753c9076371d59a3c3682f610a66fa4834dc6dc5f556e707a6b8c2cf\"},\"workflow_revision\":2},\"digest\":\"dcd1fddecdf2a5ebcce68a9b0e4e8d06aaf897326d39de6031c937edc648f24c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"batch_decompile\",\"parameters\":{\"addresses\":[\"0x1804b20dc\",\"0x18009ac84\"]},\"raw_result\":null,\"normalized_result\":{\"items\":[{\"address\":\"0x1804b20dc\",\"procedure\":{\"status\":\"resolved\",\"address\":\"0x1804b20dc\",\"name\":\"FUN_1804b20dc\"},\"status\":\"ok\",\"pseudocode\":\"\\nvoid FUN_1804b20dc(float *param_1,undefined8 param_2,byte *param_3,longlong param_4)\\n\\n{\\n  float fVar1;\\n  ushort uVar2;\\n  ushort uVar3;\\n  byte bVar4;\\n  undefined1 uVar5;\\n  char cVar6;\\n  float fVar7;\\n  byte bVar8;\\n  float fVar9;\\n  \\n  param_1[0x21] = -NAN;\\n  *(undefined2 *)((longlong)param_1 + 0x12) = *(undefined2 *)(param_3 + 0x1a);\\n  *(byte *)((longlong)param_1 + 0x11) = param_3[1];\\n  fVar9 = *(float *)(param_3 + 8);\\n  fVar1 = *(float *)(param_3 + 0xc);\\n  fVar7 = *(float *)(param_3 + 0x10);\\n  *param_1 = *(float *)(param_3 + 4);\\n  param_1[1] = fVar9;\\n  param_1[2] = fVar1;\\n  param_1[3] = fVar7;\\n  *(byte *)(param_1 + 4) = param_3[0x14];\\n  *(undefined2 *)(param_1 + 5) = 0;\\n  *(byte *)((longlong)param_1 + 0x16) = param_3[2];\\n  *(undefined1 *)((longlong)param_1 + 0x17) = 0;\\n  bVar4 = *param_3;\\n  if ((*param_3 & 0x1f) == 0) {\\n    bVar4 = 0x1f;\\n  }\\n  *(byte *)(param_1 + 6) = bVar4;\\n  if (param_4 == 0) {\\n    uVar5 = 0xff;\\n  }\\n  else {\\n    uVar5 = *(undefined1 *)(param_4 + 0x25);\\n  }\\n  *(undefined1 *)((longlong)param_1 + 0x19) = uVar5;\\n  *(undefined4 *)((longlong)param_1 + 0x1a) = 0xff00ff;\\n  *(byte *)((longlong)param_1 + 0x1e) = param_3[0x15];\\n  *(undefined2 *)(param_1 + 8) = *(undefined2 *)(param_3 + 0x16);\\n  *(undefined2 *)((longlong)param_1 + 0x22) = *(undefined2 *)(param_3 + 0x18);\\n  param_1[9] = *(float *)(param_3 + 0x1c);\\n  param_1[10] = 0.0;\\n  param_1[0xb] = *(float *)(param_3 + 0x20);\\n  param_1[0xc] = *(float *)(param_3 + 0x24);\\n  param_1[0xd] = *(float *)(param_3 + 0x34);\\n  param_1[0xe] = *(float *)(param_3 + 0x38);\\n  if (param_4 != 0) {\\n    uVar2 = *(ushort *)((longlong)param_1 + 0x12) | 0x80;\\n    if ((*(byte *)(param_4 + 0x2b) & 1) == 0) {\\n      uVar2 = *(ushort *)((longlong)param_1 + 0x12) & 0xff7f;\\n    }\\n    *(ushort *)((longlong)param_1 + 0x12) = uVar2;\\n    uVar3 = uVar2 | 0x100;\\n    if ((*(byte *)(param_4 + 0x2b) & 2) == 0) {\\n      uVar3 = uVar2 & 0xfeff;\\n    }\\n    *(ushort *)((longlong)param_1 + 0x12) = uVar3;\\n    uVar2 = uVar3 | 0x400;\\n    if ((*(byte *)(param_4 + 0x2b) & 4) == 0) {\\n      uVar2 = uVar3 & 0xfbff;\\n    }\\n    *(ushort *)((longlong)param_1 + 0x12) = uVar2;\\n    uVar3 = uVar2 | 0x200;\\n    if ((*(byte *)(param_4 + 0x2b) & 8) == 0) {\\n      uVar3 = uVar2 & 0xfdff;\\n    }\\n    *(ushort *)((longlong)param_1 + 0x12) = uVar3;\\n    *(undefined1 *)(param_1 + 5) = *(undefined1 *)(param_4 + 0x41);\\n    *(undefined1 *)((longlong)param_1 + 0x15) = *(undefined1 *)(param_4 + 0x42);\\n    bVar4 = *(byte *)((longlong)param_1 + 0x16);\\n    if ((*(byte *)(param_4 + 0x43) & 0x1f) != 0) {\\n      bVar4 = *(byte *)(param_4 + 0x43);\\n    }\\n    *(byte *)((longlong)param_1 + 0x16) = bVar4;\\n    *(undefined1 *)((longlong)param_1 + 0x17) = *(undefined1 *)(param_4 + 0x20);\\n    bVar4 = *(byte *)(param_4 + 0x24);\\n    if ((bVar4 & 0xe0) == 0) {\\n      bVar8 = *(byte *)(param_1 + 6);\\n      if ((bVar4 & 0x1f) != 0) {\\n        bVar8 = bVar4;\\n      }\\n      *(byte *)(param_1 + 6) = bVar8;\\n    }\\n    *(undefined1 *)((longlong)param_1 + 0x19) = *(undefined1 *)(param_4 + 0x25);\\n    *(undefined1 *)((longlong)param_1 + 0x1a) = *(undefined1 *)(param_4 + 0x28);\\n    uVar5 = FUN_180122a10(*(undefined4 *)(param_4 + 0x44));\\n    *(undefined1 *)((longlong)param_1 + 0x1d) = uVar5;\\n    *(undefined1 *)((longlong)param_1 + 0x1b) = *(undefined1 *)(param_4 + 0x29);\\n    *(undefined1 *)(param_1 + 7) = *(undefined1 *)(param_4 + 0x2a);\\n    if (0 < *(short *)(param_4 + 0x2c)) {\\n      *(short *)(param_1 + 8) = *(short *)(param_4 + 0x2c);\\n    }\\n    if (*(short *)(param_4 + 0x2e) != 0) {\\n      *(short *)((longlong)param_1 + 0x22) = *(short *)(param_4 + 0x2e);\\n    }\\n    cVar6 = *(char *)(param_4 + 0x40);\\n    if (cVar6 == '\\\\0') {\\n      cVar6 = *(char *)(param_1 + 4);\\n    }\\n    else {\\n      *(char *)(param_1 + 4) = cVar6;\\n    }\\n    fVar9 = *(float *)(param_4 + 0x30);\\n    if (cVar6 == '\\\\0') {\\n      fVar9 = 0.0;\\n    }\\n    else if (fVar9 <= 0.0001) {\\n      fVar9 = *param_1;\\n    }\\n    *param_1 = fVar9;\\n    if (*(char *)(param_1 + 4) == '\\\\x03') {\\n      fVar9 = *(float *)(param_4 + 0x34);\\n      if (fVar9 <= 0.0001) {\\n        fVar9 = param_1[1];\\n      }\\n    }\\n    else {\\n      fVar9 = 0.0;\\n    }\\n    param_1[1] = fVar9;\\n    fVar9 = *(float *)(param_4 + 0x38);\\n    if ((byte)(*(char *)(param_1 + 4) - 2U) < 2) {\\n      if (fVar9 <= 0.0001) {\\n        fVar9 = param_1[2];\\n      }\\n    }\\n    else {\\n      fVar9 = 0.0;\\n    }\\n    param_1[2] = fVar9;\\n    fVar9 = *(float *)(param_4 + 0x3c);\\n    if ((byte)(*(char *)(param_1 + 4) - 2U) < 2) {\\n      if (fVar9 <= 0.0001) {\\n        fVar9 = param_1[3];\\n      }\\n    }\\n    else {\\n      fVar9 = 0.0;\\n    }\\n    param_1[3] = fVar9;\\n    if (0.0001 < ABS(*(float *)(param_4 + 0x54))) {\\n      param_1[9] = *(float *)(param_4 + 0x54);\\n    }\\n  }\\n  fVar9 = *(float *)(param_3 + 0x48);\\n  cVar6 = *(char *)(param_1 + 4);\\n  param_1[0xf] = fVar9;\\n  fVar1 = *(float *)(param_3 + 0x58);\\n  param_1[0x10] = fVar1;\\n  if (cVar6 == '\\\\x01') {\\n    fVar7 = *(float *)(param_3 + 0x68);\\n    if (*(float *)(param_3 + 0x68) == -NAN) {\\n      fVar7 = fVar9;\\n    }\\n    param_1[0xf] = fVar7;\\n    fVar9 = *(float *)(param_3 + 0x78);\\n  }\\n  else if (cVar6 == '\\\\x02') {\\n    fVar7 = *(float *)(param_3 + 0x88);\\n    if (*(float *)(param_3 + 0x88) == -NAN) {\\n      fVar7 = fVar9;\\n    }\\n    param_1[0xf] = fVar7;\\n    fVar9 = *(float *)(param_3 + 0x98);\\n  }\\n  else {\\n    if (cVar6 != '\\\\x03') goto LAB_1804b23c9;\\n    fVar7 = *(float *)(param_3 + 0xa8);\\n    if (*(float *)(param_3 + 0xa8) == -NAN) {\\n      fVar7 = fVar9;\\n    }\\n    param_1[0xf] = fVar7;\\n    fVar9 = *(float *)(param_3 + 0xb8);\\n  }\\n  if (fVar9 == -NAN) {\\n    fVar9 = fVar1;\\n  }\\n  param_1[0x10] = fVar9;\\nLAB_1804b23c9:\\n  if ((*(ushort *)((longlong)param_1 + 0x12) & 0x8000) != 0) {\\n    *(undefined2 *)((longlong)param_1 + 0x12) = 0;\\n  }\\n  if (0x1b < *(byte *)((longlong)param_1 + 0x11)) {\\n    *(undefined1 *)((longlong)param_1 + 0x11) = 0;\\n  }\\n  if (3 < *(byte *)(param_1 + 4)) {\\n    param_1[0] = 0.0;\\n    param_1[1] = 0.0;\\n    param_1[2] = 0.0;\\n    param_1[3] = 0.0;\\n    *(undefined1 *)(param_1 + 4) = 0;\\n  }\\n  if (2 < *(byte *)(param_1 + 5)) {\\n    *(undefined1 *)(param_1 + 5) = 0;\\n  }\\n  if (0x19 < *(byte *)((longlong)param_1 + 0x15)) {\\n    *(undefined1 *)((longlong)param_1 + 0x15) = 0;\\n  }\\n  if ((*(byte *)((longlong)param_1 + 0x16) & 0xe0) != 0) {\\n    *(undefined1 *)((longlong)param_1 + 0x16) = 0;\\n  }\\n  if (2 < *(byte *)((longlong)param_1 + 0x17)) {\\n    *(undefined1 *)((longlong)param_1 + 0x17) = 0;\\n  }\\n  if (((uint)param_1[6] & 0xe0) != 0) {\\n    *(undefined1 *)(param_1 + 6) = 0;\\n  }\\n  if (9 < (byte)(*(char *)((longlong)param_1 + 0x19) + 1U)) {\\n    *(undefined1 *)((longlong)param_1 + 0x19) = 0;\\n  }\\n  if (1 < *(byte *)((longlong)param_1 + 0x1e)) {\\n    *(undefined1 *)((longlong)param_1 + 0x1e) = 0;\\n  }\\n  return;\\n}\\n\\n\"},{\"address\":\"0x18009ac84\",\"procedure\":{\"status\":\"resolved\",\"address\":\"0x18009ac84\",\"name\":\"FUN_18009ac84\"},\"status\":\"ok\",\"pseudocode\":\"\\nvoid FUN_18009ac84(uint param_1,char param_2,char param_3)\\n\\n{\\n  longlong lVar1;\\n  char cVar2;\\n  \\n  lVar1 = *(longlong *)\\n           (*(longlong *)\\n             (*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 0x10)\\n           + 0x50);\\n  if ((param_3 != '\\\\0') || ((*(byte *)(lVar1 + 2 + (ulonglong)(param_1 & 0xffff) * 0x18) & 1) != 0))\\n  {\\n    cVar2 = FUN_18009a8c0(param_1,**(undefined4 **)\\n                                    (lVar1 + 0x10 + (ulonglong)(param_1 & 0xffff) * 0x18));\\n    if (cVar2 != '\\\\0') {\\n      if (param_2 == '\\\\0') {\\n        FUN_18009a670(param_1);\\n      }\\n      else {\\n        FUN_18009a81c(param_1,param_1);\\n      }\\n    }\\n  }\\n  return;\\n}\\n\\n\"}],\"total\":2,\"succeeded\":2,\"failed\":0},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Derived by an REA composed workflow.\"],\"locations\":[{\"kind\":\"address\",\"address\":\"0x1804b20dc\"},{\"kind\":\"address\",\"address\":\"0x18009ac84\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_0b466879f8171a12d02081074261691c3dcaf721c25c5611b17c508e9f943e21",
+    "subject": {
+      "name": "haloreach.dll",
+      "digest": {
+        "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894"
+      },
+      "format": "pe",
+      "architecture": "x86_64",
+      "local_path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll"
+    },
+    "provider": {
+      "id": "rea-workflow",
+      "name": "REA composed investigation workflow",
+      "version": "1"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "rea-workflow",
+        "name": "REA composed investigation workflow",
+        "version": "1"
+      },
+      "parameters": {
+        "upstream_analysis_profile": {
+          "provider": {
+            "id": "ghidra",
+            "name": "Ghidra",
+            "version": "12.1.4"
+          },
+          "parameters": {
+            "target_kind": "executable",
+            "target_format": "pe",
+            "executable_role": "shared-library",
+            "managed": false,
+            "native_aot_metadata": {
+              "contract_revision": "rtr-9.1-x64-pe-read-only-v3",
+              "source_bytes": 134217728,
+              "work_units": 67108864,
+              "working_memory_bytes": 67108864,
+              "report_bytes": 4194304
+            },
+            "architecture": "x86_64",
+            "available_architectures": [
+              "x86_64"
+            ],
+            "import_mode": "ephemeral-source-immutable",
+            "annotation_policy": "atomic-function-entry-metadata-v1",
+            "load_image_observations": "source-mappings-entry-context-v2",
+            "function_body_evidence": "complete-inclusive-ranges-v1",
+            "function_references": "complete-body-and-entry-reference-manager-v2",
+            "string_inventory_evidence": "defined-data-coverage-v1",
+            "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+            "instruction_flow_evidence": "decoded-return-pcode-v1",
+            "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+            "no_return_repair": "returning-imports-decoded-return-v2",
+            "process_launch": "inspected-jvm-launch-support-v1",
+            "jump_table_evidence": "typed-case-default-blocks-v1",
+            "decompiler_jump_loads": true,
+            "loader": "auto-from-header",
+            "language_id": "auto-from-header",
+            "compiler_spec_id": "auto-default",
+            "analyzer_preset": "ghidra-default"
+          },
+          "digest": "2f8e96b5753c9076371d59a3c3682f610a66fa4834dc6dc5f556e707a6b8c2cf"
+        },
+        "workflow_revision": 2
+      },
+      "digest": "dcd1fddecdf2a5ebcce68a9b0e4e8d06aaf897326d39de6031c937edc648f24c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "batch_decompile",
+    "parameters": {
+      "addresses": [
+        "0x1804b20dc",
+        "0x18009ac84"
+      ]
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "items": [
+        {
+          "address": "0x1804b20dc",
+          "procedure": {
+            "status": "resolved",
+            "address": "0x1804b20dc",
+            "name": "FUN_1804b20dc"
+          },
+          "status": "ok",
+          "pseudocode": "\nvoid FUN_1804b20dc(float *param_1,undefined8 param_2,byte *param_3,longlong param_4)\n\n{\n  float fVar1;\n  ushort uVar2;\n  ushort uVar3;\n  byte bVar4;\n  undefined1 uVar5;\n  char cVar6;\n  float fVar7;\n  byte bVar8;\n  float fVar9;\n  \n  param_1[0x21] = -NAN;\n  *(undefined2 *)((longlong)param_1 + 0x12) = *(undefined2 *)(param_3 + 0x1a);\n  *(byte *)((longlong)param_1 + 0x11) = param_3[1];\n  fVar9 = *(float *)(param_3 + 8);\n  fVar1 = *(float *)(param_3 + 0xc);\n  fVar7 = *(float *)(param_3 + 0x10);\n  *param_1 = *(float *)(param_3 + 4);\n  param_1[1] = fVar9;\n  param_1[2] = fVar1;\n  param_1[3] = fVar7;\n  *(byte *)(param_1 + 4) = param_3[0x14];\n  *(undefined2 *)(param_1 + 5) = 0;\n  *(byte *)((longlong)param_1 + 0x16) = param_3[2];\n  *(undefined1 *)((longlong)param_1 + 0x17) = 0;\n  bVar4 = *param_3;\n  if ((*param_3 & 0x1f) == 0) {\n    bVar4 = 0x1f;\n  }\n  *(byte *)(param_1 + 6) = bVar4;\n  if (param_4 == 0) {\n    uVar5 = 0xff;\n  }\n  else {\n    uVar5 = *(undefined1 *)(param_4 + 0x25);\n  }\n  *(undefined1 *)((longlong)param_1 + 0x19) = uVar5;\n  *(undefined4 *)((longlong)param_1 + 0x1a) = 0xff00ff;\n  *(byte *)((longlong)param_1 + 0x1e) = param_3[0x15];\n  *(undefined2 *)(param_1 + 8) = *(undefined2 *)(param_3 + 0x16);\n  *(undefined2 *)((longlong)param_1 + 0x22) = *(undefined2 *)(param_3 + 0x18);\n  param_1[9] = *(float *)(param_3 + 0x1c);\n  param_1[10] = 0.0;\n  param_1[0xb] = *(float *)(param_3 + 0x20);\n  param_1[0xc] = *(float *)(param_3 + 0x24);\n  param_1[0xd] = *(float *)(param_3 + 0x34);\n  param_1[0xe] = *(float *)(param_3 + 0x38);\n  if (param_4 != 0) {\n    uVar2 = *(ushort *)((longlong)param_1 + 0x12) | 0x80;\n    if ((*(byte *)(param_4 + 0x2b) & 1) == 0) {\n      uVar2 = *(ushort *)((longlong)param_1 + 0x12) & 0xff7f;\n    }\n    *(ushort *)((longlong)param_1 + 0x12) = uVar2;\n    uVar3 = uVar2 | 0x100;\n    if ((*(byte *)(param_4 + 0x2b) & 2) == 0) {\n      uVar3 = uVar2 & 0xfeff;\n    }\n    *(ushort *)((longlong)param_1 + 0x12) = uVar3;\n    uVar2 = uVar3 | 0x400;\n    if ((*(byte *)(param_4 + 0x2b) & 4) == 0) {\n      uVar2 = uVar3 & 0xfbff;\n    }\n    *(ushort *)((longlong)param_1 + 0x12) = uVar2;\n    uVar3 = uVar2 | 0x200;\n    if ((*(byte *)(param_4 + 0x2b) & 8) == 0) {\n      uVar3 = uVar2 & 0xfdff;\n    }\n    *(ushort *)((longlong)param_1 + 0x12) = uVar3;\n    *(undefined1 *)(param_1 + 5) = *(undefined1 *)(param_4 + 0x41);\n    *(undefined1 *)((longlong)param_1 + 0x15) = *(undefined1 *)(param_4 + 0x42);\n    bVar4 = *(byte *)((longlong)param_1 + 0x16);\n    if ((*(byte *)(param_4 + 0x43) & 0x1f) != 0) {\n      bVar4 = *(byte *)(param_4 + 0x43);\n    }\n    *(byte *)((longlong)param_1 + 0x16) = bVar4;\n    *(undefined1 *)((longlong)param_1 + 0x17) = *(undefined1 *)(param_4 + 0x20);\n    bVar4 = *(byte *)(param_4 + 0x24);\n    if ((bVar4 & 0xe0) == 0) {\n      bVar8 = *(byte *)(param_1 + 6);\n      if ((bVar4 & 0x1f) != 0) {\n        bVar8 = bVar4;\n      }\n      *(byte *)(param_1 + 6) = bVar8;\n    }\n    *(undefined1 *)((longlong)param_1 + 0x19) = *(undefined1 *)(param_4 + 0x25);\n    *(undefined1 *)((longlong)param_1 + 0x1a) = *(undefined1 *)(param_4 + 0x28);\n    uVar5 = FUN_180122a10(*(undefined4 *)(param_4 + 0x44));\n    *(undefined1 *)((longlong)param_1 + 0x1d) = uVar5;\n    *(undefined1 *)((longlong)param_1 + 0x1b) = *(undefined1 *)(param_4 + 0x29);\n    *(undefined1 *)(param_1 + 7) = *(undefined1 *)(param_4 + 0x2a);\n    if (0 < *(short *)(param_4 + 0x2c)) {\n      *(short *)(param_1 + 8) = *(short *)(param_4 + 0x2c);\n    }\n    if (*(short *)(param_4 + 0x2e) != 0) {\n      *(short *)((longlong)param_1 + 0x22) = *(short *)(param_4 + 0x2e);\n    }\n    cVar6 = *(char *)(param_4 + 0x40);\n    if (cVar6 == '\\0') {\n      cVar6 = *(char *)(param_1 + 4);\n    }\n    else {\n      *(char *)(param_1 + 4) = cVar6;\n    }\n    fVar9 = *(float *)(param_4 + 0x30);\n    if (cVar6 == '\\0') {\n      fVar9 = 0.0;\n    }\n    else if (fVar9 <= 0.0001) {\n      fVar9 = *param_1;\n    }\n    *param_1 = fVar9;\n    if (*(char *)(param_1 + 4) == '\\x03') {\n      fVar9 = *(float *)(param_4 + 0x34);\n      if (fVar9 <= 0.0001) {\n        fVar9 = param_1[1];\n      }\n    }\n    else {\n      fVar9 = 0.0;\n    }\n    param_1[1] = fVar9;\n    fVar9 = *(float *)(param_4 + 0x38);\n    if ((byte)(*(char *)(param_1 + 4) - 2U) < 2) {\n      if (fVar9 <= 0.0001) {\n        fVar9 = param_1[2];\n      }\n    }\n    else {\n      fVar9 = 0.0;\n    }\n    param_1[2] = fVar9;\n    fVar9 = *(float *)(param_4 + 0x3c);\n    if ((byte)(*(char *)(param_1 + 4) - 2U) < 2) {\n      if (fVar9 <= 0.0001) {\n        fVar9 = param_1[3];\n      }\n    }\n    else {\n      fVar9 = 0.0;\n    }\n    param_1[3] = fVar9;\n    if (0.0001 < ABS(*(float *)(param_4 + 0x54))) {\n      param_1[9] = *(float *)(param_4 + 0x54);\n    }\n  }\n  fVar9 = *(float *)(param_3 + 0x48);\n  cVar6 = *(char *)(param_1 + 4);\n  param_1[0xf] = fVar9;\n  fVar1 = *(float *)(param_3 + 0x58);\n  param_1[0x10] = fVar1;\n  if (cVar6 == '\\x01') {\n    fVar7 = *(float *)(param_3 + 0x68);\n    if (*(float *)(param_3 + 0x68) == -NAN) {\n      fVar7 = fVar9;\n    }\n    param_1[0xf] = fVar7;\n    fVar9 = *(float *)(param_3 + 0x78);\n  }\n  else if (cVar6 == '\\x02') {\n    fVar7 = *(float *)(param_3 + 0x88);\n    if (*(float *)(param_3 + 0x88) == -NAN) {\n      fVar7 = fVar9;\n    }\n    param_1[0xf] = fVar7;\n    fVar9 = *(float *)(param_3 + 0x98);\n  }\n  else {\n    if (cVar6 != '\\x03') goto LAB_1804b23c9;\n    fVar7 = *(float *)(param_3 + 0xa8);\n    if (*(float *)(param_3 + 0xa8) == -NAN) {\n      fVar7 = fVar9;\n    }\n    param_1[0xf] = fVar7;\n    fVar9 = *(float *)(param_3 + 0xb8);\n  }\n  if (fVar9 == -NAN) {\n    fVar9 = fVar1;\n  }\n  param_1[0x10] = fVar9;\nLAB_1804b23c9:\n  if ((*(ushort *)((longlong)param_1 + 0x12) & 0x8000) != 0) {\n    *(undefined2 *)((longlong)param_1 + 0x12) = 0;\n  }\n  if (0x1b < *(byte *)((longlong)param_1 + 0x11)) {\n    *(undefined1 *)((longlong)param_1 + 0x11) = 0;\n  }\n  if (3 < *(byte *)(param_1 + 4)) {\n    param_1[0] = 0.0;\n    param_1[1] = 0.0;\n    param_1[2] = 0.0;\n    param_1[3] = 0.0;\n    *(undefined1 *)(param_1 + 4) = 0;\n  }\n  if (2 < *(byte *)(param_1 + 5)) {\n    *(undefined1 *)(param_1 + 5) = 0;\n  }\n  if (0x19 < *(byte *)((longlong)param_1 + 0x15)) {\n    *(undefined1 *)((longlong)param_1 + 0x15) = 0;\n  }\n  if ((*(byte *)((longlong)param_1 + 0x16) & 0xe0) != 0) {\n    *(undefined1 *)((longlong)param_1 + 0x16) = 0;\n  }\n  if (2 < *(byte *)((longlong)param_1 + 0x17)) {\n    *(undefined1 *)((longlong)param_1 + 0x17) = 0;\n  }\n  if (((uint)param_1[6] & 0xe0) != 0) {\n    *(undefined1 *)(param_1 + 6) = 0;\n  }\n  if (9 < (byte)(*(char *)((longlong)param_1 + 0x19) + 1U)) {\n    *(undefined1 *)((longlong)param_1 + 0x19) = 0;\n  }\n  if (1 < *(byte *)((longlong)param_1 + 0x1e)) {\n    *(undefined1 *)((longlong)param_1 + 0x1e) = 0;\n  }\n  return;\n}\n\n"
+        },
+        {
+          "address": "0x18009ac84",
+          "procedure": {
+            "status": "resolved",
+            "address": "0x18009ac84",
+            "name": "FUN_18009ac84"
+          },
+          "status": "ok",
+          "pseudocode": "\nvoid FUN_18009ac84(uint param_1,char param_2,char param_3)\n\n{\n  longlong lVar1;\n  char cVar2;\n  \n  lVar1 = *(longlong *)\n           (*(longlong *)\n             (*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) + 0x10)\n           + 0x50);\n  if ((param_3 != '\\0') || ((*(byte *)(lVar1 + 2 + (ulonglong)(param_1 & 0xffff) * 0x18) & 1) != 0))\n  {\n    cVar2 = FUN_18009a8c0(param_1,**(undefined4 **)\n                                    (lVar1 + 0x10 + (ulonglong)(param_1 & 0xffff) * 0x18));\n    if (cVar2 != '\\0') {\n      if (param_2 == '\\0') {\n        FUN_18009a670(param_1);\n      }\n      else {\n        FUN_18009a81c(param_1,param_1);\n      }\n    }\n  }\n  return;\n}\n\n"
+        }
+      ],
+      "total": 2,
+      "succeeded": 2,
+      "failed": 0
+    },
+    "confidence": "derived",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Derived by an REA composed workflow."
+    ],
+    "locations": [
+      {
+        "kind": "address",
+        "address": "0x1804b20dc"
+      },
+      {
+        "kind": "address",
+        "address": "0x18009ac84"
+      }
+    ],
+    "evidence_links": []
+  }
+}

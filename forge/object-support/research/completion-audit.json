@@ -1,0 +1,29 @@
+{
+  "status": "offline objective achieved",
+  "date": "2026-10-19",
+  "objects": 348,
+  "templates": 5,
+  "unit_tests_per_python": 1268,
+  "python_versions": [
+    "3.9",
+    "3.13"
+  ],
+  "unit_failures": 0,
+  "unit_errors": 0,
+  "preexisting_skips_per_python": 3,
+  "blender_checks": 42,
+  "blender_failures": 0,
+  "blender_skips": 0,
+  "models": 348,
+  "packed_images": 411,
+  "pictures": 348,
+  "picture_sheets": 21,
+  "original_library_unchanged": true,
+  "frozen_api_and_spec_unchanged": true,
+  "packages_verified": true,
+  "actual_profile_installed": false,
+  "published": false,
+  "in_game_verified": false,
+  "browser_ui_verified": false,
+  "remaining_limits": "Runtime loading/editing/resaving/gameplay on Xbox are unverified. Static materials and editor helper geometry are approximations. Live local-gallery UI check was blocked by browser policy."
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 34820,
+    "name": "Door B, Forerunner",
+    "internal": "ff_cex_door_forerunner_b",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34820.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.0202,
+      0.0805,
+      1.1354
+    ]
+  },
+  {
+    "id": 34821,
+    "name": "Door C, Forerunner",
+    "internal": "ff_thorage_door_c",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34821.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.1642,
+      2.24,
+      1.2702
+    ]
+  },
+  {
+    "id": 34822,
+    "name": "Door D, Forerunner",
+    "internal": "ff_thorage_door_d",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34822.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.1593,
+      4.0326,
+      1.2923
+    ]
+  },
+  {
+    "id": 34823,
+    "name": "Door E, Forerunner",
+    "internal": "ff_thorage_door_e",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34823.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.0829,
+      3.4591,
+      1.6781
+    ]
+  },
+  {
+    "id": 34824,
+    "name": "Door F, Forerunner",
+    "internal": "ff_thorage_door_f",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34824.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.253,
+      0.3844,
+      1.8403
+    ]
+  },
+  {
+    "id": 34825,
+    "name": "Door G, Forerunner",
+    "internal": "ff_thorage_door_g",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34825.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.7589,
+      0.0773,
+      1.5351
+    ]
+  },
+  {
+    "id": 34826,
+    "name": "Door H, Forerunner",
+    "internal": "ff_thorage_door_h",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34826.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.3869,
+      0.0659,
+      1.2797
+    ]
+  },
+  {
+    "id": 34827,
+    "name": "Wall, Small, Forerunner",
+    "internal": "ff_cex_wall_sm_forerunner",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34827.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.3471,
+      0.1142,
+      1.7649
+    ]
+  },
+  {
+    "id": 34828,
+    "name": "Wall, Large, Forerunner",
+    "internal": "ff_cex_wall_lg_forerunner",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34828.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.1273,
+      1.2511,
+      2.1403
+    ]
+  },
+  {
+    "id": 35840,
+    "name": "Dinghy",
+    "internal": "ff_thorage_dinghy",
+    "category": "MCC additions: Hidden",
+    "menu": "Hidden",
+    "image": "full-textured/35840.jpg",
+    "price": "0",
+    "ordinaryQuota": "50",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.8181,
+      0.9831,
+      0.7202
+    ]
+  },
+  {
+    "id": 36096,
+    "name": "Target Designator",
+    "internal": "ff_thorage_airstrike",
+    "category": "MCC additions: More",
+    "menu": "More",
+    "image": "full-textured/36096.jpg",
+    "price": "150",
+    "ordinaryQuota": "1",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.063,
+      0.1051,
+      0.0871
+    ]
+  },
+  {
+    "id": 36352,
+    "name": "Pelican, Hovering",
+    "internal": "ff_thorage_pelican_flyable",
+    "category": "MCC additions: More",
+    "menu": "More",
+    "image": "full-textured/36352.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      8.3703,
+      10.7302,
+      3.5945
+    ]
+  }
+]

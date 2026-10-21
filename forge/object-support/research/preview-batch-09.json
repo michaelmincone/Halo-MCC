@@ -1,0 +1,194 @@
+[
+  {
+    "id": 30722,
+    "name": "Pelican",
+    "internal": "ff_thorage_pelican",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30722.jpg",
+    "price": "100",
+    "ordinaryQuota": "24",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      8.3703,
+      10.234,
+      3.4993
+    ]
+  },
+  {
+    "id": 30723,
+    "name": "Drop Pod, Elite",
+    "internal": "ff_thorage_drop_pod_elite",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30723.jpg",
+    "price": "100",
+    "ordinaryQuota": "24",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.1534,
+      1.0833,
+      1.9302
+    ]
+  },
+  {
+    "id": 30724,
+    "name": "Anti Air Gun",
+    "internal": "ff_thorage_anti_air_cannon",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30724.jpg",
+    "price": "100",
+    "ordinaryQuota": "24",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.2619,
+      2.7865,
+      1.5478
+    ]
+  },
+  {
+    "id": 30976,
+    "name": "Cargo Truck, Destroyed",
+    "internal": "ff_thorage_cargo_truck_destroyed",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30976.jpg",
+    "price": "100",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      2.1866,
+      1.0831,
+      1.1322
+    ]
+  },
+  {
+    "id": 30977,
+    "name": "Falcon, Destroyed",
+    "internal": "ff_thorage_falcon_destroyed",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30977.jpg",
+    "price": "100",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.7487,
+      2.7062,
+      1.3545
+    ]
+  },
+  {
+    "id": 30978,
+    "name": "Warthog, Destroyed",
+    "internal": "ff_thorage_warthog_destroyed",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30978.jpg",
+    "price": "100",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.9912,
+      0.9465,
+      0.7572
+    ]
+  },
+  {
+    "id": 31232,
+    "name": "Folding Chair",
+    "internal": "ff_scn_chair_folding",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/31232.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.2814,
+      0.2117,
+      0.4011
+    ]
+  },
+  {
+    "id": 32000,
+    "name": "Equipment Case",
+    "internal": "ff_thorage_equipment_case",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/32000.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.6677,
+      0.4085,
+      0.5
+    ]
+  },
+  {
+    "id": 32256,
+    "name": "Monitor",
+    "internal": "ff_thorage_monitor_flush",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/32256.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3831,
+      0.7112,
+      0.471
+    ]
+  },
+  {
+    "id": 32512,
+    "name": "Plasma Storage",
+    "internal": "ff_scn_cov_storage",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/32512.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9863,
+      0.4498,
+      0.7985
+    ]
+  },
+  {
+    "id": 32768,
+    "name": "Camping Stool, Covenant",
+    "internal": "ff_scn_cov_stool",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/32768.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.2933,
+      0.2773,
+      0.2755
+    ]
+  },
+  {
+    "id": 33024,
+    "name": "Covenant Antenna",
+    "internal": "ff_scn_cov_antenna",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/33024.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.808,
+      0.9208,
+      3.1469
+    ]
+  }
+]

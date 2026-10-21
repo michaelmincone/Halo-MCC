@@ -1,0 +1,14 @@
+[
+  {
+    "from": "0x1804f1e52",
+    "to": "0x18014fe2c",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1804f1ede",
+    "to": "0x1804f1ee8",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

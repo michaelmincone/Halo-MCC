@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/full-v01",
+    "sha256": "996d282b1704697d5893ce31d613130a346f486e880bbdb959e7be41de66301f",
+    "reason": "Failed task-generated prototype; missing roots or duplicate bind transforms"
+  },
+  {
+    "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/full-v02",
+    "sha256": "26bfa86e2d6b5866de9def491d671172d292def22ee52107dc1235e31e2dd744",
+    "reason": "Failed task-generated prototype; missing roots or duplicate bind transforms"
+  }
+]

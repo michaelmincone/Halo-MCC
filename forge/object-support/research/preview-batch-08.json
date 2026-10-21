@@ -1,0 +1,194 @@
+[
+  {
+    "id": 26880,
+    "name": "Shield Wall, X-Large",
+    "internal": "ff_scn_laserwall_xlarge",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/26880.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      11.8,
+      0.0,
+      6.0
+    ]
+  },
+  {
+    "id": 27136,
+    "name": "One Way Shield 2 (MCC)",
+    "internal": "door_oneway_small_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/27136.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.6,
+      0.0,
+      1.5
+    ]
+  },
+  {
+    "id": 27392,
+    "name": "One Way Shield 3 (MCC)",
+    "internal": "door_oneway_medium_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/27392.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.3843,
+      0.0,
+      3.15
+    ]
+  },
+  {
+    "id": 27648,
+    "name": "One Way Shield 4 (MCC)",
+    "internal": "door_oneway_large_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/27648.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      10.0,
+      0.0,
+      8.0
+    ]
+  },
+  {
+    "id": 27904,
+    "name": "Shield Door, Small (MCC)",
+    "internal": "door_shield_small_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/27904.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.022,
+      2.4,
+      1.7701
+    ]
+  },
+  {
+    "id": 28160,
+    "name": "Shield Door, Small 1 (MCC)",
+    "internal": "door_shield_small1_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/28160.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.022,
+      2.4,
+      1.7701
+    ]
+  },
+  {
+    "id": 28416,
+    "name": "Shield Door, Large (MCC)",
+    "internal": "door_shield_large_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/28416.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.9973,
+      8.2932,
+      6.9235
+    ]
+  },
+  {
+    "id": 28672,
+    "name": "Shield Door, Large 1 (MCC)",
+    "internal": "door_shield_large1_mcc",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/28672.jpg",
+    "price": "200",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.9973,
+      8.2932,
+      6.9235
+    ]
+  },
+  {
+    "id": 29184,
+    "name": "Spnkr Ammo",
+    "internal": "ff_thorage_rocket_ammo",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/29184.jpg",
+    "price": "50",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.4933,
+      0.1812,
+      0.0997
+    ]
+  },
+  {
+    "id": 29440,
+    "name": "Sniper Ammo",
+    "internal": "ff_thorage_sniper_ammo",
+    "category": "MCC additions: Gadgets",
+    "menu": "Gadgets > MCC Additions",
+    "image": "full-textured/29440.jpg",
+    "price": "50",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.0786,
+      0.0256,
+      0.0711
+    ]
+  },
+  {
+    "id": 30720,
+    "name": "Phantom",
+    "internal": "ff_thorage_phantom",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30720.jpg",
+    "price": "100",
+    "ordinaryQuota": "24",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      6.6845,
+      10.9616,
+      4.6401
+    ]
+  },
+  {
+    "id": 30721,
+    "name": "Spirit",
+    "internal": "ff_thorage_spirit",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/30721.jpg",
+    "price": "100",
+    "ordinaryQuota": "24",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      5.9488,
+      11.1947,
+      3.6879
+    ]
+  }
+]

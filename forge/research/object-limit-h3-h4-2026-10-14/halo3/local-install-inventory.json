@@ -1,0 +1,113 @@
+{
+  "observed_utc": "2026-10-14T15:33:08.314807+00:00",
+  "root": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection",
+  "source_execution_or_modification": false,
+  "scope": "Declared MCC installation, only target engine folders and public-facing support files",
+  "paths": [
+    {
+      "relative_path": "halo3",
+      "exists": true,
+      "kind": "directory",
+      "recursive_entries": [],
+      "recursive_entry_count": 0
+    },
+    {
+      "relative_path": "halo3/halo3.dll",
+      "exists": false
+    },
+    {
+      "relative_path": "halo3/maps",
+      "exists": false
+    },
+    {
+      "relative_path": "halo3/map_variants",
+      "exists": false
+    },
+    {
+      "relative_path": "halo3/hopper_map_variants",
+      "exists": false
+    },
+    {
+      "relative_path": "halo3/game_variants",
+      "exists": false
+    },
+    {
+      "relative_path": "Data/BuiltInData/Halo3.json",
+      "exists": true,
+      "kind": "file",
+      "bytes": 8353,
+      "sha256": "9aca0db71f53144f48dd0c4e526f207e31b5d36b9367fbf194b01c84c575fd54"
+    },
+    {
+      "relative_path": "Data/BuiltInData/Halo3Controller.json",
+      "exists": true,
+      "kind": "file",
+      "bytes": 24095,
+      "sha256": "608203c94a7d489131b8e1792b9ce09436875625d7314aab391c28e93f713471"
+    },
+    {
+      "relative_path": "Data/settings/default.xml",
+      "exists": true,
+      "kind": "file",
+      "bytes": 7394,
+      "sha256": "439bb8f6de7a66d9772370c346d118f66a4901c636fa8022a9408bd4cd7e2519"
+    },
+    {
+      "relative_path": "Data/settings/optionsdata.xml",
+      "exists": true,
+      "kind": "file",
+      "bytes": 234537,
+      "sha256": "44d0a7b454aa9eb92d22a7b81a6e1f47f39505989348fe63ff9916b0547249ee"
+    },
+    {
+      "relative_path": "MCC/Binaries/Win64/MCC-Win64-Shipping.exe",
+      "exists": true,
+      "kind": "file",
+      "bytes": 67179480,
+      "sha256": "be70d6dcd1a884f10ceb342a7a2dcb35ee0fa43181b66a1d19c3d830e9834691"
+    },
+    {
+      "relative_path": "build_tag.txt",
+      "exists": true,
+      "kind": "file",
+      "bytes": 41,
+      "sha256": "d6ea923fe4ba80beb4adc053740adaf74801eda65c62f94410837f03adb8c693"
+    }
+  ],
+  "build_tag": "2025.08.16.178512.1-Release  \nRelease",
+  "previous_core_inventory_sha256": "be70d6dcd1a884f10ceb342a7a2dcb35ee0fa43181b66a1d19c3d830e9834691",
+  "current_core_matches_previous_inventory": true,
+  "mcc_core_support_strings": [
+    {
+      "offset": "0x329c1a0",
+      "rva": "0x329d7a0",
+      "va": "0x14329d7a0",
+      "encoding": "ascii",
+      "categories": [
+        "variant"
+      ],
+      "value": "Halo3Forge"
+    },
+    {
+      "offset": "0x32aa930",
+      "rva": "0x32abf30",
+      "va": "0x1432abf30",
+      "encoding": "ascii",
+      "categories": [
+        "variant"
+      ],
+      "value": "CreateMapVariantFromFile"
+    },
+    {
+      "offset": "0x32aaa40",
+      "rva": "0x32ac040",
+      "va": "0x1432ac040",
+      "encoding": "ascii",
+      "categories": [
+        "variant"
+      ],
+      "value": "halo3\\map_variants"
+    }
+  ],
+  "support_string_interpretation": "Common front-end routing exists; these strings and paths do not prove a game-specific placement capacity."
+}

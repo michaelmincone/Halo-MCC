@@ -1,0 +1,66 @@
+[
+  {
+    "id": 0,
+    "name": "Assault Rifle",
+    "internal": "assault_rifle",
+    "category": "Weapons, Human",
+    "menu": "Weapons, Human",
+    "image": "full-textured/00000.jpg",
+    "price": "10",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.029,
+      0.3163,
+      0.1008
+    ]
+  },
+  {
+    "id": 8192,
+    "name": "Falcon",
+    "internal": "falcon",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/08192.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.2759,
+      3.6792,
+      2.1633
+    ]
+  },
+  {
+    "id": 9728,
+    "name": "Warthog, Default",
+    "internal": "warthog_default",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/09728.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.7712,
+      3.4771,
+      0.9902
+    ]
+  },
+  {
+    "id": 14592,
+    "name": "Respawn Zone",
+    "internal": "respawn_zone",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/14592.jpg",
+    "price": "0",
+    "ordinaryQuota": "20",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.1198,
+      0.1198,
+      0.225
+    ]
+  }
+]

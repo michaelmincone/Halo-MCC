@@ -1,0 +1,50 @@
+[
+  {
+    "from": "0x1800769ae",
+    "to": "0x180076834",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1800769b7",
+    "to": "0x180076a6a",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1800769c6",
+    "to": "0x180c17b18",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x1800769f8",
+    "to": "0x180076a10",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x1800769fa",
+    "to": "0x18006bcec",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180076a3a",
+    "to": "0x180076608",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180076a5d",
+    "to": "0x180076a6a",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180076a65",
+    "to": "0x1800771bc",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

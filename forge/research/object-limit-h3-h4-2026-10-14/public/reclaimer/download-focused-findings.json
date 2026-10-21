@@ -1,0 +1,28 @@
+{
+  "url": "https://projectreclaimer.dev/download",
+  "retrieved_date": "2026-10-14",
+  "capture_kind": "Semantic extraction from the web tool's current page read; not original HTML",
+  "findings": [
+    {
+      "source_lines": [24, 25],
+      "finding": "The game client targets x64 Windows 10 and Windows 11."
+    },
+    {
+      "source_lines": [47, 49, 54],
+      "finding": "The project uses Rust and its implementation repository is private during development."
+    },
+    {
+      "source_lines": [57],
+      "finding": "Users must supply a Steam MCC installation with Halo 3, including its campaign."
+    },
+    {
+      "source_lines": [58],
+      "finding": "A Reclaimer release supports a particular game-engine version; an engine update may require a new client release."
+    },
+    {
+      "source_lines": [13, 60],
+      "finding": "Players and servers must use matching Reclaimer versions to play together."
+    }
+  ],
+  "limitations": "Maintainer-authored requirements, not an independent executable or multiplayer test. Page line numbers are retrieval-specific. No Reclaimer executable was downloaded or run."
+}

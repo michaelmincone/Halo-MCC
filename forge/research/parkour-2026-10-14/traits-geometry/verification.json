@@ -1,0 +1,21 @@
+{
+  "status": "offline scalar/schema consistency passed",
+  "json_files_read": 4,
+  "helpers_syntax_checked": 2,
+  "flat_blocks_geometry_checked": [
+    "block_1x1_flat",
+    "block_2x2_flat",
+    "block_3x3_flat",
+    "block_4x4_flat",
+    "block_5x5_flat"
+  ],
+  "in_game_tests": 0,
+  "checks": [
+    "identity nodes",
+    "fixed rigid-body motion",
+    "axis-aligned eight-corner six-plane polyhedron",
+    "rectangular BSP top area",
+    "no top invalid/slip flags",
+    "phmo core+radius versus independent coll BSP top within 2e-8 WU"
+  ]
+}

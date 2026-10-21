@@ -1,0 +1,167 @@
+{
+  "native_to_blender": "Native forward-X becomes Blender forward-Y: (-y, x, z); original library may have per-asset turns",
+  "controls": [
+    {
+      "name": "Block, 1x1",
+      "native_vertices": 532,
+      "library_vertices": 532,
+      "best": {
+        "degrees": 0,
+        "maximum_error": 1.1920928955078125e-07,
+        "mean_error": 5.498411877515156e-08
+      },
+      "candidates": [
+        {
+          "degrees": 0,
+          "maximum_error": 1.1920928955078125e-07,
+          "mean_error": 5.498411877515156e-08
+        },
+        {
+          "degrees": 90,
+          "maximum_error": 0.0019947632681578398,
+          "mean_error": 4.662668261077274e-05
+        },
+        {
+          "degrees": 180,
+          "maximum_error": 0.0019947674591094255,
+          "mean_error": 4.623232091789737e-05
+        },
+        {
+          "degrees": 270,
+          "maximum_error": 0.0019947632681578398,
+          "mean_error": 4.662416804554836e-05
+        }
+      ]
+    },
+    {
+      "name": "Block, 1x4",
+      "native_vertices": 1124,
+      "library_vertices": 1124,
+      "best": {
+        "degrees": 90,
+        "maximum_error": 2.6656007889869215e-07,
+        "mean_error": 1.4259818319744962e-07
+      },
+      "candidates": [
+        {
+          "degrees": 0,
+          "maximum_error": 1.5410196781158447,
+          "mean_error": 0.8660148483622802
+        },
+        {
+          "degrees": 90,
+          "maximum_error": 2.6656007889869215e-07,
+          "mean_error": 1.4259818319744962e-07
+        },
+        {
+          "degrees": 180,
+          "maximum_error": 1.5410199165344238,
+          "mean_error": 0.8660148411505374
+        },
+        {
+          "degrees": 270,
+          "maximum_error": 0.0011026274878531694,
+          "mean_error": 0.00010405665058615698
+        }
+      ]
+    },
+    {
+      "name": "Bank, 1x2",
+      "native_vertices": 22,
+      "library_vertices": 22,
+      "best": {
+        "degrees": 90,
+        "maximum_error": 8.265440243349076e-08,
+        "mean_error": 3.602070845638976e-08
+      },
+      "candidates": [
+        {
+          "degrees": 0,
+          "maximum_error": 2.0,
+          "mean_error": 0.6572587847787726
+        },
+        {
+          "degrees": 90,
+          "maximum_error": 8.265440243349076e-08,
+          "mean_error": 3.602070845638976e-08
+        },
+        {
+          "degrees": 180,
+          "maximum_error": 2.0,
+          "mean_error": 0.6572587767603536
+        },
+        {
+          "degrees": 270,
+          "maximum_error": 2.0,
+          "mean_error": 0.8130826522748132
+        }
+      ]
+    },
+    {
+      "name": "Railing, Long",
+      "native_vertices": 776,
+      "library_vertices": 776,
+      "best": {
+        "degrees": 90,
+        "maximum_error": 1.399836975224389e-07,
+        "mean_error": 6.146942098169351e-08
+      },
+      "candidates": [
+        {
+          "degrees": 0,
+          "maximum_error": 1.4067482948303223,
+          "mean_error": 1.0063660419690086
+        },
+        {
+          "degrees": 90,
+          "maximum_error": 1.399836975224389e-07,
+          "mean_error": 6.146942098169351e-08
+        },
+        {
+          "degrees": 180,
+          "maximum_error": 1.4067482948303223,
+          "mean_error": 1.006366044090888
+        },
+        {
+          "degrees": 270,
+          "maximum_error": 0.18329963088035583,
+          "mean_error": 0.04069504070697699
+        }
+      ]
+    },
+    {
+      "name": "Rock, Arch",
+      "native_vertices": 603,
+      "library_vertices": 603,
+      "best": {
+        "degrees": 90,
+        "maximum_error": 5.417064130597282e-07,
+        "mean_error": 2.1635339399961648e-07
+      },
+      "candidates": [
+        {
+          "degrees": 0,
+          "maximum_error": 2.59480357170105,
+          "mean_error": 0.6848737094335098
+        },
+        {
+          "degrees": 90,
+          "maximum_error": 5.417064130597282e-07,
+          "mean_error": 2.1635339399961648e-07
+        },
+        {
+          "degrees": 180,
+          "maximum_error": 2.5948030948638916,
+          "mean_error": 0.6848736919932203
+        },
+        {
+          "degrees": 270,
+          "maximum_error": 2.7705516815185547,
+          "mean_error": 0.811502161211833
+        }
+      ]
+    }
+  ],
+  "tolerance_wu": 0.0002,
+  "original_library_modified": false
+}

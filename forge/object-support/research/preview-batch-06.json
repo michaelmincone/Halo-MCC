@@ -1,0 +1,194 @@
+[
+  {
+    "id": 17152,
+    "name": "Crate, Heavy Duty",
+    "internal": "ff_scn_space_crate",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/17152.jpg",
+    "price": "25",
+    "ordinaryQuota": "50",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9428,
+      1.0195,
+      0.755
+    ]
+  },
+  {
+    "id": 17153,
+    "name": "Crate, Heavy, Small",
+    "internal": "ff_scn_space_crate_small",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/17153.jpg",
+    "price": "25",
+    "ordinaryQuota": "50",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.5248,
+      1.0195,
+      0.755
+    ]
+  },
+  {
+    "id": 17154,
+    "name": "Covenant Crate",
+    "internal": "ff_scn_cov_crate",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/17154.jpg",
+    "price": "25",
+    "ordinaryQuota": "50",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.6188,
+      0.8742,
+      0.9358
+    ]
+  },
+  {
+    "id": 17155,
+    "name": "Crate, Half Open",
+    "internal": "ff_scn_cov_crate_a",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/17155.jpg",
+    "price": "25",
+    "ordinaryQuota": "50",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.5755,
+      0.8742,
+      0.9358
+    ]
+  },
+  {
+    "id": 22784,
+    "name": "Falcon, Nose Gun",
+    "internal": "ff_thorage_falcon_default",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/22784.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.2759,
+      4.039,
+      1.3551
+    ]
+  },
+  {
+    "id": 22785,
+    "name": "Falcon, Grenadier",
+    "internal": "ff_thorage_falcon_grenade",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/22785.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.2759,
+      4.039,
+      1.3551
+    ]
+  },
+  {
+    "id": 22786,
+    "name": "Falcon, Transport",
+    "internal": "ff_thorage_falcon_no_guns",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/22786.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.2759,
+      3.7486,
+      1.3551
+    ]
+  },
+  {
+    "id": 23040,
+    "name": "Warthog, Transport",
+    "internal": "ff_thorage_warthog_troop",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/23040.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9911,
+      1.9656,
+      0.9682
+    ]
+  },
+  {
+    "id": 23296,
+    "name": "Sabre",
+    "internal": "ff_thorage_sabre",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/23296.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      6.2107,
+      8.0661,
+      2.1684
+    ]
+  },
+  {
+    "id": 23552,
+    "name": "Seraph",
+    "internal": "ff_thorage_seraph",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/23552.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      4.9668,
+      10.1748,
+      1.8412
+    ]
+  },
+  {
+    "id": 23808,
+    "name": "Cart, Electric",
+    "internal": "ff_thorage_electric_cart",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/23808.jpg",
+    "price": "75",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.9633,
+      1.3642,
+      0.6438
+    ]
+  },
+  {
+    "id": 24064,
+    "name": "Forklift",
+    "internal": "ff_thorage_forklift",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/24064.jpg",
+    "price": "75",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.6953,
+      1.9849,
+      0.9506
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "from": "0x18006e106",
+    "to": "0x18006e11d",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e119",
+    "to": "0x18006e103",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e11b",
+    "to": "0x18006e190",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e122",
+    "to": "0x18006e190",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e13d",
+    "to": "0x18078932a",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

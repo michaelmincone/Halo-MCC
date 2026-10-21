@@ -1,0 +1,47 @@
+[
+  {
+    "repository": "https://github.com/twist84/ManagedDonkey",
+    "commit": "65eb5b2aafac16ebb33f213c1286eda5fa1e4446",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/twist84/ManagedDonkey/65eb5b2aafac16ebb33f213c1286eda5fa1e4446/README.md",
+    "size": 2946,
+    "sha256": "c634476b60442d2087c11dcdbf0bb16612a7cbd991129305de5716f43e14d5b4",
+    "local_path": "forge/research/object-limit-h3-h4-2026-10-14/halo3/public-source/manageddonkey-README.md"
+  },
+  {
+    "repository": "https://github.com/twist84/ManagedDonkey",
+    "commit": "65eb5b2aafac16ebb33f213c1286eda5fa1e4446",
+    "path": "game/source/saved_games/scenario_map_variant.hpp",
+    "url": "https://raw.githubusercontent.com/twist84/ManagedDonkey/65eb5b2aafac16ebb33f213c1286eda5fa1e4446/game/source/saved_games/scenario_map_variant.hpp",
+    "size": 4822,
+    "sha256": "9887f1376d096e323877174560ab6c5d79cbb902fd86652e356ebe87c4b4416c",
+    "local_path": "forge/research/object-limit-h3-h4-2026-10-14/halo3/public-source/manageddonkey-scenario_map_variant.hpp"
+  },
+  {
+    "repository": "https://github.com/twist84/ManagedDonkey",
+    "commit": "65eb5b2aafac16ebb33f213c1286eda5fa1e4446",
+    "path": "game/source/saved_games/scenario_map_variant.cpp",
+    "url": "https://raw.githubusercontent.com/twist84/ManagedDonkey/65eb5b2aafac16ebb33f213c1286eda5fa1e4446/game/source/saved_games/scenario_map_variant.cpp",
+    "size": 22438,
+    "sha256": "3f32e443cf175644407b28f6c6b503b4ad256a18b8b407343f74d59cb91aa5d0",
+    "local_path": "forge/research/object-limit-h3-h4-2026-10-14/halo3/public-source/manageddonkey-scenario_map_variant.cpp"
+  },
+  {
+    "repository": "https://github.com/twist84/ManagedDonkey",
+    "commit": "65eb5b2aafac16ebb33f213c1286eda5fa1e4446",
+    "path": "game/source/game/game_engine_sandbox.cpp",
+    "url": "https://raw.githubusercontent.com/twist84/ManagedDonkey/65eb5b2aafac16ebb33f213c1286eda5fa1e4446/game/source/game/game_engine_sandbox.cpp",
+    "size": 4039,
+    "sha256": "4528cc1ab59cbe8b3bdb0539c6ac418c437a71b65588c72180217c277ec20a65",
+    "local_path": "forge/research/object-limit-h3-h4-2026-10-14/halo3/public-source/manageddonkey-game_engine_sandbox.cpp"
+  },
+  {
+    "repository": "https://github.com/twist84/ManagedDonkey",
+    "commit": "65eb5b2aafac16ebb33f213c1286eda5fa1e4446",
+    "path": "game/source/game/game_engine_sandbox.hpp",
+    "url": "https://raw.githubusercontent.com/twist84/ManagedDonkey/65eb5b2aafac16ebb33f213c1286eda5fa1e4446/game/source/game/game_engine_sandbox.hpp",
+    "size": 2937,
+    "sha256": "b344d0d901f582390d08c58f26337dfc4fc9ba1a5980be8933ccf7900785d19a",
+    "local_path": "forge/research/object-limit-h3-h4-2026-10-14/halo3/public-source/manageddonkey-game_engine_sandbox.hpp"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "schema": "reach.extra-saved-placement-completion-audit/1",
+  "date": "2026-10-14",
+  "outcome_achieved": false,
+  "clarification": "Every extra piece must be independently saved and editable in Forge. Runtime respawn copies are excluded.",
+  "requirements": [
+    {
+      "requirement": "More than 651 independently saved placements in a Reach map",
+      "status": "contradicted_by_inspected_supported_format",
+      "evidence": ["file-capacity-results.json", "saved-editability/ghidra/0x18006e0c8.c", "saved-editability/ghidra/0x18006c290.c", "../../../publisher/investigation/research/rea-reach/decompiled/0x18006d04c.c", "../../../publisher/investigation/research/rea-reach/decompiled/0x18006d468.c"]
+    },
+    {
+      "requirement": "Extra pieces independently editable in Forge",
+      "status": "contradicted_by_inspected_supported_editor_path",
+      "evidence": ["saved-editability/ghidra/0x18006e638.c", "saved-editability/ghidra/0x180076834.c", "saved-editability/ghidra/0x180076984.c", "saved-editability/ghidra-linkage/0x18006f4f0.c"]
+    },
+    {
+      "requirement": "Blender plugin or mvar workflow implements the expanded placements",
+      "status": "not_implemented_no_compatible_mechanism_found",
+      "evidence": ["probe_file_capacity.py", "file-capacity-results.json"]
+    },
+    {
+      "requirement": "Single map does not depend on spawning gametype or substitute runtime copies",
+      "status": "preserved_constraint_but_no_satisfying_map",
+      "evidence": ["INVESTIGATION.md"]
+    },
+    {
+      "requirement": "Map uploaded to MCC File Share and downloaded",
+      "status": "unverified_no_candidate_map",
+      "evidence": []
+    },
+    {
+      "requirement": "Downloaded map works on stock Xbox with all expanded placements",
+      "status": "unverified_no_candidate_map_or_xbox_execution",
+      "evidence": []
+    }
+  ],
+  "current_blocker": "The inspected engine uses a fixed651 saved-record representation for decoding, allocation, editor identities and saving. No additional Xbox-supported saved-placement channel is known.",
+  "negative_result_scope": "Installed PC MCC Reach binary, independent Reach format implementations, bounded inspected native load/save/editor paths; not an exhaustive proof about all engine bugs or an Xbox execution observation.",
+  "cancelled_avenue": "Respawn probe maps; no files or directories created before stopping.",
+  "goal_status": "blocked",
+  "blocked_audit": {
+    "consecutive_goal_turns_with_same_constraint": 3,
+    "turn_1": "Native fixed651 representation and file injection experiments found no expanded saved-placement channel.",
+    "turn_2": "After the saved/editable clarification, native save/editor/allocator checks confirmed the same constraint; runtime probe work was cancelled before file creation.",
+    "turn_3": "Current source DLL hash and evidence were revalidated; independent read-only audit found no credible available next action meeting scope.",
+    "needed_to_resume_meaningful_work": "New concrete evidence of an unchanged-Xbox compatible saved-placement channel, an extended-format artifact or a verified alternative loader, or a user-authorized scope change.",
+    "outcome_achieved": false
+  },
+  "credible_candidate_remaining": false,
+  "completion_allowed": false
+}

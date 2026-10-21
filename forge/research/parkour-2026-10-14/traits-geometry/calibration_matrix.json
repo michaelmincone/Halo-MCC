@@ -1,0 +1,51 @@
+{
+  "status": "protocol only; zero in-game trials performed",
+  "execution": "On the user's supported MCC/Xbox system. CLAUDE.md prohibits launching MCC/Halo on this Mac.",
+  "design_policy": "Suggested repeatability thresholds and increments below are engineering choices, not extracted Reach constants.",
+  "record_per_trial": ["map and gametype SHA256", "MCC/Reach build", "species and effective traits", "platform types/orientations/physics", "collision-surface edge gap WU", "landing minus takeoff surface height WU", "actual launch setback and landing inset WU", "run-up WU", "input method", "technique and input sequence", "success/failure", "video/frame timestamps and observed contact positions if measurable"],
+  "stages": [
+    {
+      "id": "free_movement",
+      "setup": "Wide, level stock deck with unobstructed headroom and an unambiguous world-coordinate scale; stand still at a known point.",
+      "measure": ["standing jump airtime and apex", "crouched jump airtime and apex", "horizontal displacement versus elapsed time from rest", "full-run horizontal speed forward/backward/sideways/diagonally", "speed retention and control while airborne"],
+      "purpose": "Verify extracted physical units and discrete time integration rather than fit only one successful gap."
+    },
+    {
+      "id": "level_gap",
+      "setup": "Two wide, level, upright stock platforms; fixed equal top-surface heights; approach markers; vary edge-to-edge gap, not origin spacing.",
+      "axes": ["from rest versus full running approach", "no crouch versus crouch-assisted", "forward axis versus diagonal direction", "each intended platform type"],
+      "spacing": "Coarse sweep around model prediction, then 0.05 WU increments near the transition; reset launch state for each trial.",
+      "purpose": "Determine observed repeatable success envelope and narrow the model's range/contact error."
+    },
+    {
+      "id": "height_changes",
+      "setup": "Repeat with landing surface above and below takeoff by -0.5, -0.25, 0, +0.25 and +0.5 WU; omit any offset above the recovered apex and add the actual course's larger drops/raises.",
+      "axes": ["same techniques and approach lengths as level_gap", "wide versus course-sized landing surface"],
+      "purpose": "Verify descending landing time, front-face clearance and landing contact rather than assume a flat-gap cap applies to raised blocks."
+    },
+    {
+      "id": "approach_and_chains",
+      "setup": "Run-up lengths 0, 0.25, 0.5, 1 and 2 WU, extended until speed saturates; then representative two/three-jump chains with turns and actual block widths.",
+      "measure": ["minimum approach to reach intended speed", "ability to stop/turn on landing", "timing needed for successive jumps", "launch and landing position dispersion"],
+      "purpose": "A full-speed isolated jump does not certify a jump approached from a small previous block."
+    },
+    {
+      "id": "clearance_and_failure",
+      "setup": "Actual obstacle/ceiling clearance, under-platform supports and safe recovery/respawn route; check representative lateral misses and falls.",
+      "measure": ["body/head collision through arc", "front/top edge contact", "recovery or intended death", "checkpoint/respawn behavior immediately after spawn and after traits expire"],
+      "purpose": "Verify the entire traversable body path and the gametype's state transitions."
+    },
+    {
+      "id": "ability_and_multiplayer_if_used",
+      "setup": "Only if the course permits Sprint/Evade/Jetpack, slopes/tilts, moving pieces, Elite players, or multiplayer conditions: add each as a separately calibrated profile.",
+      "measure": ["ability startup/duration/exhaustion and cooldown", "launch state and speed", "species/stance body clearance", "host and client representative jumps"],
+      "purpose": "Do not reuse a standard standing-Spartan/no-ability envelope for different movement or collision conditions."
+    }
+  ],
+  "acceptance_policy": {
+    "repeatable_boundary": "At least 10 controlled attempts per candidate near the transition. Record counts, not a lone best jump; require 10/10 controlled successes in each of two sessions for every required jump family, and test wider gaps to bracket failures.",
+    "margin": "Derive construction allowance from measured model error, launch/landing dispersion and desired difficulty. Use a conservative gap below the repeatable boundary; document the allowance in WU.",
+    "model_validation": "Reserve some height/run-up/platform combinations as held-out checks; avoid validating only on trials used to fit the model.",
+    "release": "Every required obstacle type/technique and representative chained course segment must pass the locked-profile trials. Retest after game/variant/profile/platform-geometry changes."
+  }
+}

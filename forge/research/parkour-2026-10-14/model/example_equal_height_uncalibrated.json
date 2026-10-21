@@ -1,0 +1,426 @@
+{
+  "status": "UNCALIBRATED ideal estimate; never gameplay certification",
+  "profile": {
+    "speed": 2.2,
+    "gravity": 4.17125940322876,
+    "jump_velocity": 2.3,
+    "ground_acceleration": 8.5,
+    "radius": 0.175,
+    "standing_height": 0.65
+  },
+  "elevation_wu": 0.0,
+  "apex_time_s": 0.5513922241852632,
+  "max_foot_rise_wu": 0.6341010578130527,
+  "descending_landing_time_s": 1.1027844483705265,
+  "center_displacement_wu": 2.4261257864151586,
+  "ideal_min_runup_wu": 0.2847058823529412,
+  "runup_note": "Assumes constant acceleration from rest; game runup unverified",
+  "launch_center_setback_wu": 0.275,
+  "landing_center_inset_wu": 0.275,
+  "landing_extra_reserve_wu": 0.1,
+  "rise_margin_wu": 0.1,
+  "front_face_extension_wu": 0.0164,
+  "rise_policy_pass": true,
+  "max_gap_infinite_platform_wu": 1.7761257864151587,
+  "geometry_note": "Arc uses conservative standing capsule envelope; obstacles, bounds, piece collision meshes and effective game movement are unchecked; samples are not continuous swept collision proof",
+  "unverified": [
+    "Havok timestep and integration",
+    "effective air control and drag",
+    "runtime collision behavior",
+    "gametype trait effects",
+    "in-game calibration"
+  ],
+  "arc": [
+    {
+      "time_s": 0.0,
+      "feet_wu": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "conservative_center_wu": [
+        0.0,
+        0.0,
+        0.325
+      ],
+      "capsule_top_wu": 0.65,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.0459493520154386,
+      "feet_wu": [
+        0.10108857443396493,
+        0.0,
+        0.10128003006736258
+      ],
+      "conservative_center_wu": [
+        0.10108857443396493,
+        0.0,
+        0.4262800300673626
+      ],
+      "capsule_top_wu": 0.7512800300673625,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.0918987040308772,
+      "feet_wu": [
+        0.20217714886792987,
+        0.0,
+        0.19375310099843276
+      ],
+      "conservative_center_wu": [
+        0.20217714886792987,
+        0.0,
+        0.5187531009984327
+      ],
+      "capsule_top_wu": 0.8437531009984328,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.1378480560463158,
+      "feet_wu": [
+        0.30326572330189483,
+        0.0,
+        0.2774192127932106
+      ],
+      "conservative_center_wu": [
+        0.30326572330189483,
+        0.0,
+        0.6024192127932106
+      ],
+      "capsule_top_wu": 0.9274192127932106,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.1837974080617544,
+      "feet_wu": [
+        0.40435429773585974,
+        0.0,
+        0.35227836545169594
+      ],
+      "conservative_center_wu": [
+        0.40435429773585974,
+        0.0,
+        0.677278365451696
+      ],
+      "capsule_top_wu": 1.002278365451696,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.229746760077193,
+      "feet_wu": [
+        0.5054428721698246,
+        0.0,
+        0.4183305589738889
+      ],
+      "conservative_center_wu": [
+        0.5054428721698246,
+        0.0,
+        0.7433305589738889
+      ],
+      "capsule_top_wu": 1.068330558973889,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.2756961120926316,
+      "feet_wu": [
+        0.6065314466037897,
+        0.0,
+        0.4755757933597895
+      ],
+      "conservative_center_wu": [
+        0.6065314466037897,
+        0.0,
+        0.8005757933597895
+      ],
+      "capsule_top_wu": 1.1255757933597894,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.3216454641080702,
+      "feet_wu": [
+        0.7076200210377546,
+        0.0,
+        0.5240140686093977
+      ],
+      "conservative_center_wu": [
+        0.7076200210377546,
+        0.0,
+        0.8490140686093977
+      ],
+      "capsule_top_wu": 1.1740140686093978,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.3675948161235088,
+      "feet_wu": [
+        0.8087085954717195,
+        0.0,
+        0.5636453847227135
+      ],
+      "conservative_center_wu": [
+        0.8087085954717195,
+        0.0,
+        0.8886453847227136
+      ],
+      "capsule_top_wu": 1.2136453847227135,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.4135441681389474,
+      "feet_wu": [
+        0.9097971699056844,
+        0.0,
+        0.5944697416997369
+      ],
+      "conservative_center_wu": [
+        0.9097971699056844,
+        0.0,
+        0.9194697416997368
+      ],
+      "capsule_top_wu": 1.2444697416997368,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.459493520154386,
+      "feet_wu": [
+        1.0108857443396493,
+        0.0,
+        0.6164871395404679
+      ],
+      "conservative_center_wu": [
+        1.0108857443396493,
+        0.0,
+        0.9414871395404678
+      ],
+      "capsule_top_wu": 1.2664871395404678,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.5054428721698246,
+      "feet_wu": [
+        1.1119743187736144,
+        0.0,
+        0.6296975782449065
+      ],
+      "conservative_center_wu": [
+        1.1119743187736144,
+        0.0,
+        0.9546975782449065
+      ],
+      "capsule_top_wu": 1.2796975782449065,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.5513922241852632,
+      "feet_wu": [
+        1.2130628932075793,
+        0.0,
+        0.6341010578130527
+      ],
+      "conservative_center_wu": [
+        1.2130628932075793,
+        0.0,
+        0.9591010578130528
+      ],
+      "capsule_top_wu": 1.2841010578130527,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.5973415762007018,
+      "feet_wu": [
+        1.3141514676415442,
+        0.0,
+        0.6296975782449065
+      ],
+      "conservative_center_wu": [
+        1.3141514676415442,
+        0.0,
+        0.9546975782449065
+      ],
+      "capsule_top_wu": 1.2796975782449065,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.6432909282161404,
+      "feet_wu": [
+        1.4152400420755091,
+        0.0,
+        0.6164871395404681
+      ],
+      "conservative_center_wu": [
+        1.4152400420755091,
+        0.0,
+        0.941487139540468
+      ],
+      "capsule_top_wu": 1.2664871395404682,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.689240280231579,
+      "feet_wu": [
+        1.516328616509474,
+        0.0,
+        0.5944697416997369
+      ],
+      "conservative_center_wu": [
+        1.516328616509474,
+        0.0,
+        0.9194697416997368
+      ],
+      "capsule_top_wu": 1.2444697416997368,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.7351896322470176,
+      "feet_wu": [
+        1.617417190943439,
+        0.0,
+        0.5636453847227136
+      ],
+      "conservative_center_wu": [
+        1.617417190943439,
+        0.0,
+        0.8886453847227136
+      ],
+      "capsule_top_wu": 1.2136453847227138,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.7811389842624563,
+      "feet_wu": [
+        1.718505765377404,
+        0.0,
+        0.5240140686093977
+      ],
+      "conservative_center_wu": [
+        1.718505765377404,
+        0.0,
+        0.8490140686093977
+      ],
+      "capsule_top_wu": 1.1740140686093978,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.8270883362778948,
+      "feet_wu": [
+        1.8195943398113688,
+        0.0,
+        0.4755757933597895
+      ],
+      "conservative_center_wu": [
+        1.8195943398113688,
+        0.0,
+        0.8005757933597895
+      ],
+      "capsule_top_wu": 1.1255757933597894,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.8730376882933335,
+      "feet_wu": [
+        1.9206829142453339,
+        0.0,
+        0.41833055897388904
+      ],
+      "conservative_center_wu": [
+        1.9206829142453339,
+        0.0,
+        0.743330558973889
+      ],
+      "capsule_top_wu": 1.068330558973889,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.918987040308772,
+      "feet_wu": [
+        2.0217714886792986,
+        0.0,
+        0.3522783654516961
+      ],
+      "conservative_center_wu": [
+        2.0217714886792986,
+        0.0,
+        0.6772783654516961
+      ],
+      "capsule_top_wu": 1.002278365451696,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 0.9649363923242107,
+      "feet_wu": [
+        2.1228600631132637,
+        0.0,
+        0.2774192127932109
+      ],
+      "conservative_center_wu": [
+        2.1228600631132637,
+        0.0,
+        0.6024192127932109
+      ],
+      "capsule_top_wu": 0.9274192127932109,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 1.0108857443396493,
+      "feet_wu": [
+        2.223948637547229,
+        0.0,
+        0.1937531009984328
+      ],
+      "conservative_center_wu": [
+        2.223948637547229,
+        0.0,
+        0.5187531009984327
+      ],
+      "capsule_top_wu": 0.8437531009984328,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 1.0568350963550879,
+      "feet_wu": [
+        2.3250372119811935,
+        0.0,
+        0.10128003006736286
+      ],
+      "conservative_center_wu": [
+        2.3250372119811935,
+        0.0,
+        0.42628003006736287
+      ],
+      "capsule_top_wu": 0.7512800300673629,
+      "radius_wu": 0.175
+    },
+    {
+      "time_s": 1.1027844483705265,
+      "feet_wu": [
+        2.4261257864151586,
+        0.0,
+        0.0
+      ],
+      "conservative_center_wu": [
+        2.4261257864151586,
+        0.0,
+        0.325
+      ],
+      "capsule_top_wu": 0.65,
+      "radius_wu": 0.175
+    }
+  ],
+  "gap_check": {
+    "gap_wu": 1.7,
+    "platform_width_wu": 0.9672,
+    "target_near_edge_x_wu": 1.975,
+    "target_outer_face_x_wu": 1.9586000000000001,
+    "usable_landing_center_interval_wu": [
+      2.35,
+      2.5672
+    ],
+    "leading_face_first_contact_time_s": 0.8107272727272727,
+    "foot_height_at_leading_face_wu": 0.49383272590664795,
+    "raised_face_clearance_pass": true,
+    "finite_landing_interval_pass": true,
+    "ideal_design_policy_pass": true,
+    "failures": []
+  }
+}

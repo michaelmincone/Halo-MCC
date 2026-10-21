@@ -1,0 +1,11 @@
+#!/bin/sh
+# Use an explicit interpreter, Blender's bundled Python on macOS, or python3.
+if [ -n "$FORGE_PYTHON" ]; then
+    exec "$FORGE_PYTHON" "$@"
+fi
+for interpreter in /Applications/Blender.app/Contents/Resources/*/python/bin/python3.*; do
+    if [ -x "$interpreter" ]; then
+        exec "$interpreter" "$@"
+    fi
+done
+exec python3 "$@"

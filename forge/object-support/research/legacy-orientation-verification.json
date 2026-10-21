@@ -1,0 +1,8 @@
+{
+  "slot": 0,
+  "type_name": "Scorpion",
+  "no_op_bytes_exact": true,
+  "moved_orientation_bits_exact": true,
+  "preview_migration_kept_export_bytes_exact": true,
+  "original_unchanged": true
+}

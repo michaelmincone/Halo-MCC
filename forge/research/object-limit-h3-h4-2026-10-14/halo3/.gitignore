@@ -1,0 +1,6 @@
+# Local Ghidra database contains the imported commercial executable. Preserve
+# it locally for reproducibility without adding target bytes to source control.
+/Halo3CoreDispatch.gpr
+/Halo3CoreDispatch.rep/
+/Halo3CoreDispatch.lock
+/Halo3CoreDispatch.lock~

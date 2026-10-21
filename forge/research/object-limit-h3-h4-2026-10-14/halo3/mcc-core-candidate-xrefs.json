@@ -1,0 +1,98 @@
+[
+  {
+    "string": "Halo3Forge",
+    "string_va": "0x14329d7a0",
+    "candidate_xref_va": "0x140347989",
+    "reference_kind": "rip_lea_candidate",
+    "pe_runtime_function_va": "0x14034766c",
+    "pe_runtime_function_end_va": "0x140347a8b"
+  },
+  {
+    "string": "function-candidate@0x1403b61b4",
+    "string_va": "0x1403b61b4",
+    "candidate_xref_va": "0x14037cba8",
+    "reference_kind": "relative_call_candidate",
+    "pe_runtime_function_va": "0x14037c808",
+    "pe_runtime_function_end_va": "0x14037cc9b"
+  },
+  {
+    "string": "function-candidate@0x1403b5e80",
+    "string_va": "0x1403b5e80",
+    "candidate_xref_va": "0x14037cd5f",
+    "reference_kind": "relative_call_candidate",
+    "pe_runtime_function_va": "0x14037cc9c",
+    "pe_runtime_function_end_va": "0x14037cd8a"
+  },
+  {
+    "string": "bcrypt.dll!BCryptVerifySignature",
+    "string_va": "0x14286ca78",
+    "candidate_xref_va": "0x1403b51f8",
+    "reference_kind": "rip_indirect_call_candidate",
+    "pe_runtime_function_va": "0x1403b5088",
+    "pe_runtime_function_end_va": "0x1403b52d1"
+  },
+  {
+    "string": "function-candidate@0x1403b5088",
+    "string_va": "0x1403b5088",
+    "candidate_xref_va": "0x1403b73fb",
+    "reference_kind": "relative_call_candidate",
+    "pe_runtime_function_va": "0x1403b7220",
+    "pe_runtime_function_end_va": "0x1403b7579"
+  },
+  {
+    "string": "function-candidate@0x1403b7220",
+    "string_va": "0x1403b7220",
+    "candidate_xref_va": "0x1403b763f",
+    "reference_kind": "relative_call_candidate",
+    "pe_runtime_function_va": "0x1403b757c",
+    "pe_runtime_function_end_va": "0x1403b77a2"
+  },
+  {
+    "string": "halo3\\map_variants",
+    "string_va": "0x1432ac040",
+    "candidate_xref_va": "0x14043cfd2",
+    "reference_kind": "rip_lea_candidate",
+    "pe_runtime_function_va": "0x14043ce28",
+    "pe_runtime_function_end_va": "0x14043da36"
+  },
+  {
+    "string": "CreateMapVariantFromFile",
+    "string_va": "0x1432abf30",
+    "candidate_xref_va": "0x14043ebb3",
+    "reference_kind": "rip_lea_candidate",
+    "pe_runtime_function_va": "0x14043eaac",
+    "pe_runtime_function_end_va": "0x14043ecaf"
+  },
+  {
+    "string": "function-candidate@0x1403b7220",
+    "string_va": "0x1403b7220",
+    "candidate_xref_va": "0x14047ce17",
+    "reference_kind": "relative_call_candidate",
+    "pe_runtime_function_va": "0x14047cd28",
+    "pe_runtime_function_end_va": "0x14047d098"
+  },
+  {
+    "string": "function-candidate@0x1403b61b4",
+    "string_va": "0x1403b61b4",
+    "candidate_xref_va": "0x140591ad0",
+    "reference_kind": "relative_call_candidate",
+    "pe_runtime_function_va": "0x1405912a8",
+    "pe_runtime_function_end_va": "0x140591c2a"
+  },
+  {
+    "string": "ADVAPI32.dll!CryptSignHashW",
+    "string_va": "0x14286a048",
+    "candidate_xref_va": "0x1422b578a",
+    "reference_kind": "rip_indirect_call_candidate",
+    "pe_runtime_function_va": "0x1422b55c0",
+    "pe_runtime_function_end_va": "0x1422b5914"
+  },
+  {
+    "string": "ADVAPI32.dll!CryptSignHashW",
+    "string_va": "0x14286a048",
+    "candidate_xref_va": "0x1422b80b8",
+    "reference_kind": "rip_indirect_call_candidate",
+    "pe_runtime_function_va": "0x1422b7e60",
+    "pe_runtime_function_end_va": "0x1422b8177"
+  }
+]

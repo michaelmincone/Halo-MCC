@@ -1,0 +1,15 @@
+{
+  "library": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/assets/full-v04/Halo Reach.blend",
+  "prior_library": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/Mjolnir-Forge-Editor/Addon/Resources/Halo Reach.blend",
+  "refresh_kept_export_objects_exact": true,
+  "native_legacy_weapon_clips": 5,
+  "named_location_none_preserved": true,
+  "saved_blend": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/research/blender-roundtrip/PreviewWorkflow_v03.blend",
+  "save_reopen_kept_export_objects_exact": true,
+  "save_reopen_kept_export_bytes_exact": true,
+  "source_variants_unchanged": {
+    "hr_forgeWorld_paradiso.mvar": "e6b8ed55836052463f6ba464b2b690234447f7863e7fb18f3d778bdbc3fc54ce",
+    "hr_forgeWorld_theCage.mvar": "afe01ccce468e45a7f7784f21aa52199db0f737832afa7183e33d17396f685b0"
+  },
+  "in_game_verified": false
+}

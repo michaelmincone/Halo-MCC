@@ -1,0 +1,64 @@
+{
+  "repositories": {
+    "Assembly": {
+      "repository": "https://github.com/XboxChaos/Assembly",
+      "commit": "fd14ef3c46135e9422966c6a64cd926fb0bd23fb"
+    },
+    "TagTool": {
+      "repository": "https://github.com/TheGuardians/TagTool",
+      "commit": "ce2dc6ac13072b160752af618ea1dc143e2727ac"
+    }
+  },
+  "files": [
+    {
+      "file": "bipd.xml",
+      "sha256": "ef70556eab4780709c6e366ca703058e660adb08c07e83442fb9c67d27dd055d",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/bipd.xml"
+    },
+    {
+      "file": "matg.xml",
+      "sha256": "913183ebc70140c2543272d5ab22c3150e602db8bd1334924cb4f44c8c9f1a75",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/matg.xml"
+    },
+    {
+      "file": "phmo.xml",
+      "sha256": "b5197b191bb54dcb581c4f4698c2b9b215293cee05fbe05e294785b64fdc540e",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/phmo.xml"
+    },
+    {
+      "file": "scnr.xml",
+      "sha256": "a52b090194a7a31bfa8f0e1ac6c11ad1af83d073b54fc22cc3c11b7c3a408195",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/scnr.xml"
+    },
+    {
+      "file": "sddt.xml",
+      "sha256": "dd8ddfc64bd6913ac798987a023374e23d912c0a72d8001135813ead63c5ead3",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/sddt.xml"
+    },
+    {
+      "file": "Engines.xml",
+      "sha256": "03a0e9b41d098206f12e5133b827761ac4d19708668009a2d0357bd05347bf33",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Blamite/Formats/Engines.xml"
+    },
+    {
+      "file": "ReachMCC_LayoutsU13_Core.xml",
+      "sha256": "af6c753fb85f36bdd61c2f73d510d38390c82639e33487b9137a53a269ea589c",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Blamite/Formats/ReachMCC/LayoutsU13/ReachMCC_LayoutsU13_Core.xml"
+    },
+    {
+      "file": "ReachMCC_LayoutsU13_Scenario.xml",
+      "sha256": "4c29f7fe8efac5de2524c8be488ba6240fcc28c76960c825cd947f6c7971b8b3",
+      "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Blamite/Formats/ReachMCC/LayoutsU13/ReachMCC_LayoutsU13_Scenario.xml"
+    },
+    {
+      "file": "Biped.cs",
+      "sha256": "089998788833a8ad95693dcb0445a4e7a09b7c4ef858dd2bbebc31439227ee49",
+      "source_url": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/Tags/Definitions/Biped.cs"
+    },
+    {
+      "file": "Globals.cs",
+      "sha256": "e71375c6255afd8dfed42f7a2f4528aa9507230981ca6028ea00bef46c1da2e9",
+      "source_url": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/Tags/Definitions/Globals.cs"
+    }
+  ]
+}

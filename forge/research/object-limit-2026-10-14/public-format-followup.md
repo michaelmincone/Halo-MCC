@@ -1,0 +1,14 @@
+# Public saved-format follow-up
+
+Reviewed 2026-10-14 after the user clarified that every extra piece must be independently saved and editable in Forge. Primary-source searches found no demonstrated stock-Xbox Reach file with 652 or more independently editable saved placements, and no documented expanded-capacity Reach variant version.
+
+- [Halo Map Studio format documentation](https://sopitive.github.io/HaloMapStudio/maps-and-variants.html) describes Reach versions 31/32 and 651 saved slots. The [codec source](https://github.com/Sopitive/HaloMapStudio/blob/main/crates/hms-app/src/mvar.rs) adds MCC map-ID metadata for body version >=32 before the same 651-slot loop. That is evidence of a metadata extension, not an object-count extension.
+- [Blam Network's packed Reach chunk](https://github.com/Blam-Network/blf/blob/main/blf_lib/src/blf/chunks/haloreach/v12065_11_08_24_1738_tu1actual/s_blf_chunk_map_variant.rs) uses `mvar` 31.1 and 0x7000 packed bytes. Its separately declared object array remains 651; byte capacity and object capacity are different.
+- [Official August 2022 MCC update](https://support.halowaypoint.com/hc/en-us/articles/8955559396372-Halo-The-Master-Chief-Collection-MCC-Update-August-2022) adds Reach duplication and other Forge controls. It does not document an expansion of saved placement capacity.
+- Additional official pages reviewed by the research agent: [July 2023 update](https://support.halowaypoint.com/hc/en-us/articles/17144473706900-Halo-The-Master-Chief-Collection-MCC-Update-July-2023), [consolidated February 2024 update article](https://support.halowaypoint.com/hc/en-us/articles/23707515298324-Halo-The-Master-Chief-Collection-MCC-Update-February-2024), and [2026 Exchange update](https://www.halowaypoint.com/news/2026-mcc-exchange-update). No saved-placement expansion was found in those reviewed pages. This bounded negative search is not a guarantee about every release or unpublished engine behavior.
+
+No published implementation or demonstrated Xbox artifact was found establishing raw `mapv` as an extended-capacity Reach File Share route. The installed native ordinary importer scans for a matching `mvar` chunk; a factory that clones a native structure is not evidence that an alternative file format is accepted. A raw/alternate-format theory needs a concrete compatible sample or a verified loader branch.
+
+The conclusive acceptance test would require a concrete candidate plus a stock Xbox on an identified MCC build: upload, download, cold-load in Forge, edit object 652 independently, save, exit, reload, and verify that edit survives. There is currently no candidate meeting the inspected format constraints, so no such test or upload has been performed.
+
+Nothing here establishes a working workaround, changes the user's scope, or marks the goal achieved.

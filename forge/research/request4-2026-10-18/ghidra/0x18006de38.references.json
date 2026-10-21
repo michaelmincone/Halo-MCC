@@ -1,0 +1,44 @@
+[
+  {
+    "from": "0x18006de47",
+    "to": "0x180c17b18",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x18006de6f",
+    "to": "0x18006ded2",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006de77",
+    "to": "0x18006cf60",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006deaa",
+    "to": "0x18006de8c",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006deb5",
+    "to": "0x18006dec6",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006dec1",
+    "to": "0x1800760b4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006decd",
+    "to": "0x1803a6054",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

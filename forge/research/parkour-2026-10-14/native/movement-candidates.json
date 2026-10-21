@@ -1,0 +1,52 @@
+{
+  "source": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll",
+  "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894",
+  "limitations": [
+    "Byte-scan candidates may match non-instructions.",
+    "PE unwind ranges are not guaranteed complete logical functions.",
+    "Names alone do not establish semantics or execution."
+  ],
+  "strings": [
+    {
+      "name": "biped_soft_landing_recovery_scale",
+      "file_offset": "0x9f2798",
+      "va": "0x1809f3598"
+    },
+    {
+      "name": "biped_hard_landing_recovery_scale",
+      "file_offset": "0x9f2880",
+      "va": "0x1809f3680"
+    },
+    {
+      "name": "physics_set_gravity",
+      "file_offset": "0x9f9940",
+      "va": "0x1809fa740"
+    },
+    {
+      "name": "biped_force_airborne",
+      "file_offset": "0xa52af0",
+      "va": "0x180a538f0"
+    },
+    {
+      "name": "biped_ground_jump",
+      "file_offset": "0xa52bd0",
+      "va": "0x180a539d0"
+    },
+    {
+      "name": "biped_ground_default",
+      "file_offset": "0xa52be8",
+      "va": "0x180a539e8"
+    },
+    {
+      "name": "biped_ground_animated_jump",
+      "file_offset": "0xa52c18",
+      "va": "0x180a53a18"
+    },
+    {
+      "name": "biped_airborne_default",
+      "file_offset": "0xa52d30",
+      "va": "0x180a53b30"
+    }
+  ],
+  "references": []
+}

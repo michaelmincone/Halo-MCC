@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/research/rea-full-palette/snapshot.json\",\"bytes\":31478,\"primitive_entries\":0,\"workflow_entries\":2,\"evidence_records\":2}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/research/rea-full-palette/snapshot.json",
+      "bytes": 31478,
+      "primitive_entries": 0,
+      "workflow_entries": 2,
+      "evidence_records": 2
+    }
+  }
+}

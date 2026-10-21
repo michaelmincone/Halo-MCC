@@ -1,0 +1,116 @@
+[
+  {
+    "from": "0x180716c6b",
+    "to": "0x180afa010",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x180716c8e",
+    "to": "0x180c17b18",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x180716cdc",
+    "to": "0x1806af9c8",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716ce1",
+    "to": "0x180a8afdc",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x180716cec",
+    "to": "0x180716cf1",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716cf4",
+    "to": "0x180485b3c",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716cfb",
+    "to": "0x180716d11",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d02",
+    "to": "0x180732dc4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d0a",
+    "to": "0x180716d8a",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d0f",
+    "to": "0x180716d8a",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d19",
+    "to": "0x180716d59",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d25",
+    "to": "0x180716d59",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d35",
+    "to": "0x180716d39",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d43",
+    "to": "0x180732dc4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d4b",
+    "to": "0x180716d8a",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d57",
+    "to": "0x180716d8a",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d60",
+    "to": "0x180716d8a",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x180716d65",
+    "to": "0x180c1a600",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x180716d95",
+    "to": "0x180787e00",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

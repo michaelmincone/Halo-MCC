@@ -1,0 +1,32 @@
+{
+  "status": "proposed_baseline_for_calibration; no matching gametype has been created or tested",
+  "mode": "Reach multiplayer custom game on Forge World",
+  "species": {"label": "All Spartans", "field": "options.team.species", "encoded_value": 1},
+  "base_traits": {
+    "movement.speed": {"label": "100%", "encoded_value": 6},
+    "movement.gravity": {"label": "100%", "encoded_value": 3},
+    "movement.jumpHeight": {"label": "100%", "encoded_value": 100},
+    "movement.vehicleUsage": {"label": "None", "encoded_value": 1},
+    "movement.doubleJump": {"label": "Disabled (unused by engine according to RVT)", "encoded_value": 1},
+    "offense.ability": {"label": "None", "encoded_value": -1},
+    "offense.abilityUsage": {"label": "Disabled", "encoded_value": 1},
+    "offense.weaponPickup": {"label": "Disabled", "encoded_value": 1},
+    "offense.abilitiesDropOnDeath": {"label": "Disabled", "encoded_value": 1},
+    "offense.infiniteAbility": {"label": "Disabled", "encoded_value": 1}
+  },
+  "override_audit": [
+    "Inspect options.respawn.traits and traitsDuration; keep movement/ability entries Unchanged so they do not alter the explicit base, or make them identical to base.",
+    "Disable loadouts or give every available loadout exactly the chosen ability; inspect Spartan and Elite palettes.",
+    "Disable armor ability and powerup pickups in options.map.flags; inspect red/blue/yellow traits and durations anyway.",
+    "Inspect scriptData.traits plus decompiled apply_traits calls, conditional branches, trait zones, objective/carrying states, spawn states and biped replacement actions.",
+    "Record gametype filename and SHA256, map filename and SHA256, MCC/Reach build, platform, controller/input method, session conditions and allowed movement techniques.",
+    "An Unchanged field is a separate sentinel, not encoded 100%; the effective inherited or overriding value must be resolved before calculation.",
+    "Keep crouching in normal movement; specify whether crouch-assisted jumps are required and calibrate separately.",
+    "No universal sprint toggle exists in these traits: Sprint is ability 0 and its use depends on abilityUsage, loadouts/pickups and state. A sprint course needs its own tested profile."
+  ],
+  "limitations": [
+    "RVT parses values and displays meanings; engine formulas and exact overlay precedence are not established by these source records.",
+    "The profile sets UI percentages, not recovered physical acceleration/velocity values.",
+    "The experimental Double Jump field must not be relied on as an available parkour action."
+  ]
+}

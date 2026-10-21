@@ -1,0 +1,32 @@
+[
+  {
+    "file": "hlmt.xml",
+    "source_url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/hlmt.xml",
+    "sha256": "10941964a86fd32c0a922338486eef7be63fa8677c786aa842db1fbaa3a80e8d"
+  },
+  {
+    "file": "rmsh.xml",
+    "source_url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/rmsh.xml",
+    "sha256": "f462fd34ed11c1a949dbbcd7ab07c2adbfd0de8af415dfc9a40085acc3a9fb3f"
+  },
+  {
+    "file": "rmt2.xml",
+    "source_url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/rmt2.xml",
+    "sha256": "2a6869703ddd65e5610297cdcab6334389a369634654e2d63121dd39d1efc58a"
+  },
+  {
+    "file": "bitm.xml",
+    "source_url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/bitm.xml",
+    "sha256": "c2f3727a6f62dc14fdec5770ead47926956eaf27fe29f53fb54efbd18b572769"
+  },
+  {
+    "file": "rmdf.xml",
+    "source_url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/Reach/rmdf.xml",
+    "sha256": "bd2ed1063840a24c5525c681cee077ef8ccddb98947e233b7319b194b93123c9"
+  },
+  {
+    "file": "rmd.xml",
+    "source_url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/rmd.xml",
+    "sha256": "a75c72f94dc60f297b77a055cbec22b1851a9d9f9fc2d9cc23a0c29c383b0284"
+  }
+]

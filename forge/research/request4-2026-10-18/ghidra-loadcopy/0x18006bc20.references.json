@@ -1,0 +1,56 @@
+[
+  {
+    "from": "0x18006bc49",
+    "to": "0x18006bc66",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bc64",
+    "to": "0x18006bc75",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bc6c",
+    "to": "0x1800dcfc4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bc7f",
+    "to": "0x18006bc9c",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bc9a",
+    "to": "0x18006bcab",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bca2",
+    "to": "0x1800dcfc4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bcb3",
+    "to": "0x18006bcd1",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bccf",
+    "to": "0x18006bcdc",
+    "type": "UNCONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006bcd7",
+    "to": "0x1800dcfc4",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

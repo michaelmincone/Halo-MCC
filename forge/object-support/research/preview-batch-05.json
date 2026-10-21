@@ -1,0 +1,194 @@
+[
+  {
+    "id": 14336,
+    "name": "Initial Loadout Camera",
+    "internal": "spawning_camera",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/14336.jpg",
+    "price": "0",
+    "ordinaryQuota": "32",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.3139,
+      0.263,
+      0.2015
+    ]
+  },
+  {
+    "id": 14592,
+    "name": "Respawn Zone",
+    "internal": "respawn_zone",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/14592.jpg",
+    "price": "0",
+    "ordinaryQuota": "20",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.1198,
+      0.1198,
+      0.225
+    ]
+  },
+  {
+    "id": 14848,
+    "name": "Respawn Zone, Weak",
+    "internal": "respawn_zone_weak",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/14848.jpg",
+    "price": "0",
+    "ordinaryQuota": "20",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.1198,
+      0.1198,
+      0.225
+    ]
+  },
+  {
+    "id": 15104,
+    "name": "Respawn Zone, Anti",
+    "internal": "respawn_zone_anti",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/15104.jpg",
+    "price": "0",
+    "ordinaryQuota": "20",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.1198,
+      0.1198,
+      0.225
+    ]
+  },
+  {
+    "id": 15360,
+    "name": "Safe Boundary",
+    "internal": "spawning_safe",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/15360.jpg",
+    "price": "0",
+    "ordinaryQuota": "5",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4262,
+      0.0475,
+      0.5452
+    ]
+  },
+  {
+    "id": 15361,
+    "name": "Soft Safe Boundary",
+    "internal": "spawning_safe_soft",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/15361.jpg",
+    "price": "0",
+    "ordinaryQuota": "5",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4262,
+      0.0475,
+      0.5452
+    ]
+  },
+  {
+    "id": 15616,
+    "name": "Kill Boundary",
+    "internal": "spawning_kill",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/15616.jpg",
+    "price": "0",
+    "ordinaryQuota": "64",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.3257,
+      0.2485,
+      0.2888
+    ]
+  },
+  {
+    "id": 15617,
+    "name": "Soft Kill Boundary",
+    "internal": "spawning_kill_soft",
+    "category": "Spawning",
+    "menu": "Spawning",
+    "image": "full-textured/15617.jpg",
+    "price": "0",
+    "ordinaryQuota": "64",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.3257,
+      0.2485,
+      0.2888
+    ]
+  },
+  {
+    "id": 16384,
+    "name": "Hill Marker",
+    "internal": "obj_hill_marker",
+    "category": "Objectives",
+    "menu": "Objectives",
+    "image": "full-textured/16384.jpg",
+    "price": "0",
+    "ordinaryQuota": "75",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.3756,
+      0.2895,
+      0.6391
+    ]
+  },
+  {
+    "id": 16642,
+    "name": "Covenant Barrier",
+    "internal": "ff_scn_covenantbarrier",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/16642.jpg",
+    "price": "50",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.4273,
+      1.4454,
+      0.7995
+    ]
+  },
+  {
+    "id": 16643,
+    "name": "Portable Shield",
+    "internal": "ff_scn_cov_shield",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/16643.jpg",
+    "price": "50",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.4044,
+      0.8832,
+      0.9378
+    ]
+  },
+  {
+    "id": 16896,
+    "name": "Camping Stool",
+    "internal": "ff_scn_camping_stool",
+    "category": "Scenery",
+    "menu": "Scenery",
+    "image": "full-textured/16896.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.2433,
+      0.1782,
+      0.2318
+    ]
+  }
+]

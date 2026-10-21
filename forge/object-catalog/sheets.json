@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Structure",
+    "count": 1,
+    "path": "sheets/structure.jpg"
+  },
+  {
+    "name": "Building Blocks",
+    "count": 26,
+    "path": "sheets/building-blocks.jpg"
+  },
+  {
+    "name": "Bridges And Platforms",
+    "count": 22,
+    "path": "sheets/bridges-and-platforms.jpg"
+  },
+  {
+    "name": "Buildings",
+    "count": 12,
+    "path": "sheets/buildings.jpg"
+  },
+  {
+    "name": "Decorative",
+    "count": 16,
+    "path": "sheets/decorative.jpg"
+  },
+  {
+    "name": "Doors, Windows, And Walls",
+    "count": 14,
+    "path": "sheets/doors-windows-and-walls.jpg"
+  },
+  {
+    "name": "Inclines",
+    "count": 15,
+    "path": "sheets/inclines.jpg"
+  },
+  {
+    "name": "Natural",
+    "count": 13,
+    "path": "sheets/natural.jpg"
+  },
+  {
+    "name": "MCC Additions",
+    "count": 30,
+    "path": "sheets/mcc-additions.jpg"
+  },
+  {
+    "name": "Scenery 1 of 2",
+    "count": 30,
+    "path": "sheets/scenery-1-of-2.jpg"
+  },
+  {
+    "name": "Scenery 2 of 2",
+    "count": 16,
+    "path": "sheets/scenery-2-of-2.jpg"
+  },
+  {
+    "name": "Gadgets 1 of 3",
+    "count": 30,
+    "path": "sheets/gadgets-1-of-3.jpg"
+  },
+  {
+    "name": "Gadgets 2 of 3",
+    "count": 30,
+    "path": "sheets/gadgets-2-of-3.jpg"
+  },
+  {
+    "name": "Gadgets 3 of 3",
+    "count": 8,
+    "path": "sheets/gadgets-3-of-3.jpg"
+  },
+  {
+    "name": "Spawns And Objectives",
+    "count": 13,
+    "path": "sheets/spawns-and-objectives.jpg"
+  },
+  {
+    "name": "Hidden",
+    "count": 14,
+    "path": "sheets/hidden.jpg"
+  },
+  {
+    "name": "Weapons, Human",
+    "count": 10,
+    "path": "sheets/weapons-human.jpg"
+  },
+  {
+    "name": "Weapons, Covenant",
+    "count": 14,
+    "path": "sheets/weapons-covenant.jpg"
+  },
+  {
+    "name": "Armor Abilities",
+    "count": 7,
+    "path": "sheets/armor-abilities.jpg"
+  },
+  {
+    "name": "Vehicles",
+    "count": 23,
+    "path": "sheets/vehicles.jpg"
+  },
+  {
+    "name": "More",
+    "count": 4,
+    "path": "sheets/more.jpg"
+  }
+]

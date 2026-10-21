@@ -1,0 +1,1768 @@
+{
+  "bipeds": [
+    {
+      "bound_representations": [
+        0
+      ],
+      "fields": {
+        "Airborne Acceleration Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 314967240,
+          "file_offset_hex": "0x12c604c8",
+          "relative_offset": "0x66c",
+          "schema_tooltip": "scale on airborne acceleration maximum",
+          "value": 0.0
+        },
+        "Airborne Reaction Time Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 314967228,
+          "file_offset_hex": "0x12c604bc",
+          "relative_offset": "0x660",
+          "schema_tooltip": "scale on the time for the entity to realize it is airborne",
+          "value": 0.0
+        },
+        "Crouch Transition Time": {
+          "bytes_le": "9a99993e",
+          "file_offset": 314966928,
+          "file_offset_hex": "0x12c60390",
+          "relative_offset": "0x534",
+          "value": 0.30000001192092896
+        },
+        "Crouch Walking Camera Height": {
+          "bytes_le": "3d0ad73e",
+          "file_offset": 314966924,
+          "file_offset_hex": "0x12c6038c",
+          "relative_offset": "0x530",
+          "value": 0.41999998688697815
+        },
+        "Crouching Camera Height": {
+          "bytes_le": "3d0ad73e",
+          "file_offset": 314966920,
+          "file_offset_hex": "0x12c60388",
+          "relative_offset": "0x52c",
+          "value": 0.41999998688697815
+        },
+        "Downhill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 314967184,
+          "file_offset_hex": "0x12c60490",
+          "raw_unit": "radians",
+          "relative_offset": "0x634",
+          "value": 0.8726646304130554
+        },
+        "Downhill Falloff Angle": {
+          "bytes_le": "db0f493f",
+          "degrees": 45.00000125223908,
+          "file_offset": 314967180,
+          "file_offset_hex": "0x12c6048c",
+          "raw_unit": "radians",
+          "relative_offset": "0x630",
+          "value": 0.7853981852531433
+        },
+        "Downhill Velocity Scale": {
+          "bytes_le": "0000c03f",
+          "file_offset": 314967196,
+          "file_offset_hex": "0x12c6049c",
+          "relative_offset": "0x640",
+          "value": 1.5
+        },
+        "Flags": {
+          "bytes_le": "04000000",
+          "file_offset": 314967108,
+          "file_offset_hex": "0x12c60444",
+          "relative_offset": "0x5e8",
+          "set_bits": [
+            "Use Player Physics"
+          ],
+          "value": 4
+        },
+        "Gravity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 314967236,
+          "file_offset_hex": "0x12c604c4",
+          "relative_offset": "0x668",
+          "schema_tooltip": "scale on gravity for this entity",
+          "value": 0.0
+        },
+        "Ground Adhesion Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 314967232,
+          "file_offset_hex": "0x12c604c0",
+          "relative_offset": "0x664",
+          "schema_tooltip": "scale on velocity with which the entity is pushed back into its ground plane (set to -1 to lock to ground)",
+          "value": 0.0
+        },
+        "Height Crouching": {
+          "bytes_le": "0000003f",
+          "file_offset": 314967116,
+          "file_offset_hex": "0x12c6044c",
+          "relative_offset": "0x5f0",
+          "value": 0.5
+        },
+        "Height Standing": {
+          "bytes_le": "6666263f",
+          "file_offset": 314967112,
+          "file_offset_hex": "0x12c60448",
+          "relative_offset": "0x5ec",
+          "value": 0.6499999761581421
+        },
+        "Jump Velocity": {
+          "bytes_le": "33331340",
+          "file_offset": 314966860,
+          "file_offset_hex": "0x12c6034c",
+          "relative_offset": "0x4f0",
+          "value": 2.299999952316284
+        },
+        "Mass": {
+          "bytes_le": "0000fa42",
+          "file_offset": 314967124,
+          "file_offset_hex": "0x12c60454",
+          "relative_offset": "0x5f8",
+          "value": 125.0
+        },
+        "Maximum Hard Landing Time": {
+          "bytes_le": "3333333f",
+          "file_offset": 314966892,
+          "file_offset_hex": "0x12c6036c",
+          "relative_offset": "0x510",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a hard landing",
+          "value": 0.699999988079071
+        },
+        "Maximum Hard Landing Velocity": {
+          "bytes_le": "00000841",
+          "file_offset": 314966904,
+          "file_offset_hex": "0x12c60378",
+          "relative_offset": "0x51c",
+          "schema_tooltip": "the velocity corresponding to the maximum landing time",
+          "value": 8.5
+        },
+        "Maximum Slope Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 314967176,
+          "file_offset_hex": "0x12c60488",
+          "raw_unit": "radians",
+          "relative_offset": "0x62c",
+          "value": 0.8726646304130554
+        },
+        "Maximum Soft Landing Time": {
+          "bytes_le": "0000003f",
+          "file_offset": 314966888,
+          "file_offset_hex": "0x12c60368",
+          "relative_offset": "0x50c",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a soft landing",
+          "value": 0.5
+        },
+        "Minimum Hard Landing Velocity": {
+          "bytes_le": "0000c840",
+          "file_offset": 314966900,
+          "file_offset_hex": "0x12c60374",
+          "relative_offset": "0x518",
+          "schema_tooltip": "below this velocity the biped will not do a soft landing when returning to the ground",
+          "value": 6.25
+        },
+        "Minimum Soft Landing Velocity": {
+          "bytes_le": "0000003f",
+          "file_offset": 314966896,
+          "file_offset_hex": "0x12c60370",
+          "relative_offset": "0x514",
+          "schema_tooltip": "below this velocity the biped does not react when landing",
+          "value": 0.5
+        },
+        "Radius": {
+          "bytes_le": "3333333e",
+          "file_offset": 314967120,
+          "file_offset_hex": "0x12c60450",
+          "relative_offset": "0x5f4",
+          "value": 0.17499999701976776
+        },
+        "Running Camera Height": {
+          "bytes_le": "9a99193f",
+          "file_offset": 314966916,
+          "file_offset_hex": "0x12c60384",
+          "relative_offset": "0x528",
+          "value": 0.6000000238418579
+        },
+        "Standing Camera Height": {
+          "bytes_le": "9a99193f",
+          "file_offset": 314966912,
+          "file_offset_hex": "0x12c60380",
+          "relative_offset": "0x524",
+          "value": 0.6000000238418579
+        },
+        "Stun Jumping Penalty": {
+          "bytes_le": "0000803f",
+          "file_offset": 314966372,
+          "file_offset_hex": "0x12c60164",
+          "relative_offset": "0x308",
+          "schema_tooltip": "1.0 prevents jumping while stunned",
+          "value": 1.0
+        },
+        "Uphill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 314967192,
+          "file_offset_hex": "0x12c60498",
+          "raw_unit": "radians",
+          "relative_offset": "0x63c",
+          "value": 0.8726646304130554
+        },
+        "Uphill Falloff Angle": {
+          "bytes_le": "db0f493f",
+          "degrees": 45.00000125223908,
+          "file_offset": 314967188,
+          "file_offset_hex": "0x12c60494",
+          "raw_unit": "radians",
+          "relative_offset": "0x638",
+          "value": 0.7853981852531433
+        },
+        "Uphill Velocity Scale": {
+          "bytes_le": "0000003f",
+          "file_offset": 314967200,
+          "file_offset_hex": "0x12c604a0",
+          "relative_offset": "0x644",
+          "value": 0.5
+        }
+      },
+      "pill_shapes": [
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.47499996423721313
+          ],
+          "file_offset": 228079984,
+          "geometric_z_extent": [
+            0.0,
+            0.6499999612569809
+          ],
+          "index": 0,
+          "radius": 0.17499999701976776,
+          "top": [
+            0.0,
+            0.0,
+            0.17499999701976776
+          ]
+        },
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.32499998807907104
+          ],
+          "file_offset": 228080096,
+          "geometric_z_extent": [
+            0.0,
+            0.4999999850988388
+          ],
+          "index": 1,
+          "radius": 0.17499999701976776,
+          "top": [
+            0.0,
+            0.0,
+            0.17499999701976776
+          ]
+        }
+      ],
+      "tag": {
+        "file_offset": 314965596,
+        "file_offset_hex": "0x12c5fe5c",
+        "group": "bipd",
+        "index": 12419,
+        "name": "objects\\characters\\spartans\\spartans"
+      }
+    },
+    {
+      "bound_representations": [],
+      "fields": {
+        "Airborne Acceleration Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 317722400,
+          "file_offset_hex": "0x12f00f20",
+          "relative_offset": "0x66c",
+          "schema_tooltip": "scale on airborne acceleration maximum",
+          "value": 0.0
+        },
+        "Airborne Reaction Time Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 317722388,
+          "file_offset_hex": "0x12f00f14",
+          "relative_offset": "0x660",
+          "schema_tooltip": "scale on the time for the entity to realize it is airborne",
+          "value": 0.0
+        },
+        "Crouch Transition Time": {
+          "bytes_le": "9a99993e",
+          "file_offset": 317722088,
+          "file_offset_hex": "0x12f00de8",
+          "relative_offset": "0x534",
+          "value": 0.30000001192092896
+        },
+        "Crouch Walking Camera Height": {
+          "bytes_le": "3d0ad73e",
+          "file_offset": 317722084,
+          "file_offset_hex": "0x12f00de4",
+          "relative_offset": "0x530",
+          "value": 0.41999998688697815
+        },
+        "Crouching Camera Height": {
+          "bytes_le": "3d0ad73e",
+          "file_offset": 317722080,
+          "file_offset_hex": "0x12f00de0",
+          "relative_offset": "0x52c",
+          "value": 0.41999998688697815
+        },
+        "Downhill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 317722344,
+          "file_offset_hex": "0x12f00ee8",
+          "raw_unit": "radians",
+          "relative_offset": "0x634",
+          "value": 0.8726646304130554
+        },
+        "Downhill Falloff Angle": {
+          "bytes_le": "da0f493f",
+          "degrees": 44.9999978371445,
+          "file_offset": 317722340,
+          "file_offset_hex": "0x12f00ee4",
+          "raw_unit": "radians",
+          "relative_offset": "0x630",
+          "value": 0.7853981256484985
+        },
+        "Downhill Velocity Scale": {
+          "bytes_le": "0000c03f",
+          "file_offset": 317722356,
+          "file_offset_hex": "0x12f00ef4",
+          "relative_offset": "0x640",
+          "value": 1.5
+        },
+        "Flags": {
+          "bytes_le": "00000000",
+          "file_offset": 317722268,
+          "file_offset_hex": "0x12f00e9c",
+          "relative_offset": "0x5e8",
+          "set_bits": [],
+          "value": 0
+        },
+        "Gravity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 317722396,
+          "file_offset_hex": "0x12f00f1c",
+          "relative_offset": "0x668",
+          "schema_tooltip": "scale on gravity for this entity",
+          "value": 0.0
+        },
+        "Ground Adhesion Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 317722392,
+          "file_offset_hex": "0x12f00f18",
+          "relative_offset": "0x664",
+          "schema_tooltip": "scale on velocity with which the entity is pushed back into its ground plane (set to -1 to lock to ground)",
+          "value": 0.0
+        },
+        "Height Crouching": {
+          "bytes_le": "0000003f",
+          "file_offset": 317722276,
+          "file_offset_hex": "0x12f00ea4",
+          "relative_offset": "0x5f0",
+          "value": 0.5
+        },
+        "Height Standing": {
+          "bytes_le": "6666263f",
+          "file_offset": 317722272,
+          "file_offset_hex": "0x12f00ea0",
+          "relative_offset": "0x5ec",
+          "value": 0.6499999761581421
+        },
+        "Jump Velocity": {
+          "bytes_le": "33331340",
+          "file_offset": 317722020,
+          "file_offset_hex": "0x12f00da4",
+          "relative_offset": "0x4f0",
+          "value": 2.299999952316284
+        },
+        "Mass": {
+          "bytes_le": "0000fa42",
+          "file_offset": 317722284,
+          "file_offset_hex": "0x12f00eac",
+          "relative_offset": "0x5f8",
+          "value": 125.0
+        },
+        "Maximum Hard Landing Time": {
+          "bytes_le": "0000003f",
+          "file_offset": 317722052,
+          "file_offset_hex": "0x12f00dc4",
+          "relative_offset": "0x510",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a hard landing",
+          "value": 0.5
+        },
+        "Maximum Hard Landing Velocity": {
+          "bytes_le": "00002041",
+          "file_offset": 317722064,
+          "file_offset_hex": "0x12f00dd0",
+          "relative_offset": "0x51c",
+          "schema_tooltip": "the velocity corresponding to the maximum landing time",
+          "value": 10.0
+        },
+        "Maximum Slope Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 317722336,
+          "file_offset_hex": "0x12f00ee0",
+          "raw_unit": "radians",
+          "relative_offset": "0x62c",
+          "value": 0.8726646304130554
+        },
+        "Maximum Soft Landing Time": {
+          "bytes_le": "0000003f",
+          "file_offset": 317722048,
+          "file_offset_hex": "0x12f00dc0",
+          "relative_offset": "0x50c",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a soft landing",
+          "value": 0.5
+        },
+        "Minimum Hard Landing Velocity": {
+          "bytes_le": "0000a040",
+          "file_offset": 317722060,
+          "file_offset_hex": "0x12f00dcc",
+          "relative_offset": "0x518",
+          "schema_tooltip": "below this velocity the biped will not do a soft landing when returning to the ground",
+          "value": 5.0
+        },
+        "Minimum Soft Landing Velocity": {
+          "bytes_le": "0000003f",
+          "file_offset": 317722056,
+          "file_offset_hex": "0x12f00dc8",
+          "relative_offset": "0x514",
+          "schema_tooltip": "below this velocity the biped does not react when landing",
+          "value": 0.5
+        },
+        "Radius": {
+          "bytes_le": "3333333e",
+          "file_offset": 317722280,
+          "file_offset_hex": "0x12f00ea8",
+          "relative_offset": "0x5f4",
+          "value": 0.17499999701976776
+        },
+        "Running Camera Height": {
+          "bytes_le": "9a99193f",
+          "file_offset": 317722076,
+          "file_offset_hex": "0x12f00ddc",
+          "relative_offset": "0x528",
+          "value": 0.6000000238418579
+        },
+        "Standing Camera Height": {
+          "bytes_le": "9a99193f",
+          "file_offset": 317722072,
+          "file_offset_hex": "0x12f00dd8",
+          "relative_offset": "0x524",
+          "value": 0.6000000238418579
+        },
+        "Stun Jumping Penalty": {
+          "bytes_le": "0000803f",
+          "file_offset": 317721532,
+          "file_offset_hex": "0x12f00bbc",
+          "relative_offset": "0x308",
+          "schema_tooltip": "1.0 prevents jumping while stunned",
+          "value": 1.0
+        },
+        "Uphill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 317722352,
+          "file_offset_hex": "0x12f00ef0",
+          "raw_unit": "radians",
+          "relative_offset": "0x63c",
+          "value": 0.8726646304130554
+        },
+        "Uphill Falloff Angle": {
+          "bytes_le": "da0f493f",
+          "degrees": 44.9999978371445,
+          "file_offset": 317722348,
+          "file_offset_hex": "0x12f00eec",
+          "raw_unit": "radians",
+          "relative_offset": "0x638",
+          "value": 0.7853981256484985
+        },
+        "Uphill Velocity Scale": {
+          "bytes_le": "0000003f",
+          "file_offset": 317722360,
+          "file_offset_hex": "0x12f00ef8",
+          "relative_offset": "0x644",
+          "value": 0.5
+        }
+      },
+      "pill_shapes": [
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.47499996423721313
+          ],
+          "file_offset": 228095456,
+          "geometric_z_extent": [
+            0.0,
+            0.6499999612569809
+          ],
+          "index": 0,
+          "radius": 0.17499999701976776,
+          "top": [
+            0.0,
+            0.0,
+            0.17499999701976776
+          ]
+        },
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.32499998807907104
+          ],
+          "file_offset": 228095568,
+          "geometric_z_extent": [
+            0.0,
+            0.4999999850988388
+          ],
+          "index": 1,
+          "radius": 0.17499999701976776,
+          "top": [
+            0.0,
+            0.0,
+            0.17499999701976776
+          ]
+        }
+      ],
+      "tag": {
+        "file_offset": 317720756,
+        "file_offset_hex": "0x12f008b4",
+        "group": "bipd",
+        "index": 13453,
+        "name": "objects\\equipment\\hologram\\bipeds\\hologram_spartan"
+      }
+    },
+    {
+      "bound_representations": [
+        1
+      ],
+      "fields": {
+        "Airborne Acceleration Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 318265868,
+          "file_offset_hex": "0x12f85a0c",
+          "relative_offset": "0x66c",
+          "schema_tooltip": "scale on airborne acceleration maximum",
+          "value": 0.0
+        },
+        "Airborne Reaction Time Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 318265856,
+          "file_offset_hex": "0x12f85a00",
+          "relative_offset": "0x660",
+          "schema_tooltip": "scale on the time for the entity to realize it is airborne",
+          "value": 0.0
+        },
+        "Crouch Transition Time": {
+          "bytes_le": "cdcc4c3e",
+          "file_offset": 318265556,
+          "file_offset_hex": "0x12f858d4",
+          "relative_offset": "0x534",
+          "value": 0.20000000298023224
+        },
+        "Crouch Walking Camera Height": {
+          "bytes_le": "5c8f023f",
+          "file_offset": 318265552,
+          "file_offset_hex": "0x12f858d0",
+          "relative_offset": "0x530",
+          "value": 0.5099999904632568
+        },
+        "Crouching Camera Height": {
+          "bytes_le": "5c8f023f",
+          "file_offset": 318265548,
+          "file_offset_hex": "0x12f858cc",
+          "relative_offset": "0x52c",
+          "value": 0.5099999904632568
+        },
+        "Downhill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 318265812,
+          "file_offset_hex": "0x12f859d4",
+          "raw_unit": "radians",
+          "relative_offset": "0x634",
+          "value": 0.8726646304130554
+        },
+        "Downhill Falloff Angle": {
+          "bytes_le": "db0f493f",
+          "degrees": 45.00000125223908,
+          "file_offset": 318265808,
+          "file_offset_hex": "0x12f859d0",
+          "raw_unit": "radians",
+          "relative_offset": "0x630",
+          "value": 0.7853981852531433
+        },
+        "Downhill Velocity Scale": {
+          "bytes_le": "0000c03f",
+          "file_offset": 318265824,
+          "file_offset_hex": "0x12f859e0",
+          "relative_offset": "0x640",
+          "value": 1.5
+        },
+        "Flags": {
+          "bytes_le": "04000000",
+          "file_offset": 318265736,
+          "file_offset_hex": "0x12f85988",
+          "relative_offset": "0x5e8",
+          "set_bits": [
+            "Use Player Physics"
+          ],
+          "value": 4
+        },
+        "Gravity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 318265864,
+          "file_offset_hex": "0x12f85a08",
+          "relative_offset": "0x668",
+          "schema_tooltip": "scale on gravity for this entity",
+          "value": 0.0
+        },
+        "Ground Adhesion Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 318265860,
+          "file_offset_hex": "0x12f85a04",
+          "relative_offset": "0x664",
+          "schema_tooltip": "scale on velocity with which the entity is pushed back into its ground plane (set to -1 to lock to ground)",
+          "value": 0.0
+        },
+        "Height Crouching": {
+          "bytes_le": "6666263f",
+          "file_offset": 318265744,
+          "file_offset_hex": "0x12f85990",
+          "relative_offset": "0x5f0",
+          "value": 0.6499999761581421
+        },
+        "Height Standing": {
+          "bytes_le": "713d4a3f",
+          "file_offset": 318265740,
+          "file_offset_hex": "0x12f8598c",
+          "relative_offset": "0x5ec",
+          "value": 0.7900000214576721
+        },
+        "Jump Velocity": {
+          "bytes_le": "9a992940",
+          "file_offset": 318265488,
+          "file_offset_hex": "0x12f85890",
+          "relative_offset": "0x4f0",
+          "value": 2.6500000953674316
+        },
+        "Mass": {
+          "bytes_le": "0000fa42",
+          "file_offset": 318265752,
+          "file_offset_hex": "0x12f85998",
+          "relative_offset": "0x5f8",
+          "value": 125.0
+        },
+        "Maximum Hard Landing Time": {
+          "bytes_le": "3333333f",
+          "file_offset": 318265520,
+          "file_offset_hex": "0x12f858b0",
+          "relative_offset": "0x510",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a hard landing",
+          "value": 0.699999988079071
+        },
+        "Maximum Hard Landing Velocity": {
+          "bytes_le": "00000841",
+          "file_offset": 318265532,
+          "file_offset_hex": "0x12f858bc",
+          "relative_offset": "0x51c",
+          "schema_tooltip": "the velocity corresponding to the maximum landing time",
+          "value": 8.5
+        },
+        "Maximum Slope Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 318265804,
+          "file_offset_hex": "0x12f859cc",
+          "raw_unit": "radians",
+          "relative_offset": "0x62c",
+          "value": 0.8726646304130554
+        },
+        "Maximum Soft Landing Time": {
+          "bytes_le": "0000003f",
+          "file_offset": 318265516,
+          "file_offset_hex": "0x12f858ac",
+          "relative_offset": "0x50c",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a soft landing",
+          "value": 0.5
+        },
+        "Minimum Hard Landing Velocity": {
+          "bytes_le": "0000c840",
+          "file_offset": 318265528,
+          "file_offset_hex": "0x12f858b8",
+          "relative_offset": "0x518",
+          "schema_tooltip": "below this velocity the biped will not do a soft landing when returning to the ground",
+          "value": 6.25
+        },
+        "Minimum Soft Landing Velocity": {
+          "bytes_le": "0000003f",
+          "file_offset": 318265524,
+          "file_offset_hex": "0x12f858b4",
+          "relative_offset": "0x514",
+          "schema_tooltip": "below this velocity the biped does not react when landing",
+          "value": 0.5
+        },
+        "Radius": {
+          "bytes_le": "ec51383e",
+          "file_offset": 318265748,
+          "file_offset_hex": "0x12f85994",
+          "relative_offset": "0x5f4",
+          "value": 0.18000000715255737
+        },
+        "Running Camera Height": {
+          "bytes_le": "d7a3303f",
+          "file_offset": 318265544,
+          "file_offset_hex": "0x12f858c8",
+          "relative_offset": "0x528",
+          "value": 0.6899999976158142
+        },
+        "Standing Camera Height": {
+          "bytes_le": "d7a3303f",
+          "file_offset": 318265540,
+          "file_offset_hex": "0x12f858c4",
+          "relative_offset": "0x524",
+          "value": 0.6899999976158142
+        },
+        "Stun Jumping Penalty": {
+          "bytes_le": "0000803f",
+          "file_offset": 318265000,
+          "file_offset_hex": "0x12f856a8",
+          "relative_offset": "0x308",
+          "schema_tooltip": "1.0 prevents jumping while stunned",
+          "value": 1.0
+        },
+        "Uphill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 318265820,
+          "file_offset_hex": "0x12f859dc",
+          "raw_unit": "radians",
+          "relative_offset": "0x63c",
+          "value": 0.8726646304130554
+        },
+        "Uphill Falloff Angle": {
+          "bytes_le": "db0f493f",
+          "degrees": 45.00000125223908,
+          "file_offset": 318265816,
+          "file_offset_hex": "0x12f859d8",
+          "raw_unit": "radians",
+          "relative_offset": "0x638",
+          "value": 0.7853981852531433
+        },
+        "Uphill Velocity Scale": {
+          "bytes_le": "0000003f",
+          "file_offset": 318265828,
+          "file_offset_hex": "0x12f859e4",
+          "relative_offset": "0x644",
+          "value": 0.5
+        }
+      },
+      "pill_shapes": [
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.6100000143051147
+          ],
+          "file_offset": 228100960,
+          "geometric_z_extent": [
+            0.0,
+            0.7900000214576721
+          ],
+          "index": 0,
+          "radius": 0.18000000715255737,
+          "top": [
+            0.0,
+            0.0,
+            0.18000000715255737
+          ]
+        },
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.4699999690055847
+          ],
+          "file_offset": 228101072,
+          "geometric_z_extent": [
+            0.0,
+            0.6499999761581421
+          ],
+          "index": 1,
+          "radius": 0.18000000715255737,
+          "top": [
+            0.0,
+            0.0,
+            0.18000000715255737
+          ]
+        }
+      ],
+      "tag": {
+        "file_offset": 318264224,
+        "file_offset_hex": "0x12f853a0",
+        "group": "bipd",
+        "index": 13614,
+        "name": "objects\\characters\\elite\\elite"
+      }
+    },
+    {
+      "bound_representations": [],
+      "fields": {
+        "Airborne Acceleration Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320364228,
+          "file_offset_hex": "0x13185ec4",
+          "relative_offset": "0x66c",
+          "schema_tooltip": "scale on airborne acceleration maximum",
+          "value": 0.0
+        },
+        "Airborne Reaction Time Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320364216,
+          "file_offset_hex": "0x13185eb8",
+          "relative_offset": "0x660",
+          "schema_tooltip": "scale on the time for the entity to realize it is airborne",
+          "value": 0.0
+        },
+        "Crouch Transition Time": {
+          "bytes_le": "cdcc4c3e",
+          "file_offset": 320363916,
+          "file_offset_hex": "0x13185d8c",
+          "relative_offset": "0x534",
+          "value": 0.20000000298023224
+        },
+        "Crouch Walking Camera Height": {
+          "bytes_le": "5c8f023f",
+          "file_offset": 320363912,
+          "file_offset_hex": "0x13185d88",
+          "relative_offset": "0x530",
+          "value": 0.5099999904632568
+        },
+        "Crouching Camera Height": {
+          "bytes_le": "5c8f023f",
+          "file_offset": 320363908,
+          "file_offset_hex": "0x13185d84",
+          "relative_offset": "0x52c",
+          "value": 0.5099999904632568
+        },
+        "Downhill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 320364172,
+          "file_offset_hex": "0x13185e8c",
+          "raw_unit": "radians",
+          "relative_offset": "0x634",
+          "value": 0.8726646304130554
+        },
+        "Downhill Falloff Angle": {
+          "bytes_le": "db0f493f",
+          "degrees": 45.00000125223908,
+          "file_offset": 320364168,
+          "file_offset_hex": "0x13185e88",
+          "raw_unit": "radians",
+          "relative_offset": "0x630",
+          "value": 0.7853981852531433
+        },
+        "Downhill Velocity Scale": {
+          "bytes_le": "0000c03f",
+          "file_offset": 320364184,
+          "file_offset_hex": "0x13185e98",
+          "relative_offset": "0x640",
+          "value": 1.5
+        },
+        "Flags": {
+          "bytes_le": "00000000",
+          "file_offset": 320364096,
+          "file_offset_hex": "0x13185e40",
+          "relative_offset": "0x5e8",
+          "set_bits": [],
+          "value": 0
+        },
+        "Gravity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320364224,
+          "file_offset_hex": "0x13185ec0",
+          "relative_offset": "0x668",
+          "schema_tooltip": "scale on gravity for this entity",
+          "value": 0.0
+        },
+        "Ground Adhesion Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320364220,
+          "file_offset_hex": "0x13185ebc",
+          "relative_offset": "0x664",
+          "schema_tooltip": "scale on velocity with which the entity is pushed back into its ground plane (set to -1 to lock to ground)",
+          "value": 0.0
+        },
+        "Height Crouching": {
+          "bytes_le": "6666263f",
+          "file_offset": 320364104,
+          "file_offset_hex": "0x13185e48",
+          "relative_offset": "0x5f0",
+          "value": 0.6499999761581421
+        },
+        "Height Standing": {
+          "bytes_le": "713d4a3f",
+          "file_offset": 320364100,
+          "file_offset_hex": "0x13185e44",
+          "relative_offset": "0x5ec",
+          "value": 0.7900000214576721
+        },
+        "Jump Velocity": {
+          "bytes_le": "9a992940",
+          "file_offset": 320363848,
+          "file_offset_hex": "0x13185d48",
+          "relative_offset": "0x4f0",
+          "value": 2.6500000953674316
+        },
+        "Mass": {
+          "bytes_le": "0000fa42",
+          "file_offset": 320364112,
+          "file_offset_hex": "0x13185e50",
+          "relative_offset": "0x5f8",
+          "value": 125.0
+        },
+        "Maximum Hard Landing Time": {
+          "bytes_le": "0000003f",
+          "file_offset": 320363880,
+          "file_offset_hex": "0x13185d68",
+          "relative_offset": "0x510",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a hard landing",
+          "value": 0.5
+        },
+        "Maximum Hard Landing Velocity": {
+          "bytes_le": "00002041",
+          "file_offset": 320363892,
+          "file_offset_hex": "0x13185d74",
+          "relative_offset": "0x51c",
+          "schema_tooltip": "the velocity corresponding to the maximum landing time",
+          "value": 10.0
+        },
+        "Maximum Slope Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 320364164,
+          "file_offset_hex": "0x13185e84",
+          "raw_unit": "radians",
+          "relative_offset": "0x62c",
+          "value": 0.8726646304130554
+        },
+        "Maximum Soft Landing Time": {
+          "bytes_le": "0000003f",
+          "file_offset": 320363876,
+          "file_offset_hex": "0x13185d64",
+          "relative_offset": "0x50c",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a soft landing",
+          "value": 0.5
+        },
+        "Minimum Hard Landing Velocity": {
+          "bytes_le": "0000a040",
+          "file_offset": 320363888,
+          "file_offset_hex": "0x13185d70",
+          "relative_offset": "0x518",
+          "schema_tooltip": "below this velocity the biped will not do a soft landing when returning to the ground",
+          "value": 5.0
+        },
+        "Minimum Soft Landing Velocity": {
+          "bytes_le": "0000003f",
+          "file_offset": 320363884,
+          "file_offset_hex": "0x13185d6c",
+          "relative_offset": "0x514",
+          "schema_tooltip": "below this velocity the biped does not react when landing",
+          "value": 0.5
+        },
+        "Radius": {
+          "bytes_le": "ec51383e",
+          "file_offset": 320364108,
+          "file_offset_hex": "0x13185e4c",
+          "relative_offset": "0x5f4",
+          "value": 0.18000000715255737
+        },
+        "Running Camera Height": {
+          "bytes_le": "d7a3303f",
+          "file_offset": 320363904,
+          "file_offset_hex": "0x13185d80",
+          "relative_offset": "0x528",
+          "value": 0.6899999976158142
+        },
+        "Standing Camera Height": {
+          "bytes_le": "d7a3303f",
+          "file_offset": 320363900,
+          "file_offset_hex": "0x13185d7c",
+          "relative_offset": "0x524",
+          "value": 0.6899999976158142
+        },
+        "Stun Jumping Penalty": {
+          "bytes_le": "0000803f",
+          "file_offset": 320363360,
+          "file_offset_hex": "0x13185b60",
+          "relative_offset": "0x308",
+          "schema_tooltip": "1.0 prevents jumping while stunned",
+          "value": 1.0
+        },
+        "Uphill Cutoff Angle": {
+          "bytes_le": "f3665f3f",
+          "degrees": 50.0000002530119,
+          "file_offset": 320364180,
+          "file_offset_hex": "0x13185e94",
+          "raw_unit": "radians",
+          "relative_offset": "0x63c",
+          "value": 0.8726646304130554
+        },
+        "Uphill Falloff Angle": {
+          "bytes_le": "db0f493f",
+          "degrees": 45.00000125223908,
+          "file_offset": 320364176,
+          "file_offset_hex": "0x13185e90",
+          "raw_unit": "radians",
+          "relative_offset": "0x638",
+          "value": 0.7853981852531433
+        },
+        "Uphill Velocity Scale": {
+          "bytes_le": "0000003f",
+          "file_offset": 320364188,
+          "file_offset_hex": "0x13185e9c",
+          "relative_offset": "0x644",
+          "value": 0.5
+        }
+      },
+      "pill_shapes": [
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.6100000143051147
+          ],
+          "file_offset": 228111568,
+          "geometric_z_extent": [
+            0.0,
+            0.7900000214576721
+          ],
+          "index": 0,
+          "radius": 0.18000000715255737,
+          "top": [
+            0.0,
+            0.0,
+            0.18000000715255737
+          ]
+        },
+        {
+          "bottom": [
+            0.0,
+            0.0,
+            0.4699999690055847
+          ],
+          "file_offset": 228111680,
+          "geometric_z_extent": [
+            0.0,
+            0.6499999761581421
+          ],
+          "index": 1,
+          "radius": 0.18000000715255737,
+          "top": [
+            0.0,
+            0.0,
+            0.18000000715255737
+          ]
+        }
+      ],
+      "tag": {
+        "file_offset": 320362584,
+        "file_offset_hex": "0x13185858",
+        "group": "bipd",
+        "index": 14059,
+        "name": "objects\\equipment\\hologram\\bipeds\\hologram_elite"
+      }
+    },
+    {
+      "bound_representations": [
+        2
+      ],
+      "fields": {
+        "Airborne Acceleration Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320388400,
+          "file_offset_hex": "0x1318bd30",
+          "relative_offset": "0x66c",
+          "schema_tooltip": "scale on airborne acceleration maximum",
+          "value": 0.0
+        },
+        "Airborne Reaction Time Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320388388,
+          "file_offset_hex": "0x1318bd24",
+          "relative_offset": "0x660",
+          "schema_tooltip": "scale on the time for the entity to realize it is airborne",
+          "value": 0.0
+        },
+        "Crouch Transition Time": {
+          "bytes_le": "00000000",
+          "file_offset": 320388088,
+          "file_offset_hex": "0x1318bbf8",
+          "relative_offset": "0x534",
+          "value": 0.0
+        },
+        "Crouch Walking Camera Height": {
+          "bytes_le": "00000000",
+          "file_offset": 320388084,
+          "file_offset_hex": "0x1318bbf4",
+          "relative_offset": "0x530",
+          "value": 0.0
+        },
+        "Crouching Camera Height": {
+          "bytes_le": "00000000",
+          "file_offset": 320388080,
+          "file_offset_hex": "0x1318bbf0",
+          "relative_offset": "0x52c",
+          "value": 0.0
+        },
+        "Downhill Cutoff Angle": {
+          "bytes_le": "00000000",
+          "degrees": 0.0,
+          "file_offset": 320388344,
+          "file_offset_hex": "0x1318bcf8",
+          "raw_unit": "radians",
+          "relative_offset": "0x634",
+          "value": 0.0
+        },
+        "Downhill Falloff Angle": {
+          "bytes_le": "00000000",
+          "degrees": 0.0,
+          "file_offset": 320388340,
+          "file_offset_hex": "0x1318bcf4",
+          "raw_unit": "radians",
+          "relative_offset": "0x630",
+          "value": 0.0
+        },
+        "Downhill Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320388356,
+          "file_offset_hex": "0x1318bd04",
+          "relative_offset": "0x640",
+          "value": 0.0
+        },
+        "Flags": {
+          "bytes_le": "13000000",
+          "file_offset": 320388268,
+          "file_offset_hex": "0x1318bcac",
+          "relative_offset": "0x5e8",
+          "set_bits": [
+            "Centered At Origin",
+            "Shape Spherical",
+            "Flying"
+          ],
+          "value": 19
+        },
+        "Gravity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320388396,
+          "file_offset_hex": "0x1318bd2c",
+          "relative_offset": "0x668",
+          "schema_tooltip": "scale on gravity for this entity",
+          "value": 0.0
+        },
+        "Ground Adhesion Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320388392,
+          "file_offset_hex": "0x1318bd28",
+          "relative_offset": "0x664",
+          "schema_tooltip": "scale on velocity with which the entity is pushed back into its ground plane (set to -1 to lock to ground)",
+          "value": 0.0
+        },
+        "Height Crouching": {
+          "bytes_le": "df4fcd3e",
+          "file_offset": 320388276,
+          "file_offset_hex": "0x1318bcb4",
+          "relative_offset": "0x5f0",
+          "value": 0.4009999930858612
+        },
+        "Height Standing": {
+          "bytes_le": "df4fcd3e",
+          "file_offset": 320388272,
+          "file_offset_hex": "0x1318bcb0",
+          "relative_offset": "0x5ec",
+          "value": 0.4009999930858612
+        },
+        "Jump Velocity": {
+          "bytes_le": "00000000",
+          "file_offset": 320388020,
+          "file_offset_hex": "0x1318bbb4",
+          "relative_offset": "0x4f0",
+          "value": 0.0
+        },
+        "Mass": {
+          "bytes_le": "0000f041",
+          "file_offset": 320388284,
+          "file_offset_hex": "0x1318bcbc",
+          "relative_offset": "0x5f8",
+          "value": 30.0
+        },
+        "Maximum Hard Landing Time": {
+          "bytes_le": "00000000",
+          "file_offset": 320388052,
+          "file_offset_hex": "0x1318bbd4",
+          "relative_offset": "0x510",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a hard landing",
+          "value": 0.0
+        },
+        "Maximum Hard Landing Velocity": {
+          "bytes_le": "00000000",
+          "file_offset": 320388064,
+          "file_offset_hex": "0x1318bbe0",
+          "relative_offset": "0x51c",
+          "schema_tooltip": "the velocity corresponding to the maximum landing time",
+          "value": 0.0
+        },
+        "Maximum Slope Angle": {
+          "bytes_le": "00000000",
+          "degrees": 0.0,
+          "file_offset": 320388336,
+          "file_offset_hex": "0x1318bcf0",
+          "raw_unit": "radians",
+          "relative_offset": "0x62c",
+          "value": 0.0
+        },
+        "Maximum Soft Landing Time": {
+          "bytes_le": "00000000",
+          "file_offset": 320388048,
+          "file_offset_hex": "0x1318bbd0",
+          "relative_offset": "0x50c",
+          "schema_tooltip": "the longest amount of time the biped can take to recover from a soft landing",
+          "value": 0.0
+        },
+        "Minimum Hard Landing Velocity": {
+          "bytes_le": "00000000",
+          "file_offset": 320388060,
+          "file_offset_hex": "0x1318bbdc",
+          "relative_offset": "0x518",
+          "schema_tooltip": "below this velocity the biped will not do a soft landing when returning to the ground",
+          "value": 0.0
+        },
+        "Minimum Soft Landing Velocity": {
+          "bytes_le": "00000000",
+          "file_offset": 320388056,
+          "file_offset_hex": "0x1318bbd8",
+          "relative_offset": "0x514",
+          "schema_tooltip": "below this velocity the biped does not react when landing",
+          "value": 0.0
+        },
+        "Radius": {
+          "bytes_le": "cdcc4c3e",
+          "file_offset": 320388280,
+          "file_offset_hex": "0x1318bcb8",
+          "relative_offset": "0x5f4",
+          "value": 0.20000000298023224
+        },
+        "Running Camera Height": {
+          "bytes_le": "00000000",
+          "file_offset": 320388076,
+          "file_offset_hex": "0x1318bbec",
+          "relative_offset": "0x528",
+          "value": 0.0
+        },
+        "Standing Camera Height": {
+          "bytes_le": "00000000",
+          "file_offset": 320388072,
+          "file_offset_hex": "0x1318bbe8",
+          "relative_offset": "0x524",
+          "value": 0.0
+        },
+        "Stun Jumping Penalty": {
+          "bytes_le": "00000000",
+          "file_offset": 320387532,
+          "file_offset_hex": "0x1318b9cc",
+          "relative_offset": "0x308",
+          "schema_tooltip": "1.0 prevents jumping while stunned",
+          "value": 0.0
+        },
+        "Uphill Cutoff Angle": {
+          "bytes_le": "00000000",
+          "degrees": 0.0,
+          "file_offset": 320388352,
+          "file_offset_hex": "0x1318bd00",
+          "raw_unit": "radians",
+          "relative_offset": "0x63c",
+          "value": 0.0
+        },
+        "Uphill Falloff Angle": {
+          "bytes_le": "00000000",
+          "degrees": 0.0,
+          "file_offset": 320388348,
+          "file_offset_hex": "0x1318bcfc",
+          "raw_unit": "radians",
+          "relative_offset": "0x638",
+          "value": 0.0
+        },
+        "Uphill Velocity Scale": {
+          "bytes_le": "00000000",
+          "file_offset": 320388360,
+          "file_offset_hex": "0x1318bd08",
+          "relative_offset": "0x644",
+          "value": 0.0
+        }
+      },
+      "pill_shapes": [],
+      "tag": {
+        "file_offset": 320386756,
+        "file_offset_hex": "0x1318b6c4",
+        "group": "bipd",
+        "index": 14081,
+        "name": "objects\\characters\\monitor\\monitor_editor"
+      }
+    }
+  ],
+  "build": "Jun 21 2023 15:35:31",
+  "cache_internal_name": "forge_halo",
+  "cache_path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/maps/forge_halo.map",
+  "cache_sha256": "12270ddad452bce9afaef6000d5a18f2ba7c363ffbe7fcb59375619dbeebfcf4",
+  "cache_size_bytes": 332328960,
+  "globals_tag": {
+    "file_offset": 226607768,
+    "file_offset_hex": "0xd81c298",
+    "group": "matg",
+    "index": 5,
+    "name": "globals\\globals"
+  },
+  "limitations": [
+    "Cache values are not a playable jump-range measurement.",
+    "Absolute world gravity is not represented by these extracted matg/bipd fields.",
+    "Biped Gravity Scale and Airborne Acceleration Scale may be zero/default sentinels; runtime semantics require separate evidence.",
+    "Game variant, player traits, weapons, armor abilities, momentum, collision and runtime integration can alter results.",
+    "The globals representation linkage does not alone establish campaign/multiplayer trait overrides."
+  ],
+  "player_information": [
+    {
+      "fields": {
+        "Airborne Acceleration": {
+          "bytes_le": "6666863f",
+          "file_offset": 222481636,
+          "file_offset_hex": "0xd42cce4",
+          "relative_offset": "0x24",
+          "value": 1.0499999523162842
+        },
+        "Decay Rate": {
+          "bytes_le": "0000803f",
+          "file_offset": 222481812,
+          "file_offset_hex": "0xd42cd94",
+          "relative_offset": "0xd4",
+          "schema_tooltip": "how fast being unpegged decays the timer (seconds per second)",
+          "value": 1.0
+        },
+        "Full Speed Multiplier": {
+          "bytes_le": "77becf3f",
+          "file_offset": 222481816,
+          "file_offset_hex": "0xd42cd98",
+          "relative_offset": "0xd8",
+          "schema_tooltip": "how much faster we actually go when at full momentum",
+          "value": 1.6230000257492065
+        },
+        "Run Acceleration": {
+          "bytes_le": "00000841",
+          "file_offset": 222481616,
+          "file_offset_hex": "0xd42ccd0",
+          "relative_offset": "0x10",
+          "value": 8.5
+        },
+        "Run Backward": {
+          "bytes_le": "a470fd3f",
+          "file_offset": 222481608,
+          "file_offset_hex": "0xd42ccc8",
+          "relative_offset": "0x8",
+          "value": 1.9800000190734863
+        },
+        "Run Forward": {
+          "bytes_le": "cdcc0c40",
+          "file_offset": 222481604,
+          "file_offset_hex": "0xd42ccc4",
+          "relative_offset": "0x4",
+          "value": 2.200000047683716
+        },
+        "Run Sideways": {
+          "bytes_le": "a470fd3f",
+          "file_offset": 222481612,
+          "file_offset_hex": "0xd42cccc",
+          "relative_offset": "0xc",
+          "value": 1.9800000190734863
+        },
+        "Seconds to Full Speed": {
+          "bytes_le": "0000803f",
+          "file_offset": 222481808,
+          "file_offset_hex": "0xd42cd90",
+          "relative_offset": "0xd0",
+          "schema_tooltip": "how long you must have momentum before you reach top speed",
+          "value": 1.0
+        },
+        "Seconds to Start": {
+          "bytes_le": "00000000",
+          "file_offset": 222481804,
+          "file_offset_hex": "0xd42cd8c",
+          "relative_offset": "0xcc",
+          "schema_tooltip": "how long you must be pegged before you gain momentum",
+          "value": 0.0
+        },
+        "Sneak Acceleration": {
+          "bytes_le": "3333c340",
+          "file_offset": 222481632,
+          "file_offset_hex": "0xd42cce0",
+          "relative_offset": "0x20",
+          "value": 6.099999904632568
+        },
+        "Sneak Backward": {
+          "bytes_le": "295c4f3f",
+          "file_offset": 222481624,
+          "file_offset_hex": "0xd42ccd8",
+          "relative_offset": "0x18",
+          "value": 0.8100000023841858
+        },
+        "Sneak Forward": {
+          "bytes_le": "6666663f",
+          "file_offset": 222481620,
+          "file_offset_hex": "0xd42ccd4",
+          "relative_offset": "0x14",
+          "value": 0.8999999761581421
+        },
+        "Sneak Sideways": {
+          "bytes_le": "295c4f3f",
+          "file_offset": 222481628,
+          "file_offset_hex": "0xd42ccdc",
+          "relative_offset": "0x1c",
+          "value": 0.8100000023841858
+        },
+        "Walking Speed": {
+          "bytes_le": "6f12033f",
+          "file_offset": 222481600,
+          "file_offset_hex": "0xd42ccc0",
+          "relative_offset": "0x0",
+          "value": 0.5120000243186951
+        }
+      },
+      "file_offset": 222481600,
+      "index": 0
+    },
+    {
+      "fields": {
+        "Airborne Acceleration": {
+          "bytes_le": "6666863f",
+          "file_offset": 222481880,
+          "file_offset_hex": "0xd42cdd8",
+          "relative_offset": "0x24",
+          "value": 1.0499999523162842
+        },
+        "Decay Rate": {
+          "bytes_le": "0000803f",
+          "file_offset": 222482056,
+          "file_offset_hex": "0xd42ce88",
+          "relative_offset": "0xd4",
+          "schema_tooltip": "how fast being unpegged decays the timer (seconds per second)",
+          "value": 1.0
+        },
+        "Full Speed Multiplier": {
+          "bytes_le": "3333b33f",
+          "file_offset": 222482060,
+          "file_offset_hex": "0xd42ce8c",
+          "relative_offset": "0xd8",
+          "schema_tooltip": "how much faster we actually go when at full momentum",
+          "value": 1.399999976158142
+        },
+        "Run Acceleration": {
+          "bytes_le": "00001841",
+          "file_offset": 222481860,
+          "file_offset_hex": "0xd42cdc4",
+          "relative_offset": "0x10",
+          "value": 9.5
+        },
+        "Run Backward": {
+          "bytes_le": "8fc21540",
+          "file_offset": 222481852,
+          "file_offset_hex": "0xd42cdbc",
+          "relative_offset": "0x8",
+          "value": 2.3399999141693115
+        },
+        "Run Forward": {
+          "bytes_le": "66662640",
+          "file_offset": 222481848,
+          "file_offset_hex": "0xd42cdb8",
+          "relative_offset": "0x4",
+          "value": 2.5999999046325684
+        },
+        "Run Sideways": {
+          "bytes_le": "8fc21540",
+          "file_offset": 222481856,
+          "file_offset_hex": "0xd42cdc0",
+          "relative_offset": "0xc",
+          "value": 2.3399999141693115
+        },
+        "Seconds to Full Speed": {
+          "bytes_le": "0000803f",
+          "file_offset": 222482052,
+          "file_offset_hex": "0xd42ce84",
+          "relative_offset": "0xd0",
+          "schema_tooltip": "how long you must have momentum before you reach top speed",
+          "value": 1.0
+        },
+        "Seconds to Start": {
+          "bytes_le": "00000000",
+          "file_offset": 222482048,
+          "file_offset_hex": "0xd42ce80",
+          "relative_offset": "0xcc",
+          "schema_tooltip": "how long you must be pegged before you gain momentum",
+          "value": 0.0
+        },
+        "Sneak Acceleration": {
+          "bytes_le": "3333e340",
+          "file_offset": 222481876,
+          "file_offset_hex": "0xd42cdd4",
+          "relative_offset": "0x20",
+          "value": 7.099999904632568
+        },
+        "Sneak Backward": {
+          "bytes_le": "0000803f",
+          "file_offset": 222481868,
+          "file_offset_hex": "0xd42cdcc",
+          "relative_offset": "0x18",
+          "value": 1.0
+        },
+        "Sneak Forward": {
+          "bytes_le": "7b148e3f",
+          "file_offset": 222481864,
+          "file_offset_hex": "0xd42cdc8",
+          "relative_offset": "0x14",
+          "value": 1.1100000143051147
+        },
+        "Sneak Sideways": {
+          "bytes_le": "0000803f",
+          "file_offset": 222481872,
+          "file_offset_hex": "0xd42cdd0",
+          "relative_offset": "0x1c",
+          "value": 1.0
+        },
+        "Walking Speed": {
+          "bytes_le": "6666263f",
+          "file_offset": 222481844,
+          "file_offset_hex": "0xd42cdb4",
+          "relative_offset": "0x0",
+          "value": 0.6499999761581421
+        }
+      },
+      "file_offset": 222481844,
+      "index": 1
+    }
+  ],
+  "player_representations": [
+    {
+      "file_offset": 222482088,
+      "first_person_body_model": {
+        "file_offset": 314956672,
+        "file_offset_hex": "0x12c5db80",
+        "group": "mode",
+        "index": 12412,
+        "name": "objects\\characters\\spartans\\fp_body\\fp_body"
+      },
+      "index": 0,
+      "player_information_index": 0,
+      "third_person_unit": {
+        "file_offset": 314965596,
+        "file_offset_hex": "0x12c5fe5c",
+        "group": "bipd",
+        "index": 12419,
+        "name": "objects\\characters\\spartans\\spartans"
+      }
+    },
+    {
+      "file_offset": 222482196,
+      "first_person_body_model": {
+        "file_offset": 318182672,
+        "file_offset_hex": "0x12f71510",
+        "group": "mode",
+        "index": 13561,
+        "name": "objects\\characters\\elite\\fp_body\\fp_body"
+      },
+      "index": 1,
+      "player_information_index": 1,
+      "third_person_unit": {
+        "file_offset": 318264224,
+        "file_offset_hex": "0x12f853a0",
+        "group": "bipd",
+        "index": 13614,
+        "name": "objects\\characters\\elite\\elite"
+      }
+    },
+    {
+      "file_offset": 222482304,
+      "first_person_body_model": null,
+      "index": 2,
+      "player_information_index": 0,
+      "third_person_unit": {
+        "file_offset": 320386756,
+        "file_offset_hex": "0x1318b6c4",
+        "group": "bipd",
+        "index": 14081,
+        "name": "objects\\characters\\monitor\\monitor_editor"
+      }
+    }
+  ],
+  "scenario_map_type": 1,
+  "scenario_sandbox_origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scenario_structure_bsps": [
+    {
+      "custom_gravity_enabled": false,
+      "fields": {
+        "Custom Gravity Scale": {
+          "bytes_le": "0000803f",
+          "file_offset": 228241996,
+          "file_offset_hex": "0xd9ab24c",
+          "relative_offset": "0xa8",
+          "schema_tooltip": "0==nogravity, 1==full, set the custom gravity scale flag to make this parameter active",
+          "value": 1.0
+        },
+        "Flags": {
+          "bytes_le": "0002",
+          "file_offset": 228241908,
+          "file_offset_hex": "0xd9ab1f4",
+          "relative_offset": "0x50",
+          "set_bits": [
+            "Bit 9"
+          ],
+          "value": 512
+        }
+      },
+      "file_offset": 228241828,
+      "index": 0,
+      "structure_bsp": {
+        "file_offset": 314482112,
+        "file_offset_hex": "0x12be9dc0",
+        "group": "sbsp",
+        "index": 12374,
+        "name": "levels\\multi\\forge_halo\\forge_halo"
+      }
+    },
+    {
+      "custom_gravity_enabled": false,
+      "fields": {
+        "Custom Gravity Scale": {
+          "bytes_le": "0000803f",
+          "file_offset": 228242168,
+          "file_offset_hex": "0xd9ab2f8",
+          "relative_offset": "0xa8",
+          "schema_tooltip": "0==nogravity, 1==full, set the custom gravity scale flag to make this parameter active",
+          "value": 1.0
+        },
+        "Flags": {
+          "bytes_le": "000e",
+          "file_offset": 228242080,
+          "file_offset_hex": "0xd9ab2a0",
+          "relative_offset": "0x50",
+          "set_bits": [
+            "Bit 9",
+            "Not A Normally Playable Space In An MP Map (Check This On Shared BSPs)",
+            "Shared BSP"
+          ],
+          "value": 3584
+        }
+      },
+      "file_offset": 228242000,
+      "index": 1,
+      "structure_bsp": {
+        "file_offset": 328067784,
+        "file_offset_hex": "0x138deac8",
+        "group": "sbsp",
+        "index": 15191,
+        "name": "levels\\multi\\forge_halo\\forge_halo_shared"
+      }
+    }
+  ],
+  "scenario_tag": {
+    "file_offset": 232176772,
+    "file_offset_hex": "0xdd6bc84",
+    "group": "scnr",
+    "index": 8,
+    "name": "levels\\multi\\forge_halo\\forge_halo"
+  },
+  "schema": "reach-parkour.stock-cache-physics/1",
+  "sources": {
+    "files": [
+      {
+        "file": "bipd.xml",
+        "sha256": "ef70556eab4780709c6e366ca703058e660adb08c07e83442fb9c67d27dd055d",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/bipd.xml"
+      },
+      {
+        "file": "matg.xml",
+        "sha256": "913183ebc70140c2543272d5ab22c3150e602db8bd1334924cb4f44c8c9f1a75",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/matg.xml"
+      },
+      {
+        "file": "phmo.xml",
+        "sha256": "b5197b191bb54dcb581c4f4698c2b9b215293cee05fbe05e294785b64fdc540e",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/phmo.xml"
+      },
+      {
+        "file": "scnr.xml",
+        "sha256": "a52b090194a7a31bfa8f0e1ac6c11ad1af83d073b54fc22cc3c11b7c3a408195",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/scnr.xml"
+      },
+      {
+        "file": "sddt.xml",
+        "sha256": "dd8ddfc64bd6913ac798987a023374e23d912c0a72d8001135813ead63c5ead3",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/sddt.xml"
+      },
+      {
+        "file": "Engines.xml",
+        "sha256": "03a0e9b41d098206f12e5133b827761ac4d19708668009a2d0357bd05347bf33",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Blamite/Formats/Engines.xml"
+      },
+      {
+        "file": "ReachMCC_LayoutsU13_Core.xml",
+        "sha256": "af6c753fb85f36bdd61c2f73d510d38390c82639e33487b9137a53a269ea589c",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Blamite/Formats/ReachMCC/LayoutsU13/ReachMCC_LayoutsU13_Core.xml"
+      },
+      {
+        "file": "ReachMCC_LayoutsU13_Scenario.xml",
+        "sha256": "4c29f7fe8efac5de2524c8be488ba6240fcc28c76960c825cd947f6c7971b8b3",
+        "source_url": "https://github.com/XboxChaos/Assembly/blob/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Blamite/Formats/ReachMCC/LayoutsU13/ReachMCC_LayoutsU13_Scenario.xml"
+      },
+      {
+        "file": "Biped.cs",
+        "sha256": "089998788833a8ad95693dcb0445a4e7a09b7c4ef858dd2bbebc31439227ee49",
+        "source_url": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/Tags/Definitions/Biped.cs"
+      },
+      {
+        "file": "Globals.cs",
+        "sha256": "e71375c6255afd8dfed42f7a2f4528aa9507230981ca6028ea00bef46c1da2e9",
+        "source_url": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/Tags/Definitions/Globals.cs"
+      }
+    ],
+    "repositories": {
+      "Assembly": {
+        "commit": "fd14ef3c46135e9422966c6a64cd926fb0bd23fb",
+        "repository": "https://github.com/XboxChaos/Assembly"
+      },
+      "TagTool": {
+        "commit": "ce2dc6ac13072b160752af618ea1dc143e2727ac",
+        "repository": "https://github.com/TheGuardians/TagTool"
+      }
+    }
+  },
+  "tag_count": 15238,
+  "units": {
+    "acceleration": "world units/second squared",
+    "angles": "raw radians; degrees also provided",
+    "jump_velocity": "world units/second",
+    "lengths": "cache world units; do not assume Blender unit equality without exporter check",
+    "speed": "world units/second"
+  }
+}

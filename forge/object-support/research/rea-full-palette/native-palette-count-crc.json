@@ -1,0 +1,131 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_1980de16eacbd3f6e1f16d19f1e47d6b6c129f11dd96961f7e564b2780d093a6\",\"subject\":{\"name\":\"haloreach.dll\",\"digest\":{\"sha256\":\"738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894\"},\"format\":\"pe\",\"architecture\":\"x86_64\",\"local_path\":\"/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll\"},\"provider\":{\"id\":\"rea-workflow\",\"name\":\"REA composed investigation workflow\",\"version\":\"1\"},\"analysis_profile\":{\"provider\":{\"id\":\"rea-workflow\",\"name\":\"REA composed investigation workflow\",\"version\":\"1\"},\"parameters\":{\"upstream_analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"executable_role\":\"shared-library\",\"managed\":false,\"native_aot_metadata\":{\"contract_revision\":\"rtr-9.1-x64-pe-read-only-v3\",\"source_bytes\":134217728,\"work_units\":67108864,\"working_memory_bytes\":67108864,\"report_bytes\":4194304},\"architecture\":\"x86_64\",\"available_architectures\":[\"x86_64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"2f8e96b5753c9076371d59a3c3682f610a66fa4834dc6dc5f556e707a6b8c2cf\"},\"workflow_revision\":2},\"digest\":\"dcd1fddecdf2a5ebcce68a9b0e4e8d06aaf897326d39de6031c937edc648f24c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"batch_decompile\",\"parameters\":{\"addresses\":[\"0x18006c710\",\"0x18006bd5c\"]},\"raw_result\":null,\"normalized_result\":{\"items\":[{\"address\":\"0x18006c710\",\"procedure\":{\"status\":\"resolved\",\"address\":\"0x18006c710\",\"name\":\"FUN_18006c710\"},\"status\":\"ok\",\"pseudocode\":\"\\nint FUN_18006c710(longlong param_1)\\n\\n{\\n  int iVar1;\\n  int *piVar2;\\n  longlong lVar3;\\n  \\n  iVar1 = 0;\\n  if ((param_1 != 0) && (lVar3 = (longlong)*(int *)(param_1 + 0x228), 0 < lVar3)) {\\n    piVar2 = (int *)((&DAT_184e39f20)[*(uint *)(param_1 + 0x22c) >> 0x1c] +\\n                    ((ulonglong)*(uint *)(param_1 + 0x22c) + 2) * 4);\\n    do {\\n      iVar1 = iVar1 + *piVar2;\\n      piVar2 = piVar2 + 5;\\n      lVar3 = lVar3 + -1;\\n    } while (lVar3 != 0);\\n  }\\n  return iVar1;\\n}\\n\\n\"},{\"address\":\"0x18006bd5c\",\"procedure\":{\"status\":\"resolved\",\"address\":\"0x18006bd5c\",\"name\":\"FUN_18006bd5c\"},\"status\":\"ok\",\"pseudocode\":\"\\nint FUN_18006bd5c(longlong param_1)\\n\\n{\\n  int iVar1;\\n  int *piVar2;\\n  ulonglong uVar3;\\n  uint uVar4;\\n  uint uVar5;\\n  uint uVar6;\\n  longlong lVar7;\\n  uint *puVar8;\\n  uint uVar9;\\n  int iVar10;\\n  uint uVar11;\\n  \\n  iVar1 = *(int *)(param_1 + 0x228);\\n  lVar7 = (longlong)iVar1;\\n  uVar4 = (iVar1 + 0xdeadbef2U ^ 0x90434855) + 0xe5bd537e;\\n  uVar5 = (uVar4 ^ 0xdeadbef2) - (uVar4 * 0x2000000 ^ uVar4 >> 7);\\n  uVar9 = (uVar5 ^ 0x90434855) - (uVar5 >> 0x10 ^ uVar5 * 0x10000);\\n  uVar4 = (uVar9 ^ uVar4) - (uVar9 >> 0x1c ^ uVar9 * 0x10);\\n  uVar4 = (uVar5 ^ uVar4) - (uVar4 >> 0x12 ^ uVar4 * 0x4000);\\n  iVar10 = (uVar9 ^ uVar4) - (uVar4 * 0x1000000 ^ uVar4 >> 8);\\n  if (0 < iVar1) {\\n    puVar8 = (uint *)((&DAT_184e39f20)[*(uint *)(param_1 + 0x22c) >> 0x1c] +\\n                     ((ulonglong)*(uint *)(param_1 + 0x22c) + 2) * 4);\\n    do {\\n      uVar5 = *puVar8;\\n      uVar3 = (ulonglong)uVar5;\\n      uVar4 = iVar10 + 0xdeadbef3;\\n      uVar9 = uVar4 >> 0x12 ^ uVar4 * 0x4000;\\n      uVar11 = -uVar9;\\n      uVar9 = (uVar11 ^ uVar5 + uVar4) - (uVar11 >> 0x15 ^ uVar9 * -0x800);\\n      uVar6 = (uVar4 ^ uVar9) - (uVar9 * 0x2000000 ^ uVar9 >> 7);\\n      uVar11 = (uVar11 ^ uVar6) - (uVar6 >> 0x10 ^ uVar6 * 0x10000);\\n      uVar4 = (uVar11 ^ uVar9) - (uVar11 >> 0x1c ^ uVar11 * 0x10);\\n      uVar4 = (uVar6 ^ uVar4) - (uVar4 >> 0x12 ^ uVar4 * 0x4000);\\n      iVar10 = (uVar11 ^ uVar4) - (uVar4 * 0x1000000 ^ uVar4 >> 8);\\n      if (0 < (int)uVar5) {\\n        piVar2 = (int *)((&DAT_184e39f20)[puVar8[1] >> 0x1c] + ((ulonglong)puVar8[1] + 1) * 4);\\n        do {\\n          iVar1 = *piVar2;\\n          uVar4 = iVar10 + 0xdeadbef3;\\n          piVar2 = piVar2 + 7;\\n          uVar5 = uVar4 >> 0x12 ^ uVar4 * 0x4000;\\n          uVar6 = -uVar5;\\n          uVar5 = (uVar6 ^ iVar1 + uVar4) - (uVar6 >> 0x15 ^ uVar5 * -0x800);\\n          uVar9 = (uVar4 ^ uVar5) - (uVar5 * 0x2000000 ^ uVar5 >> 7);\\n          uVar6 = (uVar6 ^ uVar9) - (uVar9 >> 0x10 ^ uVar9 * 0x10000);\\n          uVar4 = (uVar6 ^ uVar5) - (uVar6 >> 0x1c ^ uVar6 * 0x10);\\n          uVar4 = (uVar9 ^ uVar4) - (uVar4 >> 0x12 ^ uVar4 * 0x4000);\\n          iVar10 = (uVar6 ^ uVar4) - (uVar4 * 0x1000000 ^ uVar4 >> 8);\\n          uVar3 = uVar3 - 1;\\n        } while (uVar3 != 0);\\n      }\\n      puVar8 = puVar8 + 5;\\n      lVar7 = lVar7 + -1;\\n    } while (lVar7 != 0);\\n  }\\n  return iVar10;\\n}\\n\\n\"}],\"total\":2,\"succeeded\":2,\"failed\":0},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Derived by an REA composed workflow.\"],\"locations\":[{\"kind\":\"address\",\"address\":\"0x18006c710\"},{\"kind\":\"address\",\"address\":\"0x18006bd5c\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_1980de16eacbd3f6e1f16d19f1e47d6b6c129f11dd96961f7e564b2780d093a6",
+    "subject": {
+      "name": "haloreach.dll",
+      "digest": {
+        "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894"
+      },
+      "format": "pe",
+      "architecture": "x86_64",
+      "local_path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll"
+    },
+    "provider": {
+      "id": "rea-workflow",
+      "name": "REA composed investigation workflow",
+      "version": "1"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "rea-workflow",
+        "name": "REA composed investigation workflow",
+        "version": "1"
+      },
+      "parameters": {
+        "upstream_analysis_profile": {
+          "provider": {
+            "id": "ghidra",
+            "name": "Ghidra",
+            "version": "12.1.4"
+          },
+          "parameters": {
+            "target_kind": "executable",
+            "target_format": "pe",
+            "executable_role": "shared-library",
+            "managed": false,
+            "native_aot_metadata": {
+              "contract_revision": "rtr-9.1-x64-pe-read-only-v3",
+              "source_bytes": 134217728,
+              "work_units": 67108864,
+              "working_memory_bytes": 67108864,
+              "report_bytes": 4194304
+            },
+            "architecture": "x86_64",
+            "available_architectures": [
+              "x86_64"
+            ],
+            "import_mode": "ephemeral-source-immutable",
+            "annotation_policy": "atomic-function-entry-metadata-v1",
+            "load_image_observations": "source-mappings-entry-context-v2",
+            "function_body_evidence": "complete-inclusive-ranges-v1",
+            "function_references": "complete-body-and-entry-reference-manager-v2",
+            "string_inventory_evidence": "defined-data-coverage-v1",
+            "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+            "instruction_flow_evidence": "decoded-return-pcode-v1",
+            "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+            "no_return_repair": "returning-imports-decoded-return-v2",
+            "process_launch": "inspected-jvm-launch-support-v1",
+            "jump_table_evidence": "typed-case-default-blocks-v1",
+            "decompiler_jump_loads": true,
+            "loader": "auto-from-header",
+            "language_id": "auto-from-header",
+            "compiler_spec_id": "auto-default",
+            "analyzer_preset": "ghidra-default"
+          },
+          "digest": "2f8e96b5753c9076371d59a3c3682f610a66fa4834dc6dc5f556e707a6b8c2cf"
+        },
+        "workflow_revision": 2
+      },
+      "digest": "dcd1fddecdf2a5ebcce68a9b0e4e8d06aaf897326d39de6031c937edc648f24c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "batch_decompile",
+    "parameters": {
+      "addresses": [
+        "0x18006c710",
+        "0x18006bd5c"
+      ]
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "items": [
+        {
+          "address": "0x18006c710",
+          "procedure": {
+            "status": "resolved",
+            "address": "0x18006c710",
+            "name": "FUN_18006c710"
+          },
+          "status": "ok",
+          "pseudocode": "\nint FUN_18006c710(longlong param_1)\n\n{\n  int iVar1;\n  int *piVar2;\n  longlong lVar3;\n  \n  iVar1 = 0;\n  if ((param_1 != 0) && (lVar3 = (longlong)*(int *)(param_1 + 0x228), 0 < lVar3)) {\n    piVar2 = (int *)((&DAT_184e39f20)[*(uint *)(param_1 + 0x22c) >> 0x1c] +\n                    ((ulonglong)*(uint *)(param_1 + 0x22c) + 2) * 4);\n    do {\n      iVar1 = iVar1 + *piVar2;\n      piVar2 = piVar2 + 5;\n      lVar3 = lVar3 + -1;\n    } while (lVar3 != 0);\n  }\n  return iVar1;\n}\n\n"
+        },
+        {
+          "address": "0x18006bd5c",
+          "procedure": {
+            "status": "resolved",
+            "address": "0x18006bd5c",
+            "name": "FUN_18006bd5c"
+          },
+          "status": "ok",
+          "pseudocode": "\nint FUN_18006bd5c(longlong param_1)\n\n{\n  int iVar1;\n  int *piVar2;\n  ulonglong uVar3;\n  uint uVar4;\n  uint uVar5;\n  uint uVar6;\n  longlong lVar7;\n  uint *puVar8;\n  uint uVar9;\n  int iVar10;\n  uint uVar11;\n  \n  iVar1 = *(int *)(param_1 + 0x228);\n  lVar7 = (longlong)iVar1;\n  uVar4 = (iVar1 + 0xdeadbef2U ^ 0x90434855) + 0xe5bd537e;\n  uVar5 = (uVar4 ^ 0xdeadbef2) - (uVar4 * 0x2000000 ^ uVar4 >> 7);\n  uVar9 = (uVar5 ^ 0x90434855) - (uVar5 >> 0x10 ^ uVar5 * 0x10000);\n  uVar4 = (uVar9 ^ uVar4) - (uVar9 >> 0x1c ^ uVar9 * 0x10);\n  uVar4 = (uVar5 ^ uVar4) - (uVar4 >> 0x12 ^ uVar4 * 0x4000);\n  iVar10 = (uVar9 ^ uVar4) - (uVar4 * 0x1000000 ^ uVar4 >> 8);\n  if (0 < iVar1) {\n    puVar8 = (uint *)((&DAT_184e39f20)[*(uint *)(param_1 + 0x22c) >> 0x1c] +\n                     ((ulonglong)*(uint *)(param_1 + 0x22c) + 2) * 4);\n    do {\n      uVar5 = *puVar8;\n      uVar3 = (ulonglong)uVar5;\n      uVar4 = iVar10 + 0xdeadbef3;\n      uVar9 = uVar4 >> 0x12 ^ uVar4 * 0x4000;\n      uVar11 = -uVar9;\n      uVar9 = (uVar11 ^ uVar5 + uVar4) - (uVar11 >> 0x15 ^ uVar9 * -0x800);\n      uVar6 = (uVar4 ^ uVar9) - (uVar9 * 0x2000000 ^ uVar9 >> 7);\n      uVar11 = (uVar11 ^ uVar6) - (uVar6 >> 0x10 ^ uVar6 * 0x10000);\n      uVar4 = (uVar11 ^ uVar9) - (uVar11 >> 0x1c ^ uVar11 * 0x10);\n      uVar4 = (uVar6 ^ uVar4) - (uVar4 >> 0x12 ^ uVar4 * 0x4000);\n      iVar10 = (uVar11 ^ uVar4) - (uVar4 * 0x1000000 ^ uVar4 >> 8);\n      if (0 < (int)uVar5) {\n        piVar2 = (int *)((&DAT_184e39f20)[puVar8[1] >> 0x1c] + ((ulonglong)puVar8[1] + 1) * 4);\n        do {\n          iVar1 = *piVar2;\n          uVar4 = iVar10 + 0xdeadbef3;\n          piVar2 = piVar2 + 7;\n          uVar5 = uVar4 >> 0x12 ^ uVar4 * 0x4000;\n          uVar6 = -uVar5;\n          uVar5 = (uVar6 ^ iVar1 + uVar4) - (uVar6 >> 0x15 ^ uVar5 * -0x800);\n          uVar9 = (uVar4 ^ uVar5) - (uVar5 * 0x2000000 ^ uVar5 >> 7);\n          uVar6 = (uVar6 ^ uVar9) - (uVar9 >> 0x10 ^ uVar9 * 0x10000);\n          uVar4 = (uVar6 ^ uVar5) - (uVar6 >> 0x1c ^ uVar6 * 0x10);\n          uVar4 = (uVar9 ^ uVar4) - (uVar4 >> 0x12 ^ uVar4 * 0x4000);\n          iVar10 = (uVar6 ^ uVar4) - (uVar4 * 0x1000000 ^ uVar4 >> 8);\n          uVar3 = uVar3 - 1;\n        } while (uVar3 != 0);\n      }\n      puVar8 = puVar8 + 5;\n      lVar7 = lVar7 + -1;\n    } while (lVar7 != 0);\n  }\n  return iVar10;\n}\n\n"
+        }
+      ],
+      "total": 2,
+      "succeeded": 2,
+      "failed": 0
+    },
+    "confidence": "derived",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Derived by an REA composed workflow."
+    ],
+    "locations": [
+      {
+        "kind": "address",
+        "address": "0x18006c710"
+      },
+      {
+        "kind": "address",
+        "address": "0x18006bd5c"
+      }
+    ],
+    "evidence_links": []
+  }
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Halo Reach · Forge Object Gallery</title>
+<style>
+:root{color-scheme:dark;font-family:Arial,Helvetica,sans-serif;background:#10151d;color:#e9edf4}
+*{box-sizing:border-box}body{margin:0}main{max-width:1500px;margin:auto;padding:32px 26px 50px}
+[hidden]{display:none!important}
+header{margin-bottom:24px}.eyebrow{color:#8acbdc;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin:0 0 10px}h1{font-size:clamp(27px,4vw,42px);font-weight:600;margin:0 0 12px;letter-spacing:-1px}p{color:#bac3cf;line-height:1.5;margin:8px 0}.stats{font-size:14px}a{color:#a1dced}
+.controls{display:grid;grid-template-columns:2fr 1.4fr 1.4fr;gap:14px;margin:24px 0 16px}label{font-size:13px;color:#b8c4d1;display:grid;gap:7px}input,select,button{font:inherit}input,select{width:100%;min-width:0;background:#1c2532;border:1px solid #3d4a5d;color:#edf3fa;padding:12px;border-radius:7px}input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid #9fd9f1;outline-offset:3px}.result{font-size:13px;margin-bottom:16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:16px}.tile{padding:0;text-align:left;background:#1b2430;border:1px solid #303e50;border-radius:9px;overflow:hidden;color:inherit;cursor:pointer;transition:border-color .15s,transform .15s}.tile:hover{border-color:#96c9dc;transform:translateY(-2px)}.tile img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#626e7c}.caption{display:block;padding:12px;min-height:86px}.name{display:block;font-size:14px;line-height:1.35;font-weight:600}.meta{display:block;color:#aab9ca;font-size:12px;margin-top:7px;line-height:1.4}.missing{display:grid;place-items:center;text-align:center;width:100%;aspect-ratio:4/3;padding:24px;background:#222c39;color:#a5b4c5;font-size:14px}.missing span{max-width:150px}.empty{padding:30px 0;color:#bbc7d4}
+dialog{width:min(920px,calc(100% - 28px));max-height:94vh;border:1px solid #526078;border-radius:12px;background:#17202b;color:#edf3fa;padding:18px;overflow:auto}dialog::backdrop{background:rgb(0 0 0 / .82)}.dialogbar{display:flex;align-items:start;justify-content:space-between;gap:15px;margin-bottom:14px}.dialogbar h2{font-size:22px;margin:0;line-height:1.25}.close{border:1px solid #56667d;color:#eef4fa;background:#263344;padding:9px 15px;border-radius:6px;cursor:pointer}.large{width:100%;max-height:63vh;object-fit:contain;display:block;background:#626e7c}.details{margin-top:14px;font-size:14px}.details p{margin:6px 0}.note{font-size:12px;color:#9baabd}.sheet-list{display:flex;flex-wrap:wrap;gap:12px 22px;margin:16px 0 0}details{margin-top:35px;border-top:1px solid #344051;padding-top:20px}summary{cursor:pointer;color:#d9e6ef}.bottom{font-size:12px;margin-top:25px;max-width:900px}
+@media(max-width:650px){main{padding:22px 16px}.controls{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.caption{padding:10px}.name{font-size:13px}.meta{font-size:11px}.dialogbar h2{font-size:18px}.close{padding:9px 12px}}
+</style>
+</head>
+<body>
+<main>
+<header><p class="eyebrow">Halo Reach / Forge World / Mjolnir Blender plugin</p><h1>Forge Object Gallery</h1><p class="stats" id="stats">348 native object types</p><p id="description">Click a piece to see its model, name and dimensions.</p></header>
+<div class="controls">
+<label>Find an object<input id="search" type="search" placeholder="Block, ramp, bridge, rock…" autocomplete="off"></label>
+<label>Category<select id="category"><option value="">All categories</option></select></label>
+<label id="scope-label">Show<select id="scope"><option value="all">All objects</option><option value="previews">Objects with pictures</option><option value="missing">Missing pictures</option></select></label>
+</div>
+<p class="result" id="result" role="status" aria-live="polite"></p>
+<div class="grid" id="grid"></div>
+<details><summary>Labeled picture sheets</summary><div class="sheet-list" id="sheets"></div></details>
+<p class="bottom">Each object is fitted to its own frame, so pictures do not show relative sizes. Invisible pieces, volumes and spawn markers use editor models. These are static previews: game animation, screen effects and physics are not simulated. Models from the full palette library are separate from the original plugin installation.</p>
+</main>
+<dialog id="preview" aria-labelledby="preview-name"><div class="dialogbar"><h2 id="preview-name"></h2><button class="close" id="close" type="button">Close</button></div><img class="large" id="preview-image" alt=""><div class="details" id="preview-details"></div></dialog>
+<script id="catalog-data" type="application/json">__CATALOG_DATA__</script>
+<script id="sheets-data" type="application/json">__SHEETS_DATA__</script>
+<script>
+(() => {
+ const data=JSON.parse(document.getElementById('catalog-data').textContent);
+ const pictureCount=data.filter(row=>row.image).length;
+ document.getElementById('stats').textContent=`${data.length} native object types · ${pictureCount} pictures`;
+ if(pictureCount===data.length){document.getElementById('scope-label').hidden=true;document.querySelector('.controls').style.gridTemplateColumns='2fr 1.4fr';document.getElementById('description').textContent='All 348 stock types are pictured. Click a piece to see it larger.';}
+ const sheets=JSON.parse(document.getElementById('sheets-data').textContent);
+ const grid=document.getElementById('grid'),search=document.getElementById('search'),category=document.getElementById('category'),scope=document.getElementById('scope'),result=document.getElementById('result');
+ const dialog=document.getElementById('preview'),large=document.getElementById('preview-image'),heading=document.getElementById('preview-name'),details=document.getElementById('preview-details');
+ const element=(tag,cls,text)=>{const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;};
+ const group=row=>row.menu?row.menu.split(' > ')[0]:row.category.replace('MCC additions: ','');
+ for(const name of [...new Set(data.map(group))].sort()){const o=element('option','',name);o.value=name;category.append(o);}
+ const show=row=>{
+  heading.textContent=row.name;large.hidden=!row.image;
+  if(row.image){large.src=row.image;large.alt=row.name+' — '+row.previewKind;}else{large.removeAttribute('src');large.alt='';}
+  details.replaceChildren(element('p','',row.menu||row.category));
+  details.append(element('p','',`Type ID ${row.id} · ${row.image?row.previewKind:'No bundled preview model'}`));
+  if(row.dimensions)details.append(element('p','',`Size: ${row.dimensions.map(v=>Number(v.toFixed(2))).join(' × ')} Forge world units`));
+  if(row.note)details.append(element('p','',row.note));
+  details.append(element('p','note','Previews fit each piece to the frame. In-game lighting and object color can change its appearance.'));
+  dialog.showModal();
+ };
+ const render=()=>{
+  const q=search.value.trim().toLowerCase();
+  const rows=data.filter(row=>(scope.value!=='previews'||row.image)&&(scope.value!=='missing'||!row.image)&&(scope.value!=='menu'||row.menu)&&(!category.value||group(row)===category.value)&&(!q||[row.name,row.internal,row.menu,row.category,String(row.id)].filter(Boolean).join(' ').toLowerCase().includes(q)));
+  const pictured=rows.filter(row=>row.image).length;
+  result.textContent=`${rows.length} object${rows.length===1?'':'s'} · ${pictured} pictured · ${rows.length-pictured} without preview${category.value?' · '+category.value:''}`;
+  const fragment=document.createDocumentFragment();
+  for(const row of rows){
+   const tile=element('button','tile');tile.type='button';tile.setAttribute('aria-label','View '+row.name);
+   if(row.image){const img=element('img');img.src=row.image;img.alt=row.name;img.loading='lazy';img.width=480;img.height=360;tile.append(img);}
+   else{const missing=element('div','missing');missing.append(element('span','','No model bundled with this plugin'));tile.append(missing);}
+   const caption=element('span','caption');caption.append(element('span','name',row.name),element('span','meta',(row.menu?row.menu.replaceAll(' > ',' / '):row.category)+' · #'+row.id));tile.append(caption);tile.addEventListener('click',()=>show(row));fragment.append(tile);
+  }
+  grid.replaceChildren(fragment);
+  if(!rows.length)grid.append(element('p','empty','No objects match your search.'));
+ };
+ search.addEventListener('input',render);category.addEventListener('change',render);scope.addEventListener('change',render);
+ document.getElementById('close').addEventListener('click',()=>dialog.close());
+ dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
+ for(const sheet of sheets){const link=element('a','',sheet.name+' ('+sheet.count+')');link.href=sheet.path;link.target='_blank';link.rel='noopener';document.getElementById('sheets').append(link);}
+ render();
+})();
+</script>
+</body>
+</html>

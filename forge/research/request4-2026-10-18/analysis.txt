@@ -1,0 +1,121 @@
+Request4.mvar: over-quota Forge World variant
+Inspected 2026-10-18. Source file and installed game were not changed or run.
+
+RESULT
+The description accurately describes the saved object records. This variant
+contains 511 independent placements, including 256 Coliseum Walls. It bypasses
+the ordinary Forge category quotas and contains inconsistent budget accounting.
+It does not increase the 651-slot saved-placement table.
+
+SOURCE
+/Users/michaelmincone/Downloads/Request4.mvar
+SHA-256: 90d3e6fd14649910bc9e18738c4be00c9206871d5f75708bebc776b260f0c7a8
+File size: 6100 bytes, conventional BLF _cmp/zlib wrapper around mvar.
+Map: Forge World, ID 3006. Inner version: 31. Palette quota rows: 89.
+Title: Request 4. Modified-by name: Lord Zedd.
+Modified timestamp as stored: 2011-07-27 06:56:35 UTC (not authenticated history).
+Payload SHA-1 matches the salted BE32 recipe over 9708 bytes.
+All 511 objects reference stock Forge World palette IDs and start on the map.
+There are no Forge labels, all quota minimums are zero, and every object has
+its own slot and position, with no parent reference. This is not a scheme that
+saves a few seeds and generates the advertised counts through minimum quotas.
+
+COUNTS AND QUOTAS
+Quota bytes are minimum / maximum / placed. Each field is an unsigned byte.
+The following caps and prices come from this workspace's installed MCC palette
+table; they are not a claim about the original game's July 2011 palette values.
+
+Object                   Actual   Quota    Saved bytes    MCC cap  Unit cost
+Wall, Coliseum              256      74    00 00 00          150         10
+Banshee                      32      31    00 20 20           16        100
+Light, Red                  100      53    00 64 64            8        250
+Cannon, Man, Heavy          100      43    00 64 64           32        100
+Shield Door, Medium          20      49    00 14 14           12        200
+Initial Spawn                 3      54    00 03 03          250          0
+
+The wall quota is zero, but 256 real wall records exist. They have 256 distinct
+positions. Each other category also has as many distinct positions as objects.
+The file stores maximum budget = 10000 and spent budget = 10000.
+Its actual objects cost 44760 using the installed MCC palette prices. Counting
+walls modulo 256 gives 42200 instead, so the saved 10000 is not explained by
+that overflow alone. The file does not identify exactly how the author created
+the misleading budget: an external writer or a modified authoring environment
+could produce these records. Merely raising a quota maximum in an otherwise
+unmodified Forge editor is not established as sufficient to create this file.
+
+WHY THE STOCK ENGINE CAN KEEP THE EXTRA PLACEMENTS
+Fresh targeted Ghidra decompilation and Capstone disassembly were performed on
+the installed PC haloreach.dll (no target execution):
+SHA-256: 738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894
+All addresses below are preferred VAs for that binary only, not Xbox addresses.
+
+1. New object placement: 0x18006e7bc
+   Compares the category's placed byte at +0xd642 + 3*quota_index with the stock
+   palette maximum, then requests a free saved slot. Ordinary Forge creation
+   therefore applies a category gate that an external authoring path can avoid.
+
+2. Existing-variant copy/rebuild: 0x18006c290
+   Initially copies/clamps quota maximums, clears placed counts, then walks the
+   fixed 651-record source array and copies eligible occupied placements. The
+   placement-copy loop does not stop at a quota's maximum. For every copied
+   placement, it increments a one-byte placed count. Afterwards it raises each
+   quota maximum to at least its rebuilt byte count. Consequently 100 saved
+   lights can survive the initial clamp to the stock light maximum, while 256
+   saved walls rebuild as a placed count of zero. This routine also has a
+   current-map path that recomputes budget from the byte counts; the saved
+   10000 should not be assumed to remain the displayed Forge budget.
+
+3. Variant validation: 0x18006c948, with palette helper 0x18006c848
+   Checks version/map/palette compatibility. Its occupied-record loop checks
+   category and subitem validity and clears invalid references. That loop does
+   not cull otherwise valid placements just because their category exceeds the
+   stock maximum. Palette CRC compatibility has its own historical mapping.
+
+4. Existing-slot instantiation: 0x18006ed04
+   Resolves the saved slot's stock tag and creates the engine object. This is a
+   separate path from the Forge add-object routine's category-cap check.
+
+5. Quota recount/serialization: 0x18006de38 / 0x18006bc20
+   The recount accumulator itself is a byte; serialization writes three 8-bit
+   quota values. Both corroborate 256 -> 0 bookkeeping behavior. No extension
+   of the object array is involved.
+
+XBOX INTERPRETATION
+The receiving console needs stock object definitions and an accepted variant
+format, both of which these records use. The variant supplies placements, not
+new object assets or executable patches. The checked PC paths explain why a
+normal engine can load content that its own Forge placement UI would refuse
+to create. The user's report that this particular map works on Xbox supplies
+the console observation; this investigation did not run or disassemble an
+Xbox build. It does not prove 100 lights all illuminate simultaneously, every
+possible edit/resave preserves the same counters, or more than 651 independent
+saved placements are possible.
+
+CORRECTION TO EARLIER WORKSPACE CONCLUSION
+The earlier statement that an 8-bit quota row prevents more than 255 saved
+objects in a category was too strong. The counter cannot represent 256, but
+the separate object array can contain 256 records referencing that category.
+This sample demonstrates the distinction directly. The separate 651-slot
+capacity conclusion is unaffected: this map uses 511 slots and leaves 140 free.
+
+VERIFICATION AND ARTIFACTS
+analyze.py reads the original and writes decoded.json plus objects.json. A
+separately implemented fixture decoder agrees on every object count, quota,
+end bit, and selected raw fields of all 511 objects. The source SHA-256 is
+checked again at the end. Neither map re-export nor a game launch was used.
+The apparent local-parser chdr warnings are endian assumptions: directly
+reading the outer header as big endian returns map ID 3006 and the same title
+and description. Its 29481 inner file length describes the expanded BLF file,
+not the 6100-byte compressed wrapper. The payload SHA-1 is valid.
+
+ghidra/ and ghidra-loadcopy/ contain fresh C, assembly, references, and manifests.
+disassembly/ contains independent Capstone listings of three selected functions.
+rea/ contains the successful REA target binding and tool schemas. The fresh
+batch_decompile query was stopped during broad Ghidra initialization after
+temporary-storage pressure caused a shell write failure; it returned no new
+pseudocode. The REA session and its owned JVM were closed, and its temporary
+directory was removed by its cleanup. The completed fresh native-code evidence
+is from the two targeted Ghidra runs above, not that interrupted REA batch.
+
+Public independent format reference (651 object slots and three u8 quota fields):
+https://github.com/Blam-Network/blf/blob/main/blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs

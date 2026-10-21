@@ -1,0 +1,23 @@
+{
+  "cache_sha256": "12270ddad452bce9afaef6000d5a18f2ba7c363ffbe7fcb59375619dbeebfcf4",
+  "objects": 158,
+  "models": 156,
+  "shaders": 546,
+  "textures": 241,
+  "errors": [],
+  "attachment_origin_fallbacks": [
+    {
+      "object": "Falcon",
+      "child": "objects\\vehicles\\human\\falcon\\turrets\\falcon_sensor\\falcon_sensor",
+      "resolution": "model origin: requested marker absent in native model",
+      "marker": "vehicle_attach"
+    }
+  ],
+  "static_texture_frames": [
+    {
+      "tag": "objects\\weapons\\rifle\\assault_rifle\\bitmaps\\compass",
+      "requested": 9,
+      "actual": 0
+    }
+  ]
+}

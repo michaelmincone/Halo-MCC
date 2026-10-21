@@ -1,0 +1,82 @@
+[
+  {
+    "id": 5120,
+    "name": "Plasma Rifle",
+    "internal": "plasma_rifle",
+    "category": "Weapons, Covenant",
+    "menu": "Weapons, Covenant",
+    "image": "full-textured/05120.jpg",
+    "price": "10",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.0504,
+      0.2038,
+      0.1224
+    ]
+  },
+  {
+    "id": 6144,
+    "name": "Active Camouflage",
+    "internal": "active_camoflage",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/06144.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5032
+    ]
+  },
+  {
+    "id": 7424,
+    "name": "Jet Pack",
+    "internal": "jet_pack",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/07424.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3796,
+      0.5784,
+      0.3703
+    ]
+  },
+  {
+    "id": 23296,
+    "name": "Sabre",
+    "internal": "ff_thorage_sabre",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/23296.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      6.2107,
+      8.0661,
+      2.1684
+    ]
+  },
+  {
+    "id": 23552,
+    "name": "Seraph",
+    "internal": "ff_thorage_seraph",
+    "category": "MCC additions: Vehicles",
+    "menu": "Vehicles > MCC Additions",
+    "image": "full-textured/23552.jpg",
+    "price": "150",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      4.9668,
+      10.1748,
+      1.8412
+    ]
+  }
+]

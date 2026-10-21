@@ -1,0 +1,58 @@
+{
+  "source_path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/haloreach.dll",
+  "sha256": "738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894",
+  "image_base": "0x180000000",
+  "constants": {
+    "base_gravity": {
+      "va": "0x180a8b29c",
+      "file_offset": "0xa8a49c",
+      "bytes_le": "f57a8540",
+      "float32": 4.17125940322876
+    },
+    "default_scale": {
+      "va": "0x180a8af18",
+      "file_offset": "0xa8a118",
+      "bytes_le": "0000803f",
+      "float32": 1.0
+    },
+    "jump_percent_divisor": {
+      "va": "0x180a8b450",
+      "file_offset": "0xa8a650",
+      "bytes_le": "0000c842",
+      "float32": 100.0
+    },
+    "jump_default_sentinel_after_division": {
+      "va": "0x180a8b7e8",
+      "file_offset": "0xa8a9e8",
+      "bytes_le": "000080bf",
+      "float32": -1.0
+    }
+  },
+  "bounded_leaves": [
+    {
+      "entry_va": "0x1804a5484",
+      "ret_va": "0x1804a54ff",
+      "instruction_count": 27,
+      "branch_targets_in_view": true,
+      "listing": "disassembly/0x1804a5484-leaf.asm"
+    },
+    {
+      "entry_va": "0x18014fe2c",
+      "ret_va": "0x18014fe66",
+      "instruction_count": 13,
+      "branch_targets_in_view": true,
+      "listing": "disassembly/0x18014fe2c-leaf.asm"
+    }
+  ],
+  "interpretation": {
+    "gravity": "Initializer/reset store 0x40857af5 in TLS+0x330[0]; physics_set_gravity multiplies its argument by the same base constant.",
+    "entity_scale": "0x1804a5484 starts at 1.0, accepts bipd+0x668 only if positive, then applies positive object+0xdb4 multiplier.",
+    "bsp_scale": "0x18014fe2c returns 1.0 for invalid BSP, else the selected scenario BSP+0xa8 value; stock Forge World entries are 1.0.",
+    "jump_traits": "0x180538914 reads bipd+0x4f0, applies stun penalty from bipd+0x308, and multiplies by the runtime jump trait divided by 100, with default/zero handling."
+  },
+  "limitations": [
+    "Static PC evidence, not Xbox execution.",
+    "Full Havok integration and all player movement states were not reconstructed.",
+    "These inputs do not establish a calibrated edge-to-edge gap or trait inheritance precedence."
+  ]
+}

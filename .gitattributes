@@ -1,0 +1,9 @@
+# Keep archived source and asset bytes stable across checkouts.
+* -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.mvar binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.gz binary

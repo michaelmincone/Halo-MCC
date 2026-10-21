@@ -1,0 +1,14 @@
+{
+  "status": "offline verification complete; gameplay calibration NOT_TESTED",
+  "cache_checks_pass": true,
+  "cache_checks_count": 13,
+  "physics_reextraction_prior_to_stun_field_addition_exact_match": true,
+  "platform_collision_reextraction_exact_match": true,
+  "model_tests_passed": 8,
+  "targeted_ghidra_functions_decompiled": 9,
+  "native_leaf_views_branch_checked": 2,
+  "markdown_missing_links": [],
+  "rules_word_count": 657,
+  "independent_audit": "No substantive physics/model errors; reproduction command, two-session protocol consistency, and persisted stun-field evidence corrected.",
+  "mcc_gameplay_trials": 0
+}

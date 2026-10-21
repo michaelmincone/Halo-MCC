@@ -1,0 +1,20 @@
+[
+  {
+    "from": "0x18006e6f3",
+    "to": "0x18006e72d",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e6f5",
+    "to": "0x18006cf60",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e71f",
+    "to": "0x18006e728",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  }
+]

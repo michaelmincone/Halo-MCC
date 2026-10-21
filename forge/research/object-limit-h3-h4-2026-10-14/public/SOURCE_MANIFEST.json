@@ -1,0 +1,377 @@
+[
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "Cargo.toml",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/Cargo.toml",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/Cargo.toml",
+    "local_path": "blf/Cargo.toml",
+    "sha256": "5024ccf19caad1f5f95a4394d52eda19f074ac6b3dd0d90b3e995708120d99ce",
+    "bytes": 337
+  },
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "blf_lib/src/blam/halo3/v12070_08_09_05_2031_halo3_ship/saved_games/scenario_map_variant.rs",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/halo3/v12070_08_09_05_2031_halo3_ship/saved_games/scenario_map_variant.rs",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/halo3/v12070_08_09_05_2031_halo3_ship/saved_games/scenario_map_variant.rs",
+    "local_path": "blf/blf_lib/src/blam/halo3/v12070_08_09_05_2031_halo3_ship/saved_games/scenario_map_variant.rs",
+    "sha256": "c67eac7a59d9a0af66bd3223cb34875175a127dbe0145e1a583e6aaca56d5d28",
+    "bytes": 15217
+  },
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "blf_cli/src/commands/convert_halo3mcc_map_variants.rs",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_cli/src/commands/convert_halo3mcc_map_variants.rs",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_cli/src/commands/convert_halo3mcc_map_variants.rs",
+    "local_path": "blf/blf_cli/src/commands/convert_halo3mcc_map_variants.rs",
+    "sha256": "62b623dae540d6d1c6175d52aebb5f5608471becc38db6aa4d490f80a6a08b02",
+    "bytes": 6809
+  },
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "blf_lib/src/blam/halo4/v20810_12_09_22_1647_main/saved_games/scenario_map_variant.rs",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/halo4/v20810_12_09_22_1647_main/saved_games/scenario_map_variant.rs",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/halo4/v20810_12_09_22_1647_main/saved_games/scenario_map_variant.rs",
+    "local_path": "blf/blf_lib/src/blam/halo4/v20810_12_09_22_1647_main/saved_games/scenario_map_variant.rs",
+    "sha256": "c30e4d99d9fbcb449735e1705cf9f64ee0cb243fd9f79a6e0fbcc8c5af375448",
+    "bytes": 16177
+  },
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs",
+    "local_path": "blf/blf_lib/src/blam/haloreach/v12065_11_08_24_1738_tu1actual/saved_games/scenario_map_variant.rs",
+    "sha256": "a7bbf4937f4044111dc9c87898362cf57e62f5f09390824893754d06daeb7ce0",
+    "bytes": 16231
+  },
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "blf_lib/src/types/array.rs",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/types/array.rs",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/types/array.rs",
+    "local_path": "blf/blf_lib/src/types/array.rs",
+    "sha256": "ca3aa4a3a11ed0b51950e6576f5ab6433ab87f38197dc9207b07d7256c654d89",
+    "bytes": 5405
+  },
+  {
+    "repo": "Blam-Network/blf",
+    "revision": "4e5974eec45c863b4c6123717e4228c01f2ac850",
+    "source_path": "blf_lib/src/blf/chunks/halo3/v12070_08_09_05_2031_halo3_ship/s_blf_chunk_packed_map_variant.rs",
+    "url": "https://raw.githubusercontent.com/Blam-Network/blf/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blf/chunks/halo3/v12070_08_09_05_2031_halo3_ship/s_blf_chunk_packed_map_variant.rs",
+    "link": "https://github.com/Blam-Network/blf/blob/4e5974eec45c863b4c6123717e4228c01f2ac850/blf_lib/src/blf/chunks/halo3/v12070_08_09_05_2031_halo3_ship/s_blf_chunk_packed_map_variant.rs",
+    "local_path": "blf/blf_lib/src/blf/chunks/halo3/v12070_08_09_05_2031_halo3_ship/s_blf_chunk_packed_map_variant.rs",
+    "sha256": "955742588d3cd07ae281b72c87c30c200ccced1ed29e0fed3c34e5900a1a2c4f",
+    "bytes": 1774
+  },
+  {
+    "repo": "Sopitive/HaloMapStudio",
+    "revision": "d6ced849f73663d4aa1500afeb585c102e914eda",
+    "source_path": "crates/hms-app/src/h4/mvar.rs",
+    "url": "https://raw.githubusercontent.com/Sopitive/HaloMapStudio/d6ced849f73663d4aa1500afeb585c102e914eda/crates/hms-app/src/h4/mvar.rs",
+    "link": "https://github.com/Sopitive/HaloMapStudio/blob/d6ced849f73663d4aa1500afeb585c102e914eda/crates/hms-app/src/h4/mvar.rs",
+    "local_path": "hms/crates/hms-app/src/h4/mvar.rs",
+    "sha256": "cd0c2d02e56c771c2ff95c9d3983c8a735a62a6d10101bbd9b148b00354e972a",
+    "bytes": 149952
+  },
+  {
+    "repo": "Sopitive/HaloMapStudio",
+    "revision": "d6ced849f73663d4aa1500afeb585c102e914eda",
+    "source_path": "crates/hms-app/src/mvar.rs",
+    "url": "https://raw.githubusercontent.com/Sopitive/HaloMapStudio/d6ced849f73663d4aa1500afeb585c102e914eda/crates/hms-app/src/mvar.rs",
+    "link": "https://github.com/Sopitive/HaloMapStudio/blob/d6ced849f73663d4aa1500afeb585c102e914eda/crates/hms-app/src/mvar.rs",
+    "local_path": "hms/crates/hms-app/src/mvar.rs",
+    "sha256": "763a30e848d2ad53b1c5aab16f3935bdccdc8f8529ad79cb8a7a105d91c3ab37",
+    "bytes": 189137
+  },
+  {
+    "repo": "Sopitive/HaloMapStudio",
+    "revision": "d6ced849f73663d4aa1500afeb585c102e914eda",
+    "source_path": "docs/halo4.html",
+    "url": "https://raw.githubusercontent.com/Sopitive/HaloMapStudio/d6ced849f73663d4aa1500afeb585c102e914eda/docs/halo4.html",
+    "link": "https://github.com/Sopitive/HaloMapStudio/blob/d6ced849f73663d4aa1500afeb585c102e914eda/docs/halo4.html",
+    "local_path": "hms/docs/halo4.html",
+    "sha256": "fb2f0095d91f414675c7cc3201b8802725a8cbde27d2429da586abdde2759c88",
+    "bytes": 16970
+  },
+  {
+    "repo": "Sopitive/HaloMapStudio",
+    "revision": "d6ced849f73663d4aa1500afeb585c102e914eda",
+    "source_path": "Cargo.toml",
+    "url": "https://raw.githubusercontent.com/Sopitive/HaloMapStudio/d6ced849f73663d4aa1500afeb585c102e914eda/Cargo.toml",
+    "link": "https://github.com/Sopitive/HaloMapStudio/blob/d6ced849f73663d4aa1500afeb585c102e914eda/Cargo.toml",
+    "local_path": "hms/Cargo.toml",
+    "sha256": "4ba4be48c8bdfecf57fb36a852bc4db2d0caec245bd57ed61027c194a2885597",
+    "bytes": 1896
+  },
+  {
+    "repo": "TheGuardians/TagTool",
+    "revision": "ce2dc6ac13072b160752af618ea1dc143e2727ac",
+    "source_path": "TagTool/BlamFile/MapVariant.cs",
+    "url": "https://raw.githubusercontent.com/TheGuardians/TagTool/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/MapVariant.cs",
+    "link": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/MapVariant.cs",
+    "local_path": "TagTool/TagTool/BlamFile/MapVariant.cs",
+    "sha256": "c0d4880f5e216a3ab6047d1d9270a77030b7d9e2f7df6a782db1e5bc676b66b3",
+    "bytes": 4404
+  },
+  {
+    "repo": "TheGuardians/TagTool",
+    "revision": "ce2dc6ac13072b160752af618ea1dc143e2727ac",
+    "source_path": "TagTool/BlamFile/MapVariantGenerator.cs",
+    "url": "https://raw.githubusercontent.com/TheGuardians/TagTool/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/MapVariantGenerator.cs",
+    "link": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/MapVariantGenerator.cs",
+    "local_path": "TagTool/TagTool/BlamFile/MapVariantGenerator.cs",
+    "sha256": "59539198e146caedb571a849c73ebac541ee86a29eb350162d603446fd763ace",
+    "bytes": 24841
+  },
+  {
+    "repo": "TheGuardians/TagTool",
+    "revision": "ce2dc6ac13072b160752af618ea1dc143e2727ac",
+    "source_path": "TagTool/Commands/Forge/MaximizeBudgetCommand.cs",
+    "url": "https://raw.githubusercontent.com/TheGuardians/TagTool/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/Commands/Forge/MaximizeBudgetCommand.cs",
+    "link": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/Commands/Forge/MaximizeBudgetCommand.cs",
+    "local_path": "TagTool/TagTool/Commands/Forge/MaximizeBudgetCommand.cs",
+    "sha256": "6bd1c861386391d2eb4fb2cc2c2c8bd995664727c44bda07dbb62c6f02fc679c",
+    "bytes": 13897
+  },
+  {
+    "repo": "TheGuardians/TagTool",
+    "revision": "ce2dc6ac13072b160752af618ea1dc143e2727ac",
+    "source_path": "TagTool/BlamFile/Reach/ReachMapVariant.cs",
+    "url": "https://raw.githubusercontent.com/TheGuardians/TagTool/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/Reach/ReachMapVariant.cs",
+    "link": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/Reach/ReachMapVariant.cs",
+    "local_path": "TagTool/TagTool/BlamFile/Reach/ReachMapVariant.cs",
+    "sha256": "789236598d589220d112ddffed6aee79b53929dbac6e57c842904abe22068ddf",
+    "bytes": 10478
+  },
+  {
+    "repo": "TheGuardians/TagTool",
+    "revision": "ce2dc6ac13072b160752af618ea1dc143e2727ac",
+    "source_path": "TagTool/BlamFile/Reach/ReachMapVariantReader.cs",
+    "url": "https://raw.githubusercontent.com/TheGuardians/TagTool/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/Reach/ReachMapVariantReader.cs",
+    "link": "https://github.com/TheGuardians/TagTool/blob/ce2dc6ac13072b160752af618ea1dc143e2727ac/TagTool/BlamFile/Reach/ReachMapVariantReader.cs",
+    "local_path": "TagTool/TagTool/BlamFile/Reach/ReachMapVariantReader.cs",
+    "sha256": "918768572aadf2c613e0367b5af83e5c16c6686b6212b8b2a52360bbdc1883ca",
+    "bytes": 8312
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/360045689232-Halo-The-Master-Chief-Collection-Patch-Notes-7-14-20",
+    "local_path": "official/mcc-patch-2020-07-14.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes; budget/palette increases",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/360049316032-Halo-The-Master-Chief-Collection-Patch-Notes-09-22-2020",
+    "local_path": "official/mcc-patch-2020-09-22.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes; H3 near-limit save/despawn fixes",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/360059503311-Halo-The-Master-Chief-Collection-MCC-Patch-Notes-April-2021",
+    "local_path": "official/mcc-patch-2021-04.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes; Breakneck budget",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/5178835359380-Halo-The-Master-Chief-Collection-MCC-Update-April-2022",
+    "local_path": "official/mcc-patch-2022-04.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/8955559396372-Halo-The-Master-Chief-Collection-MCC-Update-August-2022",
+    "local_path": "official/mcc-patch-2022-08.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/17144473706900-Halo-The-Master-Chief-Collection-MCC-Update-July-2023",
+    "local_path": "official/mcc-patch-2023-07.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes; new H3 Forge content",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/23707515298324-Halo-The-Master-Chief-Collection-MCC-Update-February-2024",
+    "local_path": "official/mcc-patch-2024-02-updated2025-09.html",
+    "error": "HTTP Error 403: Forbidden",
+    "note": "Official patch notes; updated through2025-09 maintenance",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://halo.bungie.org/bwu/index.html?item=214",
+    "local_path": "official/bungie-weekly-update-2009-02-06-hbo-mirror.html",
+    "sha256": "b84cb9858ad25d914a17006ad277b5c7909d5028ae600f42207528da099538e6",
+    "bytes": 27731,
+    "note": "Bungie authored primary text preserved in HBO mirror; default scenario reservation",
+    "retrieved_date": "2026-10-14",
+    "last_modified": null,
+    "etag": null
+  },
+  {
+    "url": "https://sopitive.github.io/HaloMapStudio/halo4.html",
+    "local_path": "hms/published-halo4.html",
+    "sha256": "fb2f0095d91f414675c7cc3201b8802725a8cbde27d2429da586abdde2759c88",
+    "bytes": 16970,
+    "note": "First-party published documentation",
+    "retrieved_date": "2026-10-14",
+    "last_modified": "Wed, 23 Sep 2026 04:02:49 GMT",
+    "etag": "\"6ab34f69-424a\""
+  },
+  {
+    "url": "https://sopitive.github.io/HaloMapStudio/faq.html",
+    "local_path": "hms/published-faq.html",
+    "sha256": "ed90a5dc3d36afd326d8c5b8b073f86ec04e02aee2c1f26c3121d4b753c417f8",
+    "bytes": 10291,
+    "note": "First-party published documentation",
+    "retrieved_date": "2026-10-14",
+    "last_modified": "Wed, 23 Sep 2026 04:02:49 GMT",
+    "etag": "\"6ab34f69-2833\""
+  },
+  {
+    "url": "https://projectreclaimer.dev/forge",
+    "local_path": "reclaimer/forge.html",
+    "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+    "note": "First-party claims, independently unverified; separate5000 frozen objects",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://projectreclaimer.dev/download",
+    "local_path": "reclaimer/download.html",
+    "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+    "note": "First-party requirements/version/runtime/source-private status",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://projectreclaimer.dev/play",
+    "local_path": "reclaimer/play.html",
+    "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)>",
+    "note": "First-party ownlauncher requirements",
+    "retrieved_date": "2026-10-14"
+  },
+  {
+    "url": "https://api.github.com/repos/ProjectReclaimer/project-reclaimer-releases/releases/tags/v0.8.10",
+    "local_path": "reclaimer/release-v0.8.10.json",
+    "sha256": "99b7283350f76de743d03f3817c8bb5338fb92eb49c0c60a583eb169ac991eff",
+    "bytes": 19429,
+    "note": "Versioned first-party release frozen feature",
+    "retrieved_date": "2026-10-14",
+    "last_modified": "Tue, 29 Sep 2026 20:04:59 GMT",
+    "etag": "W/\"99b7283350f76de743d03f3817c8bb5338fb92eb49c0c60a583eb169ac991eff\"",
+    "release_id": 399485127,
+    "published_at": "2026-09-29T20:02:21Z",
+    "updated_at": "2026-09-29T20:04:59Z",
+    "tag_name": "v0.8.10",
+    "target_commitish": "main",
+    "link": "https://github.com/ProjectReclaimer/project-reclaimer-releases/releases/tag/v0.8.10"
+  },
+  {
+    "url": "https://api.github.com/repos/ProjectReclaimer/project-reclaimer-releases/releases/tags/v0.8.15",
+    "local_path": "reclaimer/release-v0.8.15.json",
+    "sha256": "af6ad0e53a9164a00b7b78bb282f5b62274da140849bc96e5dee62e049fb15ef",
+    "bytes": 17587,
+    "note": "Versioned first-party release default-slot reuse",
+    "retrieved_date": "2026-10-14",
+    "last_modified": "Thu, 01 Oct 2026 22:11:01 GMT",
+    "etag": "W/\"af6ad0e53a9164a00b7b78bb282f5b62274da140849bc96e5dee62e049fb15ef\"",
+    "release_id": 401394353,
+    "published_at": "2026-10-01T22:11:01Z",
+    "updated_at": "2026-10-01T22:11:01Z",
+    "tag_name": "v0.8.15",
+    "target_commitish": "main",
+    "link": "https://github.com/ProjectReclaimer/project-reclaimer-releases/releases/tag/v0.8.15"
+  },
+  {
+    "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=976730&count=100&enddate=1594857600&maxlength=0",
+    "local_path": "official/steam-mcc-news-through2020-07-15.json",
+    "sha256": "4858221142ded4525fe08df94bf97b18af52d5ebad04f75f501c38c5cb3cfa23",
+    "bytes": 224224,
+    "note": "Official developer Steam announcements feed",
+    "retrieved_date": "2026-10-14",
+    "last_modified": null,
+    "etag": null
+  },
+  {
+    "local_path": "official/web-snapshot-patches-2022-2025.json",
+    "sha256": "f47761e06af36fd940dd6476e33721feb47436f7ae51712a1f79f6e25b4316ac",
+    "bytes": 32444,
+    "retrieved_date": "2026-10-14",
+    "mechanism": "web__run extracted source snapshot; raw urllib HTTP fetch rejected",
+    "requests": {
+      "open": [
+        {
+          "ref_id": "https://support.halowaypoint.com/hc/en-us/articles/8955559396372-Halo-The-Master-Chief-Collection-MCC-Update-August-2022"
+        },
+        {
+          "ref_id": "https://support.halowaypoint.com/hc/en-us/articles/5178835359380-Halo-The-Master-Chief-Collection-MCC-Update-April-2022"
+        },
+        {
+          "ref_id": "https://support.halowaypoint.com/hc/en-us/articles/17144473706900-Halo-The-Master-Chief-Collection-MCC-Update-July-2023"
+        },
+        {
+          "ref_id": "https://support.halowaypoint.com/hc/en-us/articles/23707515298324-Halo-The-Master-Chief-Collection-MCC-Update-February-2024"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "local_path": "official/web-snapshot-patches-2020.json",
+    "sha256": "d9ec0717fd9fee599c2f5be617cdf365dc0825e5e049503dfde0e2774b983dfc",
+    "bytes": 25164,
+    "retrieved_date": "2026-10-14",
+    "mechanism": "web__run extracted source snapshot; raw urllib HTTP fetch rejected",
+    "requests": {
+      "open": [
+        {
+          "ref_id": "https://support.halowaypoint.com/hc/en-us/articles/360045689232-Halo-The-Master-Chief-Collection-Patch-Notes-7-14-20"
+        },
+        {
+          "ref_id": "https://support.halowaypoint.com/hc/en-us/articles/360049316032-Halo-The-Master-Chief-Collection-Patch-Notes-09-22-2020"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "local_path": "reclaimer/web-snapshot-current-docs.json",
+    "sha256": "882818ac18c9a65a97add66ac41bf5efb48c70344811097ea5287bb0bff989f7",
+    "bytes": 32961,
+    "retrieved_date": "2026-10-14",
+    "mechanism": "web__run extracted source snapshot; raw urllib HTTP fetch rejected",
+    "requests": {
+      "open": [
+        {
+          "ref_id": "https://projectreclaimer.dev/forge",
+          "lineno": 390
+        },
+        {
+          "ref_id": "https://projectreclaimer.dev/download"
+        },
+        {
+          "ref_id": "https://projectreclaimer.dev/play",
+          "lineno": 27
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "url": "https://projectreclaimer.dev/download",
+    "local_path": "reclaimer/download-focused-findings.json",
+    "sha256": "3c8d166193e8bea5bfc55c6e18b1c96a5c58cec2b2f587ea37b8da6fd09ea32e",
+    "bytes": 1126,
+    "retrieved_date": "2026-10-14",
+    "capture_kind": "web-tool semantic extraction; not original HTML"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "schema": "reach-parkour.physics-extraction-validation/1",
+  "cache_sha256": "12270ddad452bce9afaef6000d5a18f2ba7c363ffbe7fcb59375619dbeebfcf4",
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "Spartan jump independent direct read",
+      "offset": "0x12c6034c",
+      "actual": 2.299999952316284,
+      "pass": true
+    },
+    {
+      "check": "Elite jump independent direct read",
+      "offset": "0x12f85890",
+      "actual": 2.6500000953674316,
+      "pass": true
+    },
+    {
+      "check": "Spartan radius independent direct read",
+      "offset": "0x12c60450",
+      "actual": 0.17499999701976776,
+      "pass": true
+    },
+    {
+      "check": "Elite radius independent direct read",
+      "offset": "0x12f85994",
+      "actual": 0.18000000715255737,
+      "pass": true
+    },
+    {
+      "check": "Spartan run forward independent direct read",
+      "offset": "0xd42ccc4",
+      "actual": 2.200000047683716,
+      "pass": true
+    },
+    {
+      "check": "Elite run forward independent direct read",
+      "offset": "0xd42cdb8",
+      "actual": 2.5999999046325684,
+      "pass": true
+    },
+    {
+      "check": "Multiplayer scenario and both BSP overrides disabled",
+      "pass": true
+    },
+    {
+      "check": "objects\\characters\\spartans\\spartans capsule extents and player physics flags",
+      "pass": true
+    },
+    {
+      "check": "objects\\characters\\elite\\elite capsule extents and player physics flags",
+      "pass": true
+    },
+    {
+      "check": "Unsupported-build input rejects before cache walk",
+      "error": "Unsupported cache build 'unsupported'",
+      "pass": true
+    },
+    {
+      "check": "Wrong cache magic rejected",
+      "error": "Expected little-endian MCC cache",
+      "pass": true
+    },
+    {
+      "check": "objects\\characters\\spartans\\spartans stun jump penalty independent direct read",
+      "offset": "0x12c60164",
+      "actual": 1.0,
+      "pass": true
+    },
+    {
+      "check": "objects\\characters\\elite\\elite stun jump penalty independent direct read",
+      "offset": "0x12f856a8",
+      "actual": 1.0,
+      "pass": true
+    }
+  ]
+}

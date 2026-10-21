@@ -1,0 +1,194 @@
+[
+  {
+    "id": 33280,
+    "name": "Fuel Storage",
+    "internal": "ff_thorage_fuel_storage",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/33280.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.1363,
+      0.5187,
+      0.8632
+    ]
+  },
+  {
+    "id": 33536,
+    "name": "Engine Cart",
+    "internal": "dlc_slayer_cart_a",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/33536.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.8876,
+      0.7241,
+      0.8377
+    ]
+  },
+  {
+    "id": 33792,
+    "name": "Missile Cart",
+    "internal": "dlc_slayer_cart_b",
+    "category": "MCC additions: Scenery",
+    "menu": "Scenery > MCC Additions",
+    "image": "full-textured/33792.jpg",
+    "price": "10",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.8677,
+      0.9047,
+      0.9113
+    ]
+  },
+  {
+    "id": 34049,
+    "name": "Platform, Covenant",
+    "internal": "ff_cex_platform_cov",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34049.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.3898,
+      1.4344,
+      0.3721
+    ]
+  },
+  {
+    "id": 34050,
+    "name": "Catwalk, Straight",
+    "internal": "ff_cex_catwalk_straight",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34050.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.2231,
+      4.5015,
+      0.35
+    ]
+  },
+  {
+    "id": 34051,
+    "name": "Catwalk, Short",
+    "internal": "ff_cex_catwalk_short",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34051.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.7835,
+      2.4161,
+      0.36
+    ]
+  },
+  {
+    "id": 34052,
+    "name": "Catwalk, Bend, Left",
+    "internal": "ff_cex_catwalk_bend_left",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34052.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      2.809,
+      4.5944,
+      0.35
+    ]
+  },
+  {
+    "id": 34053,
+    "name": "Catwalk, Bend, Right",
+    "internal": "ff_cex_catwalk_bend_right",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34053.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      2.809,
+      4.5944,
+      0.35
+    ]
+  },
+  {
+    "id": 34054,
+    "name": "Catwalk, Angled",
+    "internal": "ff_cex_catwalk_angled",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34054.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      2.9967,
+      1.0602,
+      0.8432
+    ]
+  },
+  {
+    "id": 34055,
+    "name": "Catwalk, Large",
+    "internal": "ff_cex_catwalk_lg",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34055.jpg",
+    "price": "10",
+    "ordinaryQuota": "150",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.0602,
+      7.0092,
+      0.1806
+    ]
+  },
+  {
+    "id": 34305,
+    "name": "Gunners Nest",
+    "internal": "ff_cex_gunner_nest",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34305.jpg",
+    "price": "150",
+    "ordinaryQuota": "36",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      5.7135,
+      2.043,
+      2.3895
+    ]
+  },
+  {
+    "id": 34560,
+    "name": "Cover, Small",
+    "internal": "ff_cex_cover_sm",
+    "category": "MCC additions: Structure",
+    "menu": "Structure > MCC Additions",
+    "image": "full-textured/34560.jpg",
+    "price": "50",
+    "ordinaryQuota": "300",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.1873,
+      0.6692,
+      0.8136
+    ]
+  }
+]

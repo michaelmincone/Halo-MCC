@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "kind": "code-only",
+      "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/release/code-only/mjolnir_forge-1.1.0.zip",
+      "bytes": 212201,
+      "sha256": "bcaa234100b1d9ba5b9650723957c87fa9ab52f450e62e2cc9f7bf9b15dfad57",
+      "members": 34
+    },
+    {
+      "kind": "full-library",
+      "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/object-support/release/full-library/mjolnir_forge-1.1.0.zip",
+      "bytes": 175329614,
+      "sha256": "57f2f6869723044e6499aeaec183b072af09c840262f0640c6a4c8f4c134bc15",
+      "members": 35
+    }
+  ],
+  "packaged_code_matches_source": true,
+  "bundled_library_matches_verified_library": true,
+  "startup_created_348_modeled_objects": true,
+  "isolated_profile": "/var/folders/17/trwp2qxs3b53xzg4sjtzdp8r0000gn/T/mjolnir-release-verification-1j6462ix/user_res",
+  "actual_user_profile_modified": false,
+  "library_sha256": "382d90d5337ec7cd797bab3bddde589929423692fef1dd3c633ce83b09cf57c1",
+  "in_game_verified": false
+}

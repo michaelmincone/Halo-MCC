@@ -1,0 +1,30 @@
+{
+  "schema": "reach-parkour.calibration-results/1",
+  "status": "NOT_TESTED",
+  "note": "Template only. Copy to a new versioned results file; do not invent attempts or mark reliable from offline checks.",
+  "profile": {
+    "map_file": null,
+    "map_sha256": null,
+    "gametype_file": null,
+    "gametype_sha256": null,
+    "mcc_reach_build": null,
+    "platform": null,
+    "input_method": null,
+    "species": "All Spartans",
+    "speed_percent": 100,
+    "gravity_percent": 100,
+    "jump_percent": 100,
+    "abilities": "None; use/pickup disabled",
+    "override_audit_complete": false
+  },
+  "case_fields": [
+    "case_id", "session_id", "launch_piece", "landing_piece", "orientation_and_physics",
+    "usable_edge_gap_wu", "surface_height_delta_wu", "landing_usable_width_and_depth_wu",
+    "runup_wu", "takeoff_center_setback_wu", "technique", "allowed_crouch_or_ability_state",
+    "attempts", "successes", "failure_modes", "observed_positions_or_video",
+    "measured_model_error_wu", "chosen_construction_margin_wu", "held_out_validation"
+  ],
+  "cases": [],
+  "acceptance_policy": "Each required jump family: 10/10 controlled successes in two sessions, a measured/documented construction allowance, held-out cases, and representative chained course validation.",
+  "accepted_course_envelope": null
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 6144,
+    "name": "Active Camouflage",
+    "internal": "active_camoflage",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/06144.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5032
+    ]
+  },
+  {
+    "id": 6400,
+    "name": "Armor Lock",
+    "internal": "armor_lockup",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/06400.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5032
+    ]
+  },
+  {
+    "id": 6656,
+    "name": "Drop Shield",
+    "internal": "drop_shield",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/06656.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5032
+    ]
+  },
+  {
+    "id": 6912,
+    "name": "Evade",
+    "internal": "evade_elite",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/06912.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5047
+    ]
+  },
+  {
+    "id": 7168,
+    "name": "Hologram",
+    "internal": "hologram",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/07168.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5032
+    ]
+  },
+  {
+    "id": 7424,
+    "name": "Jet Pack",
+    "internal": "jet_pack",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/07424.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3796,
+      0.5784,
+      0.3703
+    ]
+  },
+  {
+    "id": 7680,
+    "name": "Sprint",
+    "internal": "sprint_spartan",
+    "category": "Armor Abilities",
+    "menu": "Armor Abilities",
+    "image": "full-textured/07680.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.3742,
+      0.3742,
+      0.5032
+    ]
+  },
+  {
+    "id": 7936,
+    "name": "Banshee",
+    "internal": "banshee",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/07936.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      2.4738,
+      2.2834,
+      1.1489
+    ]
+  },
+  {
+    "id": 8192,
+    "name": "Falcon",
+    "internal": "falcon",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/08192.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.2759,
+      3.811,
+      1.3551
+    ]
+  },
+  {
+    "id": 8448,
+    "name": "Ghost",
+    "internal": "ghost",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/08448.jpg",
+    "price": "75",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.2649,
+      1.3817,
+      0.6024
+    ]
+  },
+  {
+    "id": 8704,
+    "name": "Mongoose",
+    "internal": "mongoose",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/08704.jpg",
+    "price": "50",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.6061,
+      1.0527,
+      0.4938
+    ]
+  },
+  {
+    "id": 8960,
+    "name": "Revenant",
+    "internal": "revenant",
+    "category": "Vehicles",
+    "menu": "Vehicles",
+    "image": "full-textured/08960.jpg",
+    "price": "100",
+    "ordinaryQuota": "16",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.3226,
+      2.1312,
+      0.8165
+    ]
+  }
+]

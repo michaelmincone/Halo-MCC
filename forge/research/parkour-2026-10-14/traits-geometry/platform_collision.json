@@ -1,0 +1,398 @@
+{
+  "cache_path": "/Users/michaelmincone/Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/Halo The Master Chief Collection/haloreach/maps/forge_halo.map",
+  "cache_build": "Jun 21 2023 15:35:31",
+  "cache_sha256": "12270ddad452bce9afaef6000d5a18f2ba7c363ffbe7fcb59375619dbeebfcf4",
+  "method": "Read-only stock cache object->model->physics/collision references; identity nodes; scalar convex shape and BSP surface measurements. No raw meshes/vertices/planes saved.",
+  "schema_sources": [
+    {
+      "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/research/parkour-2026-10-14/traits-geometry/sources/hlmt.xml",
+      "sha256": "10941964a86fd32c0a922338486eef7be63fa8677c786aa842db1fbaa3a80e8d",
+      "url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/hlmt.xml"
+    },
+    {
+      "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/research/parkour-2026-10-14/traits-geometry/sources/coll.xml",
+      "sha256": "dea1773d429393dbd308f29d02ba2c10673adcab8d6fa18c957fd886c834052b",
+      "url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/coll.xml"
+    },
+    {
+      "path": "/Users/michaelmincone/Local_Documents/Halo-MCC/forge/research/parkour-2026-10-14/physics/sources/phmo.xml",
+      "sha256": "b5197b191bb54dcb581c4f4698c2b9b215293cee05fbe05e294785b64fdc540e",
+      "url": "https://raw.githubusercontent.com/XboxChaos/Assembly/fd14ef3c46135e9422966c6a64cd926fb0bd23fb/src/Assembly/Plugins/ReachMCC/phmo.xml"
+    }
+  ],
+  "schema_offsets": {
+    "bloc.model_ref": "0x64;datum+0xC",
+    "hlmt.coll_ref": "0x10;datum+0xC",
+    "hlmt.phmo_ref": "0x30;datum+0xC",
+    "hlmt.nodes": "0x12C;stride0x5C",
+    "phmo.rigid_bodies": "0x5C;stride0xD0",
+    "rigid_body.shape": "0xA8:type16;0xAA:index16",
+    "phmo.polyhedra": "0xB0;stride0xB0",
+    "poly.radius": "0x40:f32",
+    "phmo.four_vectors": "0xBC;stride0x30",
+    "phmo.plane_equations": "0xC8;stride0x10",
+    "coll.regions": "0x20;stride0x10",
+    "region.permutations": "0x4;stride0x28",
+    "permutation.bsps": "0x4;stride0x70",
+    "bsp.planes": "0x1C;stride0x10",
+    "bsp.surfaces": "0x4C;stride0xC",
+    "bsp.edges": "0x58;stride0xC",
+    "bsp.vertices": "0x64;stride0x10"
+  },
+  "limitations": [
+    "These establish stored collision geometry, not a runtime jump/playtest.",
+    "Core-plus-radius support is an inference from convex-shape fields; independently compare BSP top.",
+    "Use the core XY footprint as a conservative flat-top region, inset further by player footprint and construction allowance.",
+    "Probe only supports the selected simple unscaled upright identity-node stock blocks. Rotated map poses require the decoded object transform."
+  ],
+  "rows": [
+    {
+      "palette_name": "block_1x1",
+      "quota_index": 70,
+      "object_tag": 7958,
+      "model_tag": 7959,
+      "physics_model_tag": 7975,
+      "collision_model_tag": 7972,
+      "metadata_offsets_hex": {
+        "object": "0x10c2c664",
+        "model": "0x10c2c7e0",
+        "phmo": "0x10c8bb70",
+        "coll": "0x10c8b77c"
+      },
+      "model_root_node_identity": true,
+      "rigid_body_motion_type": 5,
+      "rigid_body_shape_type": 4,
+      "rigid_body_shape_index": 0,
+      "polyhedron_core_is_axis_aligned_box": true,
+      "polyhedron_core_bounds_min_wu": [
+        -0.49159112572669983,
+        -0.4915906488895416,
+        -0.483599990606308
+      ],
+      "polyhedron_core_bounds_max_wu": [
+        0.491590291261673,
+        0.4915907680988312,
+        0.4835999310016632
+      ],
+      "polyhedron_convex_radius_wu": 0.01640000008046627,
+      "top_core_plane_height_wu": 0.48359993002414287,
+      "inferred_havok_top_core_plus_radius_wu": 0.49999993010460914,
+      "collision_bsps": [
+        {
+          "region_index": 0,
+          "permutation_index": 0,
+          "bsp_index": 0,
+          "metadata_offset_hex": "0x10c8b6c0",
+          "node_index": 0,
+          "plane_count": 10,
+          "vertex_count": 16,
+          "surface_count": 16,
+          "bounds_min_wu": [
+            -0.5,
+            -0.49999991059303284,
+            -0.5
+          ],
+          "bounds_max_wu": [
+            0.5,
+            0.5000000596046448,
+            0.5199999809265137
+          ],
+          "top_surface_area_wu2": 0.6400000429153216,
+          "top_surface_count": 1,
+          "top_surface_invalid_or_slip_count": 0,
+          "top_area_matches_rectangle": false
+        }
+      ]
+    },
+    {
+      "palette_name": "block_1x1_flat",
+      "quota_index": 70,
+      "object_tag": 7977,
+      "model_tag": 7978,
+      "physics_model_tag": 7981,
+      "collision_model_tag": 7980,
+      "metadata_offsets_hex": {
+        "object": "0x10c8bed4",
+        "model": "0x10c8c050",
+        "phmo": "0x10c8d5f0",
+        "coll": "0x10c8d40c"
+      },
+      "model_root_node_identity": true,
+      "rigid_body_motion_type": 5,
+      "rigid_body_shape_type": 4,
+      "rigid_body_shape_index": 0,
+      "polyhedron_core_is_axis_aligned_box": true,
+      "polyhedron_core_bounds_min_wu": [
+        -0.483599990606308,
+        -0.4835997223854065,
+        -0.08360019326210022
+      ],
+      "polyhedron_core_bounds_max_wu": [
+        0.483599990606308,
+        0.48360002040863037,
+        0.08360014855861664
+      ],
+      "polyhedron_convex_radius_wu": 0.01640000008046627,
+      "top_core_plane_height_wu": 0.08360014110803604,
+      "inferred_havok_top_core_plus_radius_wu": 0.10000014118850231,
+      "collision_bsps": [
+        {
+          "region_index": 0,
+          "permutation_index": 0,
+          "bsp_index": 0,
+          "metadata_offset_hex": "0x10c8d350",
+          "node_index": 0,
+          "plane_count": 6,
+          "vertex_count": 20,
+          "surface_count": 18,
+          "bounds_min_wu": [
+            -0.5,
+            -0.4999997317790985,
+            -0.10000018775463104
+          ],
+          "bounds_max_wu": [
+            0.5,
+            0.5,
+            0.10000015050172806
+          ],
+          "top_surface_area_wu2": 0.9999996721744537,
+          "top_surface_count": 5,
+          "top_surface_invalid_or_slip_count": 0,
+          "top_area_matches_rectangle": true
+        }
+      ]
+    },
+    {
+      "palette_name": "block_2x2_flat",
+      "quota_index": 70,
+      "object_tag": 8031,
+      "model_tag": 8032,
+      "physics_model_tag": 8036,
+      "collision_model_tag": 8035,
+      "metadata_offsets_hex": {
+        "object": "0x10c97e94",
+        "model": "0x10c98010",
+        "phmo": "0x10c98d60",
+        "coll": "0x10c98b7c"
+      },
+      "model_root_node_identity": true,
+      "rigid_body_motion_type": 5,
+      "rigid_body_shape_type": 4,
+      "rigid_body_shape_index": 0,
+      "polyhedron_core_is_axis_aligned_box": true,
+      "polyhedron_core_bounds_min_wu": [
+        -0.9836000204086304,
+        -0.9836000204086304,
+        -0.1328224092721939
+      ],
+      "polyhedron_core_bounds_max_wu": [
+        0.9836000204086304,
+        0.9836000204086304,
+        0.0993759036064148
+      ],
+      "polyhedron_convex_radius_wu": 0.01640000008046627,
+      "top_core_plane_height_wu": 0.09937591105699539,
+      "inferred_havok_top_core_plus_radius_wu": 0.11577591113746166,
+      "collision_bsps": [
+        {
+          "region_index": 0,
+          "permutation_index": 0,
+          "bsp_index": 0,
+          "metadata_offset_hex": "0x10c98ac0",
+          "node_index": 0,
+          "plane_count": 6,
+          "vertex_count": 8,
+          "surface_count": 6,
+          "bounds_min_wu": [
+            -1.0,
+            -1.0,
+            -0.10999999940395355
+          ],
+          "bounds_max_wu": [
+            1.0,
+            1.0,
+            0.11577590554952621
+          ],
+          "top_surface_area_wu2": 4.0,
+          "top_surface_count": 1,
+          "top_surface_invalid_or_slip_count": 0,
+          "top_area_matches_rectangle": true
+        }
+      ]
+    },
+    {
+      "palette_name": "block_3x3_flat",
+      "quota_index": 70,
+      "object_tag": 8082,
+      "model_tag": 8083,
+      "physics_model_tag": 8087,
+      "collision_model_tag": 8086,
+      "metadata_offsets_hex": {
+        "object": "0x10ca16c4",
+        "model": "0x10ca1840",
+        "phmo": "0x10ca3480",
+        "coll": "0x10ca329c"
+      },
+      "model_root_node_identity": true,
+      "rigid_body_motion_type": 5,
+      "rigid_body_shape_type": 4,
+      "rigid_body_shape_index": 0,
+      "polyhedron_core_is_axis_aligned_box": true,
+      "polyhedron_core_bounds_min_wu": [
+        -1.48360013961792,
+        -1.4836002588272095,
+        -0.18458332121372223
+      ],
+      "polyhedron_core_bounds_max_wu": [
+        1.483600378036499,
+        1.4835997819900513,
+        0.08360014855861664
+      ],
+      "polyhedron_convex_radius_wu": 0.01640000008046627,
+      "top_core_plane_height_wu": 0.08360014855861664,
+      "inferred_havok_top_core_plus_radius_wu": 0.10000014863908291,
+      "collision_bsps": [
+        {
+          "region_index": 0,
+          "permutation_index": 0,
+          "bsp_index": 0,
+          "metadata_offset_hex": "0x10ca31e0",
+          "node_index": 0,
+          "plane_count": 6,
+          "vertex_count": 20,
+          "surface_count": 18,
+          "bounds_min_wu": [
+            -1.5000001192092896,
+            -1.500000238418579,
+            -0.10000017285346985
+          ],
+          "bounds_max_wu": [
+            1.500000238418579,
+            1.499999761581421,
+            0.10000015050172806
+          ],
+          "top_surface_area_wu2": 8.999998211860955,
+          "top_surface_count": 5,
+          "top_surface_invalid_or_slip_count": 0,
+          "top_area_matches_rectangle": true
+        }
+      ]
+    },
+    {
+      "palette_name": "block_4x4_flat",
+      "quota_index": 70,
+      "object_tag": 8113,
+      "model_tag": 8114,
+      "physics_model_tag": 8117,
+      "collision_model_tag": 8116,
+      "metadata_offsets_hex": {
+        "object": "0x10ca8514",
+        "model": "0x10ca86a4",
+        "phmo": "0x10ca9f50",
+        "coll": "0x10ca9d5c"
+      },
+      "model_root_node_identity": true,
+      "rigid_body_motion_type": 5,
+      "rigid_body_shape_type": 4,
+      "rigid_body_shape_index": 0,
+      "polyhedron_core_is_axis_aligned_box": true,
+      "polyhedron_core_bounds_min_wu": [
+        -1.9836000204086304,
+        -1.9835996627807617,
+        -0.08360019326210022
+      ],
+      "polyhedron_core_bounds_max_wu": [
+        1.9836000204086304,
+        1.9835999011993408,
+        0.08360014855861664
+      ],
+      "polyhedron_convex_radius_wu": 0.01640000008046627,
+      "top_core_plane_height_wu": 0.08360014110803604,
+      "inferred_havok_top_core_plus_radius_wu": 0.10000014118850231,
+      "collision_bsps": [
+        {
+          "region_index": 0,
+          "permutation_index": 0,
+          "bsp_index": 0,
+          "metadata_offset_hex": "0x10ca9ca0",
+          "node_index": 0,
+          "plane_count": 6,
+          "vertex_count": 20,
+          "surface_count": 18,
+          "bounds_min_wu": [
+            -2.0,
+            -1.9999996423721313,
+            -0.10000017285346985
+          ],
+          "bounds_max_wu": [
+            2.0,
+            2.0,
+            0.10000015050172806
+          ],
+          "top_surface_area_wu2": 15.999998569488525,
+          "top_surface_count": 5,
+          "top_surface_invalid_or_slip_count": 0,
+          "top_area_matches_rectangle": true
+        }
+      ]
+    },
+    {
+      "palette_name": "block_5x5_flat",
+      "quota_index": 70,
+      "object_tag": 8139,
+      "model_tag": 8140,
+      "physics_model_tag": 8143,
+      "collision_model_tag": 8142,
+      "metadata_offsets_hex": {
+        "object": "0x10cad6e0",
+        "model": "0x10cad85c",
+        "phmo": "0x10cae3c0",
+        "coll": "0x10cae1dc"
+      },
+      "model_root_node_identity": true,
+      "rigid_body_motion_type": 5,
+      "rigid_body_shape_type": 4,
+      "rigid_body_shape_index": 0,
+      "polyhedron_core_is_axis_aligned_box": true,
+      "polyhedron_core_bounds_min_wu": [
+        -2.483599901199341,
+        -2.4835994243621826,
+        -0.08360019326210022
+      ],
+      "polyhedron_core_bounds_max_wu": [
+        2.483599901199341,
+        2.483599901199341,
+        0.08360014855861664
+      ],
+      "polyhedron_convex_radius_wu": 0.01640000008046627,
+      "top_core_plane_height_wu": 0.083600138640412,
+      "inferred_havok_top_core_plus_radius_wu": 0.10000013872087828,
+      "collision_bsps": [
+        {
+          "region_index": 0,
+          "permutation_index": 0,
+          "bsp_index": 0,
+          "metadata_offset_hex": "0x10cae120",
+          "node_index": 0,
+          "plane_count": 6,
+          "vertex_count": 8,
+          "surface_count": 6,
+          "bounds_min_wu": [
+            -2.5,
+            -2.499999523162842,
+            -0.10000018775463104
+          ],
+          "bounds_max_wu": [
+            2.5,
+            2.5,
+            0.10000015050172806
+          ],
+          "top_surface_area_wu2": 24.99999761581421,
+          "top_surface_count": 1,
+          "top_surface_invalid_or_slip_count": 0,
+          "top_area_matches_rectangle": true
+        }
+      ]
+    }
+  ]
+}

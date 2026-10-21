@@ -1,0 +1,150 @@
+{
+  "scope": "Offline parsers/exporter only; no Xbox, file-share or runtime validation",
+  "sample_sha256": "e514a53b61977a897ac9dbf7225085aa01b5b255f3c8079b5938ef87579bb254",
+  "sample_unchanged": true,
+  "original_occupied": 610,
+  "extra_record_bits": 150,
+  "cases": {
+    "request_650_policy_650": {
+      "ok": true,
+      "errors": [],
+      "stats": {
+        "occupied_before": 610,
+        "occupied_after": 650,
+        "capacity_bits": 229376,
+        "quota_changes": [
+          {
+            "folder": 63,
+            "name": "Block, 1x1",
+            "minimum": 0,
+            "placed_before": 0,
+            "placed_after": 40,
+            "maximum_before": 0,
+            "maximum_after": 40
+          }
+        ],
+        "mode": "patched",
+        "end_bit": 112447,
+        "L": 14056,
+        "hash_flavour": "plain_le32/>"
+      },
+      "occupied": 650,
+      "table_slots": 651,
+      "last_present_slot": 649,
+      "data_sha256": "7e6d96f1abfcd3b0770025fcda129413ce0d889e78f682a6534f6b0e4e37f1b1",
+      "independent_hash_matches": true
+    },
+    "request_651_policy_650": {
+      "ok": false,
+      "errors": [
+        {
+          "code": "E_TOO_MANY",
+          "message": "651 objects would be written; the limit is 650. Remove 1 object(s). (A file that already holds more than 650 objects cannot be exported.)"
+        }
+      ],
+      "stats": {
+        "occupied_before": 610,
+        "occupied_after": 651,
+        "capacity_bits": 229376,
+        "quota_changes": [
+          {
+            "folder": 63,
+            "name": "Block, 1x1",
+            "minimum": 0,
+            "placed_before": 0,
+            "placed_after": 41,
+            "maximum_before": 0,
+            "maximum_after": 41
+          }
+        ]
+      }
+    },
+    "request_651_policy_651": {
+      "ok": true,
+      "errors": [],
+      "stats": {
+        "occupied_before": 610,
+        "occupied_after": 651,
+        "capacity_bits": 229376,
+        "quota_changes": [
+          {
+            "folder": 63,
+            "name": "Block, 1x1",
+            "minimum": 0,
+            "placed_before": 0,
+            "placed_after": 41,
+            "maximum_before": 0,
+            "maximum_after": 41
+          }
+        ],
+        "mode": "patched",
+        "end_bit": 112596,
+        "L": 14075,
+        "hash_flavour": "plain_le32/>"
+      },
+      "occupied": 651,
+      "table_slots": 651,
+      "last_present_slot": 650,
+      "data_sha256": "40488a56c173949ac5f996eb5e6ab73d2e91a6a5b619a76bbad0de021b52bfc2",
+      "independent_hash_matches": true
+    },
+    "request_652_policy_1000": {
+      "ok": false,
+      "errors": [
+        {
+          "code": "E_NO_FREE_SLOT",
+          "message": "No free object slot is left for 'Capacity probe 041'."
+        }
+      ],
+      "stats": {
+        "occupied_before": 610,
+        "occupied_after": 651,
+        "capacity_bits": 229376,
+        "quota_changes": [
+          {
+            "folder": 63,
+            "name": "Block, 1x1",
+            "minimum": 0,
+            "placed_before": 0,
+            "placed_after": 42,
+            "maximum_before": 0,
+            "maximum_after": 42
+          }
+        ]
+      }
+    },
+    "extra_record_before_quotas": {
+      "data_sha256": "4b2ee50247a810c0dbe99dda5a4400a2b991b9e082186e5c6a0c3036a71b0a29",
+      "stored_length": 28672,
+      "hash_valid": true,
+      "independent_hash_matches": true,
+      "decoded": true,
+      "table_slots": 651,
+      "occupied": 651,
+      "independent_occupied": 651,
+      "existing_slot_bits_unchanged": true,
+      "quota_rows_changed": 70,
+      "nonzero_tail": false,
+      "warnings": [
+        "W_QUOTA_MIN_ABOVE_MAX"
+      ]
+    },
+    "extra_record_after_quotas": {
+      "data_sha256": "689729e39a0eeeb55bfb93f21a754afff857837adbc3e759ff3a44c7615c7991",
+      "stored_length": 28672,
+      "hash_valid": true,
+      "independent_hash_matches": true,
+      "decoded": true,
+      "table_slots": 651,
+      "occupied": 651,
+      "independent_occupied": 651,
+      "existing_slot_bits_unchanged": true,
+      "quota_rows_changed": 0,
+      "nonzero_tail": true,
+      "warnings": [
+        "W_TAIL_NONZERO",
+        "W_PAD_BITS_NONZERO"
+      ]
+    }
+  }
+}

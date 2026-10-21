@@ -1,0 +1,56 @@
+[
+  {
+    "from": "0x18006e7d4",
+    "to": "0x180c1a230",
+    "type": "READ",
+    "operand_index": 1
+  },
+  {
+    "from": "0x18006e818",
+    "to": "0x18006cf1c",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e840",
+    "to": "0x18006e902",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e84d",
+    "to": "0x18006e863",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e85d",
+    "to": "0x18006e902",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e866",
+    "to": "0x18006e0c8",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e871",
+    "to": "0x18006e902",
+    "type": "CONDITIONAL_JUMP",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e8f3",
+    "to": "0x18006f72c",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  },
+  {
+    "from": "0x18006e8fd",
+    "to": "0x18006de38",
+    "type": "UNCONDITIONAL_CALL",
+    "operand_index": 0
+  }
+]

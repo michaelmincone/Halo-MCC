@@ -1,0 +1,194 @@
+[
+  {
+    "id": 12035,
+    "name": "FX:Nova",
+    "internal": "sfx_4",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12035.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12036,
+    "name": "FX:Olde Timey",
+    "internal": "sfx_5",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12036.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12037,
+    "name": "FX:Pen And Ink",
+    "internal": "sfx_6",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12037.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12038,
+    "name": "FX:Purple",
+    "internal": "purple",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12038.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12039,
+    "name": "FX:Green",
+    "internal": "green",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12039.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Editor helper mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12040,
+    "name": "FX:Orange",
+    "internal": "orange",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12040.jpg",
+    "price": "250",
+    "ordinaryQuota": "4",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.4809,
+      0.4817,
+      0.4801
+    ]
+  },
+  {
+    "id": 12288,
+    "name": "Shield Door, Small",
+    "internal": "door_shield_small",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12288.jpg",
+    "price": "200",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      1.4,
+      0.0,
+      1.5
+    ]
+  },
+  {
+    "id": 12544,
+    "name": "Shield Door, Medium",
+    "internal": "door_shield_medium",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12544.jpg",
+    "price": "200",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      3.6,
+      0.0,
+      1.9
+    ]
+  },
+  {
+    "id": 12800,
+    "name": "Shield Door, Large",
+    "internal": "door_shield_large",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/12800.jpg",
+    "price": "200",
+    "ordinaryQuota": "12",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      6.0,
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": 13314,
+    "name": "Golf Club",
+    "internal": "toys_golfclub",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/13314.jpg",
+    "price": "100",
+    "ordinaryQuota": "30",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.0791,
+      0.1045,
+      0.5684
+    ]
+  },
+  {
+    "id": 13575,
+    "name": "Light, Red, Flashing",
+    "internal": "ff_light_red_flash",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/13575.jpg",
+    "price": "250",
+    "ordinaryQuota": "8",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.2118,
+      0.2115,
+      0.2128
+    ]
+  },
+  {
+    "id": 13576,
+    "name": "Light, Yellow, Flashing",
+    "internal": "ff_light_yellow_flash",
+    "category": "Gadgets",
+    "menu": "Gadgets",
+    "image": "full-textured/13576.jpg",
+    "price": "250",
+    "ordinaryQuota": "8",
+    "previewKind": "Textured mesh",
+    "dimensions": [
+      0.2118,
+      0.2115,
+      0.2128
+    ]
+  }
+]
