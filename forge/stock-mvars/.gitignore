@@ -1,0 +1,2 @@
+# Explicit exception for the archived stock collection.
+!*.mvar
