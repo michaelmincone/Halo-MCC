@@ -13,6 +13,11 @@ follow [parkour rules](forge/parkour/rules.md).
   objects, including spawns**. For counts beyond ordinary Forge quotas, follow
   the [repeated-object method](forge/object_limit.md#repeated-stock-objects-above-forge-quotas).
   Older tools' 650/255 limits are not engine loading limits.
+- Use **Phased** physics by default for stationary construction objects, including
+  floors, walls, ramps, barriers, supports and scenery. Use another mode only
+  when explicitly requested or required for an object's gameplay behavior; keep
+  appropriate physics for vehicles, weapons, movable props, spawns and mode
+  markers. Record intentional construction-physics exceptions in the map plan.
 - Keep all playable surfaces, driving routes and spawns inside the safe zone,
   outside kill zones and below the soft ceiling, with clearance. Placement bounds
   and a passing file audit alone do not establish a safe play area.
@@ -31,6 +36,12 @@ Select the full library named in
 `forge/object-support/assets/full-v04/Halo Reach.blend`. Set the add-on's Library
 path or `MJOLNIR_LIBRARY` to that file; a saved Library path takes precedence.
 Older shared exporters and vendor copies are not the default for new builds.
+
+Set `obj.forge.physics = 'PHASED'` explicitly for construction in build scripts;
+the exported physics value is `3` (`FIXED` is `1`). When reusing an older builder,
+replace its construction defaults and corresponding physics assertions with
+Phased, preserving intentional gameplay exceptions. Apply this to new builds
+and new numbered revisions while preserving earlier outputs.
 
 All **348 Forge World types** have previews. Before choosing pieces, consult
 `forge/object-catalog/catalog-full.json` and visually inspect candidate images.
@@ -53,9 +64,10 @@ and runtime limitations.
    slot order: road, barrier, support, decor, checkpoint or spawn. Floors and
    walkable surfaces count as road.
 3. **Check:** decode the exported file and follow `forge/map-checks/README.md`.
-   Run stray/support, playable-bounds and Xbox compatibility checks. Fix file and
-   geometry errors; explain nonapplicable checks and documented quota-policy
-   exceptions. Race checks apply only to race maps.
+   Verify construction records use Phased physics (`3`) and that exceptions match
+   the plan. Run stray/support, playable-bounds and Xbox compatibility checks.
+   Fix file and geometry errors; explain nonapplicable checks and documented
+   quota-policy exceptions. Race checks apply only to race maps.
 4. **Inspect:** render the whole map and open every view. Fix visible problems
    and rebuild, even when numerical checks pass.
 5. **Report:** link the outputs and renders, summarize checks and explain what
